@@ -79,10 +79,6 @@ const NewNav = () => {
               <div className="options">
                 <Link to='/Home/Gallery' className='opt-links'>Gallery</Link>
               </div>
-              <div className="options">
-                {/* <Link to='/Home/SvrHome' className='opt-links'>Social Internship</Link> */}
-                <Link to='/Home/SvrHome' className='opt-links'>Social Internship</Link>
-              </div>
           </div>
       </div>
     </div>

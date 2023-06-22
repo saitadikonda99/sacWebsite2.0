@@ -1,0 +1,69 @@
+
+.GalleryComponent .gallery-image {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .GalleryComponent .gallery-image img {
+    height: 250px;
+    width: 350px;
+    transform: scale(1.0);
+    transition: transform 0.4s ease;
+  }
+  
+  .GalleryComponent .img-box {
+    box-sizing: content-box;
+    margin: 10px;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+    position: relative;
+    background-color: white;
+  }
+  
+.GalleryComponent .caption {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    opacity: 0.0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .GalleryComponent  .transparent-box {
+    height: 250px;
+    width: 350px;
+    background-color:rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .GalleryComponent  .img-box:hover img { 
+    transform: scale(1.1);
+  }
+  
+  .GalleryComponent   .img-box:hover .transparent-box {
+    background-color:rgba(0, 0, 0, 0.5);
+  }
+  
+  .GalleryComponent   .img-box:hover .caption {
+    transform: translateY(-20px);
+    opacity: 1.0;
+  }
+  
+  .GalleryComponent   .img-box:hover {
+    cursor: pointer;
+  }
+  
+  .GalleryComponent   .caption > p:nth-child(2) {
+    font-size: 0.8em;
+  }
+  
+  .GalleryComponent  .opacity-low {
+    opacity: 0.5;
+  }

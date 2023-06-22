@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+.NewNavComponent {
+    background-color: rgb(151, 0, 3);
+    height: 100vh;
+}
+.NewNavContainer {
+
+}
+.NewNav-one {
+    text-align: left;
+    margin-left: 10%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    top: 25%;
+}
+.options .opt-links {
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.options {
+    position: relative;
+}
+.options-dropdown {
+    position: absolute;
+    min-width: 300px;
+    z-index: 99999999999;
+    left: 350px;
+    width: 100vh;
+}
+.od-one {
+    top: 0px;
+    display: none;
+}
+.od-two {
+    top: -60px;
+    display: none;
+}
+.od-four {
+    top: -120px;
+    display: none;
+}
+.od-five {
+    top: -180px;
+    display: none;
+}
+.od-six {
+    top: -240px;
+    display: none;
+}
+.options-dropdown .opt-drop-links {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.options-dropdown-inner {
+    margin-left: 20%;
+}
+.options-dropdown-inner h4 {
+    color: white;
+    font-size: 15px;
+}
+.options-dropdown .opt-drop-links {
+
+    width: 70%;
+    font-size: 25px;
+    border-bottom: 1px solid white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.opt-drop-links i {
+    float: right;
+    font-weight: 100;
+}
+/* .options:hover .options-dropdown {
+    display: block;
+} */
+.options:hover .od-one {
+    display: block;
+}
+.options:hover .od-two {
+    display: block;
+}
+.random:hover .od-one{
+    display: none;
+}
+.options:hover .od-four {
+    display: block;
+}
+.options:hover .od-five {
+    display: block;
+}
+.options:hover .od-six {
+    display: block;
+}
+
+.options:hover .opt-links {
+    color: white;
+    color: whitesmoke;
+    border-bottom: 1px solid white;
+}
+
+.options:hover .temp-options-dropdown-inner {
+
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .NewNavComponent {
+        background-color: rgb(151, 0, 3);
+        height: 100vh;
+    }
+
+    .NewNav-one {
+        text-align: left;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        top: 25%;
+    }
+
+    .options .opt-links {
+        color: rgb(230, 230, 230);
+        text-decoration: none; 
+        font-size: 20px; 
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .options {
+        position: relative;
+    }
+
+    .options-dropdown {
+        position: absolute;
+        min-width: 200px;
+        z-index: 9999;
+        left: 10px;
+    }
+
+    .od-one {
+        padding-top: 250px;
+        display: none;
+
+    }
+    .od-two {
+        padding-top: 250px;
+        display: none;
+    }
+    .od-four {
+        top: 180px;
+        display: none;
+    }
+    .od-five {
+        top: 150px;
+        display: none;
+    }
+    .od-six {
+        top: 120px;
+        display: none;
+    }
+    .options-dropdown .opt-drop-links {
+        color: white;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .options-dropdown-inner {
+        margin-left: 0%;
+    }
+    .options-dropdown-inner h4 {
+        color: white;
+        font-size: 15px;
+    }
+    .options-dropdown .opt-drop-links {
+    
+        width: 70%;
+        font-size: 15px;
+        border-bottom: 1px solid white;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .opt-drop-links i {
+        float: right;
+        font-weight: 100;
+    }
+    /* .options:hover .options-dropdown {
+        display: block;
+    } */
+    .options:hover .od-one {
+        display: block;
+    }
+    .options:hover .od-two {
+        display: block;
+    }
+    .random:hover .od-one{
+        display: none;
+    }
+    .options:hover .od-four {
+        display: block;
+    }
+    .options:hover .od-five {
+        display: block;
+    }
+    .options:hover .od-six {
+        display: block;
+    }
+    
+    .options:hover .opt-links {
+        color: whitesmoke;
+        border-bottom: 1px solid white;
+    }
+    
+    .options:hover .temp-options-dropdown-inner {
+    
+    }
+    
+
+}

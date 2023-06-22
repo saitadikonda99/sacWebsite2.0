@@ -1,0 +1,79 @@
+.ErpLoginOne h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+}
+.ErpLoginMain {
+    padding: 40px 0px 40px 0px;
+}
+.ErpLoginTwo {
+    padding: 20px 0px 20px 0px;
+}
+.ErpLoginTwo-inner {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 50%;
+    margin: auto;
+}
+
+.erplogin-link {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.erplogin-link:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+.ErpLoginThree-inner {
+    width: 80%;
+    margin: auto;
+}
+
+.ErpLoginThree-one {
+    text-align: left;
+}
+
+.ErpLoginThree-one h4 {
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+}
+
+.ErpLoginThree-one p {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.ErpLoginThree-two li {
+    font-size: 15px;
+}
+.ErpLoginThree-two {
+    text-align: left;
+    font-family: sans-serif;
+}
+
+.ErpLoginFour {
+    width: 80%;
+    margin: auto;
+    font-family: sans-serif;
+}
+.ErpLoginFour-inner {
+    text-align: left;
+}
+
+.ErpLoginFour-one {
+    text-align: left;
+}
+
+.ErpLoginFour-two {
+    text-align: left;
+}

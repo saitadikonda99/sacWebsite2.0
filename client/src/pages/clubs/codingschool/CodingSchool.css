@@ -1,0 +1,109 @@
+.ClubsNavigation-One  {
+    background-color: rgb(151, 0, 3);
+    border: 1px solid rgb(151, 0, 3);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: unset;
+}
+.ClubsNavigation-One a {
+    color: white;
+}
+.ClubsNavigation-two {
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.Club-logo {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: center;
+}
+.Club-Navigation {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+}
+.Club-Navigation a {
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.Club-Register {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: center;
+}
+
+.club-register-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid black;
+    padding: 8px 12px 8px 12px;
+    border-radius: 5px;
+}
+
+.Clubs-main {
+    background-image: url(../../../Assets/ClubsImages/Coding.jpeg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Clubs-main h1 {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 80px;
+}
+
+.Clubs-about-inner {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+.Clubs-about-inner h2 {
+    width: 20%;
+    margin: auto;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.Clubs-about-inner p {
+    text-align: justify;
+}
+.Clubs-upcoming-activities h1 {
+    width: 30%;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.Clubs-upcoming-activities-inner {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.club-activities {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    width: 30%;
+    padding-top: 10px;
+}
+.club-activities p {
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+}
+.club-activities h2 {
+    border: 2px solid black;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+}

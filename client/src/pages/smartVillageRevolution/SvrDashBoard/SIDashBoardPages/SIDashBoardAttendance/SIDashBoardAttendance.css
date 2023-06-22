@@ -1,0 +1,56 @@
+.SIDashBoardAttendanceComponent {
+    width: 80%;
+    background-color: whitesmoke;
+}
+.SIDashBoardAttendanceContainer {
+    padding: 10px;
+}
+.SIDA-heading {
+    background-color: rgb(0, 123, 255);
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.SIDA-heading span {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.SIDA-main {
+    display: flex;
+}
+.SIDA-main-one {
+    width: 100%;
+}
+.SIDA-main-two {
+    width: 0%;
+}
+
+
+.SIDA-main-one {
+    margin-top: 20px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+}
+.SIDA-main-one table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.SIDA-main-one td {
+    background-color: white;
+}
+.SIDA-main-one tr td:nth-child(1) {
+    background-color: rgb(240, 240, 240);
+}
+.SIDA-main-one th {
+
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+
+
+#attendance-tot {
+    background-color: transparent;
+    border: none;
+}

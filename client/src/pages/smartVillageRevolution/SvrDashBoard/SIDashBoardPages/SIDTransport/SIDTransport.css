@@ -1,0 +1,30 @@
+.SIDTransportComponent {
+    width: 80%;
+    background-color: whitesmoke;
+}
+
+.SIDTransportContainer {
+    padding: 10px;
+}
+
+.SIDTran-heading {
+    background-color:purple;
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.SIDTran-heading span {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.SIDTran-main table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.SIDTran-main table td {
+    background-color: white;
+}

@@ -1,0 +1,754 @@
+
+.SvrHomeComponent  .SvrHomeContainer {
+    margin-bottom: 40px;
+}
+    
+
+  .SvrHomeComponent  .other {
+    position: absolute !important;
+    margin-top: 40px;
+    margin-left: 40px;
+    z-index: 99999999 !important;
+    width: 20%;
+  }
+
+  .SvrHomeComponent   .other img {
+    float: left;
+    margin-left: 60px;
+    width: 70% !important;
+  }
+  .SvrHomeComponent .hidden {
+    display: none;
+}
+.SvrHomeComponent .button_container.active .top {
+    transform: translateY(11px) translateX(0) rotate(45deg);
+    background: #fff;
+    
+}
+.SvrHomeComponent  .button_container.active .middle {
+    opacity: 0;
+    background: #fff;
+}
+.SvrHomeComponent .button_container.active .bottom {
+    transform: translateY(-11px) translateX(0) rotate(-45deg);
+    background: #fff;
+}
+
+.SvrHomeComponent  .overlay.open {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+.SvrHomeComponent .overlay.open #newsac {
+   display: none;
+}
+.SvrHomeComponent .overlay .open li {
+    animation: fadeInRight 0.5s ease forwards;
+    animation-delay: 0.35s;
+}
+.SvrHomeComponent .mainAnother {
+    display: flex;
+    margin-top: 50px;
+     top: 5%;
+     right: 2%;
+     height: 60px;
+     cursor: pointer;
+     z-index: 100;
+     transition: opacity 0.25s ease;
+    background-color: rgb(151, 0, 3);
+    flex-direction: column;
+    width: 10% !important;
+    display: flex !important; 
+    flex-direction: row ! important; 
+
+  }
+
+  .SvrHomeComponent #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+  }
+
+
+
+.SvrHomeComponent  .overlay.open li:nth-of-type(2) {
+    animation-delay: 0.1s;
+}
+.SvrHomeComponent  .overlay.open li:nth-of-type(3) {
+    animation-delay: 0.1s;
+}
+.SvrHomeComponent  .overlay.open li:nth-of-type(4) {
+    animation-delay: 0.1s;
+}
+  .SvrHomeComponent   .other img {
+    float: left;
+    margin-left: 20px;
+    width: 40%;
+  }
+
+.SvrHomeComponent  .SvrHomeOne {
+    display: flex;
+    background-color: rgb(151, 0, 3);
+    border: 1px solid rgb(151, 0, 3);
+    padding-top: 160px;
+    padding-bottom: 60px;
+}
+.SvrHomeComponent  .SvrHomeOne-one {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.SvrHomeComponent  .SvrHomeOne-one-inner {
+    width: 80%;
+    margin: auto;
+}
+.SvrHomeComponent  .SvrHomeOne-one h1 {
+    width: 100%;
+    color: white;
+    text-align: left;
+}
+.SvrHomeComponent  .SvrHomeOne-one p {
+    text-align: left;
+    color: white;
+}
+.SvrHomeComponent  .SvrHomeOne-two {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SvrHomeComponent  .RegLinks {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    width: 70%;
+}
+.SvrHomeComponent  .SvrHomeOne-two-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid white;
+    padding: 50px 0px 50px 0px;
+    width: 60%;
+}
+#sor {
+    margin: 10px 0px 10px 0px;
+    color: whitesmoke;
+}
+.SvrHomeComponent  .RegLinks span {
+    color: white;
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.SvrHomeComponent  .beta:hover {
+    cursor:no-drop;
+}
+
+
+.SvrHomeComponent  .SvrTimeline {
+    border-top: 1px solid rgb(215, 212, 212);
+    border-bottom: 1px solid rgb(215, 212, 212);
+    padding-top: 30px;
+
+}
+.SvrHomeComponent  .SvrTimeline strong {
+	 font-weight: 600;
+}
+
+.SvrHomeComponent  .SvrTimeline {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.SvrHomeComponent  .SvrTimeline h1 {
+	 font-family: 'Oswald', sans-serif;
+	 letter-spacing: 1.5px;
+	 color: black;
+	 font-weight: 500;
+	 font-size: 2.4em;
+     font-family: 'Josefin Sans', sans-serif;
+}
+.SvrHomeComponent  .SvrTimeline #content {
+	 margin-top: 50px;
+	 text-align: center;
+     width: fit-content;
+     margin: auto;
+}
+.SvrHomeComponent  .SvrTimeline .timeline {
+	 border-left: 4px solid rgb(151, 0, 3); 
+	 border-bottom-right-radius: 4px;
+	 border-top-right-radius: 4px;
+	 background: rgba(255,255,255,0.03);
+	 color: rgba(255,255,255,0.8);
+	 margin: 50px auto;
+	 position: relative;
+	 font-size: 1.03em;
+	 padding: 50px;
+	 list-style: none;
+	 text-align: left;
+	 font-weight: 400;
+	 max-width: 40%;
+     background-color: whitesmoke;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.SvrHomeComponent  .SvrTimeline .timeline p {
+    color: black;
+}
+.SvrHomeComponent  .SvrTimeline .timeline h3 {
+    color: black;
+}
+.SvrHomeComponent  .SvrTimeline .timeline h2 {
+    color: black;
+    position: absolute;
+    top: -20px;
+    left: -270px;
+    font-weight: 400;
+   
+}
+.SvrHomeComponent  .SvrTimeline .timeline h1, .timeline h2, .timeline h3 {
+	 font-size: 1.4em;
+}
+.SvrHomeComponent  .SvrTimeline .timeline .event {
+	 border-bottom: 1px dashed rgba(255,255,255,0.1);
+	 padding-bottom: 25px;
+	 margin-bottom: 50px;
+	 position: relative;
+}
+.SvrHomeComponent  .SvrTimeline .timeline .event:last-of-type {
+	 padding-bottom: 0;
+	 margin-bottom: 0;
+	 border: none;
+}
+.SvrHomeComponent  .SvrTimeline .timeline .event:before, .timeline .event:after {
+	 position: absolute;
+	 display: block;
+	 top: 0;
+}
+.SvrHomeComponent  .SvrTimeline .timeline .event:before {
+	 left: -217.5px;
+	 color: rgba(255,255,255,0.4);
+	 content: attr(data-date);
+	 text-align: right;
+	 font-weight: 100;
+	 font-size: 0.9em;
+	 min-width: 120px;
+}
+.SvrHomeComponent  .SvrTimeline .timeline .event:after {
+	 box-shadow: 0 0 0 4px black; 
+	 left: -57.85px;
+	 background: white; 
+	 border-radius: 50%;
+	 height: 11px;
+	 width: 11px;
+	 content: "";
+	 top: 5px;
+}
+ 
+
+
+
+.SvrHomeComponent  .Modi {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    border-bottom: 2px solid rgb(231, 229, 229); 
+}
+.SvrHomeComponent  .ModiOne {
+    width: 30%;
+}
+.SvrHomeComponent  .ModiTwo {
+    width: 40%;
+}
+.SvrHomeComponent  .ModiThree {
+    width: 30%;
+}
+.SvrHomeComponent  .ModiOne img {
+    width: 50%;
+}
+.SvrHomeComponent  .ModiThree img {
+    width: 30%;
+}
+.SvrHomeComponent  .ModiTwo h1 {
+    color: rgb(255, 136, 0);
+    font-weight: 800;
+}
+#pone {
+    font-size: 30px;
+}
+
+
+
+
+
+.SvrHomeComponent  .explain-inner {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+.SvrHomeComponent  .explain-one {
+    width: 50%;
+}
+.SvrHomeComponent  .explain-one h2 {
+    font-family: sans-serif;
+    font-weight: 500;
+    width: 75%;
+    text-align: left;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.SvrHomeComponent  .explain-one p {
+    font-family: sans-serif;
+    text-align: left;
+    width: 80%;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 20px;
+
+
+}
+.SvrHomeComponent  .explain-two {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.SvrHomeComponent .explain-two h1 {
+    font-family: sans-serif;
+}
+.SvrHomeComponent  .explain-two img {
+    width: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) { 
+
+    .SvrHomeComponent  .SvrHomeContainer {
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    
+.SvrHomeComponent  .other {
+    position: absolute !important;
+    margin-top: 50px;
+    z-index: 99999999 !important;
+    width: 20%;
+  }
+
+  
+  .SvrHomeComponent .hidden {
+    display: none;
+}
+.SvrHomeComponent .button_container.active .top {
+    transform: translateY(11px) translateX(0) rotate(45deg);
+    background: #fff;
+    
+}
+.SvrHomeComponent  .button_container.active .middle {
+    opacity: 0;
+    background: #fff;
+}
+.SvrHomeComponent .button_container.active .bottom {
+    transform: translateY(-11px) translateX(0) rotate(-45deg);
+    background: #fff;
+}
+
+.SvrHomeComponent  .overlay.open {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+.SvrHomeComponent .overlay.open #newsac {
+   display: none;
+}
+.SvrHomeComponent .overlay .open li {
+    animation: fadeInRight 0.5s ease forwards;
+    animation-delay: 0.35s;
+}
+.SvrHomeComponent .mainAnother {
+    display: flex;
+    margin-top: 50px;
+     top: 5%;
+     right: 2%;
+     height: 60px;
+     cursor: pointer;
+     z-index: 100;
+     transition: opacity 0.25s ease;
+    background-color: rgb(151, 0, 3);
+    flex-direction: column;
+    width: 25% !important;
+    display: flex !important; 
+    flex-direction: row ! important; 
+
+  }
+
+  .SvrHomeComponent #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+  }
+
+
+.SvrHomeComponent  .overlay.open li:nth-of-type(2) {
+    animation-delay: 0.1s;
+}
+.SvrHomeComponent  .overlay.open li:nth-of-type(3) {
+    animation-delay: 0.1s;
+}
+.SvrHomeComponent  .overlay.open li:nth-of-type(4) {
+    animation-delay: 0.1s;
+}
+  /* .SvrHomeComponent   .other img {
+    float: left;
+    margin-left: 20px;
+    width: 100%;
+  } */
+
+
+
+.SvrHomeComponent .overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.SvrHomeComponent .overlay img {
+    width: 5%;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+.SvrHomeComponent .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.SvrHomeComponent .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+.SvrHomeComponent .strides {
+    width: 50%;
+    border-left: 1px solid white;
+    flex-direction: row;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .SvrHomeComponent  .strides span {
+    background: white;
+    height: 5px;
+    width: 60%;
+    transition: all 0.35s ease;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+    .SvrHomeComponent  .SvrHomeOne {
+        display: flex;
+        background-color: rgb(151, 0, 3);
+        border: 1px solid rgb(151, 0, 3);
+        padding-top: 60px;
+        padding-bottom: 60px;
+        flex-direction: column;
+    }
+    .SvrHomeComponent  .SvrHomeOne-one {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .SvrHomeComponent  .SvrHomeOne-one-inner {
+        width: 80%;
+        margin: auto;
+    }
+    .SvrHomeComponent  .SvrHomeOne-one h1 {
+        width: 100%;
+        color: white;
+        text-align: center;
+    }
+    .SvrHomeComponent  .SvrHomeOne-one p {
+        text-align: left;
+        color: white;
+    }
+    .SvrHomeComponent  .SvrHomeOne-two {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .SvrHomeComponent  .RegLinks {
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 10px 10px 10px 10px;
+        width: 80%;
+    }
+    .SvrHomeComponent  .SvrHomeOne-two-inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 1px solid white;
+        padding: 50px 0px 50px 0px;
+        width: 80%;
+    }
+
+    .SvrHomeComponent  .RegLinks span {
+        color: white;
+        background-color: green;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+    .SvrHomeComponent  .beta:hover {
+        cursor:no-drop;
+    }
+
+
+    .SvrHomeComponent  .SvrTimeline {
+        border-top: 1px solid rgb(215, 212, 212);
+        border-bottom: 1px solid rgb(215, 212, 212);
+        padding-top: 30px;
+    }
+
+    .SvrHomeComponent  .SvrTimeline strong {
+        font-weight: 600;
+    }
+
+    .SvrHomeComponent  .SvrTimeline {
+    font-family: 'Josefin Sans', sans-serif;
+    }
+    .SvrHomeComponent  .SvrTimeline h1 {
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 1.5px;
+        color: black;
+        font-weight: 500;
+        font-size: 2.4em;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .SvrHomeComponent  .SvrTimeline #content {
+        margin-top: 50px;
+        text-align: center;
+        width: fit-content;
+        margin: auto;
+
+    }
+    .SvrHomeComponent  .SvrTimeline .timeline {
+        border-left: 4px solid rgb(151, 0, 3); 
+        border-bottom-right-radius: 4px;
+        border-top-right-radius: 4px;
+        background: rgba(255,255,255,0.03);
+        color: rgba(255,255,255,0.8);
+        margin: 50px auto;
+        position: relative;
+        font-size: 1.03em;
+        padding: 50px;
+        list-style: none;
+        text-align: left;
+        font-weight: 400;
+        max-width: 60%;
+        background-color: whitesmoke;
+    }
+    .SvrHomeComponent  .SvrTimeline .timeline p {
+    color: black;
+    }
+    .SvrHomeComponent  .SvrTimeline .timeline h3 {
+    color: black;
+    }
+    .SvrHomeComponent  .SvrTimeline .timeline h2 {
+    color: black;
+    position: absolute;
+    top: -20px;
+    left: -270px;
+    font-weight: 400;
+    
+    }
+    .SvrHomeComponent  .SvrTimeline .timeline h1, .timeline h2, .timeline h3 {
+        font-size: 1.4em;
+    }
+    .SvrHomeComponent  .SvrTimeline .timeline .event {
+        border-bottom: 1px dashed rgba(255,255,255,0.1);
+        padding-bottom: 25px;
+        margin-bottom: 50px;
+        position: relative;
+    }
+    .SvrHomeComponent  .SvrTimeline .timeline .event:last-of-type {
+        padding-bottom: 0;
+        margin-bottom: 0;
+        border: none;
+    }
+    .SvrHomeComponent  .SvrTimeline .timeline .event:before, .timeline .event:after {
+        position: absolute;
+        display: block;
+        top: 0;
+    }
+    .SvrHomeComponent  .SvrTimeline .timeline .event:before {
+        left: -217.5px;
+        color: rgba(255,255,255,0.4);
+        content: attr(data-date);
+        text-align: right;
+        font-weight: 100;
+        font-size: 0.9em;
+        min-width: 120px;
+    }
+    .SvrHomeComponent  .SvrTimeline .timeline .event:after {
+        box-shadow: 0 0 0 4px black; 
+        left: -57.85px;
+        background: white; 
+        border-radius: 50%;
+        height: 11px;
+        width: 11px;
+        content: "";
+        top: 5px;
+    }
+
+    .SvrHomeComponent .programInfo-inner {
+        display: flex;
+        flex-direction: column;
+    }
+    .SvrHomeComponent  .programInfo-one-inner {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .SvrHomeComponent  .programInfo-two-inner {
+        border: 1px solid rgb(221, 219, 219);
+        margin: auto;
+        height: 100%;
+
+    }
+    .SvrHomeComponent  .programInfo-two-inner-one {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    .SvrHomeComponent  .programInfo-two-inner-one a {
+        border: 1px solid black;
+        width: 80%;
+        margin: auto;
+        padding: 15px;
+        margin-top: 15px;
+    }
+    .SvrHomeComponent  .programInfo-one {
+        width: 100%;
+    }
+    #broch-one {
+        background-color: rgb(151, 0, 3);
+        border: 1px solid rgb(151, 0, 3);
+        color: white;
+        font-weight: 400;
+    }
+    #broch-one:hover {
+        background-color: white;
+        border: 1px solid rgb(151, 0, 3);
+        color: rgb(151, 0, 3);
+        transition: 0.3s ease-in-out;
+    }
+    #broch-two:hover {
+        background-color: rgb(151, 0, 3);
+        color: white;
+        font-weight: 400;
+    }
+    .SvrHomeComponent  .programInfo-two {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .SvrHomeComponent  .programInfo-two-inner-one {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    .SvrHomeComponent  .programInfo-two-inner-one a {
+        border: 1px solid black;
+        width: 80%;
+        margin: auto;
+        padding: 15px;
+        margin-top: 15px;
+    }
+    #broch-one {
+        background-color: rgb(151, 0, 3);
+        border: 1px solid rgb(151, 0, 3);
+        color: white;
+        font-weight: 400;
+    }
+    #broch-one:hover {
+        background-color: white;
+        border: 1px solid rgb(151, 0, 3);
+        color: rgb(151, 0, 3);
+        transition: 0.3s ease-in-out;
+    }
+    #broch-two:hover {
+        background-color: rgb(151, 0, 3);
+        color: white;
+        font-weight: 400;
+    }
+
+
+    .SvrHomeComponent  .explain-inner {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+    }
+    .SvrHomeComponent  .explain-one {
+        width: 100%;
+    }
+    .SvrHomeComponent  .explain-one h2 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        width: 90%;
+        text-align: left;
+        border-bottom-style: solid;
+        border-bottom-color: black;
+        font-size: 35px;
+    }
+    .SvrHomeComponent  .explain-one p {
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: left;
+        width: 90%;
+        font-size: 18px;
+        text-align: justify;
+        line-height: 20px;
+        margin: auto;
+
+
+    }
+    .SvrHomeComponent  .explain-two {
+        width: 100%;
+    }
+    .SvrHomeComponent  .explain-two img {
+        width: 100%;
+    }
+
+
+}
+
+
+
+
+

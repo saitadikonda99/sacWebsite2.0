@@ -1,0 +1,32 @@
+.SIDFeedbackComponent {
+    width: 80%;
+    background-color: whitesmoke;
+}
+
+.SIDFeedbackContainer {
+    padding: 10px;
+}
+
+.SIDFed-heading {
+    background-color: orangered;
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.SIDFed-heading span {
+    color: white;
+    font-weight: 600;
+    font-size: 25px; 
+}
+
+.SIDFed-main {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SIDFed-main span {
+    font-size: 80px;
+    color: white;
+}

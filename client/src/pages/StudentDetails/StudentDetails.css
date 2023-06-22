@@ -1,0 +1,261 @@
+.StudentDetailsComponent {
+    overflow: scroll;
+    font-family: sans-serif;
+}
+.StudentDetailsComponent table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 13px;
+}
+  
+.StudentDetailsComponent th {
+    background-color: black;
+    color: white;
+    padding: 7px 0px 7px 0px;
+    text-align: center;
+
+}
+#head {
+
+}
+.StudentDetailsComponent td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 2px;
+}
+  
+.StudentDetailsComponent tr:nth-child(even) {
+    background-color: whitesmoke; 
+}
+.StudentDetailsComponent tr:hover {
+    background-color:rgba(151, 0, 3, 0.3)
+}
+
+
+.pageheading {
+    color: white;
+    background-color: rgb(151, 0, 3);
+    border: 1px solid black;
+}
+
+.AccessDBPage {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.AccessDBPage input {
+    border: 2px solid rgb(156, 153, 153);
+    padding: 10px;
+    border-radius: 10px;
+}
+.AccessDBPage h1 {
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.AccessDBPage button {
+    border: 1px solid black; 
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.AccessDBPage button:hover {
+    cursor: pointer;
+}
+
+.tableheader select {
+    width: 20%;
+}
+.dashboard {
+    display: flex;
+}
+
+.totalStudents {
+    border: 2px solid black;
+    width: 30%;
+    background-color: whitesmoke;
+}
+.totalStudentsHeading {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+.totalStudentsHeading p {
+    font-size: 15px !important;
+}
+.totalStudents p {
+    font-size: 20px;
+}
+.totalStudentsInner {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+.totalStudentsInner span {
+    font-weight: 600;
+}
+
+.branchWise {
+    border: 2px solid black;
+    width: 30%;
+    background-color: whitesmoke;
+}
+.branchWiseHeading {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    border-left: 1px solid white;
+}
+.branchWiseHeading p {
+    font-size: 15px !important;
+}
+.branchWiseInner {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+.branchWiseInner li {
+    list-style: none;
+}
+
+.branchWiseInner td {
+    background-color: white;
+}
+.branchWiseInner td:hover {
+    background-color: rgb(151, 0, 3);
+    color: white;
+    
+}
+
+
+.interestWise {
+    border: 2px solid black;
+    width: 40%;
+    background-color: whitesmoke;
+}
+.interestWiseInner {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+.interestWiseInner li {
+    list-style: none;
+}
+.interestWiseInner td {
+    background-color: white;
+}
+.interestWiseInner td:hover {
+    background-color: rgb(151, 0, 3);
+    color: white;
+
+}
+.interestWiseHeading {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    border-left: 1px solid white;
+}
+.interestWiseHeading p {
+    font-size: 15px !important;
+}
+
+
+.division-table > tr  {
+    background-color: white !important;
+}
+.division-table th, td {
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #ddd;
+        width: auto;
+}
+
+.division-table tr > td > td {
+    width: 10%;
+}
+  
+.division-table tr> td > td:first-child {
+    background-color: rgb(208, 249, 208);
+}
+.division-table tr> td > td:nth-child(2) {
+    background-color: rgb(175, 221, 249);
+}
+.division-table tr> td > td:nth-child(3) {
+    background-color: rgb(245, 219, 219);
+}
+.division-table tr > td:first-child {
+    background-color: black;
+    color: white;
+    width: 10% !important;
+}
+
+.division-table tr > td:nth-child(1),
+.division-table tr > td:nth-child(2),
+.division-table tr > td:nth-child(3),
+.division-table tr > td:nth-child(4),
+.division-table tr > td:nth-child(5),
+.division-table tr > td:nth-child(6),
+.division-table tr > td:nth-child(7),
+.division-table tr > td:nth-child(8),
+.division-table tr > td:nth-child(9),
+.division-table tr > td:nth-child(10),
+.division-table tr > td:nth-child(11),
+.division-table tr > td:nth-child(12),
+.division-table tr > td:nth-child(13),
+.division-table tr > td:nth-child(14),
+.division-table tr > td:nth-child(15)
+{
+    width: 5%;
+}
+
+.division-info {
+    display: flex;
+}
+.division-info-one {
+    width: 15%;
+}
+.division-info-two {
+    width: 85%;
+}
+.division-info-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.light {
+    display: flex;
+    justify-content: right;
+    padding: unset;
+}
+
+
+.lightgreen-two  {
+    background-color: rgb(208, 249, 208);
+    height: 20px;
+    width: 20px;
+}
+
+.lightblue-two  {
+    background-color: rgb(175, 221, 249);
+    height: 20px;
+    width: 20px;
+}
+
+.lightpink-two  {
+    background-color: rgb(245, 219, 219);
+    height: 20px;
+    width: 20px;
+}
+
+.division-info-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

@@ -1,7 +1,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./Testimonial.css";
+// import "./Testimonial.css";
 import { Avatar } from "@material-ui/core";
 import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
 
@@ -26,6 +26,7 @@ const NextBtn = (props) => {
     </div>
   );
 };
+
 const Testimonial = () => {
     return (
       <div

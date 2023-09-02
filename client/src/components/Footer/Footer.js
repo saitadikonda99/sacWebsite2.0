@@ -17,7 +17,6 @@ const Footer = () => {
               <Link className='report' >Provide Feeback</Link>
               <Link className='report' >Help</Link>
             </div>
-            <hr />
             <div className="FooterTwo">
               
               <div className="FooterTwo-one">
@@ -45,13 +44,14 @@ const Footer = () => {
                         Guntur District, A.P., INDIA. 
                         Pincode : 522 302.</h4>
                   </div>
-
                 </div>
+                <div className="contact">
                 <h5 id='cont'>+91 08645 - 350200 (Andhrapradesh) <br /> +91 040 - 35045055 (Telangana) </h5>
+                </div>
               </div>
 
             </div>
-            <hr />
+
             <div className="FooterThree">
 
               <div className="FooterThree-one">

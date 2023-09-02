@@ -55,7 +55,7 @@ const clubspage = () => {
                                 <h3>Technology Clubs</h3>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat ratione culpa necessitatibus excepturi numquam animi ex minima vel maiores reiciendis.</p>
 
-                                <Link className='ctoct-link' to='/'>Technology Clubs</Link>
+                                <Link to='/zeroOne' className='ctoct-link'>Technology Clubs</Link>
                             </div>
                         </div>
                         <div className="clubspage-three-one-comps">

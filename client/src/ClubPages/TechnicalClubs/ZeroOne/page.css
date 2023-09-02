@@ -13,7 +13,18 @@
 }
 .clubs-nav-in-two {
     width: 70%;
+    display: flex;
 }
+
+.clubs-nav-in-two ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+
 .clubs-nav-in-one img {
     width: 40%;
 }
@@ -26,4 +37,9 @@
 .clubs-activites {
     height: 100vh;
     border: 2px solid red;
+}
+
+.clubs-team {
+    height: 100vh;
+    border: 2px solid green;
 }

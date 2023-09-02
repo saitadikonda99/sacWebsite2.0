@@ -15,7 +15,7 @@ const page = () => {
                     <img src={ZeroOneClubLogo} alt="" />
                 </div>
                 <div className="clubs-nav-in-two">
-
+                  
                 </div>
               </div>
             </div>

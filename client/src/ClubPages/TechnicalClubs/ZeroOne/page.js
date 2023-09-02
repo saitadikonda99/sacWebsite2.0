@@ -16,28 +16,54 @@ const page = () => {
                     <img src={ZeroOneClubLogo} alt="" />
                 </div>
                 <div className="clubs-nav-in-two">
-                <ul>
-                  <li>
-                    Home
-                  </li>
-                  <Scroll
-                      activeClass="active"
-                      to="clubs-activites"
-                      spy ={true}
-                      smooth={true}
-                      offset={-70}
-                      duration={500}
-                      >
-                     <li>Activities</li>
-                  </Scroll>
-                </ul>
-                </div>
+                 <ul>
+                   <li>
+                      <Scroll
+                          activeClass="active"
+                          to="clubs-body"
+                          spy ={true}
+                          smooth={true}
+                          offset={-70}
+                          duration={500}
+                        >   
+                        Home
+                      </Scroll> 
+                   </li>
+                    <li>
+                      <Scroll
+                          activeClass="active"
+                          to="clubs-activites"
+                          spy ={true}
+                          smooth={true}
+                          offset={-70}
+                          duration={500}
+                        >
+                        Activities
+                      </Scroll>
+                    </li>
+                    <li>
+                      <Scroll
+                          activeClass="active"
+                          to="clubs-team"
+                          spy ={true}
+                          smooth={true}
+                          offset={-70}
+                          duration={500}
+                        >
+                        Team
+                      </Scroll>
+                     </li>
+                    </ul>
+                  </div>
               </div>
             </div>
             <div className="clubs-body">
                 
               </div>
               <div className="clubs-activites">
+              
+              </div>
+              <div className="clubs-team">
               
               </div>
           </div>

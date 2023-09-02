@@ -17,3 +17,13 @@
 .clubs-nav-in-one img {
     width: 40%;
 }
+
+.clubs-body {
+    height: 100vh;
+    border: 2px solid blue;
+}
+
+.clubs-activites {
+    height: 100vh;
+    border: 2px solid red;
+}

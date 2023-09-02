@@ -1,7 +1,6 @@
 import React from 'react';
-import { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import '../Footer/Footer.css'; 
+import './Footer.css';
 
 
 
@@ -57,7 +56,7 @@ const Footer = () => {
 
               <div className="FooterThree-one">
                 <span id='copyright'>
-                  <i class="fa fa-copyright" aria-hidden="true"></i> <p>2023 Koneru Lakshmaiah Education Foundation - Student Activity Center | Designed & Developed by <a target='_blank' href="https://www.linkedin.com/in/deepakreddygathpa/">Deepak Reddy Gathpa</a>
+                  <i class="fa fa-copyright" aria-hidden="true"></i> <p>2023 Koneru Lakshmaiah Education Foundation - Student Activity Center | Designed & Developed by <a href="https://www.linkedin.com/in/deepakreddygathpa/">Deepak Reddy Gathpa</a>
                   </p>
                 </span>
               </div>
@@ -65,7 +64,7 @@ const Footer = () => {
               <div className="FooterThree-two">
                 <span id='socialIcons'>
                 <i class="fa fa-facebook" aria-hidden="true"></i>
-                <i href="https://www.instagram.com/klu_sac/" class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
                 <i class="fa fa-twitter" aria-hidden="true"></i>
                 <i class="fa fa-youtube" aria-hidden="true"></i>
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
@@ -81,4 +80,3 @@ const Footer = () => {
 }
 
 export default Footer
-

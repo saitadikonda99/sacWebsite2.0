@@ -7,6 +7,7 @@ import './App.css';
 
 //import pages here 
 import Home from '../src/pages/Home/Home';
+import ZeroOne from '../src/ClubPages/TechnicalClubs/ZeroOne/page';
 
 
 function App() {
@@ -33,6 +34,8 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/zeroOne" element={<ZeroOne/>} />
+
       </Routes>
     </div>
   );

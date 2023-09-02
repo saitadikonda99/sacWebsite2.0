@@ -1,4 +1,5 @@
 import React from 'react';
+import './page.css';
 
 import ZeroOneClubLogo from '../../../Assets/Logos/ZeroOneClubLogo.png';
 

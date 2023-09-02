@@ -1,0 +1,19 @@
+.clubs-nav {
+    width: 100%;
+}
+.clubs-nav-in {
+    display: flex;
+    border: 1px solid black;
+}
+.clubs-nav-in-one {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clubs-nav-in-two {
+    width: 70%;
+}
+.clubs-nav-in-one img {
+    width: 40%;
+}

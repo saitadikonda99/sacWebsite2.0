@@ -33,7 +33,7 @@ import CouncilMember_12 from '../../Assets/CouncilMembers/CouncilMember_12.png';
 const Home  = () => {
  
   useEffect(() => {
-    document.title = 'Home | KLU SAC';
+    document.title = 'KLEF SAC';
     const metaDescription = document.createElement('meta');
     metaDescription.name = 'description';
     metaDescription.content = 'Student Activity Center at KLEF';

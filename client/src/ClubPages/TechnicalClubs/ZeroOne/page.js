@@ -3,7 +3,11 @@ import './page.css';
 import { Link as Scroll } from 'react-scroll';
 
 import ZeroOneClubLogo from '../../../Assets/Logos/ZeroOneClubLogo.png';
+import { BsFileEarmarkCode } from 'react-icons/bs';
 
+import deepakimg from '../../../Assets/NewsImages/PreBootCamp.jpg'
+import deepak from '../../../Assets/CouncilMembers/CouncilMember_02.png'
+import Footer from '../../../components/Footer/Footer'
 
 const page = () => {
   return (
@@ -32,16 +36,29 @@ const page = () => {
                     <li>
                       <Scroll
                           activeClass="active"
-                          to="clubs-activites"
+                          to="clubs-what-do"
                           spy ={true}
                           smooth={true}
                           offset={-70}
                           duration={500}
                         >
-                        Activities
+                        Wings
                       </Scroll>
                     </li>
                     <li>
+                      <Scroll
+                          activeClass="active"
+                          to="clubs-Glimpse"
+                          spy ={true}
+                          smooth={true}
+                          offset={-70}
+                          duration={500}
+                        >
+                       Glimpse
+                      </Scroll>
+                     </li>
+
+                     <li>
                       <Scroll
                           activeClass="active"
                           to="clubs-team"
@@ -53,6 +70,7 @@ const page = () => {
                         Team
                       </Scroll>
                      </li>
+
                     </ul>
                   </div>
               </div>
@@ -60,13 +78,139 @@ const page = () => {
             <div className="clubs-body">
                  
               </div>
-              <div className="clubs-activites">
-                <h1>Activites</h1>
+
+{/* ----------------------------------What We Do-------------------------------------------- */}
+                <div className="clubs-what-do">
+                  <div className="club-what-do-in">
+
+                  <div className="club-what-do-in-one">
+                    <h1>What We Do</h1>
+                  </div>
+
+                  <div className="club-what-do-in-two">
+                    <div className="club-what-do-box">
+                      <BsFileEarmarkCode className='icons-react'/> Web Development
+                        </div>
+                          <div className="club-what-do-box">
+                          <BsFileEarmarkCode className='icons-react'/>
+                           Web Development
+                       </div>
+                    <div className="club-what-do-box">
+                  <BsFileEarmarkCode className='icons-react'/> Web Development
+                </div>
               </div>
-              <div className="clubs-team">
-                <h1>Team</h1>
+          
+              <div className="club-what-do-in-three">
+                <div className="club-what-do-box">
+                  <BsFileEarmarkCode className='icons-react'/> Web Development
+                    </div>
+                     <div className="club-what-do-box">
+                       <BsFileEarmarkCode className='icons-react'/> Web Development
+                        </div>
+                     <div className="club-what-do-box">
+                    <BsFileEarmarkCode className='icons-react'/> Web Development
+                </div>
               </div>
+            </div>
           </div>
+
+{/* ----------------------------------Glimpses-------------------------------------------- */}
+              <div className="clubs-Glimpse">
+                <div className="clubs-Glimpse-in">
+                  <div className="clubs-Glimpse-in-one">
+                    <h1>Glimpses</h1>
+                      </div>
+                       <div className="clubs-Glimpse-in-two">
+                          <div className="clubs-Glimpse-img-box">
+                            <img src={deepakimg} alt="" />
+                          </div>
+                          <div className="clubs-Glimpse-img-box">
+                            <img src={deepakimg} alt="" />
+                          </div>
+                       </div>
+                  <div className="clubs-Glimpse-in-three">
+                     <div className="clubs-Glimpse-img-box">
+                       <img src={deepakimg} alt="" />
+                    </div>
+                      <div className="clubs-Glimpse-img-box">
+                        <img src={deepakimg} alt="" />
+                    </div>
+                      <div className="clubs-Glimpse-img-box">
+                       <img src={deepakimg} alt="" />
+                    </div>
+                  </div>
+                  <div className="clubs-Glimpse-in-four">
+                    <div className="clubs-Glimpse-img-box">
+                      <img src={deepakimg} alt="" />
+                    </div>
+                      <div className="clubs-Glimpse-img-box">
+                        <img src={deepakimg} alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+{/* ----------------------------------Team-------------------------------------------- */}
+
+              <div className="clubs-team">
+                <div className="clubs-team-in">
+
+                  <div className="clubs-team-in-one">
+                    <h1>Team</h1>
+                     </div>
+
+                  <div className="clubs-team-in-two">
+                    <div className="member-box">
+                        <img src={deepak} alt="" />
+                      </div>
+                  <div className="member-box">
+                        <img src={deepak} alt="" />
+                  </div>
+                    <div className="member-box">
+                        <img src={deepak} alt="" />
+                    </div>
+                       </div>
+
+                  <div className="clubs-team-in-three">
+                    <div className="member-box">
+                        <img src={deepak} alt="" />
+                     </div>
+                  <div className="member-box">
+                      <img src={deepak} alt="" />
+                  </div>
+                    <div className="member-box">
+                      <img src={deepak} alt="" />
+                  </div>  
+                </div>
+
+              </div>
+            </div>
+              
+
+{/* ----------------------------------Activities-------------------------------------------- */}
+
+
+              <div className="clubs-Activities">
+                <div className="clubs-Activities-in">
+                  <div className="clubs-Activities-in-one">
+                    <h1>Activities</h1>
+                     </div>
+                      <div className="clubs-Activities-in-two">
+                          activity-ch
+                    </div>
+                </div>
+              </div>
+
+
+
+          </div>
+        </div>
+
+        <div className="club-footer">
+          <div className="club-footer-in">
+              <Footer/>
+            </div>
         </div>
     </div>
   )

@@ -37,12 +37,159 @@
     height: fit-content;
 }
 
-.clubs-activites {
-    height: 100vh;
-    border: 2px solid red;
+.club-what-do-in {
+    height: max-content;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
-.clubs-team {
-    height: 100vh;
-    border: 2px solid green;
+.club-what-do-in-one  {
+    text-align: center;
+}
+
+.club-what-do-in-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.club-what-do-box {
+    height: 6vw;
+    width: 25%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;    
+}
+
+.club-what-do-in-three {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons-react {
+    height: 2rem;
+    width: 2rem;
+}
+
+.club-what-do-box-one {
+    border: 2px solid blue;
+}
+
+.clubs-Glimpse-in {
+    height: max-content;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.clubs-Glimpse-in-one {
+    text-align: center;
+}
+
+.clubs-Glimpse-in-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.clubs-Glimpse-in-three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 20vw;
+}
+
+.clubs-Glimpse-in-four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.clubs-Glimpse-img-box{
+   height: fit-content;
+   width: 40%;
+}
+
+.clubs-Glimpse-img-box img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.clubs-Glimpse-in-three .clubs-Glimpse-img-box {
+    height: fit-content;
+    width: 26%;
+}
+
+.clubs-team-in {
+    height: max-content;
+    padding: 50px 0px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.clubs-team-in-one {
+    text-align: center;
+    padding: 50px;
+}
+
+.clubs-team-in-two {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.clubs-team-in-three {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.member-box {
+    width: 20%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.member-box img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.clubs-Activities-in {
+    height: 80vh;
+    display: flex;
+    width: 100%;
+}
+
+.clubs-Activities-in-one {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.clubs-Activities-in-two {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
 }

@@ -1,6 +1,7 @@
 import React from 'react';
-import './page.css';
+import './Page.css';
 import { Link as Scroll } from 'react-scroll';
+import  { useState } from 'react';
 
 import ZeroOneClubLogo from '../../../Assets/Logos/ZeroOneClubLogo.png';
 import { BsFileEarmarkCode } from 'react-icons/bs';
@@ -9,7 +10,15 @@ import deepakimg from '../../../Assets/NewsImages/PreBootCamp.jpg'
 import deepak from '../../../Assets/CouncilMembers/CouncilMember_02.png'
 import Footer from '../../../components/Footer/Footer'
 
-const page = () => {
+var Page = () => {
+
+  const [activity, setActivity] = useState(1)
+
+
+  const handleActivity = (Number) => {
+    setActivity(Number)
+  }
+
   return (
     <div>
         <div className="clubs ZeroOne">
@@ -28,7 +37,7 @@ const page = () => {
                           spy ={true}
                           smooth={true}
                           offset={-70}
-                          duration={500}
+                          duration={0}
                         >   
                         Home
                       </Scroll> 
@@ -40,7 +49,7 @@ const page = () => {
                           spy ={true}
                           smooth={true}
                           offset={-70}
-                          duration={500}
+                          duration={0}
                         >
                         Wings
                       </Scroll>
@@ -52,7 +61,7 @@ const page = () => {
                           spy ={true}
                           smooth={true}
                           offset={-70}
-                          duration={500}
+                          duration={0}
                         >
                        Glimpse
                       </Scroll>
@@ -65,9 +74,22 @@ const page = () => {
                           spy ={true}
                           smooth={true}
                           offset={-70}
-                          duration={500}
+                          duration={0}
                         >
                         Team
+                      </Scroll>
+                     </li>
+
+                     <li>
+                      <Scroll
+                          activeClass="active"
+                          to="club-activity-component"
+                          spy ={true}
+                          smooth={true}
+                          offset={-70}
+                          duration={0}
+                        >
+                        Activities
                       </Scroll>
                      </li>
 
@@ -191,17 +213,31 @@ const page = () => {
 {/* ----------------------------------Activities-------------------------------------------- */}
 
 
+              <div className="club-activity-component">
               <div className="clubs-Activities">
+                <div className="club-activity-head">
+                  <h1>Activities</h1>
+                  </div>
                 <div className="clubs-Activities-in">
                   <div className="clubs-Activities-in-one">
-                    <h1>Activities</h1>
+                          <div className = { activity == 1 ? 'activity-content-one' : 'activity-hide' } id='one-color'></div>
+                          <div className = { activity == 2 ? 'activity-content-one' : 'activity-hide' } id='two-color'></div>
+                          <div className = { activity == 3 ? 'activity-content-one' : 'activity-hide' } id='three-color'></div>
+                          <div className = { activity == 4 ? 'activity-content-one' : 'activity-hide' } id='four-color'></div>
                      </div>
                       <div className="clubs-Activities-in-two">
-                          activity-ch
+                         <div id = { activity == 1 ? 'activity-content-hover' : '' }
+                          className="Activity-box-one" onClick={() => handleActivity(1)}>Activity-1</div>
+                         <div id = { activity == 2 ? 'activity-content-hover' : '' }
+                         className="Activity-box-one" onClick={() => handleActivity(2)}>Activity-2</div>
+                         <div id = { activity == 3 ? 'activity-content-hover' : '' }
+                         className="Activity-box-one" onClick={() => handleActivity(3)}>Activity-3</div>
+                         <div id = { activity == 4 ? 'activity-content-hover' : '' }
+                         className="Activity-box-one" onClick={() => handleActivity(4)}>Activity-4</div>
                     </div>
                 </div>
               </div>
-
+            </div>
 
 
           </div>
@@ -216,4 +252,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

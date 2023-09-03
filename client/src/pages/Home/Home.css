@@ -78,7 +78,41 @@
     object-fit: cover;
     z-index: 0;
 }
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+  }
+  
+  .centered-text h1 {
+    font-size: 4rem;
+    color: white; 
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+  }
+  .centered-text p {
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 5px 0 10px;
+  }
 
+  .animate-text {
+    font-size: 24px;
+    color: #fff; /* Adjust the text color to your preference */
+    opacity: 0;
+    transform: translateY(20px); /* Initial position off-screen */
+    animation: fadeInUp 1s ease forwards;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
 
 
 
@@ -117,7 +151,7 @@
     display: flex;
     padding: 60px 0px 60px 0px;
     overflow: hidden;
-    height: 70vh;
+    height: 95vh;
 }
 .noname-text {
     width: 100%;
@@ -164,6 +198,62 @@
 .HomeComponent .noname-image img {
     width: 100%;
 }
+
+
+
+
+
+.projects {
+    padding: 4rem 0rem 0rem 0rem;
+}
+
+.projects-in-header-in h1 {
+    font-size: 3rem;
+}
+.projects-in-header-in p {
+    font-size: 1.6rem;
+    width: 70%;
+    margin: auto;
+    color: rgb(151, 0, 3);
+}
+.projects-one {
+    padding: 3rem 0rem;
+}
+.projects-one-in {
+    display: flex;   
+    justify-content: space-between;
+}
+.projects-comps {
+    width: 32%;
+}
+
+.projects-comps-one img {
+    width: 100%;
+}
+
+.projects-comps-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-comps-two h2 {
+    text-align: left;
+}
+
+.projects-comps-two p {
+    text-align: left;
+}
+
+.projects-comps-two-links {
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+.projects-in {
+    width: 90%;
+    margin: auto;
+}
+
 
 
 
@@ -339,16 +429,15 @@
 
 
 .HomeComponent  .about {
-    padding: 10px 0px 100px 0px;
+    padding: 5rem 0rem;
     opacity: 0.9;
     background-color: white;
 }
-.HomeComponent  .about-heading {
 
-}
 .HomeComponent  .about-heading h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 60px;
+    font-size: 3.3rem;
+    margin-bottom: 1.5rem;
 }
 
 
@@ -1071,11 +1160,7 @@
     color: white;
 } 
 
-.about {
-    padding: 10px 0px 100px 0px;
-    opacity: 0.9;
-    background-color: whitesmoke;
-}
+
 
 .about-heading h1 {
     font-family: 'Poppins', sans-serif;

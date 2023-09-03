@@ -16,6 +16,7 @@ import bck from '../../Assets/bck.jpg';
 import newVideo from '../../Assets/newVideo.mp4';  
 import AmarnadhDroneCompetition from '../../Assets/NewsImages/AmarnadhDroneCompetition.jpg'; 
 import PreBootCamp from '../../Assets/NewsImages/PreBootCamp.jpg';
+import ProjectsImage from '../../Assets/ProjectsImage.webp';
 
 
 
@@ -39,7 +40,7 @@ const Home  = () => {
 
   // Event listener to handle scroll event
   const handleScroll = () => {
-    if (window.scrollY > 500) {
+    if (window.scrollY > 300) {
       setNavScrolled(true);
     } else {
       setNavScrolled(false);
@@ -149,6 +150,10 @@ const Home  = () => {
           <div className="Home-one">
             <div className="Home-one-in">
               <video autoPlay={true} loop={true} muted={true} style={{width: "100%"}} src={newVideo}></video>
+              <div className="centered-text">
+              <h1>Student Activity Center</h1>
+              <p className="animate-text">Empowering Tomorrow's Leaders Today</p>
+            </div>
             </div>
           </div>
 
@@ -157,24 +162,18 @@ const Home  = () => {
 
 
 
+        <div className="Home-two">
+          <div className="Home-two-in">
 
-
-      
-        
-
-        <div className="noname">
-         <div className="noname-text">
-         </div>
-         <div className="noname-image">
-         </div>
+          </div>
         </div>
 
 
 
 
-            <div className="about">
+        <div className="about">
               <div className="about-heading">
-                <h1>About the Center</h1>
+                <h1>A Department without Boundaries</h1>
                 <h3>designed to accommodate path-breaking ideas, problem-solving postulates, and artistic assertions, creating an environment that encourages innovation and experimentation</h3>
               </div>
               <div className="about-two">
@@ -274,6 +273,63 @@ const Home  = () => {
                 </div>
               </center>
             </div>
+
+      
+        
+
+        <div className="noname">
+         <div className="noname-text">
+         </div>
+         <div className="noname-image">
+         </div>
+        </div>
+
+
+        <div className="projects">
+          <div className="projects-in">
+            <div className="projects-in-header">
+              <div className="projects-in-header-in">
+                <h1>Department Projects from Clubs</h1>
+                <p>Preparing students to make meaningful contributions to society as engaged citizens and leaders in a complex world</p>
+              </div>
+            </div>
+            <div className="projects-one">
+              <div className="projects-one-in">
+                <div className="projects-comps">
+                  <div className="projects-comps-one">
+                    <img src={ProjectsImage} alt="" />  
+                  </div>
+                  <div className="projects-comps-two">
+                    <h2>Pro Recording Camera</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt voluptatibus, dolorem ex distinctio magnam corrupti!</p>
+                    <Link className='projects-comps-two-links' to='/'>Explore</Link>
+                  </div>
+                </div>
+                <div className="projects-comps">
+                  <div className="projects-comps-one">
+                    <img src={ProjectsImage} alt="" />  
+                  </div>
+                  <div className="projects-comps-two">
+                    <h2>Pro Recording Camera</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt voluptatibus, dolorem ex distinctio magnam corrupti!</p>
+                    <Link className='projects-comps-two-links' to='/'>Explore</Link>
+                  </div>
+                </div>
+                <div className="projects-comps">
+                  <div className="projects-comps-one">
+                    <img src={ProjectsImage} alt="" />  
+                  </div>
+                  <div className="projects-comps-two">
+                    <h2>Pro Recording Camera</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt voluptatibus, dolorem ex distinctio magnam corrupti!</p>
+                    <Link className='projects-comps-two-links' to='/'>Explore</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
 
           

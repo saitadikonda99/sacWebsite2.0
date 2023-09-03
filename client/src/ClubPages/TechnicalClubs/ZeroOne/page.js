@@ -24,11 +24,32 @@ var Page = () => {
         <div className="clubs ZeroOne">
           <div className="clubs-in">
             <div className="clubs-nav">
-            <Navbar/>
-
+                <Navbar/>
             </div>
+
+{/* ----------------------------------Hero-------------------------------------------- */}
+
+
             <div className="clubs-body">
-                 
+                <div className="club-body-in">
+                  <div className="club-body-in-one">
+                      <div className="club-in-head">
+                        <h1>Inspire. Educate. Empower</h1>
+                      </div>
+                    </div>
+                      <div className="club-body-in-two">
+                        <div className="club-body-in-two-in">
+                             <p>This is a community which provides <span> free hands-on training </span> in various fields of computer science and have an inclusive community focusing on a <span> learn by doing </span> approach.</p>
+                          </div>
+                      </div>
+                      <div className="=">
+                        <button>
+                          <Scroll to="clubs-what-do" smooth={true} duration={0}>
+                            <p>Explore the Club</p>
+                          </Scroll>
+                        </button>
+                      </div>
+                  </div>
               </div>
 
 {/* ----------------------------------What We Do-------------------------------------------- */}
@@ -191,19 +212,19 @@ var Page = () => {
                   </div>
                 <div className="clubs-Activities-in">
                   <div className="clubs-Activities-in-one">
-                          <div className = { activity == 1 ? 'activity-content-one' : 'activity-hide' } id='one-color'></div>
-                          <div className = { activity == 2 ? 'activity-content-one' : 'activity-hide' } id='two-color'></div>
-                          <div className = { activity == 3 ? 'activity-content-one' : 'activity-hide' } id='three-color'></div>
-                          <div className = { activity == 4 ? 'activity-content-one' : 'activity-hide' } id='four-color'></div>
+                          <div className = { activity === 1 ? 'activity-content-one' : 'activity-hide' } id='one-color'></div>
+                          <div className = { activity === 2 ? 'activity-content-one' : 'activity-hide' } id='two-color'></div>
+                          <div className = { activity === 3 ? 'activity-content-one' : 'activity-hide' } id='three-color'></div>
+                          <div className = { activity === 4 ? 'activity-content-one' : 'activity-hide' } id='four-color'></div>
                      </div>
                       <div className="clubs-Activities-in-two">
-                         <div id = { activity == 1 ? 'activity-content-hover' : '' }
+                         <div id = { activity === 1 ? 'activity-content-hover' : '' }
                           className="Activity-box-one" onClick={() => handleActivity(1)}>Activity-1</div>
-                         <div id = { activity == 2 ? 'activity-content-hover' : '' }
+                         <div id = { activity === 2 ? 'activity-content-hover' : '' }
                          className="Activity-box-one" onClick={() => handleActivity(2)}>Activity-2</div>
-                         <div id = { activity == 3 ? 'activity-content-hover' : '' }
+                         <div id = { activity === 3 ? 'activity-content-hover' : '' }
                          className="Activity-box-one" onClick={() => handleActivity(3)}>Activity-3</div>
-                         <div id = { activity == 4 ? 'activity-content-hover' : '' }
+                         <div id = { activity === 4 ? 'activity-content-hover' : '' }
                          className="Activity-box-one" onClick={() => handleActivity(4)}>Activity-4</div>
                     </div>
                 </div>

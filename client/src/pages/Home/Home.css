@@ -145,7 +145,7 @@
 
   .animate-text {
     font-size: 24px;
-    color: #fff; /* Adjust the text color to your preference */
+    color: #fff; 
     opacity: 0;
     transform: translateY(20px); /* Initial position off-screen */
     animation: fadeInUp 1s ease forwards;

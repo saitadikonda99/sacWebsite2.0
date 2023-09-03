@@ -1,0 +1,13 @@
+.DashboardAppComponent {
+    display: flex;
+    width: 100%;
+}
+.sidebarcomp {
+    width: 20%;
+
+}
+.mainbarcomp {
+    width: 80%;
+    height: 100vh;
+    overflow-y: scroll;
+}

@@ -118,6 +118,9 @@ const Home  = () => {
                           About
                         </Scroll>  
                     </li>
+                    <li>
+                      <Link className='nav-links' to='/dashboard'>Dashboard</Link>
+                    </li>
                     <li
                 onMouseEnter={toggleClubDropdown}
                 onMouseLeave={toggleClubDropdown}

@@ -1,0 +1,33 @@
+.overviewComponentOne {
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+}
+.overviewComponentOne-container {
+    width: 90%;
+    margin: auto;
+}
+
+.overviewComponentOne-one-header {
+    padding: 20px 10px 20px 10px;
+    background-color: rgb(220, 218, 218);
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin: 10px 0px 10px 0px;
+}
+.overviewComponentOne-one-header-in {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.overviewComponentOne-one-header-in h1 {
+    font-size: 2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.overviewComponentOne-one-header-in span {
+    font-size: 1vw;
+    color: rgb(138, 135, 135);
+}
+
+.tablealt  tr:nth-child(even) {
+    background-color: #f9f8f8;
+}

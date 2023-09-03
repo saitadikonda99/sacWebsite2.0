@@ -184,26 +184,62 @@ var Page = () => {
 
                   <div className="clubs-team-in-two">
                     <div className="member-box">
-                        <img src={deepak} alt="" />
+                        <div className="member-name">
+                          <img src={deepak} alt="" />
+                        </div>
+                        <div className="member-details">
+                            <p>Deepak</p>
+                            <p>ZeroOne</p>
+                        </div>
                       </div>
                   <div className="member-box">
-                        <img src={deepak} alt="" />
+                    <div className="member-name">
+                          <img src={deepak} alt="" />
+                        </div>
+                        <div className="member-details">
+                            <p>Deepak</p>
+                            <p>ZeroOne</p>
+                        </div>
                   </div>
                     <div className="member-box">
-                        <img src={deepak} alt="" />
+                       <div className="member-name">
+                          <img src={deepak} alt="" />
+                        </div>
+                        <div className="member-details">
+                            <p>Deepak</p>
+                            <p>ZeroOne</p>
+                        </div>
                     </div>
                        </div>
 
                   <div className="clubs-team-in-three">
-                    <div className="member-box">
-                        <img src={deepak} alt="" />
-                     </div>
                   <div className="member-box">
-                      <img src={deepak} alt="" />
+                        <div className="member-name">
+                          <img src={deepak} alt="" />
+                        </div>
+                        <div className="member-details">
+                            <p>Deepak</p>
+                            <p>ZeroOne</p>
+                        </div>
+                      </div>
+                  <div className="member-box">
+                    <div className="member-name">
+                          <img src={deepak} alt="" />
+                        </div>
+                        <div className="member-details">
+                            <p>Deepak</p>
+                            <p>ZeroOne</p>
+                        </div>
                   </div>
                     <div className="member-box">
-                      <img src={deepak} alt="" />
-                  </div>  
+                       <div className="member-name">
+                          <img src={deepak} alt="" />
+                        </div>
+                        <div className="member-details">
+                            <p>Deepak</p>
+                            <p>ZeroOne</p>
+                        </div>
+                    </div>
                 </div>
 
               </div>

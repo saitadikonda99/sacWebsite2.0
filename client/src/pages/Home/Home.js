@@ -54,6 +54,12 @@ const Home  = () => {
     };
   }, []);
 
+  const [isClubDropdownVisible, setClubDropdownVisible] = useState(false);
+
+  const toggleClubDropdown = () => {
+    setClubDropdownVisible(!isClubDropdownVisible);
+  };
+
   
 
 
@@ -112,9 +118,14 @@ const Home  = () => {
                           About
                         </Scroll>  
                     </li>
-                    <li>
-                      <Link className='nav-links' to='/StudentClubs'>Clubs</Link>
-                    </li>
+                    <li
+                onMouseEnter={toggleClubDropdown}
+                onMouseLeave={toggleClubDropdown}
+                className={`nav-links ${isClubDropdownVisible ? 'active' : ''}`}
+              >
+                <Link to='/StudentClubs'>Clubs</Link>
+               
+              </li>
                     <li>
                       <Link className='nav-links'  to='/'>Team</Link>
                     </li>
@@ -499,6 +510,7 @@ const Home  = () => {
 
                         
                     </div>
+
 
               </div>
             </div>

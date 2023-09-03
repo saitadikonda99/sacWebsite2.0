@@ -3,12 +3,12 @@ import './Page.css';
 import { Link as Scroll } from 'react-scroll';
 import  { useState } from 'react';
 
-import ZeroOneClubLogo from '../../../Assets/Logos/ZeroOneClubLogo.png';
 import { BsFileEarmarkCode } from 'react-icons/bs';
 
 import deepakimg from '../../../Assets/NewsImages/PreBootCamp.jpg'
 import deepak from '../../../Assets/CouncilMembers/CouncilMember_02.png'
 import Footer from '../../../components/Footer/Footer'
+import Navbar from './NavBar'
 
 var Page = () => {
 
@@ -24,78 +24,8 @@ var Page = () => {
         <div className="clubs ZeroOne">
           <div className="clubs-in">
             <div className="clubs-nav">
-              <div className="clubs-nav-in">
-                <div className="clubs-nav-in-one">
-                    <img src={ZeroOneClubLogo} alt="" />
-                </div>
-                <div className="clubs-nav-in-two">
-                 <ul>
-                   <li>
-                      <Scroll
-                          activeClass="active"
-                          to="clubs-body"
-                          spy ={true}
-                          smooth={true}
-                          offset={-70}
-                          duration={0}
-                        >   
-                        Home
-                      </Scroll> 
-                   </li>
-                    <li>
-                      <Scroll
-                          activeClass="active"
-                          to="clubs-what-do"
-                          spy ={true}
-                          smooth={true}
-                          offset={-70}
-                          duration={0}
-                        >
-                        Wings
-                      </Scroll>
-                    </li>
-                    <li>
-                      <Scroll
-                          activeClass="active"
-                          to="clubs-Glimpse"
-                          spy ={true}
-                          smooth={true}
-                          offset={-70}
-                          duration={0}
-                        >
-                       Glimpse
-                      </Scroll>
-                     </li>
+            <Navbar/>
 
-                     <li>
-                      <Scroll
-                          activeClass="active"
-                          to="clubs-team"
-                          spy ={true}
-                          smooth={true}
-                          offset={-70}
-                          duration={0}
-                        >
-                        Team
-                      </Scroll>
-                     </li>
-
-                     <li>
-                      <Scroll
-                          activeClass="active"
-                          to="club-activity-component"
-                          spy ={true}
-                          smooth={true}
-                          offset={-70}
-                          duration={0}
-                        >
-                        Activities
-                      </Scroll>
-                     </li>
-
-                    </ul>
-                  </div>
-              </div>
             </div>
             <div className="clubs-body">
                  
@@ -111,26 +41,31 @@ var Page = () => {
 
                   <div className="club-what-do-in-two">
                     <div className="club-what-do-box">
-                      <BsFileEarmarkCode className='icons-react'/> Web Development
+                      {/* <BsFileEarmarkCode className='icons-react'/> */}
+                       Web Development
                         </div>
                           <div className="club-what-do-box">
-                          <BsFileEarmarkCode className='icons-react'/>
+                          {/* <BsFileEarmarkCode className='icons-reactPresident ZeroOne */}
                            Web Development
                        </div>
                     <div className="club-what-do-box">
-                  <BsFileEarmarkCode className='icons-react'/> Web Development
+                  { /* <BsFileEarmarkCode className='icons-react'/> */}
+                   Web Development
                 </div>
               </div>
           
               <div className="club-what-do-in-three">
                 <div className="club-what-do-box">
-                  <BsFileEarmarkCode className='icons-react'/> Web Development
+                  {/* <BsFileEarmarkCode className='icons-react'/> */}
+                   Web Development
                     </div>
                      <div className="club-what-do-box">
-                       <BsFileEarmarkCode className='icons-react'/> Web Development
+                       {/* <BsFileEarmarkCode className='icons-react'/> */}
+                        Web Development
                         </div>
                      <div className="club-what-do-box">
-                    <BsFileEarmarkCode className='icons-react'/> Web Development
+                    {/* <BsFileEarmarkCode className='icons-react'/> */}
+                     Web Development
                 </div>
               </div>
             </div>
@@ -184,26 +119,62 @@ var Page = () => {
 
                   <div className="clubs-team-in-two">
                     <div className="member-box">
-                        <img src={deepak} alt="" />
+                        <div className="member-name">
+                          <img src={deepak} alt="" />
+                        </div>
+                        <div className="member-details">
+                            <p>Deepak</p>
+                            <p>President ZeroOne</p>
+                        </div>
                       </div>
                   <div className="member-box">
-                        <img src={deepak} alt="" />
+                    <div className="member-name">
+                          <img src={deepak} alt="" />
+                        </div>
+                        <div className="member-details">
+                            <p>Deepak</p>
+                            <p>President ZeroOne</p>
+                        </div>
                   </div>
                     <div className="member-box">
-                        <img src={deepak} alt="" />
+                       <div className="member-name">
+                          <img src={deepak} alt="" />
+                        </div>
+                        <div className="member-details">
+                            <p>Deepak</p>
+                            <p>President ZeroOne</p>
+                        </div>
                     </div>
                        </div>
 
                   <div className="clubs-team-in-three">
-                    <div className="member-box">
-                        <img src={deepak} alt="" />
-                     </div>
                   <div className="member-box">
-                      <img src={deepak} alt="" />
+                        <div className="member-name">
+                          <img src={deepak} alt="" />
+                        </div>
+                        <div className="member-details">
+                            <p>Deepak</p>
+                            <p>President ZeroOne</p>
+                        </div>
+                      </div>
+                  <div className="member-box">
+                    <div className="member-name">
+                          <img src={deepak} alt="" />
+                        </div>
+                        <div className="member-details">
+                            <p>Deepak</p>
+                            <p>President ZeroOne</p>
+                        </div>
                   </div>
                     <div className="member-box">
-                      <img src={deepak} alt="" />
-                  </div>  
+                       <div className="member-name">
+                          <img src={deepak} alt="" />
+                        </div>
+                        <div className="member-details">
+                            <p>Deepak</p>
+                            <p>President ZeroOne</p>
+                        </div>
+                    </div>
                 </div>
 
               </div>

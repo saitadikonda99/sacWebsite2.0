@@ -8,7 +8,7 @@ import './App.css';
 //import pages here 
 import Home from '../src/pages/Home/Home';
 import ClubsPage from '../src/ClubPages/clubspage';
-import ZeroOne from './ClubPages/TechnicalClubs/ZeroOne/Page';
+import ZeroOne from './ClubPages/TechnicalClubs/ZeroOne/Page'
 import Dashboard from '../src/dashboard/DashboardApp';
 
 function App() {

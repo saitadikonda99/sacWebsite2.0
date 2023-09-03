@@ -1,251 +1,95 @@
-/* import google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&display=swap');
-@import url(https://fonts.googleapis.com/css?family=Varela+Round);
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lusitana:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
-
-
-.HomeComponent .button_container {
-     
-    display: flex;
-    z-index: 100;
-    flex-direction: row;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.HomeComponent {
+    font-family: 'Poppins', sans-serif;
 }
 
-#google_translate_element {
+.nav {
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+.nav-in-one-in {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-in-one-in ul {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 1rem 0rem;
+}
+.nav-in-one-in ul li {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+
+}
+.nav-links {
+    color: white;
+    text-decoration: none;
+}
+
+.scrolled {
+    background-color: rgb(151, 0, 3); 
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.scrolled ul {
+    padding: 0.5rem 0rem;
+    transition: padding 0.2s ease; /* Add a smooth transition effect */
+}
+.Home-one-in {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.Home-one-in::before {
+    content: "";
     position: absolute;
-    z-index: 999999999;
-    right: 130px;
-    top: 120px;
-}
-.HomeComponent #navbar {
-    position: fixed;
-    top: 0;
-    width: 70%;
-    transition: top 0.3s;
-  }
-
-  .HomeComponent  .other {
-    position: absolute !important;
-    margin-top: 50px;
-    z-index: 99999999 !important;
-    width: 20%;
-  }
-
-  .HomeComponent   .other img {
-    float: left;
-    margin-left: 20px;
-    width: 100%;
-  }
-  #newsac {
-    width: 120%;
-  }
-  #oldsac {
-    width: 120%;
-  }
-
-
-
-.HomeComponent .button_container.active .top {
-     transform: translateY(11px) translateX(0) rotate(45deg);
-     background: #fff;
-     
-}
-.HomeComponent  .button_container.active .middle {
-     opacity: 0;
-     background: #fff;
-}
-.HomeComponent .button_container.active .bottom {
-     transform: translateY(-11px) translateX(0) rotate(-45deg);
-     background: #fff;
-}
-
-.HomeComponent .hidden {
-    display: none;
-}
-
-.HomeComponent  .overlay.open {
-     opacity: 1;
-     visibility: visible;
-     height: 100%;
-}
-.HomeComponent .overlay.open #newsac {
-    display: none;
-}
-.HomeComponent .overlay .open li {
-     animation: fadeInRight 0.5s ease forwards;
-     animation-delay: 0.35s;
-     
-}
-
-.HomeComponent  .overlay.open li:nth-of-type(2) {
-     animation-delay: 0.1s;
-}
-.HomeComponent  .overlay.open li:nth-of-type(3) {
-     animation-delay: 0.1s;
-}
-.HomeComponent  .overlay.open li:nth-of-type(4) {
-     animation-delay: 0.1s;
-}
-
-.mainAnother {
-    display: flex;
-    margin-top: 50px;
-     top: 5%;
-     right: 2%;
-     height: 60px;
-     cursor: pointer;
-     z-index: 100;
-     transition: opacity 0.25s ease;
-    background-color: rgb(151, 0, 3);
-    flex-direction: column;
-    width: 12% !important;
-    display: flex !important; 
-    flex-direction: row ! important; 
-
-  }
-
-  .strides {
-    width: 50%;
-    border-left: 1px solid white;
-    flex-direction: row;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .strides span {
-    background: white;
-    height: 5px;
-    width: 60%;
-    transition: all 0.35s ease;
-    cursor: pointer;
-    margin-top: 5px;
-  }
-
- @keyframes fadeInRight {
-     0% {
-         opacity: 0;
-         left: 20%;
-    }
-     100% {
-         opacity: 1;
-         left: 0;
-    }
-}
-
-
-
-
-.HomeComponent  .overlay.open  .boxdown-two img{
-    display: block;
-}
-
-.HomeComponent .boxdown span{
-    display: block;
-    width: 10px;
-    height: 10px;
-    border-bottom: 3px solid white;
-    border-right: 3px solid white;
-    transform: rotate(45deg);
-    margin: -20px;
-    animation: animate 2s infinite;
-}
-
-.HomeComponent .boxdown span:nth-child(2)
-{
-    animation-delay: -0.1s;
-}
-
-.HomeComponent .boxdown span:nth-child(3)
-{
-    animation-delay: -0.1s;
-}
-
-.HomeComponent .overlay {
-    height: 0%;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(0,0,0);
-    overflow-y: hidden;
-    transition: 0.5s;
-}
-
-.HomeComponent .overlay img {
-    width: 5%;
-    position: absolute;
-    left: 50px;
-    top: 30px;
-}
-.HomeComponent .overlay-content {
-    position: relative;
-    top: 25%;
     width: 100%;
-    text-align: center;
-    margin-top: 30px;
+    height: 20vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+
+    z-index: 1;
 }
 
-.HomeComponent .overlay .closebtn {
+
+.Home-one-in video {
     position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
 }
 
-@media screen and (max-height: 450px) {
-  .overlay {overflow-y: auto;}
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-}
 
-@keyframes animate{
-    
-    0%{
-        opacity: 0;
-        transform: rotate(45deg) translate(-20px, -20px);
-    }
-    50%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-        transform: rotate(45deg) translate(20px, 20px);
-    }
-}
 
-.users {
-    width: 50%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .users i {
-    font-size: 2em;
-    color: white;
-  }
 
-  
+
+
+
+
+
+
+
+
 
 .HomeComponent .post-slides {
     background-color: rgb(151, 0, 3);
@@ -253,13 +97,13 @@
     border: 1px solid rgb(151, 0, 3);
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 12px;
 
 }
 .HomeComponent #poss {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 40px;
 }
@@ -374,11 +218,11 @@
 }
 
 .HomeComponent .events-heading h1 {
-    font-family: 'Righteous', cursive;
+    font-family: 'Poppins', sans-serif;
     font-size: 60px;
 }
 .HomeComponent .events-heading h3 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 30px;
     font-weight: 100;
     margin-bottom: 60px;
@@ -503,13 +347,13 @@
 
 }
 .HomeComponent  .about-heading h1 {
-    font-family: 'Righteous', cursive;
+    font-family: 'Poppins', sans-serif;
     font-size: 60px;
 }
 
 
 .HomeComponent  .about-heading h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 30px;
     font-weight: 400;
     color: rgb(151, 0, 3);
@@ -583,7 +427,7 @@
     font-weight: 700;
     color: rgb(151, 0, 3);
     padding: 10px;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .HomeComponent  .quicklinks-inner li {
@@ -592,7 +436,7 @@
     margin: 15px 10px 10px 10px;
     color: black;
     font-weight: 500;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .HomeComponent  .qls {
@@ -606,7 +450,7 @@
 }
 .HomeComponent  .quick-image h1 {
     font-size: 40px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-top: 30%;
 }
 .HomeComponent  .exp {
@@ -624,64 +468,6 @@
 }
 
 
-
-
-.HomeComponent  .team {
-    background-color: whitesmoke;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-.HomeComponent  .team-heading h1 {
-    text-align: left;
-    margin-left: 7%;
-
-    border-bottom: 4px solid rgb(151, 0, 3);
-    width: 40%;
-    padding-bottom: 15px;
-}
-.HomeComponent  .team-one {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    margin: auto;
-}
-
-.HomeComponent  .mem {
-    width: 15%;
-    margin: 20px;
-    position: relative;
-}
-
-.HomeComponent  .mem::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 15%;
-    background: #e5e5e5;
-    opacity: 0;
-    transition: .5s ease all;
-  }
-
-  .HomeComponent  .mem img {
-    width: 120%;
-}
-.mem-img {
-    border: 2px solid black;
-    border-radius: 50%;
-}
-
-.HomeComponent  .mem img:hover {
-    zoom: 1.005;
-}
-
-.HomeComponent  .mem img {transition: .5s ease all; width: 100%; object-fit:cover;}
-
-.HomeComponent  .mem:hover img {
-  transform: scale(1.1);
-}
 
 
 
@@ -722,7 +508,7 @@
 }
 .HomeComponent .news-one-header-one h1 {
     font-size: 2.7vw;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     
 }
 .HomeComponent  .news-one-header-two {
@@ -808,7 +594,7 @@
 .HomeComponent  .news-two-header-one {
     width: 25%;
     text-align: left;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .HomeComponent  .news-two-header-two {
     width: 75%;
@@ -822,7 +608,7 @@
 }
 .HomeComponent .news-two-header-one h1 {
     font-size: 2.7vw;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .HomeComponent  .news-two-inner {
@@ -852,12 +638,12 @@
 .HomeComponent  .news-three-header-one {
     width: 30%;
     text-align: left;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 
 }
 .HomeComponent .news-three-header-one h1 {
     font-size: 2.7vw;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .HomeComponent  .news-three-header-two {
     width: 70%;
@@ -919,42 +705,8 @@
      width: 50%;
 }
 
-.videoContainer {
-    position: relative;
-    /* box-shadow: rgba(0, 0, 0, 0.6) 0px 50px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 0px 0px 0px inset; */
 
-}
 
-.videoContainer video {
-    position: relative;
-    z-index: -2;
-    opacity: 0.9;
-}
-
-.videoContainer h1 {
-    font-size: 80px;
-    font-weight: 900;   
-    text-shadow: 0px 0px 5px #000000;
-}
-.videoContainer span {
-    color: black;
-    font-size: 30px;
-}
-.videoContainer h4 {
-    font-size: 20px;
-    padding-top: 20px;
-    padding-bottom: 5px;
-    text-shadow: 0px 0px 5px #000000;
-    font-family: 'Cardo', serif;
-    /* background: rgba(172, 83, 83, 0.2); */
-    background-color: rgb(151, 0, 3);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-top: 3px solid black;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-}
 .box {
     background-color: rgb(151, 0, 3);
     border: 1px solid rgb(151, 0, 3);
@@ -1092,13 +844,13 @@
     border: 1px solid rgb(151, 0, 3);
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 12px;
 }
 
 #poss {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 40px;
 }
@@ -1125,7 +877,7 @@
     border-bottom: 5px solid rgb(151, 0, 3);
     position: relative;
     overflow: hidden;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .glan:hover {
@@ -1149,157 +901,6 @@
     width: 90%;
 }
 
-.activities {
-    background-color: white;
-    z-index: 9999999999999999 !important;
-}
-
-.activities-heading h1 {
-    color: black;
-    font-size: 4vw;
-}
-
-.underlin {
-    text-decoration: underline 2px solid black;
-    text-underline-offset: 10px;
-}
-.activities-inner {
-    width: 90%;
-    margin: auto;
-}
-.activities-one {
-    width: 70%;
-    text-align: justify;
-}
-.activities-one h3 {
-    font-weight: 800;
-    font-size: 35px;
-    font-family: 'Lato', sans-serif;
-    line-height: 48px;
-    text-shadow: 0.001em 0.001em 0.6em #f3ebeb; 
-}
-.activities-one p {
-    color: grey;
-}
-#dark {
-    color: black;
-    font-weight: 600;
-    margin-left: 7px;
-    font-size: 20px;
-}
-
-.activities {
-    padding: 40px 0px 40px 0px;
-}
-.activities-two {
-    display: flex;
-}
-.activities-two-one {
-    width: 40%;
-}
-.activities-two-two {
-    width: 60%;
-}
-.activities-two-two img {
-    margin-top: 30px;
-    width: 80%;
-}
-.activities-two-one p {
-    width: 100%;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: justify;
-    color: rgb(151, 0, 3);
-}
-
-.activities-inner-two-one {
-    display: flex;
-    padding: 70px 0px 30px 0px;
-}
-.activities-inner-two-one-one {
-    width: 50%;
-
-}
-.activities-inner-two-one-one h1 {
-    width: 50%;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 20%;
-    font-size: 60px;
-}
-.activities-inner-two-one-one p {
-    font-family: sans-serif;
-    width: 60%;
-    text-align: left;
-    margin-left: 20%;
-    font-weight: 540;
-}
-.activities-inner-two-one-two {
-    width: 50%;
-}
-.activities-inner-two-one-two img {
-    width: 90%;
-}
-
-
-.activities-inner-two-two {
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 70px 0px 30px 0px;
-}
-.activities-inner-two-two-one {
-    width: 50%;
-
-}
-.activities-inner-two-two-one h1 {
-    width: 50%;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 20%;
-    font-size: 60px;
-}
-.activities-inner-two-two-one p {
-    font-family: sans-serif;
-    width: 60%;
-    text-align: left;
-    margin-left: 20%;
-    font-weight: 540;
-}
-.activities-inner-two-two-two {
-    width: 50%;
-}
-.activities-inner-two-two-two img {
-    width: 70%;
-}
-
-.activities-inner-two-three {
-    display: flex;
-    padding: 70px 0px 30px 0px;
-}
-.activities-inner-two-three-one {
-    width: 50%;
-
-}
-.activities-inner-two-three-one h1 {
-    width: 50%;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 20%;
-    font-size: 60px;
-}
-.activities-inner-two-three-one p {
-    font-family: sans-serif;
-    width: 60%;
-    text-align: left;
-    margin-left: 20%;
-    font-weight: 540;
-}
-.activities-inner-two-three-two {
-    width: 50%;
-}
-.activities-inner-two-three-two img {
-    width: 70%;
-}
 
 .upcoming-heading {
     background-color: rgb(151, 0, 3);
@@ -1347,12 +948,12 @@
 }
 
 .events-heading h1 {
-    font-family: 'Righteous', cursive;
+    font-family: 'Poppins', sans-serif;
     font-size: 60px;
 }
 
 .events-heading h3 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 30px;
     font-weight: 100;
     margin-bottom: 60px;
@@ -1477,12 +1078,12 @@
 }
 
 .about-heading h1 {
-    font-family: 'Righteous', cursive;
+    font-family: 'Poppins', sans-serif;
     font-size: 60px;
 }
 
 .about-heading h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 30px;
     font-weight: 400;
     color: rgb(151, 0, 3);
@@ -1593,7 +1194,7 @@
     color: rgb(151, 0, 3);
     /* background-color: black;  */
     padding: 10px;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .quicklinks-inner li {
     list-style: none;
@@ -1601,7 +1202,7 @@
     margin: 15px 10px 10px 10px;
     color: black;
     font-weight: 500;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .qls {
@@ -1615,7 +1216,7 @@
 }
 .quick-image h1 {
     font-size: 40px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-top: 30%;
 }
 .exp {
@@ -1631,62 +1232,6 @@
     width: 100%;
     margin-top: 150px;
 }
-
-.team {
-    background-color: whitesmoke;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-.team-heading h1 {
-    text-align: left;
-    margin-left: 7%;
-
-    border-bottom: 4px solid rgb(151, 0, 3);
-    width: 40%;
-    padding-bottom: 15px;
-}
-.team-one {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    margin: auto;
-}
-.mem {
-    width: 15%;
-    margin: 20px;
-    position: relative;
-}
-
-.mem::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 15%;
-    background: #e5e5e5;
-    opacity: 0;
-    transition: .5s ease all;
-  }
-.mem-img {
-    overflow: hidden;
-}
-.mem-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-}
-.mem img:hover {
-    zoom: 1.005;
-}
-
-.mem img {transition: .5s ease all; width: 100%; object-fit:cover;}
-.mem:hover img {
-  transform: scale(1.1);
-}
-
 
 
 
@@ -1802,7 +1347,7 @@
 .news-two-header-one {
     width: 25%;
     text-align: left;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .news-two-header-two {
     width: 75%;
@@ -1840,7 +1385,7 @@
 .news-three-header-one {
     width: 25%;
     text-align: left;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 
 }
 .news-three-header-two {
@@ -1933,7 +1478,7 @@
 }
 .joinus h1 {
     font-size: 90px; 
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: black;
     width: 80%;
     margin: auto; 
@@ -1954,35 +1499,8 @@
     .HomeComponent {
         overflow: hidden;
     }
-    .HomeComponent  .other {
-        position: absolute !important;
-        margin-top: 50px;
-        z-index: 99999999 !important;
-        width: 20%;
-      }
     
-      .HomeComponent   .other img {
-        float: left;
-        margin-left: 20px;
-        width: 100%;
-      }
-      .mainAnother {
-        display: flex;
-        margin-top: 50px;
-         top: 0% !important;
-         right: 2%;
-         height: 40px;
-         cursor: pointer;
-         z-index: 100;
-         transition: opacity 0.25s ease;
-        background-color: rgb(151, 0, 3);
-        flex-direction: column;
-        width: 15% !important;
-        display: flex !important; 
-        flex-direction: row ! important; 
-
-    
-      }
+     
       .bind {
         position: absolute;
         top: 50%;
@@ -1994,9 +1512,7 @@
         font-size: 30px;
     }
 
-    #activit {
-        display: none;
-    }
+   
     .box {
         background-color: rgb(151, 0, 3);
         border: 1px solid rgb(151, 0, 3);
@@ -2017,34 +1533,9 @@
         margin-left: 10px;
         display: inline; 
     }
-    .activities {
-        display: block;
-    }
+   
+    
 
-    .HomeComponent .noname {
-        background-image: url('../../Assets/GroupPhoto.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        padding: 60px 0px 60px 0px;
-    }
-
-    .HomeComponent .noname-text {
-        width: 100%;
-    }
-    .HomeComponent .noname-text h1 {
-        color: white;
-        font-size: 80px;
-        text-align: right;
-        text-shadow: 0.1em -0.1em 0.2em #000000; 
-        margin-left: 10%;
-    }
-    .HomeComponent .noname-image {
-        width: 0%;
-    }
-    .HomeComponent .noname-image img {
-        width: 100%;
-    }
 
 
     .HomeComponent  .about {
@@ -2053,7 +1544,7 @@
         background-color: whitesmoke;
     }
     .HomeComponent  .about-heading h1 {
-        font-family: 'Righteous', cursive;
+        font-family: 'Poppins', sans-serif;
         font-size: 40px;
     }
 
@@ -2111,69 +1602,6 @@
         zoom: 1.1;
     }
 
-    .HomeComponent  .team {
-        background-color: whitesmoke;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-    .HomeComponent  .team-heading h1 {
-        text-align: left;
-        margin-left: 7%;
-        border-bottom: 4px solid rgb(151, 0, 3);
-        width: 60%;
-        padding-bottom: 15px;
-        font-size: 25px;
-    }
-    .HomeComponent  .team-one {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        width: 90%;
-        margin: auto;
-    }
-
-    .HomeComponent  .mem {
-        width: 35%;
-        margin: 20px;
-        position: relative;
-    }
-
-    .HomeComponent  .mem::after {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 15%;
-        background: #e5e5e5;
-        opacity: 0;
-        transition: .5s ease all;
-    }
-
-    .HomeComponent  .mem img {
-        width: 120%;
-    }
-    .mem-img {
-        border: 2px solid black;
-        border-radius: 50%;
-    }
-
-    .HomeComponent  .mem img:hover {
-        zoom: 1.005;
-    }
-
-    .HomeComponent  .mem img {transition: .5s ease all; width: 100%; object-fit:cover;}
-
-    .HomeComponent  .mem:hover img {
-    transform: scale(1.1);
-    }
-
-    .HomeComponent .mem h3 {
-        font-size: 15px; 
-    }
-    .HomeComponent .mem p {
-        font-size: 20px;
-    }
 
     .HomeComponent  .news {
         width: 90%;
@@ -2258,7 +1686,7 @@
     .HomeComponent  .news-two-header-one {
         width: 100%;
         text-align: left;
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
     }
     .HomeComponent  .news-two-header-two {
         width: 0%;
@@ -2294,7 +1722,7 @@
     .HomeComponent  .news-three-header-one {
         width: 100%;
         text-align: left;
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
 
     }
     .HomeComponent  .news-three-header-two {
@@ -2350,7 +1778,7 @@
     }
     .joinus h1 {
         font-size: 50px; 
-        font-family: sans-serif;
+        font-family: 'Poppins', sans-serif;
         color: black;
         width: 80%;
         margin: auto; 

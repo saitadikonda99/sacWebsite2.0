@@ -6,12 +6,14 @@ import VisibilitySensor from 'react-visibility-sensor';
 import ScrollToTop from "react-scroll-to-top";
 import { Link as Scroll } from 'react-scroll';
 
-import NewNav from '../../components/NewNav/NewNav'; 
+
 import Footer from '../../components/Footer/Footer';
 
 import G20andSac from '../../Assets/Logos/G20andSac.png';
 import G20andSac2 from '../../Assets/Logos/G20andSac2.png';
 import GroupPhoto from '../../Assets/GroupPhoto.jpg'; 
+import newSacLogo2 from '../../Assets/Logos/newSacLogo2.png';
+import newSacLogo from '../../Assets/Logos/newSacLogo.png';
 import bck from '../../Assets/bck.jpg'; 
 import newVideo from '../../Assets/newVideo.mp4';  
 import AmarnadhDroneCompetition from '../../Assets/NewsImages/AmarnadhDroneCompetition.jpg'; 
@@ -37,8 +39,6 @@ const Home  = () => {
   }, []);
 
   const [isNavScrolled, setNavScrolled] = useState(false);
-
-  // Event listener to handle scroll event
   const handleScroll = () => {
     if (window.scrollY > 300) {
       setNavScrolled(true);
@@ -48,10 +48,7 @@ const Home  = () => {
   };
 
   useEffect(() => {
-    // Add the scroll event listener when the component mounts
     window.addEventListener('scroll', handleScroll);
-
-    // Remove the scroll event listener when the component unmounts
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -70,6 +67,12 @@ const Home  = () => {
           
           <div className={`nav ${isNavScrolled ? 'scrolled' : ''}`}>
             <div className="nav-in">
+            <div className="nav-in-two">
+                <div className="nav-in-two-in">
+                  {!isNavScrolled && <img className='logoini' src={newSacLogo} alt="" />}
+                  {isNavScrolled && <h1><Link className='homelink' to='/'>Student Activity Center</Link></h1>}
+                </div>
+              </div>
               <div className="nav-in-one">
                 <div className="nav-in-one-in">
                   <ul>
@@ -110,7 +113,7 @@ const Home  = () => {
                         </Scroll>  
                     </li>
                     <li>
-                      <Link className='nav-links' to='/'>Clubs</Link>
+                      <Link className='nav-links' to='/StudentClubs'>Clubs</Link>
                     </li>
                     <li>
                       <Link className='nav-links'  to='/'>Team</Link>
@@ -153,6 +156,18 @@ const Home  = () => {
               <div className="centered-text">
               <h1>Student Activity Center</h1>
               <p className="animate-text">Empowering Tomorrow's Leaders Today</p>
+            </div>
+            <div className="explore-sac">
+                    <Scroll
+                            activeClass="active"
+                            to="about"
+                            spy ={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={200}
+                          >   
+                          Explore SAC
+                    </Scroll>  
             </div>
             </div>
           </div>
@@ -485,7 +500,6 @@ const Home  = () => {
                         
                     </div>
 
-                    <Link to='/Home/Calendar' className='viewFull'>View Full Calendar</Link>
               </div>
             </div>
 

@@ -15,6 +15,41 @@
     position: fixed;
     z-index: 2;
 }
+.nav-in {
+    display: flex;
+}
+.nav-in-one {
+    width: 70%;
+}
+.nav-in-two {
+    width: 30%;
+}
+.logoini {
+    width: 40%;
+}
+.logoaft {
+    width: 30%;
+}
+.nav-in-two-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-in-two-in h1 {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-in-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homelink {
+    text-decoration: none;
+    color: white;
+}
 .nav-in-one-in {
     width: 90%;
     margin: auto;
@@ -22,7 +57,7 @@
     justify-content: flex-end;
 }
 .nav-in-one-in ul {
-    width: 65%;
+    width: 85%;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -42,7 +77,7 @@
 
 .scrolled {
     background-color: rgb(151, 0, 3); 
-    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    transition: background-color 0.3s ease;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .scrolled ul {
@@ -78,6 +113,16 @@
     object-fit: cover;
     z-index: 0;
 }
+.explore-sac {
+    position: absolute;
+    bottom: 0;
+    padding: 0.3rem 0rem;
+    font-size: 1.3rem;
+    background-color: rgb(151, 0, 3);
+    color: white;
+    width: 100%;
+}
+  
 .centered-text {
     position: absolute;
     top: 50%;
@@ -576,7 +621,7 @@
 }
 .HomeComponent  .news-header-one h1 {
     color: black;
-    font-size: 4vw;
+    font-size: 3rem;
 }
 .HomeComponent  .news-header-two {
     width: 55%;
@@ -596,7 +641,7 @@
     text-align: left;
 }
 .HomeComponent .news-one-header-one h1 {
-    font-size: 2.7vw;
+    font-size: 2.5vw;
     font-family: 'Poppins', sans-serif;
     
 }
@@ -681,12 +726,12 @@
     display: flex;
 }
 .HomeComponent  .news-two-header-one {
-    width: 25%;
+    width: 30%;
     text-align: left;
     font-family: 'Poppins', sans-serif;
 }
 .HomeComponent  .news-two-header-two {
-    width: 75%;
+    width: 70%;
     display: flex;
     align-items: center;
 }
@@ -696,13 +741,14 @@
     width: 100%;
 }
 .HomeComponent .news-two-header-one h1 {
-    font-size: 2.7vw;
+    font-size: 2.5rem;
     font-family: 'Poppins', sans-serif;
 }
 
 .HomeComponent  .news-two-inner {
     display: flex;
     column-gap: 30px;
+    margin: 1rem 0rem;
 }
 .HomeComponent  .news-two-inner p {
     text-align: left;
@@ -710,10 +756,11 @@
 }
 .HomeComponent  .news-two-inner h4 {
     text-align: left;
+    color: rgb(57, 57, 57);
 }
 .HomeComponent  .nws {
     border: 1px solid grey;
-    padding: 0px 25px 0px 25px;
+    padding: 1.5rem 1rem;
 }
 
 
@@ -725,17 +772,17 @@
     display: flex;
 }
 .HomeComponent  .news-three-header-one {
-    width: 30%;
+    width: 35%;
     text-align: left;
     font-family: 'Poppins', sans-serif;
 
 }
 .HomeComponent .news-three-header-one h1 {
-    font-size: 2.7vw;
+    font-size: 2.5rem;
     font-family: 'Poppins', sans-serif;
 }
 .HomeComponent  .news-three-header-two {
-    width: 70%;
+    width: 65%;
     display: flex;
     align-items: center;
 }
@@ -749,7 +796,7 @@
     justify-content: left;
     column-gap: 30px;
     row-gap: 30px;
-    margin-bottom: 70px;
+    margin: 2rem 0rem;
 }
 .HomeComponent  .dts {
     border: 1px solid black;
@@ -759,6 +806,9 @@
 .HomeComponent  .dts-one {
     width: 40%;
     border-right: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .HomeComponent  .dts-one h1 {
     font-size: 45px;
@@ -767,6 +817,10 @@
 .HomeComponent  .dts-two {
     width: 60%;
     padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 .HomeComponent  .dts-two h2 {
     font-size: 23px;
@@ -1561,8 +1615,8 @@
     background-color: whitesmoke;
     padding: 40px 0px 70px 0px;
 }
-.joinus h1 {
-    font-size: 90px; 
+.joinus-inner h1 {
+    font-size: 4rem;
     font-family: 'Poppins', sans-serif;
     color: black;
     width: 80%;
@@ -1695,13 +1749,7 @@
     .HomeComponent  .news-header {
         display: flex;
     }
-    .HomeComponent  .news-header-one {
-        width: 90%;
-        text-align: left;
-    }
-    .HomeComponent  .news-header-one h1 {
-        font-size: 50px;
-    }
+    
     .HomeComponent  .news-header-two {
         width: 10%;
         display: flex;

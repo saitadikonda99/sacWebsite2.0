@@ -8,13 +8,14 @@ import Footer from '../components/Footer/Footer';
 import StudentClubsImage from '../Assets/StudentClubsImage.jpeg';
 import ClubsPageDemo from '../Assets/ClubsPageDemo.jpeg';
 
-
-import { MdOutlineOpenInNew } from "react-icons/md";
+import NavBar from '../components/Navigation/Page';
 
 const clubspage = () => {
   return (
     <div className='clubspageComponent'>
+        <NavBar />
         <div className="clubspageContainer">
+            
             <div className="clubspage-header">
                 <div className="clubspage-header-in">
                     <h1>Student Clubs</h1>

@@ -24,7 +24,6 @@
     list-style: none;
 }
 
-
 .clubs-nav-in-one img {
     width: 40%;
 }
@@ -32,6 +31,10 @@
 .clubs-body {
     height: 100vh;
     border: 2px solid blue;
+}
+
+.clubs-body-in {
+    height: fit-content;
 }
 
 .clubs-activites {

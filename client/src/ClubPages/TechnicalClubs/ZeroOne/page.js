@@ -58,13 +58,13 @@ const page = () => {
               </div>
             </div>
             <div className="clubs-body">
-                
+                 
               </div>
               <div className="clubs-activites">
-              
+                <h1>Activites</h1>
               </div>
               <div className="clubs-team">
-              
+                <h1>Team</h1>
               </div>
           </div>
         </div>

@@ -123,7 +123,7 @@ const Home  = () => {
                 onMouseLeave={toggleClubDropdown}
                 className={`nav-links ${isClubDropdownVisible ? 'active' : ''}`}
               >
-                <Link to='/StudentClubs'>Clubs</Link>
+                <Link className='nav-links' to='/StudentClubs'>Clubs</Link>
                
               </li>
                     <li>

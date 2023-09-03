@@ -9,7 +9,7 @@ import './App.css';
 import Home from '../src/pages/Home/Home';
 import ClubsPage from '../src/ClubPages/clubspage';
 import ZeroOne from '../src/ClubPages/TechnicalClubs/ZeroOne/page';
-
+import Dashboard from '../src/dashboard/DashboardApp';
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -37,6 +37,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/zeroOne" element={<ZeroOne/>} />
         <Route path="/studentclubs" element={<ClubsPage/>} />
+        <Route path="/dashboard/*" element={<Dashboard/>} />
       </Routes>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Page.css';
+import './Cpage.css';
 import { Link as Scroll } from 'react-scroll';
 import  { useState } from 'react';
 

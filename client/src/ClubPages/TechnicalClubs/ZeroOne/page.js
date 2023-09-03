@@ -42,7 +42,7 @@ var Page = () => {
                              <p>This is a community which provides <span> free hands-on training </span> in various fields of computer science and have an inclusive community focusing on a <span> learn by doing </span> approach.</p>
                           </div>
                       </div>
-                      <div className="=">
+                      <div className="club-body-in-three">
                         <button>
                           <Scroll to="clubs-what-do" smooth={true} duration={0}>
                             <p>Explore the Club</p>

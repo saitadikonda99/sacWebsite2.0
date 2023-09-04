@@ -57,22 +57,25 @@
     justify-content: flex-end;
 }
 .nav-in-one-in ul {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     list-style: none;
     padding: 1rem 0rem;
 }
 .nav-in-one-in ul li {
-    color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
+    color: white;
 
 }
 .nav-links {
     color: white;
     text-decoration: none;
+}
+.nav-scroll-links {
+    color: white;
 }
 
 .scrolled {
@@ -121,6 +124,9 @@
     background-color: rgb(151, 0, 3);
     color: white;
     width: 100%;
+}
+.explore-sac-scroll {
+    color: white;
 }
   
 .centered-text {

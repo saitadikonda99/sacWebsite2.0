@@ -82,81 +82,13 @@ const Home  = () => {
               <div className="nav-in-one">
                 <div className="nav-in-one-in">
                   <ul>
-                    <li>
-                      <Scroll
-                          activeClass="active"
-                          to="news"
-                          spy ={true}
-                          smooth={true}
-                          offset={100}
-                          duration={200}
-                        >   
-                        News
-                      </Scroll>  
-                    </li>
-                    <li>
-                      <Scroll
-                            activeClass="active"
-                            to="news-two"
-                            spy ={true}
-                            smooth={true}
-                            offset={-10}
-                            duration={200}
-                          >   
-                          Events
-                        </Scroll>  
-                    </li>
-                    <li>
-                      <Scroll
-                            activeClass="active"
-                            to="about"
-                            spy ={true}
-                            smooth={true}
-                            offset={-10}
-                            duration={200}
-                          >   
-                          About
-                        </Scroll>  
-                    </li>
-                    <li>
-                      <Link className='nav-links' to='/dashboard'>Dashboard</Link>
-                    </li>
-                    <li
-                onMouseEnter={toggleClubDropdown}
-                onMouseLeave={toggleClubDropdown}
-                className={`nav-links ${isClubDropdownVisible ? 'active' : ''}`}
-              >
-                <Link className='nav-links' to='/StudentClubs'>Clubs</Link>
-               
-              </li>
-                    <li>
-                      <Link className='nav-links'  to='/'>Team</Link>
-                    </li>
-                    <li>
-                      <Scroll
-                            activeClass="active"
-                            to="about"
-                            spy ={true}
-                            smooth={true}
-                            offset={-10}
-                            duration={200}
-                          >   
-                          Student Council
-                        </Scroll>  
-                    </li>
-                    <li>
-                      <Scroll
-                            activeClass="active"
-                            to="about"
-                            spy ={true}
-                            smooth={true}
-                            offset={-10}
-                            duration={200}
-                          >   
-                          News Letter
-                        </Scroll>  
-                    </li>
-
+                    <li><Scroll className='nav-scroll-links' activeClass="active" to="news" spy ={true} smooth={true} offset={100} duration={200} >News</Scroll></li>
+                    <li><Scroll className='nav-scroll-links' activeClass="active" to="news-two" spy ={true} smooth={true} offset={-10} duration={200} >Events</Scroll></li>
+                    <li><Scroll className='nav-scroll-links' activeClass="active" to="about" spy ={true} smooth={true} offset={-10} duration={200}>About</Scroll></li>
+                    {/* <li><Link className='nav-links' to='/dashboard'>Dashboard</Link></li> */}
+                    <li><Link className='nav-links' to='/StudentClubs'>Clubs</Link></li>
+                    <li><Link className='nav-links'  to='/'>Team</Link></li>
+                    <li><Scroll className='nav-scroll-links' activeClass="active" to="about" spy ={true} smooth={true} offset={-10} duration={200}>Student Council</Scroll></li><li><Scroll className='nav-scroll-links' activeClass="active" to="about" spy ={true} smooth={true} offset={-10} duration={200}>News Letter</Scroll></li>
                   </ul>
                 </div>
               </div>
@@ -173,6 +105,7 @@ const Home  = () => {
             </div>
             <div className="explore-sac">
                     <Scroll
+                    className='explore-sac-scroll'
                             activeClass="active"
                             to="about"
                             spy ={true}

@@ -39,6 +39,7 @@ const Home  = () => {
   }, []);
 
   const [isNavScrolled, setNavScrolled] = useState(false);
+  const [expandedQuestions, setExpandedQuestions] = useState([]);
   const handleScroll = () => {
     if (window.scrollY > 300) {
       setNavScrolled(true);
@@ -58,6 +59,40 @@ const Home  = () => {
 
   const toggleClubDropdown = () => {
     setClubDropdownVisible(!isClubDropdownVisible);
+  };
+
+
+  const faqData = [
+    {
+      question: 'What is Student Activity Center at Koneru Lakshmaiah Education Foundation?',
+      answer: 'Student Activity Center is a department at Koneru Lakshmaiah Education Foundation that is designed to accommodate path-breaking ideas, problem-solving postulates, and artistic assertions, creating an environment that encourages innovation and experimentation.',
+    },
+    {
+      question: 'What is Student Activity Center at Koneru Lakshmaiah Education Foundation?',
+      answer: 'Student Activity Center is a department at Koneru Lakshmaiah Education Foundation that is designed to accommodate path-breaking ideas, problem-solving postulates, and artistic assertions, creating an environment that encourages innovation and experimentation.',
+    },
+    {
+      question: 'What is Student Activity Center at Koneru Lakshmaiah Education Foundation?',
+      answer: 'Student Activity Center is a department at Koneru Lakshmaiah Education Foundation that is designed to accommodate path-breaking ideas, problem-solving postulates, and artistic assertions, creating an environment that encourages innovation and experimentation.',
+    },
+    {
+      question: 'What is Student Activity Center at Koneru Lakshmaiah Education Foundation?',
+      answer: 'Student Activity Center is a department at Koneru Lakshmaiah Education Foundation that is designed to accommodate path-breaking ideas, problem-solving postulates, and artistic assertions, creating an environment that encourages innovation and experimentation.',
+    },
+    {
+      question: 'What is Student Activity Center at Koneru Lakshmaiah Education Foundation?',
+      answer: 'Student Activity Center is a department at Koneru Lakshmaiah Education Foundation that is designed to accommodate path-breaking ideas, problem-solving postulates, and artistic assertions, creating an environment that encourages innovation and experimentation.',
+    },
+    // Add more FAQ items here
+  ];
+
+
+  const toggleAnswer = (index) => {
+    if (expandedQuestions.includes(index)) {
+      setExpandedQuestions(expandedQuestions.filter((item) => item !== index));
+    } else {
+      setExpandedQuestions([...expandedQuestions, index]);
+    }
   };
 
   
@@ -88,7 +123,7 @@ const Home  = () => {
                     {/* <li><Link className='nav-links' to='/dashboard'>Dashboard</Link></li> */}
                     <li><Link className='nav-links' to='/StudentClubs'>Clubs</Link></li>
                     <li><Link className='nav-links'  to='/'>Leadership</Link></li>
-                    <li><Scroll className='nav-scroll-links' activeClass="active" to="about" spy ={true} smooth={true} offset={-10} duration={200}>Student Council</Scroll></li><li><Scroll className='nav-scroll-links' activeClass="active" to="about" spy ={true} smooth={true} offset={-10} duration={200}>News Letter</Scroll></li>
+                    <li><Scroll className='nav-scroll-links' activeClass="active" to="about" spy ={true} smooth={true} offset={-10} duration={200}>Student Council</Scroll></li><li><Scroll className='nav-scroll-links' activeClass="active" to="about" spy ={true} smooth={true} offset={-10} duration={200}>Blogs</Scroll></li>
                   </ul>
                 </div>
               </div>
@@ -462,7 +497,33 @@ const Home  = () => {
             </div>
 
 
-
+            <div className="faq">
+      <div className="faq-inner">
+        <div className="faq-one">
+          <div className="faq-one-in">
+            <h1>Frequently Asked Questions</h1>
+          </div>
+        </div>
+        <div className="faq-two">
+          <div className="faq-two-in">
+            <div className="faq-two-one">
+              {faqData.map((item, index) => (
+                <div key={index}>
+                  <div className="faq-qsn" onClick={() => toggleAnswer(index)}>
+                    <p>{item.question}</p>
+                  </div>
+                  {expandedQuestions.includes(index) && (
+                    <div className="faq-ans">
+                      <p>{item.answer}</p>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 

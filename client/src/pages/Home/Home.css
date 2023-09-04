@@ -1288,36 +1288,6 @@
 }
 
 
-.faq {
-    padding-top: 50px;
-    background-color: rgb(48, 12, 12);
-    border-bottom: 1px solid rgb(53, 51, 51);
-    padding-bottom: 70px;
-}
-
-.faq h1 {
-    color: white;
-    font-size: 40px;
-    display: inline;
-    z-index: 99;
-}
-
-.faqImage {
-    display: inline;
-
-}
-.faqImage img {
-    width: 3%;
-    position: absolute;
-    margin-left: 30px;
-}
-
-.faqInner {
-    width: 90%;
-    margin: auto;
-    margin-top: 80px;
-}
-
 
 /* quick links */
 .quicklinks {
@@ -1637,6 +1607,94 @@
     padding: 10px;
     border-radius: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.faq {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+.faq-one-in {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+}
+.faq-two-in {
+    width: 90%;
+    margin: auto;
+}
+.faq-qsn {
+    text-align: left;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+    background-color: lightgrey;
+}
+.faq-qsn:hover {
+    cursor: pointer;
+}
+.faq-ans {
+    background-color: rgb(151, 0, 3);
+    /* background-color: black; */
+    padding: 1rem;
+}
+.faq-ans p {
+    color: white;
+}
+.faq-two {
+    margin-top: 1rem;
+}
+
+/* 
+.faq {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.faq-one h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.faq-qsn {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.faq-qsn:hover {
+  background-color: #f0f0f0;
+}
+
+.faq-ans {
+  display: none;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+}
+
+.faq-qsn.active + .faq-ans {
+  display: block;
+}
+
+ */
+
+
+
+
 
 
 

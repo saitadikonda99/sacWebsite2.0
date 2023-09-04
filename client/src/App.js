@@ -10,6 +10,7 @@ import Home from '../src/pages/Home/Home';
 import ClubsPage from '../src/ClubPages/clubspage';
 import ZeroOne from './ClubPages/TechnicalClubs/ZeroOne/Cpage'
 import Dashboard from '../src/dashboard/DashboardApp';
+import Leadership from '../src/pages/Leadership/Page';
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -37,6 +38,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/zeroOne" element={<ZeroOne/>} />
         <Route path="/studentclubs" element={<ClubsPage/>} />
+        <Route path="/leadership" element={<Leadership/>} />
         <Route path="/dashboard/*" element={<Dashboard/>} />
       </Routes>
     </div>

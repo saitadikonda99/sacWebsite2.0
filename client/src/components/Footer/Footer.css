@@ -88,6 +88,7 @@
 .official-communication h4 {
     width: 100%;
     font-weight: 400;
+    color: white;
 }
 .official-communication h3 {
     color: white;
@@ -102,6 +103,7 @@
     width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 400;
+    color: white;
 }
 .campus h3 {
     color: white;

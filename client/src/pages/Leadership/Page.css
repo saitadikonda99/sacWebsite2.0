@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.Leadership-one {
+    padding: 3rem 0rem;
+    background-color: whitesmoke;
+}
+.Leadership-one-in {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+}
+.Leadership-one-in h1 {
+    font-size: 3rem;
+}
+.Leadership-one-in p {
+    font-size: 2.0rem;
+    color: grey;
+    width: 70%;
+}
+
+
+
+
+
+
+
+.Leadership-two {
+    margin: 3rem 0rem;
+}
+.Leadership-two-one-header-in {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    border-bottom: 2px solid grey;
+    margin-bottom: 1rem;
+
+}
+
+
+
+
+
+
+
+.Leadership-two-two-header-in {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    border-bottom: 2px solid grey;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+.Leadership-two-three-header-in {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    border-bottom: 2px solid grey;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+.Leadership-two-four-header-in {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    border-bottom: 2px solid grey;
+    margin-bottom: 1rem;
+}
+
+

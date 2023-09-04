@@ -87,7 +87,7 @@ const Home  = () => {
                     <li><Scroll className='nav-scroll-links' activeClass="active" to="about" spy ={true} smooth={true} offset={-10} duration={200}>About</Scroll></li>
                     {/* <li><Link className='nav-links' to='/dashboard'>Dashboard</Link></li> */}
                     <li><Link className='nav-links' to='/StudentClubs'>Clubs</Link></li>
-                    <li><Link className='nav-links'  to='/'>Team</Link></li>
+                    <li><Link className='nav-links'  to='/'>Leadership</Link></li>
                     <li><Scroll className='nav-scroll-links' activeClass="active" to="about" spy ={true} smooth={true} offset={-10} duration={200}>Student Council</Scroll></li><li><Scroll className='nav-scroll-links' activeClass="active" to="about" spy ={true} smooth={true} offset={-10} duration={200}>News Letter</Scroll></li>
                   </ul>
                 </div>

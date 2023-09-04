@@ -29,7 +29,6 @@ const Footer = () => {
                 <div className="Footer-two-inner">
 
                   <div className="official-communication">
-                     <div id="google_translate_element"></div>
                       <h3>Official Communication</h3>
                       <h4>K L Deemed to be University,
                           Admin. Office, 29-36-38, Museum Road, Governorpet, Vijayawada. A.P., India. 

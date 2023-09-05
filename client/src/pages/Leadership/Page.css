@@ -57,7 +57,7 @@
     padding: 0.2rem 0.4rem;
 }
 
-.lstcmn-body {
+.LeadershipComponent .lstcmn-body {
     width: 90%;
     margin: auto;
     display: flex;
@@ -70,7 +70,7 @@
 }
 
 
-.profile-card {
+.LeadershipComponent .profile-card {
     background-color: #fff;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     max-width: 19%;

@@ -20,6 +20,7 @@ import AmarnadhDroneCompetition from '../../Assets/NewsImages/AmarnadhDroneCompe
 import PreBootCamp from '../../Assets/NewsImages/PreBootCamp.jpg';
 import ProjectsImage from '../../Assets/ProjectsImage.webp';
 import storiesImage from '../../Assets/storiesImage.jpeg';
+import YtLogo from '../../Assets/Logos/YtLogo.png';
 
 
 
@@ -559,6 +560,86 @@ const Home  = () => {
             </div>
 
 
+            <div className="follow">
+              <div className="follow-in">
+                <div className="follow-header">
+                  <div className="follow-header-in">
+                    <h1>Follow Student Activity Center at KLEF</h1>
+                  </div>
+                </div>
+
+                <div className="follow-header-one">
+                  <div className="follow-header-one-in">
+                    <div className="follow-comps">
+                      <div className="follow-comps-inner">
+                        <div className="follow-comps-one">
+                          <div className="follow-comps-one-in">
+                            <img src={YtLogo} alt="youtube logo" />
+                          </div>
+                        </div>
+                        <div className="follow-comps-two">
+                          <h1>YouTube</h1>
+                          <p>Subscribe to join a community of creative developers and learn the latest in Google technology.</p>
+                        </div>
+                        <div className="follow-comps-three">
+                          <a href="https://www.youtube.com/channel/UC4QDq4yqUO3Xc0kQrXJnU1w">Learn More</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="follow-comps">
+                      <div className="follow-comps-inner">
+                        <div className="follow-comps-one">
+                          <div className="follow-comps-one-in">
+                            <img src={YtLogo} alt="youtube logo" />
+                          </div>
+                        </div>
+                        <div className="follow-comps-two">
+                          <h1>Instagram</h1>
+                          <p>Subscribe to join a community of creative developers and learn the latest in Google technology.</p>
+                        </div>
+                        <div className="follow-comps-three">
+                          <a href="https://www.youtube.com/channel/UC4QDq4yqUO3Xc0kQrXJnU1w">Learn More</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="follow-comps">
+                      <div className="follow-comps-inner">
+                        <div className="follow-comps-one">
+                          <div className="follow-comps-one-in">
+                            <img src={YtLogo} alt="youtube logo" />
+                          </div>
+                        </div>
+                        <div className="follow-comps-two">
+                          <h1>LinkedIn</h1>
+                          <p>Subscribe to join a community of creative developers and learn the latest in Google technology.</p>
+                        </div>
+                        <div className="follow-comps-three">
+                          <a href="https://www.youtube.com/channel/UC4QDq4yqUO3Xc0kQrXJnU1w">Learn More</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="follow-comps">
+                      <div className="follow-comps-inner">
+                        <div className="follow-comps-one">
+                          <div className="follow-comps-one-in">
+                            <img src={YtLogo} alt="youtube logo" />
+                          </div>
+                        </div>
+                        <div className="follow-comps-two">
+                          <h1>Twitter</h1>
+                          <p>Subscribe to join a community of creative developers and learn the latest in Google technology.</p>
+                        </div>
+                        <div className="follow-comps-three">
+                          <a href="https://www.youtube.com/channel/UC4QDq4yqUO3Xc0kQrXJnU1w">Learn More</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
             <div className="faq">
       <div className="faq-inner">
         <div className="faq-one">
@@ -586,7 +667,6 @@ const Home  = () => {
         </div>
       </div>
     </div>
-
 
 
 

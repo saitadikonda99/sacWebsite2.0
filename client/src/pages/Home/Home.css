@@ -1739,10 +1739,15 @@
 }
 .faq-qsn {
     text-align: left;
-    padding: 1rem;
+    padding: 1rem 0rem 0.4rem 0rem;
     border-bottom: 1px solid black;
-    background-color: lightgrey;
+    /* background-color: rgb(234, 234, 234); */
     margin-top: 0.3rem;
+}
+.faq-qsn p {
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
 }
 .faq-qsn:hover {
     cursor: pointer;
@@ -1762,6 +1767,82 @@
 
 
 
+
+/* ----------------------------------------- follow ---------------------------------- */
+.follow {
+    background-color: white;
+    padding: 2rem 0rem 4rem 0rem;
+}
+.follow-header-in {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.follow-header-in h1 {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    width: 80%;
+    margin: auto; 
+    padding: 40px 0px 40px 0px;
+}
+
+.follow-header-one-in {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.follow-comps {
+    width: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid lightgrey;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+.follow-comps-inner {
+    display: flex;
+    flex-direction: column;
+}
+.follow-comps-one-in {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.follow-comps-one-in img {
+    width: 20%;
+}
+.follow-comps-two {
+    text-align: left;
+    padding-bottom: 2rem;
+}
+.follow-comps-two h1 {
+    font-size: 2rem;
+    margin: 1rem 0rem;
+}
+.follow-comps-two p {
+    font-size: 1rem;
+}
+
+.follow-comps-three {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.follow-comps-three a {
+    text-decoration: none;
+    border: 1px solid lightgrey;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    color: black;
+}
 
 @media (min-width: 320px) and (max-width: 480px) { 
     .HomeComponent {

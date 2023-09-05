@@ -78,6 +78,25 @@
     color: white;
 }
 
+.notification-diag {
+    background-color: white;
+    border: 2px solid rgb(208, 207, 207);
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+
+}
+.notification-diag-in {
+    padding: 0.5rem 1rem;
+}
+
+
+
+
+
+
+
+
+
 .scrolled {
     background-color: rgb(151, 0, 3); 
     transition: background-color 0.3s ease;

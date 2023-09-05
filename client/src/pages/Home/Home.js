@@ -7,6 +7,15 @@ import ScrollToTop from "react-scroll-to-top";
 import { Link as Scroll } from 'react-scroll';
 
 
+import Button from '@mui/material/Button';
+import Dialog from '@mui/material/Dialog';
+import DialogActions from '@mui/material/DialogActions';
+import DialogContent from '@mui/material/DialogContent';
+import DialogContentText from '@mui/material/DialogContentText';
+import DialogTitle from '@mui/material/DialogTitle';
+
+
+
 import Footer from '../../components/Footer/Footer';
 
 import G20andSac from '../../Assets/Logos/G20andSac.png';
@@ -21,6 +30,7 @@ import PreBootCamp from '../../Assets/NewsImages/PreBootCamp.jpg';
 import ProjectsImage from '../../Assets/ProjectsImage.webp';
 import storiesImage from '../../Assets/storiesImage.jpeg';
 import YtLogo from '../../Assets/Logos/YtLogo.png';
+
 
 
 
@@ -60,6 +70,16 @@ const Home  = () => {
 
   const toggleClubDropdown = () => {
     setClubDropdownVisible(!isClubDropdownVisible);
+  };
+
+  const [open, setOpen] = React.useState(false);
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
   };
 
 
@@ -120,18 +140,58 @@ const Home  = () => {
                   <ul>
                     <li><Scroll className='nav-scroll-links' activeClass="active" to="news" spy ={true} smooth={true} offset={100} duration={200} >News</Scroll></li>
                     <li><Scroll className='nav-scroll-links' activeClass="active" to="news-two" spy ={true} smooth={true} offset={-10} duration={200} >Events</Scroll></li>
-                    <li><Scroll className='nav-scroll-links' activeClass="active" to="about" spy ={true} smooth={true} offset={-10} duration={200}>About</Scroll></li>
                     {/* <li><Link className='nav-links' to='/dashboard'>Dashboard</Link></li> */}
                     <li><Link className='nav-links' to='/StudentClubs'>Clubs</Link></li>
                     <li><Link className='nav-links'  to='/leadership'>Leadership</Link></li>
-                    <li><Link className='nav-links' to='/StudentClubs'>Student Council</Link></li>
+                    <li><Link className='nav-links' to='/StudentClubs'>Gallery</Link></li>
                     <li><Scroll className='nav-scroll-links' activeClass="active" to="stories" spy ={true} smooth={true} offset={-50} duration={200}>Blogs</Scroll></li>
+                    <li><Scroll className='nav-scroll-links' activeClass="active" to="" spy ={true} smooth={true} offset={-50} duration={200} onClick={handleClickOpen}>Notifications</Scroll></li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
+
+
+          <div>
+            <Dialog
+              open={open}
+              onClose={handleClose}
+              aria-labelledby="alert-dialog-title"
+              aria-describedby="alert-dialog-description"
+            >
+              <DialogTitle id="alert-dialog-title">
+                {"Noticiations"}
+              </DialogTitle>
+              <DialogContent>
+                <div className="notification-diag">
+                  <div className="notification-diag-in">
+                    <p>Getting Started with Google Cloud - ZeroOne Club</p>
+                  </div>
+                </div>
+                <div className="notification-diag">
+                  <div className="notification-diag-in">
+                    <p>Getting Started with Google Cloud - ZeroOne Club</p>
+                  </div>
+                </div>
+                <div className="notification-diag">
+                  <div className="notification-diag-in">
+                    <p>Getting Started with Google Cloud - ZeroOne Club</p>
+                  </div>
+                </div>
+                <div className="notification-diag">
+                  <div className="notification-diag-in">
+                    <p>Getting Started with Google Cloud - ZeroOne Club</p>
+                  </div>
+                </div>
+              </DialogContent>
+              <DialogActions>
+                <Button onClick={handleClose} autoFocus>Close</Button>
+              </DialogActions>
+            </Dialog>
+          </div>
           
+
 
           <div className="Home-one">
             <div className="Home-one-in">
@@ -166,6 +226,9 @@ const Home  = () => {
 
           </div>
         </div>
+
+        
+        
 
 
 

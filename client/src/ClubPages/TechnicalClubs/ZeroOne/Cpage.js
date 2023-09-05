@@ -4,9 +4,13 @@ import { Link as Scroll } from 'react-scroll';
 import  { useState } from 'react';
 
 import { BsFileEarmarkCode } from 'react-icons/bs';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 import deepakimg from '../../../Assets/NewsImages/PreBootCamp.jpg'
 import deepak from '../../../Assets/CouncilMembers/CouncilMember_02.png'
+import google from '../../../Assets/cloud-next_960.png'
 import clubpage from '../../../Assets/clubpage.webp'
 import Footer from '../../../components/Footer/Footer'
 import Navbar from './NavBar'
@@ -21,7 +25,7 @@ var Page = () => {
   }
 
   return (
-    <div>
+    
         <div className="clubs ZeroOne">
           <div className="clubs-in">
             <div className="clubs-nav">
@@ -48,13 +52,13 @@ var Page = () => {
                     <div className="club-main-navbar-in">
                       <div className="club-nav-button nav-button-one" 
                                     id = { activity === 1 ? 'button-hover' : '' }
-                                    onClick={ () => {handleActivity(1)}}>Why you should join</div>
+                                    onClick={ () => {handleActivity(1)}}>Glimpse</div>
                       <div className="club-nav-button nav-button-two" 
                                     id = { activity === 2 ? 'button-hover' : '' }
-                                    onClick={ () => {handleActivity(2)}}>Glimpse</div>
+                                    onClick={ () => {handleActivity(2)}}>Team Spotlight</div>
                       <div className="club-nav-button nav-button-three" 
                                     id = { activity === 3 ? 'button-hover' : '' }
-                                    onClick={ () => {handleActivity(3)}}>Team</div>
+                                    onClick={ () => {handleActivity(3)}}>About</div>
                       <div className="club-nav-button nav-button-four" 
                                     id = { activity === 4 ? 'button-hover' : '' }
                                     onClick={ () => {handleActivity(4)}}>Activities</div>
@@ -62,13 +66,19 @@ var Page = () => {
                   </div>
                 </div>
 
+
+
                 <div className="club-main-container-two"></div>
+
+
+{/* ----------------------------------------Glimpse-------------------------------------------- */}
+
                     <div className="club-main-content">
                       <div className="club-main-content-in">
                         <div className = { activity === 1 ? 'club-main-content-box' : 'main-content-hide' } >
                           
                           <div className="club-box-content-one-head">
-                              <h1>Why you should join the club!</h1>
+                              <h1>Glimpse</h1>
                           </div>
                             <div className="club-box-content-one">
                                   <div className="content-one-matter">
@@ -85,7 +95,7 @@ var Page = () => {
                                       <img src={clubpage} alt="" />
                                     </div>
                                     <div className="one-matter-img-content">
-                                      <h1>Exclusive Events</h1>
+                                      <h1>Find Mentors</h1>
                                       <p>Get access to LIVE events that help you explore your favorite fields and grow to the next level.</p>
                                     </div>
                                   </div>
@@ -96,7 +106,7 @@ var Page = () => {
                                       <img src={clubpage} alt="" />
                                     </div>
                                     <div className="one-matter-img-content">
-                                      <h1>Exclusive Events</h1>
+                                      <h1>Internships</h1>
                                       <p>Get access to LIVE events that help you explore your favorite fields and grow to the next level.</p>
                                     </div>
                                   </div>
@@ -111,65 +121,220 @@ var Page = () => {
                                     </div>
                                   </div>
                             </div>
-
                           </div>
-                        <div className = { activity === 2 ? 'club-main-content-box' : 'main-content-hide' } >BOX-2</div>
-                        <div className = { activity === 3 ? 'club-main-content-box' : 'main-content-hide' } >BOX-3</div>
-                        <div className = { activity === 4 ? 'club-main-content-box' : 'main-content-hide' } >BOX-4</div>
+
+{/* ----------------------------------------Team-------------------------------------------- */}
+                        <div className = { activity === 2 ? 'club-main-content-box' : 'main-content-hide' } >
+
+                          <div className="club-team">
+
+                            <div className="club-team-one">
+                              <div className="team-member-img mem-one">
+                                <div className="mem-img-box">
+                                  <img src={deepak} alt="" />
+                                </div>
+                                <div className="mem-details-box">
+                                   <div className="details-one">
+                                      <h1>Deepak</h1>
+                                      <p>President -ZeroOne</p>
+                                   </div>
+                                   <div className="details-two">
+                                     * * *
+                                   </div>
+                                </div>
+                              </div>
+                              <div className="team-member-img mem-two">
+                                <div className="mem-img-box">
+                                   <img src={deepak} alt="" />
+                                </div>
+                                <div className="mem-details-box">
+                                  <div className="details-one">
+                                      <h1>Deepak</h1>
+                                      <p>President -ZeroOne</p>
+                                   </div>
+                                   <div className="details-two">
+                                     * * *
+                                   </div>
+                                </div>
+                              </div>
+                              <div className="team-member-img mem-three">
+                                <div className="mem-img-box">
+                                   <img src={deepak} alt="" />
+                                </div>
+                                <div className="mem-details-box">
+                                  <div className="details-one">
+                                      <h1>Deepak</h1>
+                                      <p>President -ZeroOne</p>
+                                   </div>
+                                   <div className="details-two">
+                                     * * *
+                                   </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div className="club-team-two">
+                              <div className="team-member-img mem-three">
+                                <div className="mem-img-box">
+                                   <img src={deepak} alt="" />
+                                </div>
+                                <div className="mem-details-box">
+                                  <div className="details-one">
+                                      <h1>Deepak</h1>
+                                      <p>President -ZeroOne</p>
+                                   </div>
+                                   <div className="details-two">
+                                     * * *
+                                   </div>
+                                </div>
+                              </div>
+                              <div className="team-member-img mem-four">
+                                <div className="mem-img-box">
+                                   <img src={deepak} alt="" />
+                                </div>
+                                <div className="mem-details-box">
+                                  <div className="details-one">
+                                      <h1>Deepak</h1>
+                                      <p>President -ZeroOne</p>
+                                   </div>
+                                   <div className="details-two">
+                                     * * *
+                                   </div>
+                                </div>
+                              </div>
+                              <div className="team-member-img mem-five">
+                                <div className="mem-img-box">
+                                   <img src={deepak} alt="" />
+                                </div>
+                                <div className="mem-details-box">
+                                  <div className="details-one">
+                                      <h1>Deepak</h1>
+                                      <p>President -ZeroOne</p>
+                                   </div>
+                                   <div className="details-two">
+                                     * * *
+                                   </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+
+
+
+{/* ----------------------------------------Club Spotlight-------------------------------------------- */}
+
+                        <div className = { activity === 3 ? 'club-main-content-box' : 'main-content-hide' } >
+
+                          <div className="club-about">
+                            <div className="club-about-one">
+                              <div className="about-img">
+                                <img src={clubpage} alt="" />
+                              </div>
+                              <div className="about-img-matter">
+                                <h1>Know more about us</h1>
+                                 <p>We're a bunch of young people trying to solve as many problems as possible for college students</p>
+                              </div>
+                            </div>
+                            <div className="club-about-two">
+                              <div className="about-img-matter">
+                                 <h1>Know more about us</h1>
+                                 <p>We're a bunch of young people trying to solve as many problems as possible for college students</p>
+                              </div>
+                              <div className="about-img"><img src={clubpage} alt="" /></div>
+                            </div>
+                            <div className="club-about-three">
+                              <div className="about-img">
+                                  <img src={clubpage} alt="" />
+                                </div>
+                                <div className="about-img-matter">
+                                  <h1>Know more about us</h1>
+                                  <p>We're a bunch of young people trying to solve as many problems as possible for college students</p>
+                                </div>
+                            </div>
+                          </div>
+
+                        </div>
+
+
+{/* ----------------------------------------Activities-------------------------------------------- */}
+
+                        <div className = { activity === 4 ? 'club-main-content-box' : 'main-content-hide' } > 
+                          
+                          <div className="club-activity">
+                            <div className="club-activity-in">
+                              <div className="club-activity-one">
+                                <div className="club-activity-one-one activity-cm">
+                                  <div className="activity-cm-one">
+                                      <img src={google} alt="" />
+                                  </div>
+                                  <div className="activity-cm-two">
+                                    <h1>Google Cloud Next '23</h1>
+                                    <p>Discover the latest advancements in AI, data, security, and productivity at Google Cloud's flagship in-person event, now on demand. Explore workshops, demos, training, and more.</p>
+                                  </div>
+                                </div>
+                                <div className="club-activity-one-two activity-cm">
+                                <div className="activity-cm-one">
+                                      <img src={google} alt="" />
+                                  </div>
+                                  <div className="activity-cm-two">
+                                    <h1>Google Cloud Next '23</h1>
+                                    <p>Discover the latest advancements in AI, data, security, and productivity at Google Cloud's flagship in-person event, now on demand. Explore workshops, demos, training, and more.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div className="club-activity-two">
+                                <div className="club-activity-two-one activity-cm">
+                                <div className="activity-cm-one">
+                                      <img src={google} alt="" />
+                                  </div>
+                                  <div className="activity-cm-two">
+                                    <h1>Google Cloud Next '23</h1>
+                                    <p>Discover the latest advancements in AI, data, security, and productivity at Google Cloud's flagship in-person event, now on demand. Explore workshops, demos, training, and more.</p>
+                                  </div>
+                                </div>
+                                <div className="club-activity-two-two activity-cm">
+                                <div className="activity-cm-one">
+                                      <img src={google} alt="" />
+                                  </div>
+                                  <div className="activity-cm-two">
+                                    <h1>Google Cloud Next '23</h1>
+                                    <p>Discover the latest advancements in AI, data, security, and productivity at Google Cloud's flagship in-person event, now on demand. Explore workshops, demos, training, and more.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div className="club-activity-three">
+                                <div className="club-activity-three-one activity-cm">
+                                <div className="activity-cm-one">
+                                      <img src={google} alt="" />
+                                  </div>
+                                  <div className="activity-cm-two">
+                                    <h1>Google Cloud Next '23</h1>
+                                    <p>Discover the latest advancements in AI, data, security, and productivity at Google Cloud's flagship in-person event, now on demand. Explore workshops, demos, training, and more.</p>
+                                  </div>
+                                </div>
+                                <div className="club-activity-three-two activity-cm">
+                                <div className="activity-cm-one">
+                                      <img src={google} alt="" />
+                                  </div>
+                                  <div className="activity-cm-two">
+                                    <h1>Google Cloud Next '23</h1>
+                                    <p>Discover the latest advancements in AI, data, security, and productivity at Google Cloud's flagship in-person event, now on demand. Explore workshops, demos, training, and more.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              </div>
+                          </div>
                         </div>
                     </div>
-              </div>
-          </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-              
-
-{/* ----------------------------------Activities--------------------------------------------
-
-
-              <div className="club-activity-component">
-              <div className="clubs-Activities">
-                <div className="club-activity-head">
-                  <h1>Activities</h1>
-                  </div>
-                <div className="clubs-Activities-in">
-                  <div className="clubs-Activities-in-one">
-                          <div className = { activity === 1 ? 'club-main-content-box' : 'main-content-hide' } id='one-color'></div>
-                          <div className = { activity === 2 ? 'club-main-content-box' : 'main-content-hide' } id='two-color'></div>
-                          <div className = { activity === 3 ? 'club-main-content-box' : 'main-content-hide' } id='three-color'></div>
-                          <div className = { activity === 4 ? 'club-main-content-box' : 'main-content-hide' } id='four-color'></div>
-                     </div>
-                      <div className="clubs-Activities-in-two">
-                         <div id = { activity === 1 ? 'button-hover' : '' }
-                          className="Activity-box-one" onClick={() => handleActivity(1)}>Activity-1</div>
-                         <div id = { activity === 2 ? 'button-hover' : '' }
-                         className="Activity-box-one" onClick={() => handleActivity(2)}>Activity-2</div>
-                         <div id = { activity === 3 ? 'button-hover' : '' }
-                         className="Activity-box-one" onClick={() => handleActivity(3)}>Activity-3</div>
-                         <div id = { activity === 4 ? 'button-hover' : '' }
-                         className="Activity-box-one" onClick={() => handleActivity(4)}>Activity-4</div>
-                    </div>
-                </div>
+                 </div>
               </div>
             </div>
-
-*/}
           </div>
-        </div>  
+       
 
+{/* ----------------------------------Footer-------------------------------------------- */}  
         <div className="club-footer">
           <div className="club-footer-in">
               <Footer/>

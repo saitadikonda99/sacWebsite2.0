@@ -33,15 +33,69 @@
 .Leadership-two {
     margin: 3rem 0rem;
 }
-.Leadership-two-one-header-in {
+.lstcmn {
     width: 90%;
     margin: auto;
     text-align: left;
     border-bottom: 2px solid grey;
     margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.lstcmn p {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 1rem;
+    padding: 0.2rem 0.4rem;
+}
+
+.lstcmn-body {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 2rem;
+    padding: 0rem 0rem 2rem 0rem;
 
 }
 
+
+.profile-card {
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 19%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.profile-card img {
+    max-width: 100%;
+}
+
+.profile-card h2 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.profile-card p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+  
+  
 
 
 

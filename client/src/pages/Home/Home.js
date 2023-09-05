@@ -30,6 +30,10 @@ import PreBootCamp from '../../Assets/NewsImages/PreBootCamp.jpg';
 import ProjectsImage from '../../Assets/ProjectsImage.webp';
 import storiesImage from '../../Assets/storiesImage.jpeg';
 import YtLogo from '../../Assets/Logos/YtLogo.png';
+import InstaLogo from '../../Assets/Logos/InstaLogo.png';
+import TwitterLogo from '../../Assets/Logos/TwitterLogo.png';
+import LinkedInLogo from '../../Assets/Logos/LinkedInLogo.png';
+import { LinkedIn } from '@material-ui/icons';
 
 
 
@@ -653,7 +657,7 @@ const Home  = () => {
                       <div className="follow-comps-inner">
                         <div className="follow-comps-one">
                           <div className="follow-comps-one-in">
-                            <img src={YtLogo} alt="youtube logo" />
+                            <img src={InstaLogo} alt="youtube logo" />
                           </div>
                         </div>
                         <div className="follow-comps-two">
@@ -669,7 +673,7 @@ const Home  = () => {
                       <div className="follow-comps-inner">
                         <div className="follow-comps-one">
                           <div className="follow-comps-one-in">
-                            <img src={YtLogo} alt="youtube logo" />
+                            <img src={LinkedInLogo} alt="youtube logo" />
                           </div>
                         </div>
                         <div className="follow-comps-two">
@@ -685,7 +689,7 @@ const Home  = () => {
                       <div className="follow-comps-inner">
                         <div className="follow-comps-one">
                           <div className="follow-comps-one-in">
-                            <img src={YtLogo} alt="youtube logo" />
+                            <img src={TwitterLogo} alt="youtube logo" />
                           </div>
                         </div>
                         <div className="follow-comps-two">

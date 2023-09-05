@@ -1,6 +1,8 @@
 import React from 'react';
 import './Page.css';
 
+import Footer from '../../components/Footer/Footer';
+
 const Page = () => {
   return (
     <div className="LeadershipComponent">
@@ -49,6 +51,7 @@ const Page = () => {
                 </div>
             </div>
         </div>
+        <Footer />
     </div>
   )
 }

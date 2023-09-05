@@ -257,6 +257,7 @@
     flex-direction: column;
     padding: 20px;
     border: .1px solid black;
+
 }
 
 .one-matter-img-content {
@@ -325,17 +326,20 @@
 
 .mem-img-box img{
     height: fit-content;
-    width: 100%;
+    width: 90%;
 }
 
 .details-two {
-    padding: 10px;
+    padding: 20px 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 20px;
-    border: 2px solid black;
+    text-align: center;
+}
+
+.details-two img {
+    width: 40%;
 }
 
 
@@ -484,3 +488,5 @@
     padding: 20px;
     text-align: left;
 }
+
+

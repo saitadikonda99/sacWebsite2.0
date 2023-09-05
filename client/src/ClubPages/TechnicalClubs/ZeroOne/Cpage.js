@@ -3,15 +3,16 @@ import './Cpage.css';
 import { Link as Scroll } from 'react-scroll';
 import  { useState } from 'react';
 
-import { BsFileEarmarkCode } from 'react-icons/bs';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import GitHubIcon from '@mui/icons-material/GitHub';
 
-import deepakimg from '../../../Assets/NewsImages/PreBootCamp.jpg'
-import deepak from '../../../Assets/CouncilMembers/CouncilMember_02.png'
+// images start here
+import deepak from '../../../Assets/CouncilMembers/DP.jpg'
 import google from '../../../Assets/cloud-next_960.png'
 import clubpage from '../../../Assets/clubpage.webp'
+import instagram from '../../../Assets/Logos/InstaLogo.png'
+import linkedin from '../../../Assets/Logos/LinkedInLogo.png'
+import twitter from '../../../Assets/Logos/TwitterLogo.png'
+
+// components start here
 import Footer from '../../../components/Footer/Footer'
 import Navbar from './NavBar'
 
@@ -139,7 +140,15 @@ var Page = () => {
                                       <p>President -ZeroOne</p>
                                    </div>
                                    <div className="details-two">
-                                     * * *
+                                      <a href="https://github.com/saitadikonda99">
+                                         <img src={instagram} alt="" />
+                                      </a>
+                                      <a href="https://github.com/saitadikonda99">
+                                         <img src={linkedin} alt="" />
+                                      </a>
+                                      <a href="https://github.com/saitadikonda99">
+                                         <img src={twitter} alt="" />
+                                      </a>
                                    </div>
                                 </div>
                               </div>
@@ -153,7 +162,15 @@ var Page = () => {
                                       <p>President -ZeroOne</p>
                                    </div>
                                    <div className="details-two">
-                                     * * *
+                                     <a href="https://github.com/saitadikonda99">
+                                         <img src={instagram} alt="" />
+                                      </a>
+                                      <a href="https://github.com/saitadikonda99">
+                                         <img src={linkedin} alt="" />
+                                      </a>
+                                      <a href="https://github.com/saitadikonda99">
+                                         <img src={twitter} alt="" />
+                                      </a>
                                    </div>
                                 </div>
                               </div>
@@ -167,7 +184,15 @@ var Page = () => {
                                       <p>President -ZeroOne</p>
                                    </div>
                                    <div className="details-two">
-                                     * * *
+                                     <a href="https://github.com/saitadikonda99">
+                                         <img src={instagram} alt="" />
+                                      </a>
+                                      <a href="https://github.com/saitadikonda99">
+                                         <img src={linkedin} alt="" />
+                                      </a>
+                                      <a href="https://github.com/saitadikonda99">
+                                         <img src={twitter} alt="" />
+                                      </a>
                                    </div>
                                 </div>
                               </div>
@@ -184,7 +209,15 @@ var Page = () => {
                                       <p>President -ZeroOne</p>
                                    </div>
                                    <div className="details-two">
-                                     * * *
+                                     <a href="https://github.com/saitadikonda99">
+                                         <img src={instagram} alt="" />
+                                      </a>
+                                      <a href="https://github.com/saitadikonda99">
+                                         <img src={linkedin} alt="" />
+                                      </a>
+                                      <a href="https://github.com/saitadikonda99">
+                                         <img src={twitter} alt="" />
+                                      </a>
                                    </div>
                                 </div>
                               </div>
@@ -198,7 +231,15 @@ var Page = () => {
                                       <p>President -ZeroOne</p>
                                    </div>
                                    <div className="details-two">
-                                     * * *
+                                     <a href="https://github.com/saitadikonda99">
+                                         <img src={instagram} alt="" />
+                                      </a>
+                                      <a href="https://github.com/saitadikonda99">
+                                         <img src={linkedin} alt="" />
+                                      </a>
+                                      <a href="https://github.com/saitadikonda99">
+                                         <img src={twitter} alt="" />
+                                      </a>
                                    </div>
                                 </div>
                               </div>
@@ -212,7 +253,15 @@ var Page = () => {
                                       <p>President -ZeroOne</p>
                                    </div>
                                    <div className="details-two">
-                                     * * *
+                                     <a href="https://github.com/saitadikonda99">
+                                         <img src={instagram} alt="" />
+                                      </a>
+                                      <a href="https://github.com/saitadikonda99">
+                                         <img src={linkedin} alt="" />
+                                      </a>
+                                      <a href="https://github.com/saitadikonda99">
+                                         <img src={twitter} alt="" />
+                                      </a>
                                    </div>
                                 </div>
                               </div>

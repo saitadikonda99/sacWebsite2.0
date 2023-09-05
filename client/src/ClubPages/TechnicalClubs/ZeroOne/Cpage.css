@@ -145,7 +145,7 @@
 
 .club-main-navbar-in {
     height: fit-content;
-    background-color: rgb(240, 242, 255);
+    border: .1px solid rgb(151, 0, 3); 
     width: 100%;
     display: flex;
     align-items: center;
@@ -161,16 +161,16 @@
     border-radius: 25px;
     width: 20%;
     font-size: 15px;
-    color: rgb(81, 105, 246);
+    color: rgb(151, 0, 3);
     font-weight: 600;
 }
 
 .club-nav-button:hover {
-    background-color: rgb(218, 219, 231);
+    background-color: rgb(238, 221, 221);
 }
 
 #button-hover {
-    background-color: rgb(81, 105, 246);
+    background-color: rgb(151, 0, 3);
     color: white;
 }
 
@@ -204,7 +204,6 @@
 
 .club-box-content-one {
     height: fit-content;
-    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -227,7 +226,7 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: rgb(227, 227, 227);
+    border: .1px solid black;
 }
 
 .content-two-matter {
@@ -237,7 +236,7 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: rgb(227, 227, 227);
+    border: .1px solid black;
 }
 
 .content-three-matter {
@@ -247,7 +246,7 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: rgb(227, 227, 227);
+    border: .1px solid black;
 }
 
 .content-four-matter {
@@ -257,7 +256,7 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: rgb(227, 227, 227);
+    border: .1px solid black;
 }
 
 .one-matter-img-content {
@@ -266,15 +265,121 @@
 }
 
 
+/* ------------------------------------- Team --------------------------------------------- */
+
+.club-team {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+
+.club-team-one {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding: 10px;
+}
+
+.club-team-two {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding: 10px;
+}
+
+.team-member-img {
+    border: .1px solid black;
+    height: fit-content;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.mem-img-box {
+    height: fit-content;
+    width: 100%;
+}
+
+.mem-details-box {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: .8rem;
+}
+
+.details-one p {
+    font-size: 1rem;
+}
+
+.mem-img-box img{
+    height: fit-content;
+    width: 100%;
+}
+
+.details-two {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid black;
+}
 
 
 
 
+/* ----------------------------------About-------------------------------------------- */
+
+.club-about {
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.club-about-one, .club-about-two, .club-about-three {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.about-img {
+    width: 50%;
+    height: fit-content;
+}
+
+/* .about-img img {
+    width: 50%;
+    border-radius: 20px;
+} */
 
 
-
-
-
+.about-img-matter {
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;   
+}
 
 
  
@@ -328,96 +433,54 @@
 
 /* ----------------------------------Activity-------------------------------------------- */
 
-.clubs .club-activity-component {
-    height: max-content;
-    padding: 50px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+
+.club-activity {
+    height: fit-content;
+    width: 100%;
 }
 
-.clubs .clubs-Activities {
-    height: max-content;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    border-radius: 20px;
-    border: 2px solid black;
-    padding: 30px 0;
-}
-
-.clubs .clubs-Activities-in {
-    height: 30vw;
+.club-activity-in {
+    height: fit-content;
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 20px;
+    padding: 50px;
 }
 
-.clubs .clubs-Activities-in-one {
-    width: 50%;
-    height: 100%;
+.club-activity-one, .club-activity-two, .club-activity-three {
+    height: fit-content;
+    width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
 }
 
-.clubs .clubs-Activities-in-two {
-    width: 50%;
-    height: 100%;
+.activity-cm {
+    height: fit-content;
+    width: 40%;
+    border: .1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 8%;
-    align-items: center;
-}
-
-.clubs .Activity-box-one {
-    height: 15%;
-    width: 80%;
-    border: 1px solid black;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.clubs .activity-content-one {
-    height: 80%;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 20px;
-    border-radius: 20px;
+    padding: 20px;
 }
 
-.clubs .activity-hide {
-    display: none;
+.activity-cm-one {
+    height: fit-content;
+    width: 100%;
 }
 
-#one-color {
-    background-color: rgb(210, 41, 168);
+.activity-cm-one img{
+    height: fit-content;
+    width: 100%;
 }
 
-#two-color {
-    background-color: yellow;
-}
-
-#three-color {
-    background-color: rgb(41, 210, 41);
-}
-
-#four-color {
-    background-color: rgb(41, 210, 210);
-}
-
-#activity-content-hover {
-    background-color: rgb(165, 161, 161);
+.activity-cm-two {
+    padding: 20px;
+    text-align: left;
 }

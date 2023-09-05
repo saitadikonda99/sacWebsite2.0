@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: black;
 }
 
 .course-nav-container {
@@ -11,11 +10,11 @@
     position: fixed;
     top: 0;
     left: 0;
-    backdrop-filter: blur(10px);
+    background-color: rgb(151, 0, 3);;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 2px solid black;
+    color: white;
     font-weight: 600;
 }
 

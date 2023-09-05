@@ -58,8 +58,7 @@ const Page = () => {
                    <div className="profile-card">
                         <img src={DP} alt="" />
                         <h2>John Doe</h2>
-                        <p>Web Developer</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque justo quis tortor tincidunt.</p>
+                        <p>Director, SAC</p>
                     </div>
                     
                 </div>

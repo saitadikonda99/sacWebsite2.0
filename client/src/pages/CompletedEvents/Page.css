@@ -1,0 +1,62 @@
+.CompletedEvents-header-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    background-color: rgb(247, 246, 246);
+}
+.CompletedEvents-header-in h1 {
+    font-size: 3rem;
+}
+.CompletedEvents-one-in {
+    width: 90%;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.CompletedEvents-one-in table {
+    width: 100%;
+    margin: auto;
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+.CompletedEvents-one-in table tr th {
+    border: 1px solid grey;
+    padding: 0.5rem 0rem;
+    /* background-color: rgb(151, 0, 3); */
+    background-color: black;
+    color: white;
+}
+.CompletedEvents-one-in table tr td {
+    border: 1px solid grey;
+    padding: 0.5rem 0rem;
+}
+.CompletedEvents-one-in table tr td:nth-child(1) {
+    /* background-color:rgb(151, 0, 3); */
+    background-color: black;
+    color: white;
+    width: 5%;
+}
+.CompletedEvents-one-in table tr td:nth-child(2) {
+    width: 15%;
+}
+.CompletedEvents-one-in table tr td:nth-child(3) {
+    width: 15%;
+}
+
+.CompletedEvents-one-in table tr td:nth-child(3) img {
+    width: 100%;
+}
+.CompletedEvents-one-in table tr td:nth-child(4) {
+    width: 15%;
+}
+.CompletedEvents-one-in table tr td:nth-child(5) {
+    width: 15%;
+}
+.CompletedEvents-one-in table tr td:nth-child(6) {
+    width: 15%;
+}
+.CompletedEvents-one-in table tr td:nth-child(7) {
+    width: 15%;
+}

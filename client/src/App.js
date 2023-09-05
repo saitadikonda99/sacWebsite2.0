@@ -11,6 +11,7 @@ import ClubsPage from '../src/ClubPages/clubspage';
 import ZeroOne from './ClubPages/TechnicalClubs/ZeroOne/Cpage'
 import Dashboard from '../src/dashboard/DashboardApp';
 import Leadership from '../src/pages/Leadership/Page';
+import CompletedEvents from '../src/pages/CompletedEvents/Page';
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -40,6 +41,7 @@ function App() {
         <Route path="/studentclubs" element={<ClubsPage/>} />
         <Route path="/leadership" element={<Leadership/>} />
         <Route path="/dashboard/*" element={<Dashboard/>} />
+        <Route path="/completedevents" element={<CompletedEvents/>} />
       </Routes>
     </div>
   );

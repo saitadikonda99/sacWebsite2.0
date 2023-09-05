@@ -1622,7 +1622,7 @@
 
 .faq {
     background-color: #f9f9f9;
-    padding: 20px;
+    padding: 2rem 0rem 4rem 0rem;
   }
 .faq-one-in {
     width: 90%;
@@ -1654,46 +1654,6 @@
 .faq-two {
     margin-top: 1rem;
 }
-
-/* 
-.faq {
-  background-color: #f9f9f9;
-  padding: 20px;
-}
-
-.faq-one h1 {
-  font-size: 24px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.faq-qsn {
-  background-color: #ffffff;
-  border: 1px solid #e0e0e0;
-  padding: 10px;
-  margin-bottom: 10px;
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.faq-qsn:hover {
-  background-color: #f0f0f0;
-}
-
-.faq-ans {
-  display: none;
-  background-color: #ffffff;
-  border: 1px solid #e0e0e0;
-  padding: 10px;
-}
-
-.faq-qsn.active + .faq-ans {
-  display: block;
-}
-
- */
-
-
 
 
 

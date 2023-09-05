@@ -609,8 +609,112 @@
 
 
 
+/* ------------------------------------ stories ------------------------------- */
+.stories {
+    background-color: rgb(230, 228, 228);
+    padding: 2rem 0rem;
+}
+.stories-header-in {
+    text-align: left;
+    width: 90%;
+    margin: auto;
+}
+.stories-header-in h1 {
+    color: black;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+.stories-header-in p {
+    font-size: 1.5rem;
+    color: rgb(151, 0, 3);
+}
+
+.stories-one-in {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 3rem 0rem;
+}
+.stories-comps {
+    width: 32%;
+    border: 1px solid grey;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.stories-comps-in-one img {
+    width: 100%;
+    /* making image to cover the entire div */
+    object-fit: contain;
+    border-radius: 0.5rem;
+    height: 100%;
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+}
+.stories-comps-in-one {
+    border-radius: 0.5rem;
+    height: fit-content;
+}
+
+.stories-comps-in-two {
+    background-color: white;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    padding: 3rem 0rem;
+    position: relative;
+}
+.stories-comps-in-two-in {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    padding-bottom: 2rem;
+}
+
+.stories-links {
+    /* making this to stick to the bottom of the div - bottom:0 */
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    
+}
+
+.stories-viewmore-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.5rem;
+    background-color: rgb(151, 0, 3);
+    color: white;
+}
+
+.stories-viewmore {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
 
 
+
+
+
+
+
+/* ----------------------------------------- news -------------------------------------- */
 
 
 .HomeComponent  .news {

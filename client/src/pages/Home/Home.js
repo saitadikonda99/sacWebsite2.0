@@ -19,7 +19,7 @@ import newVideo from '../../Assets/newVideo.mp4';
 import AmarnadhDroneCompetition from '../../Assets/NewsImages/AmarnadhDroneCompetition.jpg'; 
 import PreBootCamp from '../../Assets/NewsImages/PreBootCamp.jpg';
 import ProjectsImage from '../../Assets/ProjectsImage.webp';
-
+import storiesImage from '../../Assets/storiesImage.jpeg';
 
 
 
@@ -124,7 +124,7 @@ const Home  = () => {
                     <li><Link className='nav-links' to='/StudentClubs'>Clubs</Link></li>
                     <li><Link className='nav-links'  to='/leadership'>Leadership</Link></li>
                     <li><Link className='nav-links' to='/StudentClubs'>Student Council</Link></li>
-                    <li><Scroll className='nav-scroll-links' activeClass="active" to="about" spy ={true} smooth={true} offset={-10} duration={200}>Blogs</Scroll></li>
+                    <li><Scroll className='nav-scroll-links' activeClass="active" to="stories" spy ={true} smooth={true} offset={-50} duration={200}>Blogs</Scroll></li>
                   </ul>
                 </div>
               </div>
@@ -272,6 +272,7 @@ const Home  = () => {
               </center>
             </div>
 
+
       
         
 
@@ -332,7 +333,67 @@ const Home  = () => {
 
           
 
+        <div className="stories">
+          <div className="stories-in">
+            <div className="stories-header">
+              <div className="stories-header-in">
+                <h1>Stories from the Community</h1>
+                <p>Get inspired by stories of people from the community</p>
+              </div>
+            </div>
 
+            <div className="stories-one">
+              <div className="stories-one-in">
+                <div className="stories-comps">
+                  <div className="stories-comps-in">
+                    <div className="stories-comps-in-one">
+                      <img src={storiesImage} alt="" />
+                    </div>
+                    <div className="stories-comps-in-two">
+                      <div className="stories-comps-in-two-in">
+                        <p>ZeroOne CodeClub</p>
+                        <h2>Nurturing a Coding Culture on University</h2>
+                        <Link className='stories-links' to='/'>Read now</Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="stories-comps">
+                  <div className="stories-comps-in">
+                    <div className="stories-comps-in-one">
+                      <img src={storiesImage} alt="" />
+                    </div>
+                    <div className="stories-comps-in-two">
+                      <div className="stories-comps-in-two-in">
+                        <p>ZeroOne CodeClub</p>
+                        <h2>Nurturing a Coding Culture on University</h2>
+                        <Link className='stories-links' to='/'>Read now</Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="stories-comps">
+                  <div className="stories-comps-in">
+                    <div className="stories-comps-in-one">
+                      <img src={storiesImage} alt="" />
+                    </div>
+                    <div className="stories-comps-in-two">
+                      <div className="stories-comps-in-two-in">
+                        <p>ZeroOne CodeClub</p>
+                        <h2>Nurturing a Coding Culture on University</h2>
+                        <Link className='stories-links' to='/'>Read now</Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         <div className="stories-viewmore">
+          <Link className='stories-viewmore-link' to='/'>View More Stories</Link>
+         </div>
+        </div>
 
 
 

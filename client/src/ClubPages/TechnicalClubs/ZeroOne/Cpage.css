@@ -338,7 +338,6 @@
 }
 
 
-
 .details-two img {
     width: 40%;
 }
@@ -387,53 +386,6 @@
 }
 
 
- 
-
-
-
-/* ----------------------------------Team-------------------------------------------- */
-
-
-.clubs .clubs-team-in {
-    height: max-content;
-    padding: 50px 0px;
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-}
-
-.clubs .clubs-team-in-one {
-    text-align: center;
-    padding: 50px;
-}
-
-.clubs .clubs-team-in-two {
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-}
-
-.clubs .clubs-team-in-three {
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-}
-
-.clubs .member-box {
-    width: 20%;
-    height: 100%;
-    border-radius: 20px;
-}
-
-.clubs .member-box img {
-    height: 15vw;
-    width: 80%;
-    border-radius: 20px;
-}
 
 
 /* ----------------------------------Activity-------------------------------------------- */
@@ -481,7 +433,6 @@
 }
 
 .activity-cm-one img{
-    height: fit-content;
     width: 100%;
 }
 

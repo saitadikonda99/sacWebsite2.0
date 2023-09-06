@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../Home/Home.css'; 
 import { Link } from 'react-router-dom';
 import CountUp from 'react-countup';
@@ -11,17 +11,11 @@ import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
-import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 
 
 
 import Footer from '../../components/Footer/Footer';
-
-import G20andSac from '../../Assets/Logos/G20andSac.png';
-import G20andSac2 from '../../Assets/Logos/G20andSac2.png';
-import GroupPhoto from '../../Assets/GroupPhoto.jpg'; 
-import newSacLogo2 from '../../Assets/Logos/newSacLogo2.png';
 import newSacLogo from '../../Assets/Logos/newSacLogo.png';
 import bck from '../../Assets/bck.jpg'; 
 import newVideo from '../../Assets/newVideo.mp4';  
@@ -33,7 +27,7 @@ import YtLogo from '../../Assets/Logos/YtLogo.png';
 import InstaLogo from '../../Assets/Logos/InstaLogo.png';
 import TwitterLogo from '../../Assets/Logos/TwitterLogo.png';
 import LinkedInLogo from '../../Assets/Logos/LinkedInLogo.png';
-import { LinkedIn } from '@material-ui/icons';
+
 
 
 
@@ -70,11 +64,8 @@ const Home  = () => {
     };
   }, []);
 
-  const [isClubDropdownVisible, setClubDropdownVisible] = useState(false);
 
-  const toggleClubDropdown = () => {
-    setClubDropdownVisible(!isClubDropdownVisible);
-  };
+  
 
   const [open, setOpen] = React.useState(false);
 

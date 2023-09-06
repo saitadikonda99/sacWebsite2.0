@@ -109,8 +109,64 @@
     height: 100vh;
     width: 100%;
     border: 2px solid black;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .club-hero-in {
+    width: 100%;
+    z-index: -1;
+    background-image: url('../../../Assets/ClubsImages/ClubHero.jpeg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+  }
+  
+  .img-nav, .button-nav {
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+  }
+  
+  .img-nav img {
+    width: 20%;
+  }
+  
+  .button-nav {
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+  }
+  
+  .button-nav button {
+    padding: 15px 30px;
+    border-radius: 20px;
+    background-color: rgb(151, 0, 3);
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  
 
+  .club-hero-in::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);  
+    mix-blend-mode: multiply;
+    filter: brightness(0.5); 
+  }
+  
 .club-main-component {
     height: fit-content;
     width: 100%;
@@ -440,3 +496,4 @@
     padding: 20px;
     text-align: left;
 }
+

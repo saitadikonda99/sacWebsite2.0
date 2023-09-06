@@ -10,6 +10,9 @@ import clubpage from '../../../Assets/clubpage.webp'
 import instagram from '../../../Assets/Logos/InstaLogo.png'
 import linkedin from '../../../Assets/Logos/LinkedInLogo.png'
 import twitter from '../../../Assets/Logos/TwitterLogo.png'
+import clubhero from '../../../Assets/ClubsImages/ClubHero.jpeg'
+import clubhero2 from '../../../Assets/ClubsImages/ClubHero2.avif'
+import logo from '../../../Assets/Logos/ZeroOneClubLogo.png'
 
 // components start here
 import Footer from '../../../components/Footer/Footer'
@@ -29,15 +32,22 @@ var Page = () => {
         <div className="clubs ZeroOne">
           <div className="clubs-in">
             <div className="clubs-nav">
-                <Navbar/>
+               
             </div>
 
 {/* ----------------------------------Hero-------------------------------------------- */}
 
-            <div className="club-hero">
-              <div className="club-hero-in">
+              <div className="club-hero">
+                <div className="club-hero-in">
+                  <div className="img-nav">
+                    <img src={logo} alt="" />
+                  </div>
+                  <div className="button-nav">
+                    <button>Know More</button>
+                  </div>
                 </div>
-            </div>
+              </div>
+
 
 
 
@@ -68,13 +78,13 @@ var Page = () => {
 
 
 
-                <div className="club-main-container-two"></div>
+
+                    <div className="club-main-content">
+                      <div className="club-main-content-in">
 
 
 {/* ----------------------------------------Glimpse-------------------------------------------- */}
 
-                    <div className="club-main-content">
-                      <div className="club-main-content-in">
                         <div className = { activity === 1 ? 'club-main-content-box' : 'main-content-hide' } >
                           
                           <div className="club-box-content-one-head">

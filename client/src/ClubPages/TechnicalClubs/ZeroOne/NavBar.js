@@ -10,12 +10,16 @@ function NavBar() {
       <div className="clubpage-nav-component">
         <div className="clubpage-nav-component-in">
             <div className="nav-logo">
-                <img src={logo} alt="" />
+                <h1>ZeroOne CLUB</h1>
             </div>
-            <div className="nav-know-more">
-                <Scroll to="club-main-component-in" smooth={true} duration={100}>
-                    <button>Know More</button>
+            <div className="nav-details">
+                <Scroll to="club-hero-content" smooth={true} duration={100} offset={0}>
+                    Home
                 </Scroll>
+                <Scroll to="club-main-component" smooth={true} duration={100} offset={0}>
+                    Know More
+                </Scroll>
+                notifications
             </div>
           </div>
       </div>

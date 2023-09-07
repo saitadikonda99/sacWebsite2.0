@@ -85,7 +85,6 @@ const [showDiv, setShowDiv] = useState(false);
 
 
 
-
 {/* ----------------------------------Main-------------------------------------------- */}
 
 
@@ -100,7 +99,7 @@ const [showDiv, setShowDiv] = useState(false);
                                     onClick={ () => {handleActivity(1)}}>Glimpse</div>
                       <div className="club-nav-button nav-button-two" 
                                     id = { activity === 2 ? 'button-hover' : '' }
-                                    onClick={ () => {handleActivity(2)}}>Team Spotlight</div>
+                                    onClick={ () => {handleActivity(2)}}>Spotlight</div>
                       <div className="club-nav-button nav-button-three" 
                                     id = { activity === 3 ? 'button-hover' : '' }
                                     onClick={ () => {handleActivity(3)}}>About</div>
@@ -429,10 +428,8 @@ const [showDiv, setShowDiv] = useState(false);
 
 {/* ----------------------------------Footer-------------------------------------------- */}  
         <div className="club-footer">
-          <div className="club-footer-in">
               <Footer/>
             </div>
-        </div>
     </div>
   )
 }

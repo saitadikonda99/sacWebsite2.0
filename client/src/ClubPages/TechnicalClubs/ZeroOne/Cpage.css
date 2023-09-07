@@ -4,44 +4,6 @@
     box-sizing: border-box;
 }
 
-
-.clubs .clubs-nav {
-    width: 100%;
-}
-
-
-.clubs .clubs-nav-in {
-    display: flex;
-    border-bottom: 1px solid red;
-    position: fixed;
-    backdrop-filter: blur(10px);
-    font-weight: 600;
-}
-
-.clubs .clubs-nav-in-one {
-    width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.clubs .clubs-nav-in-two {
-    width: 70%;
-    display: flex;
-}
-
-.clubs .clubs-nav-in-two ul {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-}
-
-.clubs .clubs-nav-in-one img {
-    width: 40%;
-}
-
-
 /* ----------------------------------Hero-------------------------------------------- */
 
 .clubs .clubs-body {
@@ -187,13 +149,12 @@
 .club-main-navbar-in {
     height: fit-content;
     border: .1px solid rgb(151, 0, 3); 
-    width: 100%;
+    min-width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
     border-radius: 40px;
-
 }
 
 .club-nav-button {
@@ -241,6 +202,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 40px;
 }
 
 .club-box-content-one {
@@ -248,7 +210,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 4rem;
+    padding-top: 4rem 0;
 }
 
 .club-box-content-two {
@@ -299,6 +261,14 @@
     padding: 20px;
     border: .1px solid black;
 
+}
+
+.one-matter-img {
+    width: 100%;
+}
+
+.one-matter-img img{
+    width: 100%;
 }
 
 .one-matter-img-content {
@@ -366,7 +336,8 @@
 }
 
 .mem-img-box img{
-    width: 90%;
+    width: 80%;
+    height: auto;
 }
 
 .details-two {
@@ -381,7 +352,9 @@
 
 .details-two img {
     width: 40%;
+    height: auto;
 }
+
 
 
 
@@ -404,6 +377,7 @@
     justify-content: center;
     align-items: center;
     padding: 40px;
+
 }
 
 .about-img {
@@ -411,10 +385,10 @@
     height: fit-content;
 }
 
-/* .about-img img {
-    width: 50%;
+.about-img img {
+    width: 100%;
     border-radius: 20px;
-} */
+}
 
 
 .about-img-matter {
@@ -482,3 +456,8 @@
     text-align: left;
 }
 
+
+.club-footer {
+    height: fit-content;
+    width: 100%;
+}

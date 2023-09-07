@@ -28,11 +28,6 @@ import InstaLogo from '../../Assets/Logos/InstaLogo.png';
 import TwitterLogo from '../../Assets/Logos/TwitterLogo.png';
 import LinkedInLogo from '../../Assets/Logos/LinkedInLogo.png';
 
-
-
-
-
-
 const Home  = () => {
  
   useEffect(() => {

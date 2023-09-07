@@ -1,6 +1,6 @@
 import React from 'react';
 import './Cpage.css';
-import  { useState } from 'react';
+import  { useState, useEffect } from 'react';
 
 
 // images start here
@@ -10,6 +10,8 @@ import clubpage from '../../../Assets/clubpage.webp'
 import instagram from '../../../Assets/Logos/InstaLogo.png'
 import linkedin from '../../../Assets/Logos/LinkedInLogo.png'
 import twitter from '../../../Assets/Logos/TwitterLogo.png'
+import clubhero from '../../../Assets/ClubsImages/heroClub.webp'
+import logo from '../../../Assets/Logos/ZeroOneClubLogo.png'
 
 // components start here
 import Footer from '../../../components/Footer/Footer'
@@ -24,20 +26,63 @@ var Page = () => {
     setActivity(Number)
   }
 
+// -----------------------------------------------------------------
+
+const [showDiv, setShowDiv] = useState(false);
+
+  useEffect(() => {
+
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setShowDiv(true);
+      } else {
+        setShowDiv(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []); 
+
+
+// -----------------------------------------------------------------
+
+
+
   return (
     
         <div className="clubs ZeroOne">
           <div className="clubs-in">
-            <div className="clubs-nav">
-                <Navbar/>
-            </div>
 
 {/* ----------------------------------Hero-------------------------------------------- */}
 
-            <div className="club-hero">
-              <div className="club-hero-in">
-                </div>
-            </div>
+              <div className="club-hero">
+                <div className="club-hero-in">
+                    <div className="club-nav">
+                      <div className="club-nav-in">
+                        <Navbar/>
+                      </div>
+                    </div>
+                    <div className="club-hero-content">
+
+                    {showDiv && (
+                          <div className="scroll-div">
+                            <div className="scroll-div-head">
+                              <h1>ZeroOne CLUB</h1> 
+                              <p>Design.Develop.Deploy</p>
+                            </div>
+                            <div className="scroll-div-logo">
+                              <button>Join The Club</button>
+                              </div>
+                          </div>
+                        )}
+                      </div>
+                   </div>
+              </div>
+
 
 
 
@@ -68,13 +113,13 @@ var Page = () => {
 
 
 
-                <div className="club-main-container-two"></div>
+
+                    <div className="club-main-content">
+                      <div className="club-main-content-in">
 
 
 {/* ----------------------------------------Glimpse-------------------------------------------- */}
 
-                    <div className="club-main-content">
-                      <div className="club-main-content-in">
                         <div className = { activity === 1 ? 'club-main-content-box' : 'main-content-hide' } >
                           
                           <div className="club-box-content-one-head">

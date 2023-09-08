@@ -7,11 +7,11 @@ import './App.css';
 
 //import pages here 
 import Home from '../src/pages/Home/Home';
-import ClubsPage from '../src/ClubPages/clubspage';
 import ZeroOne from './ClubPages/TechnicalClubs/ZeroOneCodeClub/Cpage'
 import Dashboard from '../src/dashboard/DashboardApp';
 import Leadership from '../src/pages/Leadership/Page';
 import CompletedEvents from '../src/pages/CompletedEvents/Page';
+import ClubsPage from '../../client/src/ClubPages/ClubPageApp';
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -37,7 +37,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/zeroOne" element={<ZeroOne/>} />
+        <Route path="clubs/*" element={<ClubsPage/>} />
         <Route path="/studentclubs" element={<ClubsPage/>} />
         <Route path="/leadership" element={<Leadership/>} />
         <Route path="/dashboard/*" element={<Dashboard/>} />

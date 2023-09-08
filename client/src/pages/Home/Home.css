@@ -287,7 +287,7 @@
     justify-content: space-between;
 }
 .projects-comps {
-    width: 32%;
+    width: 23.5%;
 }
 
 .projects-comps-one img {
@@ -310,7 +310,8 @@
 .projects-comps-two-links {
     text-align: left;
     text-decoration: none;
-    color: black;
+    color: rgb(151, 0, 3);
+    padding-top: 0.5rem;
 }
 .projects-in {
     width: 90%;

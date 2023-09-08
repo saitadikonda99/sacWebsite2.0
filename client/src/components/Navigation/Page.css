@@ -9,6 +9,7 @@
 }
 .nav-in-one {
     width: 70%;
+
 }
 .nav-in-two {
     width: 30%;
@@ -40,33 +41,48 @@
     color: white;
 }
 .nav-in-one-in {
-    width: 90%;
+    width: 80%;
     margin: auto;
     display: flex;
     justify-content: flex-end;
 }
 .nav-in-one-in ul {
-    width: 85%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     list-style: none;
     padding: 1rem 0rem;
 }
 .nav-in-one-in ul li {
-    color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
+    color: white;
 
 }
 .nav-links {
     color: white;
     text-decoration: none;
 }
+.nav-scroll-links {
+    color: white;
+}
+
+.notification-diag {
+    background-color: white;
+    border: 2px solid rgb(208, 207, 207);
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+
+}
+.notification-diag-in {
+    padding: 0.5rem 1rem;
+}
+
 
 .scrolled {
     background-color: rgb(151, 0, 3); 
-    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    transition: background-color 0.3s ease;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .scrolled ul {

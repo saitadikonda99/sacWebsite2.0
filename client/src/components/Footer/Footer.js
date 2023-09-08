@@ -52,13 +52,13 @@ const Footer = () => {
             </div>
 
             <div className="FooterThree">
-
               <div className="FooterThree-one">
                 <span id='copyright'>
                   <i class="fa fa-copyright" aria-hidden="true"></i> <p>2023 KLEF - Student Activity Center | Designed & Developed by <a href="https://www.linkedin.com/in/deepakreddygathpa/">Deepak Reddy Gathpa</a> & <a href="https://www.linkedin.com/in/tadikondasaimanikanta/">Sai Tadikonda</a>
                   </p>
                 </span>
               </div>
+
 
               <div className="FooterThree-two">
                 <span id='socialIcons'>
@@ -69,7 +69,6 @@ const Footer = () => {
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
                 </span>
               </div>
-
             </div>
 
         </div>

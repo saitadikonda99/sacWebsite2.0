@@ -7,16 +7,11 @@ import ScrollToTop from "react-scroll-to-top";
 import { Link as Scroll } from 'react-scroll';
 
 
-import Button from '@mui/material/Button';
-import Dialog from '@mui/material/Dialog';
-import DialogActions from '@mui/material/DialogActions';
-import DialogContent from '@mui/material/DialogContent';
-import DialogTitle from '@mui/material/DialogTitle';
 
+import NavBar from '../../components/Navigation/Page';
 
 
 import Footer from '../../components/Footer/Footer';
-import newSacLogo from '../../Assets/Logos/newSacLogo.png';
 import bck from '../../Assets/bck.jpg'; 
 import newVideo from '../../Assets/newVideo.mp4';  
 import AmarnadhDroneCompetition from '../../Assets/NewsImages/AmarnadhDroneCompetition.jpg'; 
@@ -62,15 +57,7 @@ const Home  = () => {
 
   
 
-  const [open, setOpen] = React.useState(false);
 
-  const handleClickOpen = () => {
-    setOpen(true);
-  };
-
-  const handleClose = () => {
-    setOpen(false);
-  };
 
 
   const faqData = [
@@ -114,75 +101,8 @@ const Home  = () => {
 
   return (
     <div className='HomeComponent'>
-
+        <NavBar/>
         <div className="HomeContainer">
-          
-          <div className={`nav ${isNavScrolled ? 'scrolled' : ''}`}>
-            <div className="nav-in">
-            <div className="nav-in-two">
-                <div className="nav-in-two-in">
-                  {!isNavScrolled && <img className='logoini' src={newSacLogo} alt="" />}
-                  {isNavScrolled && <h1><Link className='homelink' to='/'>Student Activity Center</Link></h1>}
-                </div>
-              </div>
-              <div className="nav-in-one">
-                <div className="nav-in-one-in">
-                  <ul>
-                    <li><Scroll className='nav-scroll-links' activeClass="active" to="news" spy ={true} smooth={true} offset={100} duration={200} >News</Scroll></li>
-                    <li><Scroll className='nav-scroll-links' activeClass="active" to="news-two" spy ={true} smooth={true} offset={-10} duration={200} >Events</Scroll></li>
-                    {/* <li><Link className='nav-links' to='/dashboard'>Dashboard</Link></li> */}
-                    <li><Link className='nav-links' to='/StudentClubs'>Clubs</Link></li>
-                    <li><Link className='nav-links'  to='/leadership'>Leadership</Link></li>
-                    <li><Link className='nav-links' to='/StudentClubs'>Gallery</Link></li>
-                    <li><Scroll className='nav-scroll-links' activeClass="active" to="stories" spy ={true} smooth={true} offset={-50} duration={200}>Blogs</Scroll></li>
-                    <li><Scroll className='nav-scroll-links' activeClass="active" to="" spy ={true} smooth={true} offset={-50} duration={200} onClick={handleClickOpen}>Notifications</Scroll></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div>
-            <Dialog
-              open={open}
-              onClose={handleClose}
-              aria-labelledby="alert-dialog-title"
-              aria-describedby="alert-dialog-description"
-            >
-              <DialogTitle id="alert-dialog-title">
-                {"Noticiations"}
-              </DialogTitle>
-              <DialogContent>
-                <div className="notification-diag">
-                  <div className="notification-diag-in">
-                    <p>Getting Started with Google Cloud - ZeroOne Club</p>
-                  </div>
-                </div>
-                <div className="notification-diag">
-                  <div className="notification-diag-in">
-                    <p>Getting Started with Google Cloud - ZeroOne Club</p>
-                  </div>
-                </div>
-                <div className="notification-diag">
-                  <div className="notification-diag-in">
-                    <p>Getting Started with Google Cloud - ZeroOne Club</p>
-                  </div>
-                </div>
-                <div className="notification-diag">
-                  <div className="notification-diag-in">
-                    <p>Getting Started with Google Cloud - ZeroOne Club</p>
-                  </div>
-                </div>
-              </DialogContent>
-              <DialogActions>
-                <Button onClick={handleClose} autoFocus>Close</Button>
-              </DialogActions>
-            </Dialog>
-          </div>
-          
-
-
           <div className="Home-one">
             <div className="Home-one-in">
               <video autoPlay={true} loop={true} muted={true} style={{width: "100%"}} src={newVideo}></video>
@@ -338,11 +258,12 @@ const Home  = () => {
         </div>
 
 
+
         <div className="projects">
           <div className="projects-in">
             <div className="projects-in-header">
               <div className="projects-in-header-in">
-                <h1>Department Projects from Clubs</h1>
+                <h1>4 Domains Infinite Possibilities</h1>
                 <p>Preparing students to make meaningful contributions to society as engaged citizens and leaders in a complex world</p>
               </div>
             </div>
@@ -353,7 +274,7 @@ const Home  = () => {
                     <img src={ProjectsImage} alt="" />  
                   </div>
                   <div className="projects-comps-two">
-                    <h2>Pro Recording Camera</h2>
+                    <h2>Technology</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt voluptatibus, dolorem ex distinctio magnam corrupti!</p>
                     <Link className='projects-comps-two-links' to='/'>Explore</Link>
                   </div>
@@ -363,7 +284,7 @@ const Home  = () => {
                     <img src={ProjectsImage} alt="" />  
                   </div>
                   <div className="projects-comps-two">
-                    <h2>Pro Recording Camera</h2>
+                    <h2>Liberal & Sports</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt voluptatibus, dolorem ex distinctio magnam corrupti!</p>
                     <Link className='projects-comps-two-links' to='/'>Explore</Link>
                   </div>
@@ -373,7 +294,17 @@ const Home  = () => {
                     <img src={ProjectsImage} alt="" />  
                   </div>
                   <div className="projects-comps-two">
-                    <h2>Pro Recording Camera</h2>
+                    <h2>Innovation </h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt voluptatibus, dolorem ex distinctio magnam corrupti!</p>
+                    <Link className='projects-comps-two-links' to='/'>Explore</Link>
+                  </div>
+                </div>
+                <div className="projects-comps">
+                  <div className="projects-comps-one">
+                    <img src={ProjectsImage} alt="" />  
+                  </div>
+                  <div className="projects-comps-two">
+                    <h2>Outreach</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt voluptatibus, dolorem ex distinctio magnam corrupti!</p>
                     <Link className='projects-comps-two-links' to='/'>Explore</Link>
                   </div>
@@ -447,6 +378,15 @@ const Home  = () => {
          <div className="stories-viewmore">
           <Link className='stories-viewmore-link' to='/'>View More Stories</Link>
          </div>
+        </div>
+
+
+        <div className="gallery">
+          <div className="gallery-in">
+            <div className="gallery-one">
+                
+            </div>
+          </div>
         </div>
 
 

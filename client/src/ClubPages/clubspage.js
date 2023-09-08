@@ -10,12 +10,13 @@ import ClubsPageDemo from '../Assets/ClubsPageDemo.jpeg';
 
 import NavBar from '../components/Navigation/Page';
 
+
+
 const clubspage = () => {
   return (
     <div className='clubspageComponent'>
-        <NavBar />
+        <NavBar className='clubspage-nav' />
         <div className="clubspageContainer">
-            
             <div className="clubspage-header">
                 <div className="clubspage-header-in">
                     <h1>Student Clubs</h1>

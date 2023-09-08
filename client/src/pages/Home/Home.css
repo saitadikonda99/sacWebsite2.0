@@ -563,61 +563,7 @@
     font-size: 15px;
 }
 
-
-.HomeComponent  .quicklinks {
-    display: flex;
-}
-
-.HomeComponent  .quicklinks-inner {
-    display: flex;
-    padding: 40px 0px 40px 0px;
-    margin-left: 5%;
-    width: 70%;
-}
-
-.HomeComponent  .quicklinks-inner h3 {
-    font-weight: 700;
-    color: rgb(151, 0, 3);
-    padding: 10px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.HomeComponent  .quicklinks-inner li {
-    list-style: none;
-    text-align: left;
-    margin: 15px 10px 10px 10px;
-    color: black;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-}
-
-.HomeComponent  .qls {
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
-}
-.HomeComponent  .quick-image {
-    text-align: center;
-    width: 30%;
-}
-.HomeComponent  .quick-image h1 {
-    font-size: 40px;
-    font-family: 'Poppins', sans-serif;
-    margin-top: 30%;
-}
-.HomeComponent  .exp {
-    text-decoration: none;
-    color: grey;
-}
-.HomeComponent  .material-symbols-outlined {
-    position: absolute;
-    margin-left: 5px;
-    color: grey;
-}
-.HomeComponent  .quick-image img {
-    width: 100%;
-    margin-top: 150px;
-}
+ 
 
 
 
@@ -1404,52 +1350,8 @@
 }
 
 
-
-/* quick links */
-.quicklinks {
-    display: flex;
-    /* border-top: 5px solid rgb(151, 0, 3); */
-}
-.quicklinks-inner {
-    display: flex;
-    padding: 40px 0px 40px 0px;
-    margin-left: 5%;
-    /* gap: 10px; */
-    width: 70%;
-    
-
-}
-
-.quicklinks-inner h3 {
-    font-weight: 700;
-    color: rgb(151, 0, 3);
-    /* background-color: black;  */
-    padding: 10px;
-    font-family: 'Poppins', sans-serif;
-}
-.quicklinks-inner li {
-    list-style: none;
-    text-align: left;
-    margin: 15px 10px 10px 10px;
-    color: black;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-}
-
-.qls {
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
-}
-.quick-image {
-    text-align: center;
-    width: 30%;
-}
-.quick-image h1 {
-    font-size: 40px;
-    font-family: 'Poppins', sans-serif;
-    margin-top: 30%;
-}
+ 
+ 
 .exp {
     text-decoration: none;
     color: grey;
@@ -1459,11 +1361,7 @@
     margin-left: 5px;
     color: grey;
 }
-.quick-image img {
-    width: 100%;
-    margin-top: 150px;
-}
-
+ 
 
 
 
@@ -2148,10 +2046,7 @@
         border-radius: 10px;
     }
 
-    .quicklinks {
-        display: none !important;
-    }
-   
+    
 
     .slider {
         display: none !important;

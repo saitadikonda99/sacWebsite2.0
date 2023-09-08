@@ -55,7 +55,7 @@ const Footer = () => {
 
               <div className="FooterThree-one">
                 <span id='copyright'>
-                  <i class="fa fa-copyright" aria-hidden="true"></i> <p>2023 Koneru Lakshmaiah Education Foundation - Student Activity Center | Designed & Developed by <a href="https://www.linkedin.com/in/deepakreddygathpa/">Deepak Reddy Gathpa</a>
+                  <i class="fa fa-copyright" aria-hidden="true"></i> <p>2023 KLEF - Student Activity Center | Designed & Developed by <a href="https://www.linkedin.com/in/deepakreddygathpa/">Deepak Reddy Gathpa</a> & <a href="https://www.linkedin.com/in/tadikondasaimanikanta/">Sai Tadikonda</a>
                   </p>
                 </span>
               </div>

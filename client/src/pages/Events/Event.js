@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './Event.css'
 import Footer from '../../components/Footer/Footer'
@@ -9,6 +10,19 @@ import eventimg from '../../Assets/event.png'
 
 
 function Event() {
+
+    useEffect(() => {
+        document.title = 'Events | KLU SAC';
+        const metaDescription = document.createElement('meta');
+        metaDescription.name = 'description';
+        metaDescription.content = 'Events at KLU SAC';
+        document.head.appendChild(metaDescription);
+    
+        return () => {
+          document.head.removeChild(metaDescription);
+        };
+      }, []);
+
   return (
     <div className="Event-component">
         <div className="event-component-in">

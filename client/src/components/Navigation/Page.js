@@ -51,7 +51,7 @@ const Page = () => {
               <div className="nav-in-two">
                 <div className="nav-in-two-in">
                   {!isNavScrolled && <img className='logoini' src={newSacLogo} alt="" />}
-                  {isNavScrolled && <h1><Link className='homelink' to='/'>Student Activity Center</Link></h1>}
+                  {isNavScrolled && <h1><Scroll className='homelink' activeClass="active" to="Home-one-in" spy ={true} smooth={true} offset={-10} duration={400} >Student Activity Center</Scroll></h1>}
                 </div>
               </div>
               <div className="nav-in-one">
@@ -60,7 +60,7 @@ const Page = () => {
                     <li><Scroll className='nav-scroll-links' activeClass="active" to="about" spy ={true} smooth={true} offset={-10} duration={200} >About</Scroll></li>
                     <li><Scroll className='nav-scroll-links' activeClass="active" to="projects" spy ={true} smooth={true} offset={-50} duration={200}>Clubs</Scroll></li>
                     <li><Scroll className='nav-scroll-links' activeClass="active" to="stories" spy ={true} smooth={true} offset={-50} duration={200}>Blogs</Scroll></li>
-                    <li><Scroll className='nav-scroll-links' activeClass="active" to="news" spy ={true} smooth={true} offset={100} duration={200} >News</Scroll></li>
+                    <li><Scroll className='nav-scroll-links' activeClass="active" to="news" spy ={true} smooth={true} offset={-60} duration={200} >News</Scroll></li>
                     <li><Link className='nav-links'  to='/leadership'>Leadership</Link></li>
                     <li><Link className='nav-links' to='/StudentClubs'>Gallery</Link></li>
                     <li><Scroll className='nav-scroll-links' activeClass="active" to="" spy ={true} smooth={true} offset={-50} duration={200} onClick={handleClickOpen}>Notifications</Scroll></li>

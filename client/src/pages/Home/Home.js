@@ -14,14 +14,13 @@ import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import Footer from '../../components/Footer/Footer';
 import bck from '../../Assets/bck.jpg'; 
 import newVideo from '../../Assets/newVideo.mp4';  
-import AmarnadhDroneCompetition from '../../Assets/NewsImages/AmarnadhDroneCompetition.jpg'; 
-import PreBootCamp from '../../Assets/NewsImages/PreBootCamp.jpg';
 import ProjectsImage from '../../Assets/ProjectsImage.webp';
 import storiesImage from '../../Assets/storiesImage.jpeg';
 import YtLogo from '../../Assets/Logos/YtLogo.png';
 import InstaLogo from '../../Assets/Logos/InstaLogo.png';
 import TwitterLogo from '../../Assets/Logos/TwitterLogo.png';
 import LinkedInLogo from '../../Assets/Logos/LinkedInLogo.png';
+import newsImage from '../../Assets/newsImage.jpeg';
 
 const Home  = () => {
  
@@ -390,167 +389,69 @@ const Home  = () => {
         </div>
 
 
-
-
-            <div className="news">
-              <div className="news-header">
-                <div className="news-header-one">
-                  <h1>Happennings at SAC</h1>
+      <div className="news">
+        <div className="news-header">
+          <div className="news-header-in">
+            <h1>News from the Community</h1>
+          </div>
+        </div>
+        <div className="news-in">
+          <div className="news-main">
+            <div className="news-one">
+                <div className="news-one-in">
+                  <img src={newsImage} alt="" />
+                  <div className="news-one-in-desc">
+                    <p>Technology</p>
+                    <p>Stanford students create and apply knowledge by thinking and doing, preparing for leadership in a rapidly changing world.</p>
+                    <p>September 8th 2023</p>
+                  </div>
                 </div>
-                <div className="news-header-two">
-                  <hr />
+            </div>
+            <div className="news-one">
+                <div className="news-one-in">
+                  <img src={newsImage} alt="" />
+                  <div className="news-one-in-desc">
+                    <p>Technology</p>
+                    <p>Stanford students create and apply knowledge by thinking and doing, preparing for leadership in a rapidly changing world.</p>
+                    <p>September 8th 2023</p>
+                  </div>
                 </div>
-              </div>
-              <div className="news-one">
-                  <div className="news-one-header">
-                        <div className="news-one-header-one">
-                          <h1>Latest News</h1>
-                        </div>
-                        <div className="news-one-header-two">
-                          <hr />
-                        </div>
-                  </div>
-                  <div className="news-one-inner">
-                      <div className="news-one-inner-one">
-                        <img src={bck} alt="" />
-                      </div>
-
-
-                      
-                      <div className="news-one-inner-two">
-                      <div className="sw">
-                          <div className="swd">
-                            <h4>Amarnadh (SAC Automation Club Lead) bags the first prize in Dronix Drone Competition</h4>
-
-                            <p>09/03/2023 | Aditya Institute of Technology and Management (AITAM)</p>
-                          </div>
-                          <div className="swi">
-                            <img src={AmarnadhDroneCompetition} alt="" />
-                          </div>
-                        </div>
-                        
-                        <div className="sw">
-                          <div className="swd">
-                            <h4>Pre-Bootcamp program for CBSE Geetanjali Club students by School of Coding | SAC</h4>
-
-                            <p>12/04/2023 | Geetanjali CBSE School,Kunchanapalli</p>
-                          </div>
-                          <div className="swi">
-                            <img src={PreBootCamp} alt="" />
-                          </div>
-                        </div>
-
-
-                        <div className="sw">
-                          <div className="swd">
-                            <h4>Pre-Bootcamp program for CBSE Geetanjali Club students by School of Coding | SAC</h4>
-
-                            <p>12/04/2023 | Geetanjali CBSE School,Kunchanapalli</p>
-                          </div>
-                          <div className="swi">
-                            <img src={PreBootCamp} alt="" />
-                          </div>
-                        </div>
-                      </div>
-
-
-                  </div>
-
-
-
-              </div>
-              <div className="news-two">
-                <div className="news-two-header">
-                        <div className="news-two-header-one">
-                          <h1>Announcements</h1>
-                        </div>
-                        <div className="news-two-header-two">
-                          <hr />
-                        </div>
-                  </div>
-                  <div className="news-two-inner">
-                        <div className="nws">
-                            <p>12/04/23</p>
-                            <h4>Commencement of Social Internship Registrations for Y22 Students</h4>
-                        </div>
-                        <div className="nws">
-                            <p>10/04/23</p>
-                            <h4>Official Collaboration with 25+ Government Departments for Social Internship 2023</h4>
-                        </div>
-                        <div className="nws">
-                            <p>08/04/23</p>
-                            <h4>Open Campus Code (OCC) project proposals are currently being accepted</h4>
-                        </div>
-                  </div>
-              </div>
-              <div className="news-three">
-                <div className="news-three-header">
-                          <div className="news-three-header-one">
-                            <h1>Upcoming Activities</h1>
-                          </div>
-                          <div className="news-three-header-two">
-                            <hr />
-                          </div>
-                    </div>
-                    <div className="news-three-inner">
-                      <div className="dts">
-                          <div className="dts-one">
-                              <h1>April <br />17 </h1>
-                          </div>
-                          <div className="dts-two">
-                              <h2>Knockout - Coding School Coding Challenge 1</h2>
-                              <p>2023</p>
-                              <p>19:00 PM - 23:00 pm</p>
-                          </div>
-                        </div>
-                        <div className="dts">
-                          <div className="dts-one">
-                              <h1>April <br />23 </h1>
-                          </div>
-                          <div className="dts-two">
-                              <h2>One day Workshop on composting using kitchen waste</h2>
-                              <p>2023</p> 
-                              <p>09:00 AM - 13:00 PM</p>
-                          </div>
-
-                        </div>
-                        <div className="dts">
-                          <div className="dts-one">
-                              <h1>April <br />26 </h1>
-                          </div>
-                          <div className="dts-two">
-                              <h2>Story Telling, Ed. 12</h2>
-                              <p>2023</p> 
-                              <p>09:00 AM - 12:00 PM</p>
-                          </div>
-                        </div>
-                        <div className="dts">
-                          <div className="dts-one">
-                              <h1>April <br />28 </h1>
-                          </div>
-                          <div className="dts-two">
-                              <h2>Film Scripting</h2>
-                              <p>2023</p> 
-                              <p>09:00 AM - 12:00 PM</p>
-                          </div>
-                        </div>
-
-                        
-                    </div>
-
-
-              </div>
             </div>
-
-
-
-
-            <div className="joinus">
-                  <div className="joinus-inner">
-                    <h1>Experience the power of community. Join us today and be a part of something truly special.</h1>
-                    <a href="t.me/klsac">Join Us</a>
+            <div className="news-one">
+                <div className="news-one-in">
+                  <img src={newsImage} alt="" />
+                  <div className="news-one-in-desc">
+                    <p>Technology</p>
+                    <p>Stanford students create and apply knowledge by thinking and doing, preparing for leadership in a rapidly changing world.</p>
+                    <p>September 8th 2023</p>
                   </div>
+                </div>
             </div>
+            <div className="news-one">
+                <div className="news-one-in">
+                  <img src={newsImage} alt="" />
+                  <div className="news-one-in-desc">
+                    <p>Technology</p>
+                    <p>Stanford students create and apply knowledge by thinking and doing, preparing for leadership in a rapidly changing world.</p>
+                    <p>September 8th 2023</p>
+                  </div>
+                </div>
+            </div>
+           
+            
+          </div>
+        </div>
+      </div>
+
+
+
+
+        <div className="joinus">
+          <div className="joinus-inner">
+              <h1>Experience the power of community. Join us today and be a part of something truly special.</h1>
+              <a href="t.me/klsac">Join Us</a>
+          </div>
+        </div>
 
 
             <div className="follow">

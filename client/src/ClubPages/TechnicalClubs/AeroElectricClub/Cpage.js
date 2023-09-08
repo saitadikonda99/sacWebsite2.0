@@ -19,6 +19,19 @@ import ToggleNavBar from './ToggleNavBar'
 
 var Page = () => {
 
+  useEffect(() => {
+    document.title = 'SAC | AeroElectricClub';
+    const metaDescription = document.createElement('meta');
+    metaDescription.name = 'description';
+    metaDescription.content = 'AeroElectricClub is a technical club of KL University';
+    document.head.appendChild(metaDescription);
+
+    return () => {
+      document.head.removeChild(metaDescription);
+    };
+  }, []);
+
+
   const [activity, setActivity] = useState(1)
 
 

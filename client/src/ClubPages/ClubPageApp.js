@@ -40,9 +40,6 @@ import TourismClub from './OutreachClubs/TourismClub/Cpage';
 
 
 
-
-
-
 const ClubPageApp = () => {
     const clubs = [
         {

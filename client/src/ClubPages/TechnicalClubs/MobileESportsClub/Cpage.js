@@ -19,6 +19,20 @@ import ToggleNavBar from './ToggleNavBar'
 
 var Page = () => {
 
+  useEffect(() => {
+    document.title = 'SAC Mobile E-Sports Club';
+    const metaDescription = document.createElement('meta');
+    metaDescription.name = 'description';
+    metaDescription.content = 'Mobile E-Sports Club of KL University';
+    document.head.appendChild(metaDescription);
+
+    return () => {
+      document.head.removeChild(metaDescription);
+    };
+  }, []);
+
+
+
   const [activity, setActivity] = useState(1)
 
 

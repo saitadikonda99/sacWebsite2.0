@@ -21,7 +21,7 @@ const Footer = () => {
               
               <div className="FooterTwo-one">
                 <h3>THE MISSION</h3>
-                <h5>The mission of Studnet Activity Center at esteemed Koneru Lakshmaiah Education Foundation is to develop principled, innovative leaders who improve the world and to generate ideas that advance management practice.</h5>
+                <h5>The mission of Student Activity Center at esteemed Koneru Lakshmaiah Education Foundation is to develop principled, innovative leaders who improve the world and to generate ideas that advance management practice.</h5>
               </div>
 
               <div className="FooterTwo-two">

@@ -13,10 +13,10 @@ import twitter from '../../../Assets/Logos/TwitterLogo.png'
 
 // components start here
 import Footer from '../../../components/Footer/Footer'
-import Navbar from './zeroonecodeclub/Navbar'
-import ToggleNavBar from './zeroonecodeclub/ToggleNavBar'
-import './zeroonecodeclub/Cpage.css';
-import './zeroonecodeclub/MobileView.css';
+import Navbar from '../ZeroOneCodeClub/NavBar'
+import ToggleNavBar from '..ToggleNavBar/ZeroOneCodeClub/ToggleNavBar'
+import '../ZeroOneCodeClub/Cpage.css';
+import '../ZeroOneCodeClub/MobileView.css';
 
 
 var Page = () => {

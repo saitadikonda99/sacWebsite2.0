@@ -1,7 +1,6 @@
 import React from 'react';
 import  { useState, useEffect } from 'react';
-import './Cpage.css';
-import './MobileView.css';
+
 
 
 // images start here
@@ -14,8 +13,10 @@ import twitter from '../../../Assets/Logos/TwitterLogo.png'
 
 // components start here
 import Footer from '../../../components/Footer/Footer'
-import Navbar from './NavBar'
-import ToggleNavBar from './ToggleNavBar'
+import Navbar from '../ZeroOneCodeClub/NavBar'
+import ToggleNavBar from '..ToggleNavBar/ZeroOneCodeClub/ToggleNavBar'
+import '../ZeroOneCodeClub/Cpage.css';
+import '../ZeroOneCodeClub/MobileView.css';
 
 var Page = () => {
 

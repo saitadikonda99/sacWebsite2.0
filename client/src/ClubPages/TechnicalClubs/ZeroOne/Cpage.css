@@ -4,80 +4,19 @@
     box-sizing: border-box;
 }
 
-/* ----------------------------------Hero-------------------------------------------- */
-
-.clubs .clubs-body {
-    margin-top: 10vh;
-    height: 90vh;
-}
-
-.clubs .club-body-in {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 10%;
-    align-items: center;
-    gap: 10px;
-}
-
-.clubs .club-in-head {
-    font-size: 3rem;
-    font-weight: 600;
-}
-
-
-.clubs .club-body-in-two {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.clubs .club-body-in-two-in {
-    width: 80%;
-}
-
-.clubs .club-body-in-two-in p {
-    font-size: 1rem;
-    font-weight: 600;
-}
-
-.clubs .club-body-in-two-in span {
-    color: rgb(25, 111, 245);
-}
-
-.clubs .club-body-in-three {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10%;
-}
-
-.clubs .club-body-in-three button {
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid black;
-    background-color: white;
-    font-weight: 600;
-    cursor: pointer;
-}
-
-
-
-
 
 /* ----------------------------------Hero-------------------------------------------- */
 
 .club-hero {
     height: 100vh;
     width: 100%;
-    border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
   .club-hero-in {
-     background-image: url('../../../Assets/ClubsImages/heroClub.webp');
+     background-image: url('../../../Assets/ClubsImages/codingMain.webp');
      background-size: cover;
      background-position: center;
      height: 100%;
@@ -90,29 +29,38 @@
      width: 100%;
 }
 
-.scroll-div {
-    height: 70vh;
+.hero-logo {
+    height: 55vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     color: white;
     gap: 50px;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
 
-.scroll-div-head {
+.hero-logo-head {
     font-size: 3rem;
 }
 
-.scroll-div-logo button {
+.scroll-div  {
+    padding-top: 50px;
+}
+
+.scroll-div button {
     padding: 20px;
     border: 1px solid white;
     border-radius: 10px;
-    background-color: transparent;
-    color: white;
+    background-color: color;
+    color: black;
     font-size: 1.5rem;
     font-weight: 600;
 }
+
+
+
+/* --------------------------------------- Main -------------------------------------------- */
 
 .club-main-component {
     height: fit-content;
@@ -149,7 +97,7 @@
 .club-main-navbar-in {
     height: fit-content;
     border: .1px solid rgb(151, 0, 3); 
-    min-width: 80%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -397,7 +345,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 20px;   
+    font-size: 1rem;   
 }
 
 
@@ -411,23 +359,13 @@
     width: 100%;
 }
 
-.club-activity-in {
-    height: fit-content;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    padding: 50px;
-}
-
 .club-activity-one, .club-activity-two, .club-activity-three {
     height: fit-content;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding: 20px;
 }
 
 .activity-cm {

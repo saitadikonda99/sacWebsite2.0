@@ -1,21 +1,21 @@
 import React from 'react';
-import './Cpage.css';
 import  { useState, useEffect } from 'react';
+import './Cpage.css';
+import './MobileView.css';
 
 
 // images start here
 import deepak from '../../../Assets/CouncilMembers/DP.jpg'
 import google from '../../../Assets/cloud-next_960.png'
-import clubpage from '../../../Assets/clubpage.webp'
+import clubpage from '../../../Assets/ClubsImages/codingMain.webp'
 import instagram from '../../../Assets/Logos/InstaLogo.png'
 import linkedin from '../../../Assets/Logos/LinkedInLogo.png'
 import twitter from '../../../Assets/Logos/TwitterLogo.png'
-import clubhero from '../../../Assets/ClubsImages/heroClub.webp'
-import logo from '../../../Assets/Logos/ZeroOneClubLogo.png'
 
 // components start here
 import Footer from '../../../components/Footer/Footer'
 import Navbar from './NavBar'
+import ToggleNavBar from './ToggleNavBar'
 
 var Page = () => {
 
@@ -26,32 +26,45 @@ var Page = () => {
     setActivity(Number)
   }
 
-// -----------------------------------------------------------------
+  // ----------------------------------------------------------------------
 
-const [showDiv, setShowDiv] = useState(false);
-
-  useEffect(() => {
+  const [showDiv, setShowDiv] = useState(false);
 
     const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setShowDiv(true);
-      } else {
-        setShowDiv(false);
-      }
-    };
+    if (window.scrollY > 90) {
+      setShowDiv(true);
+    } else {
+      setShowDiv(false);
+    }
+  };
 
+  useEffect(() => {
     window.addEventListener('scroll', handleScroll);
-
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []); 
+  }, []);
+  
+  
+  // -----------------------------------------------------------------------------------------------
+  
+  const [size, setSize] = useState(window.innerWidth)
+
+  useEffect(() => {
+    const changeWidth = () => {
+      setSize(window.innerWidth)
+    }
+    window.addEventListener('resize', changeWidth)
+    return () => {
+      window.removeEventListener('resize', changeWidth)
+    }
+  }, [])
 
 
-// -----------------------------------------------------------------
-
-
-
+  // -----------------------------------------------------------------------------------------------  
+  
+  
+  
   return (
     
         <div className="clubs ZeroOne">
@@ -63,22 +76,26 @@ const [showDiv, setShowDiv] = useState(false);
                 <div className="club-hero-in">
                     <div className="club-nav">
                       <div className="club-nav-in">
-                        <Navbar/>
+                        <div className="club-nav-in-two">
+                            {size > 900 ? <Navbar/> : <ToggleNavBar/> }
+                        </div>
+                        <div className='club-nav-in-one'>
+                        {size > 900 ? '' : <p>ZeroOne</p>  }
+                       </div>
                       </div>
                     </div>
-                    <div className="club-hero-content">
+                  <div className="club-hero-content">
 
-                    {showDiv && (
-                          <div className="scroll-div">
-                            <div className="scroll-div-head">
+
+                          <div className="hero-logo">
+                            <div className="hero-logo-head">
                               <h1>ZeroOne CLUB</h1> 
                               <p>Design.Develop.Deploy</p>
                             </div>
-                            <div className="scroll-div-logo">
-                              <button>Join The Club</button>
-                              </div>
                           </div>
-                        )}
+                            {showDiv &&   <div className="scroll-div">
+                              <button>Join The Club</button>
+                          </div> }
                       </div>
                    </div>
               </div>

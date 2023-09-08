@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Event-component {
+    width: 100%;
+    height: fit-content;
+}
+
+.event-component-in {
+    height: fit-content;
+    width: 100%;
+}
+
+.event-head {
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(151, 0, 3);;
+    padding: 2rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.event-main-head {
+    padding: 2rem;
+}
+
+.event-main-content {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+/* --------------- cards 1 ---------------- */
+
+.event-main-content-one {
+    height: 50vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ------------------ cards ------------------ */
+
+.ev-main-cm {
+    border: .1px solid grey;
+    width: 23%;
+    height: fit-content;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ev-main-one-img img {
+    width: 100%;
+}
+
+.ev-main-one-content {
+    padding: 2rem;
+}
+
+.ev-main-one-content h2 {
+    font-size: 1rem;
+}
+
+.ev-main-one-content p {
+    color: grey;
+}
+
+/* --------------- cards 2 ---------------- */
+
+.event-main-content-two {
+    height: 50vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ------------------ back-to-home ------------------ */
+
+.back-to-home {
+    color: black;
+    text-decoration: none;
+}
+
+.back-to-home:hover {
+    text-decoration: underline;
+    color: darkblue;
+}

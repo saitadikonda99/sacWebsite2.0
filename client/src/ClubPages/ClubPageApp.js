@@ -37,9 +37,6 @@ import SafeLifeClub from './OutreachClubs/SafeLifeClub/Cpage';
 import TourismClub from './OutreachClubs/TourismClub/Cpage';
 
 
-
-
-
 const ClubPageApp = () => {
     const clubs = [
         {

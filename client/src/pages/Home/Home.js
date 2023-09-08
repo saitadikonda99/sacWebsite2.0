@@ -721,66 +721,9 @@ const Home  = () => {
       </div>
     </div>
 
+                      
+ 
 
-
-            
-
-            <div id='qckid' className="quicklinks">
-
-              <div className="quicklinks-inner">
-                    <div className="quick-one quick">
-                        <h3>Technology Clubs</h3>
-                        <ul>
-                          <li><Link className='qls'>Coding School</Link></li>
-                          <li><Link className='qls'>Cyber Security</Link></li>
-                          <li><Link className='qls'>Automation</Link></li>
-                          <li><Link className='qls'>Robotics</Link></li>
-                          <li><Link className='qls'>Automobile</Link></li>
-                          <li><Link className='qls'>Game Development</Link></li>
-                        </ul>
-                    </div>
-                    <div className="quick-two quick">
-                        <h3>Liberal Arts</h3>
-                        <ul>
-                          <li><Link className='qls'>Music Club</Link></li>
-                          <li><Link className='qls'>Narthana Club</Link></li>
-                          <li><Link className='qls'>Fusion Club</Link></li>
-                          <li><Link className='qls'>Standup Comedy</Link></li>
-                          <li><Link className='qls'>Muse Arts</Link></li>
-                          <li><Link className='qls'>Dramatics</Link></li>
-                        </ul>
-                    </div>
-                    <div className="quick-three quick">
-                          <div className="quick-three-one">
-                            <h3>Innovation and Incubation</h3>
-                            <ul>
-                              <li><Link className='qls'>ACIC</Link></li>
-                              <li><Link className='qls'>Start in College</Link></li>
-
-                              <li><Link className='qls'>Ideas Hub</Link></li>
-                            </ul>
-                          </div>
-                    </div>
-                    <div className="quick-four quick">
-                    <h3>Society and Outreach</h3>
-                            <ul>
-                            <li><Link className='qls'>Smart Village Revolution</Link></li>
-                              <li><Link className='qls'>NSS</Link></li>
-                              <li><Link className='qls'>NSS</Link></li>
-                              <li><Link className='qls'>NCC</Link></li>
-                              <li><Link className='qls'>Safe Life</Link></li>
-                              <li><Link className='qls'>CEA</Link></li>
-                            </ul>
-                    </div>
-              </div>
-              <div className="quick-image">
-                <h1>Quick Links for activities at SAC</h1>
-                <div className="explore">
-                  <Link className="exp">Deep Dive
-                  <span class="material-symbols-outlined">open_in_new</span></Link>
-                </div>
-              </div>
-            </div>
 
             
         </div>

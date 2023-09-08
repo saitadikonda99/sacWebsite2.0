@@ -1,0 +1,153 @@
+
+
+/* ---------------------- Mobile View ---------------------- */
+
+
+@media screen and (max-width: 900px) {
+   /* ----------------------------------Hero-------------------------------------------- */
+
+.club-hero {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .club-hero-in {
+    background-image: none;
+    background-color: rgb(151, 0, 3); 
+  }
+
+  .club-nav-in {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    font-weight: 800;
+    font-size: 1.2rem;
+    border-bottom: .1px solid white;
+  }
+
+
+
+.hero-logo {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 50px;
+    text-shadow: none;
+}
+
+.hero-logo-head {
+    font-size: 1rem;
+}
+
+.scroll-div  {
+    display: none;
+}
+
+
+/* ---------------------------------- Main -------------------------------------------- */
+
+
+.club-main-component-in {
+   width: 90%;
+}
+
+.club-main-container-one {
+    padding-top: 30px;
+}
+
+.club-main-navbar-in { 
+    width: 100%;
+}
+
+.club-nav-button {
+    font-size: .8rem;
+    padding: 2px 4px;
+}
+
+
+/* ----------------------------------------Glimpse-------------------------------------------- */
+
+
+.club-box-content-one, .club-box-content-two {
+    flex-direction: column;
+    gap: 40px;
+    padding: 0;
+}
+
+.club-box-content-two {
+    padding-bottom: 2rem;
+}
+
+.content-one-matter, .content-two-matter, .content-three-matter, .content-four-matter {
+    width: 90%;
+}
+
+/* ------------------------------------- Team --------------------------------------------- */
+
+.club-team-one, .club-team-two {
+     flex-direction: column;
+     gap: 20px;
+}
+
+.team-member-img {
+    width: 90%;
+}
+
+/* ----------------------------------About-------------------------------------------- */
+
+
+.club-about {
+    padding: 20px 0;
+}
+
+
+.club-about-one, .club-about-three {
+   flex-direction: column;
+   gap: 20px;
+   padding: 0;
+}
+
+.club-about-two {
+    flex-direction: column-reverse;
+    gap: 20px;
+    padding: 0;
+}
+
+.about-img {
+    width: 90%;
+}
+
+.about-img-matter {
+    width: 90%;
+    font-size: .6rem; 
+    gap: 10px;
+}
+
+/* ----------------------------------Activity-------------------------------------------- */
+
+
+
+.club-activity-one, .club-activity-two, .club-activity-three {
+   flex-direction: column;
+   gap: 20px;
+   padding: 1rem 0;
+}
+
+.activity-cm { 
+    width: 90%;
+    gap: 10px;
+    font-size: .7rem;
+    padding: 20px 0;
+}
+
+
+}
+  

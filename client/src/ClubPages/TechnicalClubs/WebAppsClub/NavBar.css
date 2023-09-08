@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clubpage-nav-component {
+    width: 100%;
+}
+
+.clubpage-nav-component-in {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    position: relative;
+    background-color: black;
+}
+
+.nav-logo {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0 30px;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    font-size: 10px;
+}
+
+.nav-details {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+    color: white;
+    font-weight: 600;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}

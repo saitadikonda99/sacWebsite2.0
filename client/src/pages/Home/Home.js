@@ -7,8 +7,17 @@ import ScrollToTop from "react-scroll-to-top";
 import { Link as Scroll } from 'react-scroll';
 
 
+<<<<<<< HEAD
 
 import NavBar from '../../components/Navigation/Page';
+=======
+import Button from '@mui/material/Button';
+import Dialog from '@mui/material/Dialog';
+import DialogActions from '@mui/material/DialogActions';
+import DialogContent from '@mui/material/DialogContent';
+import DialogTitle from '@mui/material/DialogTitle';
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+>>>>>>> e52fac57095579b8107bef2de96aa89e84b39205
 
 
 import Footer from '../../components/Footer/Footer';
@@ -431,7 +440,7 @@ const Home  = () => {
                         
                         <div className="sw">
                           <div className="swd">
-                            <h4>Pre-Bootcamp program for CBSE Geetanjali school students by School of Coding | SAC</h4>
+                            <h4>Pre-Bootcamp program for CBSE Geetanjali Club students by School of Coding | SAC</h4>
 
                             <p>12/04/2023 | Geetanjali CBSE School,Kunchanapalli</p>
                           </div>
@@ -443,7 +452,7 @@ const Home  = () => {
 
                         <div className="sw">
                           <div className="swd">
-                            <h4>Pre-Bootcamp program for CBSE Geetanjali school students by School of Coding | SAC</h4>
+                            <h4>Pre-Bootcamp program for CBSE Geetanjali Club students by School of Coding | SAC</h4>
 
                             <p>12/04/2023 | Geetanjali CBSE School,Kunchanapalli</p>
                           </div>
@@ -661,8 +670,61 @@ const Home  = () => {
       </div>
     </div>
 
-                      
+
  
+                    <div className="Quick-links-component">
+                        <div className="Quick-links-component-in">
+                            <div className="quick-link-one">
+                              <div className="quick-link-one-in">
+                                  <h1>Technology</h1>
+                                   <Link to='/clubs/zeroonecodeclub' className='qu-link-cm'>ZeroOne CodeClub</Link>
+                                   <Link to='/clubs/aeroElectric' className='qu-link-cm'>AeroElectric Club</Link>
+                                   <Link to='/clubs/cyberclub' className='qu-link-cm'>Cyber Club </Link>
+                                   <Link to='/clubs/WebAppsClub' className='qu-link-cm'>WebApps Club </Link>
+                                   <Link to='/clubs/TechHumaClub' className='qu-link-cm'>TechHuma Club </Link>
+                                   <Link to='/clubs/RoboticsClub' className='qu-link-cm'>Robotics Club </Link>
+                                   <Link to='/clubs/AnimationClub' className='qu-link-cm'>Animation Club </Link>
+                                   <Link to='/clubs/AutomobileClub' className='qu-link-cm'>Automobile Club </Link>
+                                   <Link to='/clubs/AgricultureClub' className='qu-link-cm'>Agriculture Club </Link>
+                                   <Link to='/clubs/MobileESportsClub' className='qu-link-cm'>MobileESports Club </Link>
+                                   <Link to='/clubs/AIClub' className='qu-link-cm'>AI Club</Link>
+                                </div>
+
+                                <div className="quick-link-two-in">
+                                  <h1>Liberal Arts</h1>
+                                    <Link to='/clubs/FusionClub' className='qu-link-cm'>Fusion Club</Link>
+                                    <Link to='/clubs/SwaraClub' className='qu-link-cm'>Swara Club</Link>
+                                    <Link to='/clubs/VachasClub' className='qu-link-cm'>Vachas Club</Link>
+                                    <Link to='/clubs/KLRadioClub' className='qu-link-cm'>KLRadio Club</Link>
+                                    <Link to='/clubs/FilmMakingClub' className='qu-link-cm'>FilmMaking Club</Link>
+                                    <Link to='/clubs/StandupComedyClub' className='qu-link-cm'>StandupComedy Club</Link>
+                                    <Link to='/clubs/DramaticsClub' className='qu-link-cm'>Dramatics Club</Link>
+                                </div>
+
+                                <div className="quick-link-three-in">
+                                  <h1>Innovation</h1>
+                                  <Link   className='qu-link-cm'>ACIC</Link>
+                                  <Link   className='qu-link-cm'>Ideas Hub</Link>
+                                  <Link   className='qu-link-cm'>Start in College</Link>
+                                </div>
+                                <div className="quick-link-four-in">
+                                  <h1> Outreach</h1>
+                                  <Link to='/clubs/CEAClub' className='qu-link-cm'>CEA Club</Link>
+                                  <Link to='/clubs/TourismClub' className='qu-link-cm'>Tourism Club</Link>
+                                  <Link to='/clubs/KLTalksClub' className='qu-link-cm'>KL Talks Club</Link>
+                                  <Link to='/clubs/SafeLifeClub' className='qu-link-cm'>SafeLife Club</Link>
+                                  <Link to='/clubs/ElectoralClub' className='qu-link-cm'>Electoral Club</Link>
+                                  <Link to='/clubs/smartvillagerevolution' className='qu-link-cm'>SVR</Link>
+                                </div>
+                            </div>
+                            <div className="quick-link-two">
+                              <div className="quick-link-two-one">
+                                <h1>Quick Links for activities at SAC</h1>
+                                  <p>DeepDive <OpenInNewIcon /> </p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
 
 
             

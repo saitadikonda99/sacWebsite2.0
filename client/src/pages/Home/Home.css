@@ -564,8 +564,78 @@
     font-size: 15px;
 }
 
- 
+ /* --------------------------------------- quick links --------------------------------- */ */
 
+
+.Quick-links-component {
+    width: 100%;
+    height: fit-content;
+}
+
+.Quick-links-component-in {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.quick-link-one {
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0rem;
+    gap: 2rem;
+}
+
+.quick-link-two {
+    width: 25%;
+    height: fit-content;
+}
+
+.quick-link-one-in, .quick-link-three-in , .quick-link-four-in  {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    height: fit-content;
+}
+
+.quick-link-two-in {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    width: 25%;
+}
+
+.quick-link-one-in h1, .quick-link-two-in h1, .quick-link-three-in h1, .quick-link-four-in h1  {
+    font-size: 1.5rem;
+    color: rgb(152, 23, 24);
+}
+
+.quick-link-one p {
+    font-size: 1rem;
+    color: rgb(43, 41, 41);
+}
+
+
+.quick-link-two-one h1 {
+    font-size: 2.5rem;
+}
+
+
+.qu-link-cm {   
+    color: rgb(56, 54, 54);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.qu-link-cm:hover {
+    text-decoration: underline;
+    color: black;
+}
 
 
 /* ------------------------------------ stories ------------------------------- */
@@ -573,6 +643,7 @@
     background-color: rgb(230, 228, 228);
     padding: 2rem 0rem;
 }
+
 .stories-header-in {
     text-align: left;
     width: 90%;

@@ -352,13 +352,90 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-.HomeComponent .upcoming-events {
-    height: 40vh;
-    width: 30%;
-    border: 1px solid black;
-    
+
+
+
+
+
+/* ------------------------------ upcoming events -------------------------- */
+
+.upcoming-events {
+    padding: 0rem 0rem 4rem 0rem;
+}
+.upcoming-events-header {
+    width: 100%;
+}
+.upcoming-events-header-in {
+    width: 90%;
+    margin: auto;
+}
+.upcoming-events-header-in h1 {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+.upcoming-events-in {
+    width: 90%;
+    margin: auto;
+    padding: 2rem 0rem 0rem 0rem;
+    display: flex;
+    justify-content: space-between;
 }
 
+
+.ue-comps {
+    width: 24%;
+    position: relative;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ue-comps-in {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Distribute remaining space equally among children */
+    position: relative; /* Added to allow absolute positioning */
+}
+
+.ue-comps-in-one img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+.ue-comps-in-two {
+    padding: 2rem;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.ue-comps-in-two h2 {
+    font-size: 1.6rem;
+    color: rgb(151, 0, 3);
+}
+.ue-comps-in-two p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+.ue-comps-in-two p:nth-child(3) {
+    font-size: 1.2rem;
+    color: rgb(151, 0, 3);
+}
+.explore-events {
+    padding-top: 3rem;
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.explore-events-link {
+    width: fit-content;
+    border: 2px solid rgb(151, 0, 3);
+    background-color: rgb(151, 0, 3);
+    color: white;
+    text-decoration: none;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+}
 
 
 
@@ -940,12 +1017,7 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-.upcoming-events {
-    height: 40vh;
-    width: 30%;
-    border: 1px solid black;
-    
-}
+
 
 
 .events {

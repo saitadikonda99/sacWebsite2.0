@@ -12,7 +12,6 @@ import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 
 import Footer from '../../components/Footer/Footer';
-import bck from '../../Assets/bck.jpg'; 
 import newVideo from '../../Assets/newVideo.mp4';  
 import ProjectsImage from '../../Assets/ProjectsImage.webp';
 import storiesImage from '../../Assets/storiesImage.jpeg';
@@ -21,6 +20,7 @@ import InstaLogo from '../../Assets/Logos/InstaLogo.png';
 import TwitterLogo from '../../Assets/Logos/TwitterLogo.png';
 import LinkedInLogo from '../../Assets/Logos/LinkedInLogo.png';
 import newsImage from '../../Assets/newsImage.jpeg';
+import eventImage from '../../Assets/event.png';
 
 const Home  = () => {
  
@@ -440,6 +440,76 @@ const Home  = () => {
            
             
           </div>
+        </div>
+      </div>
+
+
+
+      {/*  -------------------- upcoming events ---------------------- */}
+
+      <div className="upcoming-events">
+        <div className="upcoming-events-header">
+          <div className="upcoming-events-header-in">
+            <h1>Upcoming Events</h1>
+          </div>
+        </div>
+        <div className="upcoming-events-in">
+            <div className="ue-comps">
+              <div className="ue-comps-in">
+                <div className="ue-comps-in-one">
+                    <img src={eventImage} alt="" />
+                </div>
+                <div className="ue-comps-in-two">
+                      <h2>Workshop</h2>
+                      <p>Clinicians and Firearms: A Curriculum on Firearm Injury Prevention in Medical Practice</p>
+
+                      <p>8th September, 2023</p>
+                </div>
+              </div>
+            </div>
+            <div className="ue-comps">
+              <div className="ue-comps-in">
+                <div className="ue-comps-in-one">
+                    <img src={eventImage} alt="" />
+                </div>
+                <div className="ue-comps-in-two">
+                      <h2>Workshop</h2>
+                      <p>Clinicians and Firearms: A Curriculum on Firearm Injury Prevention in Medical Practice</p>
+
+                      <p>8th September, 2023</p>
+                </div>
+              </div>
+            </div>
+            <div className="ue-comps">
+              <div className="ue-comps-in">
+                <div className="ue-comps-in-one">
+                    <img src={eventImage} alt="" />
+                </div>
+                <div className="ue-comps-in-two">
+                      <h2>Workshop</h2>
+                      <p>Clinicians and Firearms: A Curriculum on Firearm Injury Prevention in Medical Practice</p>
+
+                      <p>8th September, 2023</p>
+                </div>
+              </div>
+            </div>
+            <div className="ue-comps">
+              <div className="ue-comps-in">
+                <div className="ue-comps-in-one">
+                    <img src={eventImage} alt="" />
+                </div>
+                <div className="ue-comps-in-two">
+                      <h2>Workshop</h2>
+                      <p>Clinicians and Firearms: A Curriculum on Firearm Injury Prevention in Medical Practice</p>
+
+                      <p>8th September, 2023</p>
+                </div>
+              </div>
+            </div>
+
+        </div>
+        <div className="explore-events">
+          <Link to='/events' className='explore-events-link'>Explore More Events</Link>
         </div>
       </div>
 

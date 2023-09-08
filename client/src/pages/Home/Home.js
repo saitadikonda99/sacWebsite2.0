@@ -7,17 +7,8 @@ import ScrollToTop from "react-scroll-to-top";
 import { Link as Scroll } from 'react-scroll';
 
 
-<<<<<<< HEAD
-
 import NavBar from '../../components/Navigation/Page';
-=======
-import Button from '@mui/material/Button';
-import Dialog from '@mui/material/Dialog';
-import DialogActions from '@mui/material/DialogActions';
-import DialogContent from '@mui/material/DialogContent';
-import DialogTitle from '@mui/material/DialogTitle';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
->>>>>>> e52fac57095579b8107bef2de96aa89e84b39205
 
 
 import Footer from '../../components/Footer/Footer';

@@ -4,22 +4,23 @@ import './HomeNav.css'
 
 function HomeNav() {
   return (
-        <div className="Home-Component">
-            <div className="Home-Component-in">
-                <div className="homeNav-logo">
-                   <Link to="/clubs" className="homeNav-index-in-link"><h1>Student Activity Center</h1></Link>
+        <div className="HomeNavComponent">
+            <div className="HomeNavContainer">
+                <div className="HomeNavLogo">
+                    <div className="HomeNavLogo-in">
+                        <Link className='HomeNavLogo-in-link' to='/'><h1>Student Activity Center</h1></Link>
+                    </div>
                 </div>
-                <div className="homeNav-index">
-                    <div className="homeNav-index-in">
-                        <Link to="/clubs" className="homeNav-index-in-link">Clubs</Link>
-                        <Link to="/clubs" className="homeNav-index-in-link">Clubs</Link>
-                        <Link to="/clubs" className="homeNav-index-in-link">Clubs</Link>
-                        <Link to="/clubs" className="homeNav-index-in-link">Clubs</Link>
-
+                <div className="HomeNavIndex">
+                    <div className="HomeNavIndex-in">
+                        <Link className='HomeNavIndex-in-link' to='/'>Back to Home</Link>
+                        <Link className='HomeNavIndex-in-link' to='/'>Explore Clubs</Link>
+                        <Link className='HomeNavIndex-in-link' to='/'>Read Blogs</Link>
+                        <Link className='HomeNavIndex-in-link' to='/'>Upcoming Events</Link>
                     </div>
                 </div>
             </div>
-         </div>
+        </div>
   )
 }
 

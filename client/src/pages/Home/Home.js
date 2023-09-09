@@ -358,6 +358,10 @@ const Home  = () => {
                 </div>
               </div>
             </div>
+
+           <div className="explore-departments">
+            <Link className='projects-link' to='/'>Explore Departments</Link>
+           </div>
           </div>
         </div>
 
@@ -567,7 +571,7 @@ const Home  = () => {
         <div className="joinus">
           <div className="joinus-inner">
               <h1>Experience the power of community. Join us today and be a part of something truly special.</h1>
-              <a href='https://t.me/kl_sac'>Join Us</a>
+              <a href='https://t.me/kl_sac'>Join our Community</a>
           </div>
         </div>
 

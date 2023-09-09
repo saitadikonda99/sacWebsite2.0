@@ -1,0 +1,27 @@
+.not-found-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vw;
+    gap: 2vw;
+}
+
+.not-found-container {
+    display: flex;
+    gap: 2vw;
+}
+
+.not-found-one {
+    border-right : 2px solid black;
+    padding-right: 1vw;
+}
+
+.not-found-four-link {
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.not-found-four-link:hover {
+    text-decoration: underline;
+}

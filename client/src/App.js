@@ -14,6 +14,8 @@ import CompletedEvents from '../src/pages/CompletedEvents/Page';
 import ClubsPage from '../../client/src/ClubPages/ClubPageApp';
 import Events from './pages/Events/Event';
 import Terms from './pages/TC/Tc';
+import NotFound from './pages/NotFound/NotFound';
+
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -46,6 +48,7 @@ function App() {
         <Route path="/completedevents" element={<CompletedEvents/>} />
         <Route path="/events" element={<Events/>} />
         <Route path="/terms" element={<Terms/>} />
+        <Route path='*' element={<NotFound/>}></Route>
       </Routes>
     </div>
   );

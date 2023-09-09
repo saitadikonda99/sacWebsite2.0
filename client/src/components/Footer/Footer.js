@@ -17,9 +17,9 @@ const Footer = () => {
               <Link className='privacy' >Privacy Policy</Link>
               <Link className='privacy' >Cookie Policy</Link>
               <Link onClick={handleclick} to='/terms' className='privacy' >Terms & Conditions</Link>
-              <Link className='report' >Report Errors</Link>
-              <Link className='report' >Provide Feeback</Link>
-              <Link className='report' >Help</Link>
+              <a href='mailto:2100031817@kluniversity.in' className='report' >Report Errors</a>
+              <a href='mailto:2100031817@kluniversity.in' className='report' >Provide Feeback</a>
+              <a href='mailto:2100031817@kluniversity.in' className='report' >Help</a>
             </div>
             <div className="FooterTwo">
               

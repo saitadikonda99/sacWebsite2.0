@@ -32,6 +32,8 @@ import LinkedInLogo from '../../Assets/Logos/LinkedInLogo.png';
 import newsImage from '../../Assets/newsImage.jpeg';
 import eventImage from '../../Assets/event.png';
 import DP from '../../Assets/CouncilMembers/DP.jpg';
+
+
 const Home  = () => {
  
   useEffect(() => {

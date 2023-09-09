@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './Event.css'
 import Footer from '../../components/Footer/Footer'
+import '../../components/HomeNav/HomeNav.css';
 
 
 // images start here 
@@ -10,6 +11,18 @@ import eventimg from '../../Assets/event.png'
 
 
 function Event() {
+
+    useEffect(() => {
+        document.title = 'Events | KLU SAC';
+        const metaDescription = document.createElement('meta');
+        metaDescription.name = 'description';
+        metaDescription.content = 'Student Activity Center at KLEF';
+        document.head.appendChild(metaDescription);
+    
+        return () => {
+          document.head.removeChild(metaDescription);
+        };
+      }, []);
 
     useEffect(() => {
         document.title = 'Events | KLU SAC';
@@ -24,20 +37,35 @@ function Event() {
       }, []);
 
   return (
+
     <div className="Event-component">
         <div className="event-component-in">
-            <div className="event-navBar">
-                {/* navbar */}
-            </div>
+                <div className="HomeNavComponent">
+                    <div className="HomeNavContainer">
+                        <div className="HomeNavLogo">
+                            <div className="HomeNavLogo-in">
+                                <Link className='HomeNavLogo-in-link' to='/'><h1>Student Activity Center</h1></Link>
+                            </div>
+                        </div>
+                        <div className="HomeNavIndex">
+                            <div className="HomeNavIndex-in">
+                                <Link className='HomeNavIndex-in-link' to='/'>Back to Home</Link>
+                                <Link className='HomeNavIndex-in-link' to='/'>Explore Clubs</Link>
+                                <Link className='HomeNavIndex-in-link' to='/'>Read Blogs</Link>
+                                <Link className='HomeNavIndex-in-link' to='/gallery'>Gallery</Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             <div className="event-head">
                 <h1>2024 Season</h1>
                 <p>Find, compete, and earn points at the largest, most diverse hacker events in the world.</p>
             </div>
             <div className="event-main">
                 <div className="event-main-in">
-                    <div className="event-main-head">
+                    {/* <div className="event-main-head">
                         <h2>Upcoming Events</h2>
-                    </div>
+                    </div> */}
                     <div className="event-main-content">
 
                         <div className="event-main-content-one">

@@ -1,18 +1,46 @@
 import React, { Component } from 'react'
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom'
 import './Tc.css'
 
 import Footer from '../../components/Footer/Footer'
+import '../../components/HomeNav/HomeNav.css';
 
 function Tc() {
+
+  useEffect(() => {
+    document.title = 'Terms & Conditions | KLU SAC';
+    const metaDescription = document.createElement('meta');
+    metaDescription.name = 'description';
+    metaDescription.content = 'Student Activity Center at KLEF';
+    document.head.appendChild(metaDescription);
+
+    return () => {
+      document.head.removeChild(metaDescription);
+    };
+  }, []);
+
+
   return (
+    
            <div className="Terms-Component">
             <div className="terms-com-in">
-                <div className="terms-Nav">
-                    <h2>KLEF SAC</h2>
-                    
-                    < Link className='terms-Nav-link' to='/'> Back to home </Link>
-                    
+            <div className="HomeNavComponent">
+                    <div className="HomeNavContainer">
+                        <div className="HomeNavLogo">
+                            <div className="HomeNavLogo-in">
+                                <Link className='HomeNavLogo-in-link' to='/'><h1>Student Activity Center</h1></Link>
+                            </div>
+                        </div>
+                        <div className="HomeNavIndex">
+                            <div className="HomeNavIndex-in">
+                                <Link className='HomeNavIndex-in-link' to='/'>Back to Home</Link>
+                                <Link className='HomeNavIndex-in-link' to='/'>Explore Clubs</Link>
+                                <Link className='HomeNavIndex-in-link' to='/'>Read Blogs</Link>
+                                <Link className='HomeNavIndex-in-link' to='/gallery'>Gallery</Link>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="terms-main">
                     <div className="terms-main-in">

@@ -1,8 +1,10 @@
 import React from 'react';
+import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './Gallery.css';
 
 import Footer from '../../components/Footer/Footer';
-import HomeNav from '../../components/HomeNav/HomeNav';
+import '../../components/HomeNav/HomeNav.css';
 
 const images = [
   {
@@ -88,31 +90,58 @@ const images = [
 ];
 
 const Gallery = () => {
+
+  useEffect(() => {
+    document.title = 'Gallery | KLU SAC';
+    const metaDescription = document.createElement('meta');
+    metaDescription.name = 'description';
+    metaDescription.content = 'Student Activity Center at KLEF';
+    document.head.appendChild(metaDescription);
+
+    return () => {
+      document.head.removeChild(metaDescription);
+    };
+  }, []);
+
   return (
     <div className="Gallery-component">
-      <div className="Gallery-nav">
-        <HomeNav />
-      </div>
-      <div className="Gallery-header">
-        <h1>Journey Through Time: <span>Unveiling Unforgettable Memories in Our Gallery</span> </h1>
-      </div>
-      <div className="Gallery-one">
-      {images.map((image, index) => (
-        <div className="img-box" key={index}>
-          <img src={image.src} alt="" />
-          <div className="transparent-box">
-            <div className="caption">
-              <p>{image.title}</p>
-              <p className="opacity-low">{image.category}</p>
+        <div className="HomeNavComponent">
+                  <div className="HomeNavContainer">
+                      <div className="HomeNavLogo">
+                          <div className="HomeNavLogo-in">
+                              <Link className='HomeNavLogo-in-link' to='/'><h1>Student Activity Center</h1></Link>
+                          </div>
+                      </div>
+                      <div className="HomeNavIndex">
+                          <div className="HomeNavIndex-in">
+                              <Link className='HomeNavIndex-in-link' to='/'>Back to Home</Link>
+                              <Link className='HomeNavIndex-in-link' to='/'>Explore Clubs</Link>
+                              <Link className='HomeNavIndex-in-link' to='/'>Read Blogs</Link>
+                              <Link className='HomeNavIndex-in-link' to='/events'>Upcoming Events</Link>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            <div className="Gallery-header">
+              <h1>Journey Through Time: <span>Unveiling Unforgettable Memories in Our Gallery</span> </h1>
             </div>
-          </div>
-        </div>
-      ))}
-      </div>
-      <div className="Gallery-footer">
-        <Footer />
-      </div>
-    </div>
+            <div className="Gallery-one">
+            {images.map((image, index) => (
+              <div className="img-box" key={index}>
+                <img src={image.src} alt="" />
+                <div className="transparent-box">
+                  <div className="caption">
+                    <p>{image.title}</p>
+                    <p className="opacity-low">{image.category}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+            </div>
+            <div className="Gallery-footer">
+              <Footer />
+            </div>
+         </div>
   );
 };
 

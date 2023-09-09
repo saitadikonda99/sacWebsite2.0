@@ -28,7 +28,7 @@
   color: white;
 }
 .clicked-event {
-  background-color:;
+  background-color: rgb(0, 0, 0);
 }
 .current-date {
   background-color: blue;

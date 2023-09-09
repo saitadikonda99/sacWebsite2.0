@@ -5,6 +5,10 @@ import './Footer.css';
 
 
 const Footer = () => {
+
+  const handleclick = () => {
+    window.scrollTo(0, 0); 
+  }
  
   return (
     <div className='FooterComponent'>   
@@ -12,7 +16,7 @@ const Footer = () => {
             <div className="FooterOne">
               <Link className='privacy' >Privacy Policy</Link>
               <Link className='privacy' >Cookie Policy</Link>
-              <Link className='privacy' >Licensing & Copyright</Link>
+              <Link onClick={handleclick} to='/terms' className='privacy' >Terms & Conditions</Link>
               <Link className='report' >Report Errors</Link>
               <Link className='report' >Provide Feeback</Link>
               <Link className='report' >Help</Link>

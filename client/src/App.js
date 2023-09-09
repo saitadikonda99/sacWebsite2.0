@@ -13,6 +13,8 @@ import Leadership from '../src/pages/Leadership/Page';
 import CompletedEvents from '../src/pages/CompletedEvents/Page';
 import ClubsPage from '../../client/src/ClubPages/ClubPageApp';
 import Events from './pages/Events/Event';
+import Terms from './pages/TC/Tc';
+
 function App() {
   const [isLoading, setLoading] = useState(true);
   
@@ -43,6 +45,7 @@ function App() {
         <Route path="/dashboard/*" element={<Dashboard/>} />
         <Route path="/completedevents" element={<CompletedEvents/>} />
         <Route path="/events" element={<Events/>} />
+        <Route path="/terms" element={<Terms/>} />
       </Routes>
     </div>
   );

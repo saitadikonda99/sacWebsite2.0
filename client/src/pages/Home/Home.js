@@ -10,6 +10,18 @@ import { Link as Scroll } from 'react-scroll';
 import NavBar from '../../components/Navigation/Page';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
+// dialogue box start here 
+
+import Button from '@mui/material/Button';
+import { styled } from '@mui/material/styles';
+import Dialog from '@mui/material/Dialog';
+import DialogTitle from '@mui/material/DialogTitle';
+import DialogContent from '@mui/material/DialogContent';
+import DialogActions from '@mui/material/DialogActions';
+import IconButton from '@mui/material/IconButton';
+import CloseIcon from '@mui/icons-material/Close';
+import Typography from '@mui/material/Typography';
+
 
 import Footer from '../../components/Footer/Footer';
 import newVideo from '../../Assets/newVideo.mp4';  
@@ -92,7 +104,23 @@ const Home  = () => {
     }
   };
 
-  
+  const BootstrapDialog = styled(Dialog)(({ theme }) => ({
+    '& .MuiDialogContent-root': {
+      padding: theme.spacing(2),
+    },
+    '& .MuiDialogActions-root': {
+      padding: theme.spacing(1),
+    },
+  }));
+
+  const [open, setOpen] = React.useState(false);
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+  const handleClose = () => {
+    setOpen(false);
+  };
 
 
   
@@ -145,7 +173,7 @@ const Home  = () => {
         <div className="about">
               <div className="about-heading">
                 <h1>A Department without Boundaries</h1>
-                <h3>designed to accommodate path-breaking ideas, problem-solving postulates, and artistic assertions, creating an environment that encourages innovation and experimentation</h3>
+                <h3>Designed to accommodate path-breaking ideas, problem-solving postulates, and artistic assertions, creating an environment that encourages innovation and experimentation</h3>
               </div>
               <div className="about-two">
                 <div className="about-two-one about-two-cmn">
@@ -240,7 +268,29 @@ const Home  = () => {
 
               <center>
                 <div className="about-more">
-                  <Link className='about-more-link'>More about Student Activity Center</Link>
+                  <div>
+                  <Link className='about-more-link' onClick={handleClickOpen} >More about Student Activity Center</Link>
+       
+                      <BootstrapDialog
+                        onClose={handleClose}
+                        aria-labelledby="customized-dialog-title"
+                        open={open}
+                        maxWidth="lg"
+                      >
+                        <DialogContent dividers>
+                          <iframe
+            src="https://online.fliphtml5.com/syvtl/zqtg/"
+            frameborder="0"
+            style={{ width: '50rem', height: '50rem' }} // Adjust height as needed
+          ></iframe>
+                        </DialogContent>
+                        <DialogActions>
+                          <Button autoFocus onClick={handleClose}>
+                            Close
+                          </Button>
+                        </DialogActions>
+                      </BootstrapDialog>
+                    </div>
                 </div>
               </center>
             </div>
@@ -519,7 +569,7 @@ const Home  = () => {
         <div className="joinus">
           <div className="joinus-inner">
               <h1>Experience the power of community. Join us today and be a part of something truly special.</h1>
-              <a href="t.me/klsac">Join Us</a>
+              <a href='https://t.me/kl_sac'>Join Us</a>
           </div>
         </div>
 
@@ -562,7 +612,7 @@ const Home  = () => {
                           <p>Subscribe to join a community of creative developers and learn the latest in Google technology.</p>
                         </div>
                         <div className="follow-comps-three">
-                          <a href="https://www.youtube.com/channel/UC4QDq4yqUO3Xc0kQrXJnU1w">Learn More</a>
+                          <a href='https://www.instagram.com/klu_sac/'>Learn More</a>
                         </div>
                       </div>
                     </div>

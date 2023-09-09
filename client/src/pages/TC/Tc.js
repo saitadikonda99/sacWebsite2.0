@@ -17,7 +17,7 @@ function Tc() {
                 <div className="terms-main">
                     <div className="terms-main-in">
                         <div className="terms-main-one">
-                           <div className="terms-main-head">
+                           <div className="terms-main-head-tr">
                              <h2>Terms and Conditions</h2>
                             </div>
                             <div className="terms-main-content">

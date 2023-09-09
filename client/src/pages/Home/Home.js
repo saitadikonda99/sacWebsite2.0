@@ -18,10 +18,8 @@ import Dialog from '@mui/material/Dialog';
 import DialogTitle from '@mui/material/DialogTitle';
 import DialogContent from '@mui/material/DialogContent';
 import DialogActions from '@mui/material/DialogActions';
-import IconButton from '@mui/material/IconButton';
-import CloseIcon from '@mui/icons-material/Close';
-import Typography from '@mui/material/Typography';
 
+import Fade from 'react-reveal/Fade';
 
 import Footer from '../../components/Footer/Footer';
 import newVideo from '../../Assets/newVideo.mp4';  
@@ -33,7 +31,7 @@ import TwitterLogo from '../../Assets/Logos/TwitterLogo.png';
 import LinkedInLogo from '../../Assets/Logos/LinkedInLogo.png';
 import newsImage from '../../Assets/newsImage.jpeg';
 import eventImage from '../../Assets/event.png';
-
+import DP from '../../Assets/CouncilMembers/DP.jpg';
 const Home  = () => {
  
   useEffect(() => {
@@ -570,6 +568,35 @@ const Home  = () => {
           <div className="joinus-inner">
               <h1>Experience the power of community. Join us today and be a part of something truly special.</h1>
               <a href='https://t.me/kl_sac'>Join Us</a>
+          </div>
+        </div>
+
+
+        <div className="officers">
+          <div className="officers-in">
+            <div className="officers-in-one">
+                <div className="officers-in-one-in">
+                      <h1>The Office of Student Activity Center</h1>
+                        <p>The Office of SAC Operates in 3 levels, Director of SAC and Faculty Mentors, Student Council and Executive Body</p>
+                    <Link className='leadership-link' to='/leadership'>Explore Leadership</Link>
+                </div>
+            </div>
+            <div className="officers-in-two">
+                <div className="officers-in-two-in">
+                <div className="profile-card">
+                        <img src={DP} alt="" />
+                        <h2>P Sai Vijay</h2>
+                        <p>Director, SAC</p>
+                        <p>ceo@saivijay@gmail.com</p>
+                    </div>
+                    <div className="profile-card">
+                        <img src={DP} alt="" />
+                        <h2>Parth Deepak</h2>
+                        <p>Chairman, Student Council</p>
+                        <p>ECE, 4th Year</p>
+                    </div>
+                </div>
+            </div>
           </div>
         </div>
 

@@ -161,10 +161,6 @@ function Event() {
                                 </div>
                             </div>
                             </div>
-
-                        <div className="event-back-to-home">
-                            <Link to='/' className='back-to-home'>Back to Home</Link>
-                        </div>
                     </div>
                 </div>
             </div>

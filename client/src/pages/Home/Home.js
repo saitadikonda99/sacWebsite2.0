@@ -718,7 +718,7 @@ const Home  = () => {
                               <div className="quick-link-one-in">
                                   <h1>Technology</h1>
                                    <Link to='/clubs/zeroonecodeclub' className='qu-link-cm'>ZeroOne CodeClub</Link>
-                                   <Link to='/clubs/aeroElectric' className='qu-link-cm'>AeroElectric Club</Link>
+                                   <Link to='/clubs/aeroelectricclub' className='qu-link-cm'>AeroElectric Club</Link>
                                    <Link to='/clubs/cyberclub' className='qu-link-cm'>Cyber Club </Link>
                                    <Link to='/clubs/WebAppsClub' className='qu-link-cm'>WebApps Club </Link>
                                    <Link to='/clubs/TechHumaClub' className='qu-link-cm'>TechHuma Club </Link>
@@ -765,6 +765,17 @@ const Home  = () => {
                             </div>
                           </div>
                     </div>
+
+{/* ----------------------------------- Gallery ------------------------------------------- */}
+
+                      <div className="gallery-component">
+                        <div className="gallery-component-in">
+                          <div className="gallery-com-one"></div>
+                          <div className="gallery-com-two"></div>
+                          <div className="gallery-com-three"></div>
+                          <div className="gallery-com-four"></div>
+                        </div>
+                      </div>
 
           </div>
         <Footer></Footer>

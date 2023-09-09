@@ -16,7 +16,6 @@ import newSacLogo from '../../Assets/Logos/newSacLogo.png';
 const Page = () => {
 
   const [isNavScrolled, setNavScrolled] = useState(false);
-  const [expandedQuestions, setExpandedQuestions] = useState([]);
   const handleScroll = () => {
     if (window.scrollY > 300) {
       setNavScrolled(true);

@@ -2,16 +2,29 @@ import { Link as Scroll} from 'react-scroll'
 import './NavBar.css'
 import * as React from 'react';
 import Button from '@mui/material/Button';
-import TextField from '@mui/material/TextField';
+import { styled } from '@mui/material/styles';
 import Dialog from '@mui/material/Dialog';
-import DialogActions from '@mui/material/DialogActions';
-import DialogContent from '@mui/material/DialogContent';
-import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
+import DialogContent from '@mui/material/DialogContent';
+import DialogActions from '@mui/material/DialogActions';
+import IconButton from '@mui/material/IconButton';
+import CloseIcon from '@mui/icons-material/Close';
+import Typography from '@mui/material/Typography';
+import deepakimg from '../../../Assets/CouncilMembers/DP.jpg'
+
 
 function NavBar() {
 
 // ----------------------------------------------------------------------------------------------------------------------------------
+
+const BootstrapDialog = styled(Dialog)(({ theme }) => ({
+  '& .MuiDialogContent-root': {
+    padding: theme.spacing(2),
+  },
+  '& .MuiDialogActions-root': {
+    padding: theme.spacing(1),
+  },
+}));
 
 const [open, setOpen] = React.useState(false);
 
@@ -37,23 +50,102 @@ const [open, setOpen] = React.useState(false);
               <p onClick={handleClickOpen} >Notifications</p>
             </div>
           </div>
-          
-          <Dialog open={open} onClose={handleClose}>
-        <DialogTitle>Subscribe</DialogTitle>
-        <DialogContent>
-          <DialogContentText>
-            Thanks for visiting our website 😊
-          </DialogContentText>
-          
-        </DialogContent>
-        <DialogActions>
-          <Button onClick={handleClose}>Okay</Button>
-          <Button onClick={handleClose}>Subscribe</Button>
-        </DialogActions>
-      </Dialog>
+  
+          <div>
+  <BootstrapDialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
+    <DialogContent dividers>
+      <table className="custom-table">
+        <thead>
+          <tr className="table-header">
+            <th>Name</th>
+            <th>Position</th>
+            <th>Department</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+            <tbody>
+              <tr className="table-row">
+                <td>
+                  <div className="table-cell">
+                    <img className='club-image' src={deepakimg} alt="" />
+                    <span>Deepak Reddy Gathpa</span>
+                  </div>
+                </td>
+                <td>Lead</td>
+                <td>CSE</td>
+                <td>3rd</td>
+              </tr>
+            </tbody>
 
+            <tbody>
+          <tr className="table-row">
+            <td>
+              <div className="table-cell">
+                <img className='club-image' src={deepakimg} alt="" />
+                <span>Deepak Reddy Gathpa</span>
+              </div>
+            </td>
+            <td>Lead</td>
+            <td>CSE</td>
+            <td>3rd</td>
+          </tr>
+        </tbody>
 
-      </div>
+        <tbody>
+          <tr className="table-row">
+            <td>
+              <div className="table-cell">
+                <img className='club-image' src={deepakimg} alt="" />
+                <span>Deepak Reddy Gathpa</span>
+              </div>
+            </td>
+            <td>Lead</td>
+            <td>CSE</td>
+            <td>3rd</td>
+          </tr>
+        </tbody>
+
+        <tbody>
+          <tr className="table-row">
+            <td>
+              <div className="table-cell">
+                <img className='club-image' src={deepakimg} alt="" />
+                <span>Deepak Reddy Gathpa</span>
+              </div>
+            </td>
+            <td>Lead</td>
+            <td>CSE</td>
+            <td>3rd</td>
+          </tr>
+        </tbody>
+
+        <tbody>
+          <tr className="table-row last-row-name">
+            <td>
+              <div className="table-cell">
+                <img className='club-image' src={deepakimg} alt="" />
+                <span>Deepak Reddy Gathpa</span>
+              </div>
+            </td>
+            <td>Lead</td>
+            <td>CSE</td>
+            <td>3rd</td>
+          </tr>
+        </tbody>
+
+        
+      </table>
+    </DialogContent>
+    <DialogActions>
+      <Button autoFocus onClick={handleClose}>
+        Exit
+      </Button>
+    </DialogActions>
+  </BootstrapDialog>
+</div>
+
+        </div>
+
   )
 }
 

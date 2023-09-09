@@ -51,3 +51,45 @@
     text-shadow: rgb(0, 0, 0) 1px 0 10px;
     z-index: 4;
 }
+
+
+/* --------------------------------- Table -------------------------------------------- */
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .table-header th {
+    background-color: rgb(249, 250, 251);
+    color: grey;
+    font-weight: bold;
+    text-align: left;
+    padding: 1.5rem;
+    border-bottom: .1px solid grey;
+  }
+  
+  .table-row td {
+    padding: 1rem;
+    border-bottom: .1px solid grey;
+  }
+  
+  .club-image {
+    width: 20%;
+    margin-right: 1rem; 
+    border-radius: 70%;
+  }
+  
+  .table-cell {
+    display: flex;
+    align-items: center;  
+  }
+  
+
+  .last-row-name td {
+    border: none;
+  }
+  

@@ -4,6 +4,9 @@ import './Cpage.css';
 import './MobileView.css';
 
 
+
+
+
 // images start here
 import deepak from '../../../Assets/CouncilMembers/DP.jpg'
 import google from '../../../Assets/cloud-next_960.png'
@@ -76,6 +79,10 @@ var Page = () => {
 
   // -----------------------------------------------------------------------------------------------  
   
+  
+
+
+
   
   
   return (

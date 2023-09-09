@@ -13,6 +13,7 @@ import Leadership from '../src/pages/Leadership/Page';
 import CompletedEvents from '../src/pages/CompletedEvents/Page';
 import ClubsPage from '../../client/src/ClubPages/ClubPageApp';
 import Events from './pages/Events/Event';
+import Gallery from './pages/Gallery/Gallery';
 import Terms from './pages/TC/Tc';
 import NotFound from './pages/NotFound/NotFound';
 
@@ -48,6 +49,7 @@ function App() {
         <Route path="/completedevents" element={<CompletedEvents/>} />
         <Route path="/events" element={<Events/>} />
         <Route path="/terms" element={<Terms/>} />
+        <Route path="/gallery" element={<Gallery/>} />
         <Route path='*' element={<NotFound/>}></Route>
       </Routes>
     </div>

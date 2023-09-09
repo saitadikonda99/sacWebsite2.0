@@ -692,9 +692,10 @@
     color: rgb(152, 23, 24);
 }
 
-.quick-link-one p {
+.quick-more {
     font-size: 1rem;
     color: rgb(43, 41, 41);
+    text-decoration: none;
 }
 
 
@@ -1544,8 +1545,6 @@
         padding: 10px;
         border-radius: 10px;
     }
-
-    
 
     .slider {
         display: none !important;

@@ -633,6 +633,7 @@ const Home  = () => {
     </div>
 
 
+{/* ----------------------------------- Quick Links ------------------------------------------- */}
  
                     <div className="Quick-links-component">
                         <div className="Quick-links-component-in">
@@ -659,7 +660,7 @@ const Home  = () => {
                                     <Link to='/clubs/VachasClub' className='qu-link-cm'>Vachas Club</Link>
                                     <Link to='/clubs/KLRadioClub' className='qu-link-cm'>KLRadio Club</Link>
                                     <Link to='/clubs/FilmMakingClub' className='qu-link-cm'>FilmMaking Club</Link>
-                                    <Link to='/clubs/StandupComedyClub' className='qu-link-cm'>StandupComedy Club</Link>
+                                    <Link to='/clubs/StandupComedyClub' className='qu-link-cm'>StandupComedy</Link>
                                     <Link to='/clubs/DramaticsClub' className='qu-link-cm'>Dramatics Club</Link>
                                 </div>
 
@@ -682,15 +683,13 @@ const Home  = () => {
                             <div className="quick-link-two">
                               <div className="quick-link-two-one">
                                 <h1>Quick Links for activities at SAC</h1>
-                                  <p>DeepDive <OpenInNewIcon /> </p>
+                                  <Link className='quick-more' to='/clubs' >DeepDive <OpenInNewIcon /> </Link>
                                 </div>
                             </div>
                           </div>
                     </div>
 
-
-            
-        </div>
+          </div>
         <Footer></Footer>
     </div>
 

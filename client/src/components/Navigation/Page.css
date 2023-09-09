@@ -67,6 +67,9 @@
 .nav-scroll-links {
     color: white;
 }
+.nav-scroll-links:hover {
+    cursor: pointer;
+}
 
 .notification-diag {
     background-color: white;

@@ -9,12 +9,14 @@
     flex-direction: column;
     border: 1px solid black;
 } */
+
 .HomeNavComponent {
     background-color: rgb(151, 0, 3);
     position: fixed;
     width: 100%;
     z-index: 1;
 }
+
 .HomeNavContainer {
     display: flex;
     align-items: center;

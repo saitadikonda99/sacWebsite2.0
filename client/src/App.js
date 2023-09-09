@@ -14,6 +14,7 @@ import CompletedEvents from '../src/pages/CompletedEvents/Page';
 import ClubsPage from '../../client/src/ClubPages/ClubPageApp';
 import Events from './pages/Events/Event';
 import Gallery from './pages/Gallery/Gallery';
+import Blogs from './pages/Blogs/Blogs';
 import Terms from './pages/TC/Tc';
 import NotFound from './pages/NotFound/NotFound';
 
@@ -50,6 +51,7 @@ function App() {
         <Route path="/events" element={<Events/>} />
         <Route path="/terms" element={<Terms/>} />
         <Route path="/gallery" element={<Gallery/>} />
+        <Route path="/blogs" element={<Blogs/>} />
         <Route path='*' element={<NotFound/>}></Route>
       </Routes>
     </div>

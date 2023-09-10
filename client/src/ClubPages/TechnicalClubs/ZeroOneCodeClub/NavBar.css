@@ -93,3 +93,38 @@
     border: none;
   }
   
+  .BranchCSE p {
+    background-color: rgb(21, 21, 229);
+    color: white;
+    display: block;
+    width: 30%;
+    padding: 2px;
+    border-radius: 10px;
+  }
+
+  .BranchECE p {
+    background-color: rgb(90, 176, 90);
+    color: white;
+    display: block;
+    width: 30%;
+    padding: 2px;
+    border-radius: 10px;
+  }
+
+  .BranchAIDS p {
+    background-color: rgb(151, 233, 175);
+    color: white;
+    display: block;
+    width: 30%;
+    padding: 2px;
+    border-radius: 10px;
+  }
+
+  .BranchEEE p {
+    background-color: rgb(13, 218, 184);
+    color: white;
+    display: block;
+    width: 30%;
+    padding: 2px;
+    border-radius: 10px;
+  }

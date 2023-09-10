@@ -7,14 +7,13 @@ import './App.css';
 
 //import pages here 
 import Home from '../src/pages/Home/Home';
-import ZeroOne from './ClubPages/TechnicalClubs/ZeroOneCodeClub/Cpage'
-import Dashboard from '../src/dashboard/DashboardApp';
 import Leadership from '../src/pages/Leadership/Page';
 import CompletedEvents from '../src/pages/CompletedEvents/Page';
 import ClubsPage from '../../client/src/ClubPages/ClubPageApp';
 import Events from './pages/Events/Event';
 import Gallery from './pages/Gallery/Gallery';
 import Terms from './pages/TC/Tc';
+import Dashboard from '../src/pages/Dashboard/Page';
 import NotFound from './pages/NotFound/NotFound';
 
 

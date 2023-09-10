@@ -15,7 +15,7 @@ function ToggleNav() {
     <div className={`Toggle-Nav ${isOpen ? 'open' : ''}`}>
       <div className="Toggle-Nav-in">
         <div className="Toggle-Head">
-          <h3>Student Activity Center</h3>
+          <h3>K L Student Activity Center</h3>
         </div>
         <div className="Toggle-button">
           <CloseIcon

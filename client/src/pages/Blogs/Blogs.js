@@ -4,6 +4,7 @@ import MenuItem from '@mui/material/MenuItem';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Blogs.css';
+import './MobileView.css'
 import'../../components/HomeNav/HomeNav.css';
 
 //images for blog cards

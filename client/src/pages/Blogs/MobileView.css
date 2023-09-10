@@ -1,0 +1,81 @@
+@media (min-width: 320px) and (max-width: 480px) { 
+
+
+    .BlogsContainer-in {
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        padding: 0rem;
+        margin: 0rem;
+    }
+
+    .BlogsContainer-one {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        padding: .5rem;
+    }
+    
+    .BlogsContainer-two {
+        width: 100%;
+        height: fit-content;
+        padding: 2rem 0rem 2rem 0rem;
+        overflow: hidden;
+    }
+
+    .BlogsContainer-main {
+        height: fit-content;
+        width: 90%;
+        margin: auto;
+    }
+
+    .BlogCard  {
+        width: 100%;
+        margin: 0rem;
+        margin-top: 2rem;
+    }
+
+    .Blog-img {
+       display: none;
+    }
+
+    .Blog-Content {
+        width: 100%;
+        text-align: left;
+        padding: 0rem 0rem;
+    }
+
+    .Blog-title h1 {
+        font-size: 1.2rem;
+    }
+    
+    .Blog-category p {
+        color: rgb(48, 47, 47);
+        font-size: .8rem;
+    }
+
+    .Blog-LearnMore {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding: 1.5rem 0rem 0rem 0rem;
+        text-align: center;
+    }
+
+    .Blog-LearnMore p {
+        font-size: .8rem;
+    }
+
+    .Blog-LearnMore-link {
+        font-size: .6rem;
+    }
+
+    /* ---------------------------- Side Bar ------------------------ */
+
+    .SideBarOne {
+        margin-bottom: 2rem;
+    }
+   
+}

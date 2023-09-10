@@ -52,8 +52,9 @@
     display: flex;
     padding: 1.2rem;
     border-radius: 20px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     margin: 1.5rem;
+    border: 1px solid rgb(196, 195, 195);
 }
 
 .Blog-img {
@@ -75,6 +76,7 @@
 .Blog-time p{
     font-weight: 600;
     color: rgb(82, 81, 81);
+    font-size: 1rem;
 }
 
 .Blog-title h1 {
@@ -83,7 +85,7 @@
 
 .Blog-category p {
     color: rgb(48, 47, 47);
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .Blog-LearnMore {

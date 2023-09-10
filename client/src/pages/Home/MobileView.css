@@ -1,0 +1,264 @@
+@media (min-width: 320px) and (max-width: 480px) { 
+    .nav {
+        display: none;
+    }
+    .centered-text h1 {
+        font-size: 2.5rem;
+        color: white; 
+        text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    }
+    .centered-text p {
+        font-size: 1.2rem;
+        color: white;
+        text-shadow: rgb(0, 0, 0) 5px 0 10px;
+      }
+
+      .noname {
+        background-image: url(../../Assets/GroupPhoto.jpg);
+        background-repeat: no-repeat;
+        display: flex;
+        overflow: hidden;
+        background-position: center center;
+        height: 40vh;
+    }
+
+
+
+    /* ---------------- about ------------- */
+
+    .HomeComponent  .about {
+        padding: 5rem 0rem;
+        opacity: 0.9;
+        background-color: white;
+    }
+    .HomeComponent  .about-heading h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.6rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .HomeComponent  .about-heading h3 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.1rem;
+        font-weight: 400;
+        color: rgb(151, 0, 3);
+        width: 90%;
+        padding: 0;
+        margin: auto;
+    }
+    .HomeComponent  .about-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 30px;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .HomeComponent  .about-two-cmn {
+        width: 80%;
+        margin: auto;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        padding: 1rem;
+        border: 1px solid rgb(200, 200, 200);
+        border-radius: 1rem;
+    }
+    .HomeComponent  .counter {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .HomeComponent .about-two-cmn h2 {
+        font-size: 1.5rem !important;
+        font-weight: 600;
+        color: black;
+        margin-bottom: 1rem;
+    }
+
+
+    /* -----------------  projects ----------------- */
+    .projects {
+        padding: 4rem 0rem 0rem 0rem;
+    }
+
+    .projects-in-header-in h1 {
+        font-size: 2.5rem;
+        color: black;
+    }
+    .projects-in-header-in p {
+        font-size: 1.3rem;
+        width: 90%;
+        margin: auto;
+        color: rgb(151, 0, 3);
+        margin-top: 1rem;
+    }
+    .projects-one {
+        padding: 3rem 0rem;
+    }
+    .projects-one-in {
+        display: flex; 
+        flex-direction: column;  
+        justify-content: space-between;
+        row-gap: 2rem;
+    }
+
+    .explore-departments {
+        width: 90%;
+        margin: auto;
+    }
+
+    .projects-comps {
+        width: 90%;
+        margin: auto;
+    }
+
+
+    /* ----------------------- stories ----------------- */
+
+    .stories {
+        background-color: rgb(246, 246, 246);
+        padding: 2rem 0rem;
+    }
+    .stories-header-in h1 {
+        color: black;
+        font-size: 2.5rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    .stories-header-in p {
+        font-size: 1.3rem;
+        color: rgb(151, 0, 3);
+        margin-top: 0.4rem;
+    }
+    .stories-one-in {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.4rem;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+        padding: 3rem 0rem;
+    }
+    .stories-comps {
+        width: 90%;
+        margin: auto;
+        border: 1px solid grey;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+    }
+
+
+    /* -------------- news -------------------- */
+    .news {
+        padding: 3rem 0rem 5rem 0rem;
+    }
+
+    .news-main {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.5rem;
+        flex-wrap: wrap;
+    }
+    .news-one {
+        width: 90%;
+        margin: auto;
+    }
+
+    .news-one-in-desc {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: rgba(56, 54, 54, 0.7);
+        color: white;
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: left;
+    }
+
+    /* ----------------- upcoming header ------------- */
+    .upcoming-events-header-in h1 {
+        font-size: 2.5rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .upcoming-events-in {
+        width: 90%;
+        margin: auto;
+        padding: 2rem 0rem 0rem 0rem;
+        display: flex;
+        row-gap: 1.3rem;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .ue-comps {
+        width: 90%;
+        position: relative;  
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+
+    /* ---------------- officers ----------------- */
+    .officers {
+        padding: 4rem 0rem 0rem 0rem;
+    }
+    .officers-in {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .officers-in-one {
+        width: 100%;
+    }
+    .officers-in-one-in h1 {
+        font-size: 2.5rem;
+    }
+    .officers-in-two {
+        width: 100%;   
+        display: none;
+    }
+    .follow {
+        background-color: white;
+        padding: 2rem 0rem 4rem 0rem;
+    }
+    .follow-header-in {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .follow-header-in h1 {
+        font-size: 2.5rem;
+        font-family: 'Poppins', sans-serif;
+        color: black;
+        width: 80%;
+        margin: auto; 
+        padding: 40px 0px 40px 0px;
+    }
+    .follow-header-one-in {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        row-gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .follow-comps {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 2px solid lightgrey;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    .Quick-links-component {
+        display: none;
+    }
+}

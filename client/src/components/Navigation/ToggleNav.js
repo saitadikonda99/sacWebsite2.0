@@ -18,17 +18,17 @@ function ToggleNav() {
           <h3>Student Activity Center</h3>
         </div>
         <div className="Toggle-button">
-          <DensityMediumIcon
+          <CloseIcon
             className={`close-icon ${isOpen ? 'show' : 'hide'}`}
             onClick={toggleNav}
           />
-          <CloseIcon
+          <DensityMediumIcon 
             className={`density-icon ${isOpen ? 'hide' : 'show'}`}
             onClick={toggleNav}
           />
         </div>
       </div>
-      <div className={`Toggle-Nav-links ${isOpen ? 'togglehide' : 'toggleshow'}`}>
+      <div className={`Toggle-Nav-links ${isOpen ? 'toggleshow' : 'togglehide'}`}>
         <ul>
             <li><Scroll onClick={toggleNav} className='nav-scroll-links' activeClass="active" to="about" spy ={true} smooth={true} offset={-10} duration={200} >About</Scroll></li>
             <li><Scroll onClick={toggleNav} className='nav-scroll-links' activeClass="active" to="projects" spy ={true} smooth={true} offset={-50} duration={200}>Clubs</Scroll></li>

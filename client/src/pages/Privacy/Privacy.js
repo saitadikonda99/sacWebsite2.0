@@ -21,8 +21,6 @@ function Privacy() {
         };
       }, []);
 
-      
-
   return (
           <div className="Privacy-Component">
             <div className="privacy-Component-in">

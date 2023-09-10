@@ -1,15 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
-
-
-
 .FooterComponent {
     background-color: rgb(151, 0, 3);
     padding-top: 20px;
     border-top: 5px solid rgb(225, 223, 223);
     position: absolute;
     width: 100%;
-    font-family: 'Poppins', sans-serif;
-
 }
 
 
@@ -19,6 +13,7 @@
     margin: auto;
     margin-bottom: 20px;
 }
+
 .FooterOne .privacy {
     text-decoration: none;
     color: white;
@@ -32,6 +27,7 @@
     margin-right: 20px;
     float: right;
 }
+
 .FooterTwo {
     display: flex;
     width: 90%;
@@ -48,7 +44,6 @@
 .FooterTwo-one h3 {
     font-size: 1.2rem;
     color: whitesmoke;
-    font-family: 'Poppins', sans-serif;
 }
 .FooterTwo-one h5 {
     font-size: 1rem;
@@ -56,7 +51,7 @@
     color: whitesmoke;
     width: 90%;
     margin-top: 1rem;
-    font-family: 'Poppins', sans-serif;
+    
 }
 
 .FooterTwo-two {
@@ -92,7 +87,6 @@
 }
 .official-communication h3 {
     color: white;
-    font-family: 'Josefin Sans', sans-serif;
 
 }
 .campus {
@@ -101,13 +95,11 @@
 }
 .campus h4 {
     width: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 400;
     color: white;
 }
 .campus h3 {
     color: white;
-    font-family: 'Josefin Sans', sans-serif;
 }
 .FooterThree {
     display: flex;
@@ -130,7 +122,6 @@
 }
 .FooterThree-two {
     width: 20%;
-
 }
 #copyright {
     font-size: 15px;
@@ -151,178 +142,3 @@
     font-size: 25px;
 }
 
-
-@media (min-width: 320px) and (max-width: 480px) {
-
-
-
-    /* media queries for Footer Section */
-
-    .FooterComponent {
-        background-color: rgb(151, 0, 3);
-        padding-top: 20px;
-        border-top: 5px solid rgb(225, 223, 223);
-        position: absolute;
-        width: 100%;
-    }
-    .FooterContainer hr {
-        width: 92%;
-        height: 0.4px;
-        border: none;
-        background-color: rgb(170, 162, 162);
-    }
-
-    .FooterOne {
-        text-align: left;
-        width: 90%;
-        margin: auto;
-        margin-bottom: 20px;
-    }
-
-    .FooterOne .privacy {
-        text-decoration: none;
-        color: white;
-        font-family:'Graphik', sans-serif; 
-        font-size: 1rem;
-        margin: 5px;
-        text-align: center;
-    }
-    .FooterOne .report {
-        text-decoration: none;
-        color: white;
-        font-family:'Graphik', sans-serif; 
-        font-size: 13px;
-        margin: 5px;
-        font-weight: 500;
-        float: left;
-        margin-top: 5px;
-        margin-bottom: 10px;
-    }
-
-    .FooterTwo {
-        width: 90%;
-        margin: auto;
-        display: unset;
-    }
-    .FooterTwo-one {
-        width: 100%; 
-        width: 90%;
-        margin: auto;
-        text-align: justify;
-    }
-
-    .FooterTwo-one h3 {
-        font-size: 14px;
-        color: whitesmoke;
-    }
-    .FooterTwo-one h5 {
-        font-family: 'Josefin Sans', sans-serif;
-        font-size: 15px;
-        font-weight: 300;
-        color: rgb(151, 0, 3);
-        line-height: 20px;
-        color: whitesmoke;
-        width: 100%;
-        display: block;
-    }
-
-    .FooterTwo-two {
-        width: 90%;
-        margin: auto;
-    }
-    .FooterTwo-two h5 {
-        color: whitesmoke;
-        font-family: 'Josefin Sans', sans-serif;
-    }
-    .Footer-two-inner {
-        width: 100%;
-        color: whitesmoke;
-        display: flex;
-        display: unset;
-    }
-    .Footer-two-inner h4 {
-        font-size: 15px;
-    }
-
-
-    .official-communication {
-        width:90%;
-    }
-    .official-communication h4 {
-        width: 100%;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: 400;
-    }
-    .official-communication h3 {
-        color: white;
-        font-family: 'Josefin Sans', sans-serif;
-
-    }
-    .campus {
-        /* border: 1px solid white; */
-        width:90%;
-    }
-    .campus h4 {
-        width: 100%;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: 400;
-    }
-    .campus h3 {
-        color: white;
-        font-family: 'Josefin Sans', sans-serif;
-    }
-    #cont {
-        margin: unset;
-        text-align: center;
-        line-height: 20px;
-    }
-
-    .FooterThree {
-        display: unset;
-        width: 90%;
-        margin: auto;
-        margin-top: 20px;
-    }
-
-    .FooterThree-one {
-        width: 90%;
-        margin: auto;
-        text-align: justify;
-    }
-    .FooterThree-one p {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        display: inline;
-        font-weight: 320;
-        color: white;
-        font-weight: 400;
-    }
-    .FooterThree-two {
-        width: 30%;
-        text-align: right;
-        padding-bottom: 20px;
-    }
-    #copyright {
-        font-size: 15px;
-        color: white;
-    }
-    #copyright a {
-        font-size: 15px;
-        color: orange;
-        text-decoration: none;
-        font-weight: 600;
-    }
-    .FooterThree-two {
-        width: 90%;
-        margin: auto;
-        text-align: center;
-        margin-top: 20px;
-    }
-    .FooterThree-two i {
-        margin: 0px 15px 0px 15px;
-        color: whitesmoke;
-    }
-    #socialIcons {
-        font-size: 20px;
-    }
-
-}

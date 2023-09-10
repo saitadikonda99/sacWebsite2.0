@@ -97,7 +97,7 @@
 }
 .scrolled ul {
     padding: 0.5rem 0rem;
-    transition: padding 0.2s ease; /* Add a smooth transition effect */
+    transition: padding 0.2s ease; 
 }
 .Home-one-in {
     position: relative;
@@ -232,8 +232,6 @@
 
 
 
-/* ----------------------------------- projects --------------------------------- */
-
 .projects {
     padding: 4rem 0rem 0rem 0rem;
 }
@@ -357,7 +355,7 @@
 
 
 
-/* ------------------------------ upcoming events -------------------------- */
+
 
 .upcoming-events {
     padding: 0rem 0rem 4rem 0rem;
@@ -395,8 +393,8 @@
     flex-direction: column;
     display: flex;
     flex-direction: column;
-    flex: 1; /* Distribute remaining space equally among children */
-    position: relative; /* Added to allow absolute positioning */
+    flex: 1; 
+    position: relative;
 }
 
 .ue-comps-in-one img {
@@ -633,7 +631,7 @@
     font-size: 15px;
 }
 
- /* --------------------------------------- quick links --------------------------------- */ */
+ /* --------------------------------------- quick links --------------------------------- */ 
 
 
 .Quick-links-component {

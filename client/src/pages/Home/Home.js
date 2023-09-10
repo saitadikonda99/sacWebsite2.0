@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../Home/Home.css'; 
+import './Home.css'; 
 import './MobileView.css';
 import { Link } from 'react-router-dom';
 import CountUp from 'react-countup';

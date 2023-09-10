@@ -1,26 +1,32 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react';
 import './NotFound.css'
 
 function NotFound() {
-  return (
-    <div className="not-found-component">
-      <div className="not-found-container"> 
-        <div className="not-found-one">
-           <p>404</p>
-        </div>
-      <div className="not-found-two">
-        <p> Page Not Found </p>
-          </div>
-            </div>
-              <div className="not-found-three">
-               <h3>KLEF SAC</h3>
-           </div>
-           <div className="not-found-four">
-               <Link to='/' className='not-found-four-link' >Back to Home</Link>
-           </div>
-      </div>
-    )
-}
 
+  useEffect(() => {
+    document.title = '404 | KLU SAC';
+    const metaDescription = document.createElement('meta');
+    metaDescription.name = 'description';
+    metaDescription.content = 'Student Activity Center at KLEF';
+    document.head.appendChild(metaDescription);
+
+    return () => {
+      document.head.removeChild(metaDescription);
+    };
+  }, []);
+
+
+  return (
+          <div className="NotFound-Component">
+            <div className="NotFound-Component-in">
+              <div className="NotFound-Back">
+                <Link to='/' className='NotFound-Back-link' >Back to Home</Link>
+              </div>
+            </div>
+          </div>
+    )
+  }
+  
 export default NotFound

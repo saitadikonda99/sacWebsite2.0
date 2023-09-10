@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.BlogsContainer {
+    width: 100%;
+    height: fit-content;
+}
+
+.BlogsContainer-in {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    padding: 4rem 4rem 0rem 4rem;
+}
+
+.BlogsContainer-one {
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    padding: 4rem 0;
+}
+
+.BlogsContainer-two {
+    width: 65%;
+    height: 100vh;
+    overflow: scroll;
+    padding: 2rem 0;
+}
+
+.BlogsContainer-main {
+    height: 200vh;
+    width: 90%;
+    margin: auto;
+}
+
+
+
+     /* ------------------------ Blogs Cards ----------------------------- */
+
+.BlogCardComponent {
+    height: fit-content;
+    width: 100%;
+}
+
+.BlogCard {
+    display: flex;
+    padding: 1.2rem;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 1.5rem;
+}
+
+.Blog-img {
+    width: 25%;
+    height: 100%;
+}
+
+.Blog-img img {
+    width: 90%;
+    display: block;
+}
+
+.Blog-Content {
+    width: 75%;
+    text-align: left;
+    padding: 0rem 2rem;
+}
+
+.Blog-time p{
+    font-weight: 600;
+    color: rgb(82, 81, 81);
+}
+
+.Blog-title h1 {
+    font-size: 1.6rem;
+}
+
+.Blog-category p {
+    color: rgb(48, 47, 47);
+    font-size: 1.1rem;
+}
+
+.Blog-LearnMore {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1.5rem 0rem 0rem 0rem;
+    text-align: center;
+}
+
+.Blog-LearnMore-link {
+    text-decoration: none;
+    color: rgb(76, 75, 75);
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    border: .1px solid grey;
+    font-size: .8rem;
+}
+
+
+
+
+/* ------------------------ Nav ----------------------------- */
+
+.HomeNavContainer {
+    background-color: rgb(151, 0, 3);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+
+/* ---------------------------- Side Bar ------------------------ */
+
+
+.BlogsSideBar {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.SideBarOne {
+    border: .1px solid grey;
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+
+
+.SideBarContainer {
+    height: fit-content;
+    width: 100%;
+    padding: 2rem;
+}
+
+.SideBar-one {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.SideBar-one-one h3 {
+    color: rgb(51, 65, 85);
+}
+
+.SideBar-one-two p {
+    font-size: .8rem;
+    border: .1px solid grey;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+
+.SideBar-two-one p {
+    color: rgb(51, 65, 85);;
+    font-weight: 600;
+    text-align: left;
+}
+
+.SideBar-two-two p {
+    color: grey;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.SideBar-two-two {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cm-cn-sb {
+    margin: 1rem;
+}
+
+/* ---------------------------- New Side Bar ------------------------ */
+
+
+.NewSideBarContainer {
+    border: .1px solid grey;
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 3rem;
+}
+
+.NewSideBar-one {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.NewSideBar-one h1 {
+    color: rgb(51, 65, 85);
+    font-size: 1.5rem;
+}
+
+.NewSideBar-one-Link {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: .8rem;
+    background-color: rgb(27, 111, 245);    
+    padding: 9px 10px 0 10px;
+    border-radius: 10px;
+}
+
+.NewSideBar-two {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.NewSideBar-three {
+    width: 100%;
+    border: .1px solid grey;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top: 1rem;
+}
+
+.NewSideBar-three-Link {
+    text-decoration: none;
+    color: rgb(51, 65, 85);
+    font-size: .8rem;
+}

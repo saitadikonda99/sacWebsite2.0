@@ -116,7 +116,7 @@ const Gallery = () => {
                           <div className="HomeNavIndex-in">
                               <Link className='HomeNavIndex-in-link' to='/'>Back to Home</Link>
                               <Link className='HomeNavIndex-in-link' to='/'>Explore Clubs</Link>
-                              <Link className='HomeNavIndex-in-link' to='/'>Read Blogs</Link>
+                              <Link className='HomeNavIndex-in-link' to='/blogs'>Read Blogs</Link>
                               <Link className='HomeNavIndex-in-link' to='/events'>Upcoming Events</Link>
                           </div>
                       </div>

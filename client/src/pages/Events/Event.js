@@ -2,6 +2,7 @@ import React from 'react'
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './Event.css'
+import './MobileView.css'
 import Footer from '../../components/Footer/Footer'
 import '../../components/HomeNav/HomeNav.css';
 

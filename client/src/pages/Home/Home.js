@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import '../Home/Home.css'; 
-import './MobileView.css';
 import { Link } from 'react-router-dom';
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
@@ -9,6 +8,7 @@ import { Link as Scroll } from 'react-scroll';
 
 
 import NavBar from '../../components/Navigation/Page';
+import ToggleNav from '../../components/Navigation/ToggleNav';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 // dialogue box start here 
@@ -36,10 +36,6 @@ import DP from '../../Assets/CouncilMembers/DP.jpg';
 
 
 const Home  = () => {
-
-  const handleClick = () => {
-    window.scrollTo(0, 0); 
-  }
  
   useEffect(() => {
     document.title = 'Home | KLU SAC';
@@ -127,13 +123,29 @@ const Home  = () => {
     setOpen(false);
   };
 
+// ------------------------------------------------------
 
-  
+const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  const handleResize = () => {
+    setScreenWidth(window.innerWidth);
+  };
+
+  useEffect(() => {
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+
+// ------------------------------------------------------
 
 
   return (
     <div className='HomeComponent'>
-        <NavBar/>
+        {screenWidth > 768 ? <NavBar isScrolled={isNavScrolled} /> : <ToggleNav/> }
         <div className="HomeContainer">
           <div className="Home-one">
             <div className="Home-one-in">
@@ -434,7 +446,7 @@ const Home  = () => {
           </div>
 
          <div className="stories-viewmore">
-          <Link onClick={handleClick} className='stories-viewmore-link' to='/blogs'>View More Stories</Link>
+          <Link className='stories-viewmore-link' to='/'>View More Stories</Link>
          </div>
         </div>
 
@@ -578,7 +590,7 @@ const Home  = () => {
         <div className="joinus">
           <div className="joinus-inner">
               <h1>Experience the power of community. Join us today and be a part of something truly special.</h1>
-              <a href='https://t.me/kl_sac'>Join our Community</a> 
+              <a href='https://t.me/kl_sac'>Join our Community</a>
           </div>
         </div>
 

@@ -1,7 +1,5 @@
 @media (min-width: 320px) and (max-width: 480px) { 
-    .nav {
-        display: none;
-    }
+   
     .centered-text h1 {
         font-size: 2.5rem;
         color: white; 
@@ -155,12 +153,12 @@
     .news-main {
         display: flex;
         flex-direction: column;
-        row-gap: 1.5rem;
         flex-wrap: wrap;
     }
     .news-one {
         width: 90%;
         margin: auto;
+        margin-bottom: 1.5rem;
     }
 
     .news-one-in-desc {
@@ -214,7 +212,9 @@
         width: 100%;
     }
     .officers-in-one-in h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
+        width: 80%;
+        margin: auto;
     }
     .officers-in-two {
         width: 100%;   
@@ -259,6 +259,10 @@
         border-radius: 1rem;
     }
     .Quick-links-component {
+        display: none;
+    }
+
+    #scrollToTop {
         display: none;
     }
 }

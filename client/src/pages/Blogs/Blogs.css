@@ -11,7 +11,7 @@
 
 .BlogsContainer-in {
     width: 100%;
-    height: fit-content;
+    height: max-content;
     display: flex;
     padding: 4rem 4rem 0rem 4rem;
 }
@@ -29,7 +29,8 @@
     width: 65%;
     height: 100vh;
     overflow: scroll;
-    padding: 2rem 0;
+    padding: 2rem 0rem 4rem 0rem;
+
 }
 
 .BlogsContainer-main {

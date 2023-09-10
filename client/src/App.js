@@ -16,6 +16,7 @@ import Blogs from './pages/Blogs/Blogs';
 import Terms from './pages/TC/Tc';
 import Dashboard from '../src/pages/Dashboard/Page';
 import NotFound from './pages/NotFound/NotFound';
+import Privacy from './pages/Privacy/Privacy';
 
 
 function App() {
@@ -38,22 +39,30 @@ function App() {
     return null;
   }
 
-  return (
-    <div className="App">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="clubs/*" element={<ClubsPage/>} />
-        <Route path="/studentclubs" element={<ClubsPage/>} />
-        <Route path="/leadership" element={<Leadership/>} />
-        <Route path="/dashboard/*" element={<Dashboard/>} />
-        <Route path="/completedevents" element={<CompletedEvents/>} />
-        <Route path="/events" element={<Events/>} />
-        <Route path="/terms" element={<Terms/>} />
-        <Route path="/gallery" element={<Gallery/>} />
-        <Route path="/blogs" element={<Blogs/>} />
-        <Route path='*' element={<NotFound/>}></Route>
-      </Routes>
-    </div>
+  
+const routes = [
+  { path: '/', element: <Home /> },
+  { path: 'clubs/*', element: <ClubsPage /> },
+  { path: '/studentclubs', element: <ClubsPage /> },
+  { path: '/leadership', element: <Leadership /> },
+  { path: '/dashboard/*', element: <Dashboard /> },
+  { path: '/completedevents', element: <CompletedEvents /> },
+  { path: '/events', element: <Events /> },
+  { path: '/terms', element: <Terms /> },
+  { path: '/gallery', element: <Gallery /> },
+  { path: '/blogs', element: <Blogs /> },
+  { path: '/privacy', element: <Privacy /> },
+  { path: '*', element: <NotFound /> },
+];
+
+return (
+  <div className="App">
+    <Routes>
+      {routes.map((route, index) => (
+        <Route key={index} path={route.path} element={route.element} />
+      ))}
+    </Routes>
+  </div>
   );
 }
 

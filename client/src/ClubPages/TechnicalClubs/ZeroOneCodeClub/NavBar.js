@@ -10,7 +10,7 @@ import DialogActions from '@mui/material/DialogActions';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import Typography from '@mui/material/Typography';
-import deepakimg from '../../../Assets/CouncilMembers/DP.jpg'
+import favatar from '../../../Assets/favatar.png'
 
 
 function NavBar() {
@@ -47,7 +47,7 @@ const [open, setOpen] = React.useState(false);
             <div className="nav-details">
               <NavItem to="club-hero-content" text="Home" />
               <NavItem to="club-main-component" text="Know More" />
-              <p onClick={handleClickOpen} >Notifications</p>
+              <p onClick={handleClickOpen} >Members</p>
             </div>
           </div>
   
@@ -67,12 +67,13 @@ const [open, setOpen] = React.useState(false);
               <tr className="table-row">
                 <td>
                   <div className="table-cell">
-                    <img className='club-image' src={deepakimg} alt="" />
-                    <span>Deepak Reddy Gathpa</span>
+                    <img className='club-image' src={favatar} alt="" />
+                    <span>Deepak Reddy </span>
                   </div>
                 </td>
                 <td>Lead</td>
-                <td>CSE</td>
+                <td className='BranchCSE'><p>CSE</p>
+                 </td>
                 <td>3rd</td>
               </tr>
             </tbody>
@@ -81,12 +82,14 @@ const [open, setOpen] = React.useState(false);
           <tr className="table-row">
             <td>
               <div className="table-cell">
-                <img className='club-image' src={deepakimg} alt="" />
-                <span>Deepak Reddy Gathpa</span>
+                <img className='club-image' src={favatar} alt="" />
+                <span>Deepak Reddy </span>
               </div>
             </td>
             <td>Lead</td>
-            <td>CSE</td>
+            <td className='BranchECE' >
+            <p>ECE</p>
+            </td>
             <td>3rd</td>
           </tr>
         </tbody>
@@ -95,12 +98,14 @@ const [open, setOpen] = React.useState(false);
           <tr className="table-row">
             <td>
               <div className="table-cell">
-                <img className='club-image' src={deepakimg} alt="" />
-                <span>Deepak Reddy Gathpa</span>
+                <img className='club-image' src={favatar} alt="" />
+                <span>Deepak Reddy </span>
               </div>
             </td>
             <td>Lead</td>
-            <td>CSE</td>
+            <td className='BranchAIDS'>
+              <p>AIDS</p>
+            </td>
             <td>3rd</td>
           </tr>
         </tbody>
@@ -109,12 +114,14 @@ const [open, setOpen] = React.useState(false);
           <tr className="table-row">
             <td>
               <div className="table-cell">
-                <img className='club-image' src={deepakimg} alt="" />
-                <span>Deepak Reddy Gathpa</span>
+                <img className='club-image' src={favatar} alt="" />
+                <span>Deepak Reddy </span>
               </div>
             </td>
             <td>Lead</td>
-            <td>CSE</td>
+            <td className='BranchEEE'>
+              <p>EEE</p>
+            </td>
             <td>3rd</td>
           </tr>
         </tbody>
@@ -123,12 +130,14 @@ const [open, setOpen] = React.useState(false);
           <tr className="table-row last-row-name">
             <td>
               <div className="table-cell">
-                <img className='club-image' src={deepakimg} alt="" />
-                <span>Deepak Reddy Gathpa</span>
+                <img className='club-image' src={favatar} alt="" />
+                <span>Deepak Reddy </span>
               </div>
             </td>
             <td>Lead</td>
-            <td>CSE</td>
+            <td className='BranchCSE'>
+              <p>CSE</p>
+            </td>
             <td>3rd</td>
           </tr>
         </tbody>

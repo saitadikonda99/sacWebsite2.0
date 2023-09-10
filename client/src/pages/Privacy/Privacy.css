@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Privacy-Container-in {
+    width: 80%;
+    margin: auto;
+    height: fit-content;
+    padding: 6rem 0rem 3rem 0rem;
+    text-align: left;
+}
+
+.Privacy-Container-in h2 {
+    padding: 1rem 0rem;
+    border-bottom: .1px solid grey;
+    margin: 1rem 0rem;
+}
+
+.Privacy-Container-in h3 {
+    padding: 1rem 0rem;
+    border-bottom: .1px solid grey;
+    margin: 1rem 0rem;
+}
+
+.PrivacySpan {
+    font-weight: 520;
+    color: black;
+}
+
+.PrivacyTwo p {
+    padding: 1rem 0rem .5rem 0rem;
+}
+
+.PrivacyThree p {
+    padding: 1rem 0rem .5rem 0rem;
+}
+
+.PrivacySeven a {
+    text-decoration: none;
+}

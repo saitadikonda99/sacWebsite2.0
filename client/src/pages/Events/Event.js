@@ -1,9 +1,10 @@
 import React from 'react'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Event.css'
 import './MobileView.css'
 import Footer from '../../components/Footer/Footer'
+import NavBar from './NavBar'
 import '../../components/HomeNav/HomeNav.css';
 
 
@@ -37,27 +38,49 @@ function Event() {
         };
       }, []);
 
+//   ---------------------------------------------
+
+        const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+        const handleResize = () => {
+            setScreenWidth(window.innerWidth);
+        };
+
+        useEffect(() => {
+            window.addEventListener('resize', handleResize);
+
+            return () => {
+            window.removeEventListener('resize', handleResize);
+            };
+        }, []);
+
+//   ---------------------------------------------
+
   return (
 
     <div className="Event-component">
-        <div className="event-component-in">
-                <div className="HomeNavComponent">
-                    <div className="HomeNavContainer">
-                        <div className="HomeNavLogo">
-                            <div className="HomeNavLogo-in">
-                                <Link className='HomeNavLogo-in-link' to='/'><h1>Student Activity Center</h1></Link>
-                            </div>
+        <div className="Event-component-in">
+        <div className="Event-Nav">
+            <div className='HomeNavComponent'>
+                <div className="HomeNavContainer">
+                    <div className="HomeNavLogo">
+                        <div className="HomeNavLogo-in">
+                            <Link className='HomeNavLogo-in-link' to='/'><h1>Student Activity Center</h1></Link>
                         </div>
-                        <div className="HomeNavIndex">
-                            <div className="HomeNavIndex-in">
-                                <Link className='HomeNavIndex-in-link' to='/'>Back to Home</Link>
-                                <Link className='HomeNavIndex-in-link' to='/'>Explore Clubs</Link>
-                                <Link className='HomeNavIndex-in-link' to='/blogs'>Read Blogs</Link>
-                                <Link className='HomeNavIndex-in-link' to='/gallery'>Gallery</Link>
-                            </div>
+                    </div>
+                    <div className="HomeNavIndex">
+                        <div className="HomeNavIndex-in">
+                            <Link className='HomeNavIndex-in-link' to='/'>Back to Home</Link>
+                            <Link className='HomeNavIndex-in-link' to='/'>Explore Clubs</Link>
+                            <Link className='HomeNavIndex-in-link' to='/blogs'>Read Blogs</Link>
+                            <Link className='HomeNavIndex-in-link' to='/gallery'>Gallery</Link>
                         </div>
                     </div>
                 </div>
+            </div>
+                {screenWidth < 768 ?  <NavBar/> : '' }
+        </div>
+        <div className="event-container">
             <div className="event-head">
                 <h1>2024 Season</h1>
                 <p>Find, compete, and earn points at the largest, most diverse hacker events in the world.</p>
@@ -168,6 +191,7 @@ function Event() {
             <div className="event-footer">
                 <Footer />
             </div>
+        </div>
         </div>
     </div>
   )

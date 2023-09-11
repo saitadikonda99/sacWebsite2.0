@@ -1,10 +1,10 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.Toggle-Nav {
+.PageNavComponent {
     background-color: rgb(151, 0, 3); 
     color: white;
     position: fixed;
@@ -12,7 +12,7 @@
     width: 100%;
 }
 
-.Toggle-Nav-in {
+.PageNavComponent-container {
     display: flex;
     padding: 0.5rem;
 }
@@ -46,7 +46,7 @@
 .Toggle-Nav-links {
     max-height: 0;
     overflow: hidden;
-    animation: slide-down .5s ease forwards; 
+    animation: slide-down .5s ease forwards;
 }
 
 @keyframes slide-down {
@@ -74,5 +74,4 @@
     text-decoration: none;
     padding: 0.5rem 0rem;
     background-color: rgb(37, 36, 36);
-    
 }

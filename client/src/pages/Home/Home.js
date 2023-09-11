@@ -68,10 +68,6 @@ const Home  = () => {
   }, []);
 
 
-  
-
-
-
 
   const faqData = [
     {
@@ -94,7 +90,7 @@ const Home  = () => {
       question: 'What is Student Activity Center at Koneru Lakshmaiah Education Foundation?',
       answer: 'Student Activity Center is a department at Koneru Lakshmaiah Education Foundation that is designed to accommodate path-breaking ideas, problem-solving postulates, and artistic assertions, creating an environment that encourages innovation and experimentation.',
     },
-    // Add more FAQ items here
+
   ];
 
 
@@ -699,7 +695,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div>  
                 </div>
               </div>
             </div>
@@ -740,7 +736,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                         <div className="Quick-links-component-in">
                             <div className="quick-link-one">
                               <div className="quick-link-one-in">
-                                  <h1>Technology</h1>
+                                   <h1>Technology</h1>
                                    <Link to='/clubs/zeroonecodeclub' className='qu-link-cm'>ZeroOne CodeClub</Link>
                                    <Link to='/clubs/aeroelectricclub' className='qu-link-cm'>AeroElectric Club</Link>
                                    <Link to='/clubs/cyberclub' className='qu-link-cm'>Cyber Club </Link>
@@ -752,7 +748,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                                    <Link to='/clubs/AgricultureClub' className='qu-link-cm'>Agriculture Club </Link>
                                    <Link to='/clubs/MobileESportsClub' className='qu-link-cm'>MobileESports Club </Link>
                                    <Link to='/clubs/AIClub' className='qu-link-cm'>AI Club</Link>
-                                </div>
+                              </div>
 
                                 <div className="quick-link-two-in">
                                   <h1>Liberal Arts</h1>
@@ -802,7 +798,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                       </div>
 
           </div>
-        <Footer></Footer>
+         <Footer/>
     </div>
 
 

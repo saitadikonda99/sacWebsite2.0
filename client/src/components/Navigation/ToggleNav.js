@@ -11,6 +11,7 @@ function ToggleNav() {
     setIsOpen(!isOpen);
   };
 
+
   return (
     <div className={`Toggle-Nav ${isOpen ? 'open' : ''}`}>
       <div className="Toggle-Nav-in">

@@ -337,7 +337,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                     <img src={ProjectsImage} alt="" />  
                   </div>
                   <div className="projects-comps-two">
-                    <h2>Technology</h2>
+                    <h2>Technology Clubs</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt voluptatibus, dolorem ex distinctio magnam corrupti!</p>
                     <Link className='projects-comps-two-links' to='/'>Explore</Link>
                   </div>
@@ -347,7 +347,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                     <img src={ProjectsImage} alt="" />  
                   </div>
                   <div className="projects-comps-two">
-                    <h2>Liberal & Sports</h2>
+                    <h2>Liberal & Sports Clubs</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt voluptatibus, dolorem ex distinctio magnam corrupti!</p>
                     <Link className='projects-comps-two-links' to='/'>Explore</Link>
                   </div>
@@ -357,7 +357,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                     <img src={ProjectsImage} alt="" />  
                   </div>
                   <div className="projects-comps-two">
-                    <h2>Innovation </h2>
+                    <h2>Innovation Clubs</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt voluptatibus, dolorem ex distinctio magnam corrupti!</p>
                     <Link className='projects-comps-two-links' to='/'>Explore</Link>
                   </div>
@@ -367,7 +367,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                     <img src={ProjectsImage} alt="" />  
                   </div>
                   <div className="projects-comps-two">
-                    <h2>Outreach</h2>
+                    <h2>Outreach Clubs</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt voluptatibus, dolorem ex distinctio magnam corrupti!</p>
                     <Link className='projects-comps-two-links' to='/'>Explore</Link>
                   </div>
@@ -376,7 +376,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
             </div>
 
            <div className="explore-departments">
-            <Link className='projects-link' to='/'>Explore Departments</Link>
+            <Link className='projects-link' to='/'>Explore All Clubs</Link>
            </div>
           </div>
         </div>
@@ -443,7 +443,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
           </div>
 
          <div className="stories-viewmore">
-          <Link className='stories-viewmore-link' to='/'>View More Stories</Link>
+          <Link className='stories-viewmore-link' to='/blogs'>View More Stories</Link>
          </div>
         </div>
 

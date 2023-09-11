@@ -5,3 +5,85 @@
     padding: 0;
     margin: 0;
 }
+
+.clubPagesContainer {
+    display: flex;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.clubsPages-one {
+    width: 30%;
+    background-color: white;
+    position: fixed;
+}
+.clubsPage-one-in {
+    width: 90%;
+    margin: auto;
+}
+.clubsPage-one-in-one {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.clubsPage-one-in-two-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.clubsPage-one-in-two-in {
+    margin-top: 1rem;
+}
+.clubsPage-scroll-links {
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid rgb(151, 0, 3);
+    padding: 0.5rem;
+    background-color: rgb(151, 0, 3);
+    color: white;
+    margin-bottom: 0.3rem;
+    border-top-right-radius: 1rem;
+}
+.clubsPage-two {
+    width: 70%;
+    margin-left: 30%;
+}
+
+.ct-in-one-header {
+    border-bottom: 2px solid black;
+    padding: 2rem 0rem;
+}
+.ctiooi-comps {
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.ctiooi-comps-in-one img {
+    width: 100%;
+}
+.ct-in-one-one-in {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    width: 95%;
+    margin: auto;
+    padding: 1rem 0rem;
+}
+.ctiooi-comps-in-two h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+.ctooi-comps-in-two-two {
+    border: 1px solid black;
+    padding: 0.3rem 0rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.ctooi-comps-two-link {
+    text-decoration: none;
+}

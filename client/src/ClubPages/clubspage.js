@@ -3,11 +3,30 @@ import './clubspage.css';
 import { Link as Scroll } from 'react-scroll';
 import { Link } from 'react-router-dom';
 
+import Footer from '../components/Footer/Footer';
+
 import ZeroOneLogo from '../Assets/ZeroOneLogo.png';
 
 const clubspage = () => {
   return (
     <div className='clubPagesComponent'>
+      <div className="HomeNavComponent">
+                  <div className="HomeNavContainer">
+                      <div className="HomeNavLogo">
+                          <div className="HomeNavLogo-in">
+                              <Link className='HomeNavLogo-in-link' to='/'><h1>Student Activity Center</h1></Link>
+                          </div>
+                      </div>
+                      <div className="HomeNavIndex">
+                          <div className="HomeNavIndex-in">
+                              <Link className='HomeNavIndex-in-link' to='/'>Back to Home</Link>
+                              <Link className='HomeNavIndex-in-link' to='/'>Explore Clubs</Link>
+                              <Link className='HomeNavIndex-in-link' to='/blogs'>Read Blogs</Link>
+                              <Link className='HomeNavIndex-in-link' to='/events'>Upcoming Events</Link>
+                          </div>
+                      </div>
+                  </div>
+              </div>
        <div className="clubPagesContainer">
           <div className="clubsPages-one">
             <div className="clubsPage-one-in">
@@ -52,7 +71,7 @@ const clubspage = () => {
                           <img src={ZeroOneLogo} alt="" />
                         </div>
                         <div className="ctiooi-comps-in-two">
-                          <h1>ZeroOne Code Club</h1>
+                          <h1>AeroElectric Club</h1>
                           <div className="ctooi-comps-in-two-two">
                             <Link className='ctooi-comps-two-link' to='/clubs/zeroonecodeclub'>Know More</Link>
                           </div>
@@ -65,7 +84,7 @@ const clubspage = () => {
                           <img src={ZeroOneLogo} alt="" />
                         </div>
                         <div className="ctiooi-comps-in-two">
-                          <h1>ZeroOne Code Club</h1>
+                          <h1>CyberSecurity Club</h1>
                           <div className="ctooi-comps-in-two-two">
                             <Link className='ctooi-comps-two-link' to='/clubs/zeroonecodeclub'>Know More</Link>
                           </div>
@@ -78,7 +97,7 @@ const clubspage = () => {
                           <img src={ZeroOneLogo} alt="" />
                         </div>
                         <div className="ctiooi-comps-in-two">
-                          <h1>ZeroOne Code Club</h1>
+                          <h1>WebApps Club</h1>
                           <div className="ctooi-comps-in-two-two">
                             <Link className='ctooi-comps-two-link' to='/clubs/zeroonecodeclub'>Know More</Link>
                           </div>
@@ -91,7 +110,7 @@ const clubspage = () => {
                           <img src={ZeroOneLogo} alt="" />
                         </div>
                         <div className="ctiooi-comps-in-two">
-                          <h1>ZeroOne Code Club</h1>
+                          <h1>TechHuma Club</h1>
                           <div className="ctooi-comps-in-two-two">
                             <Link className='ctooi-comps-two-link' to='/clubs/zeroonecodeclub'>Know More</Link>
                           </div>
@@ -104,7 +123,46 @@ const clubspage = () => {
                           <img src={ZeroOneLogo} alt="" />
                         </div>
                         <div className="ctiooi-comps-in-two">
-                          <h1>ZeroOne Code Club</h1>
+                          <h1>Animation Club</h1>
+                          <div className="ctooi-comps-in-two-two">
+                            <Link className='ctooi-comps-two-link' to='/clubs/zeroonecodeclub'>Know More</Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="ctiooi-comps">
+                      <div className="ctiooi-comps-in">
+                        <div className="ctiooi-comps-in-one">
+                          <img src={ZeroOneLogo} alt="" />
+                        </div>
+                        <div className="ctiooi-comps-in-two">
+                          <h1>Automation Club</h1>
+                          <div className="ctooi-comps-in-two-two">
+                            <Link className='ctooi-comps-two-link' to='/clubs/zeroonecodeclub'>Know More</Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="ctiooi-comps">
+                      <div className="ctiooi-comps-in">
+                        <div className="ctiooi-comps-in-one">
+                          <img src={ZeroOneLogo} alt="" />
+                        </div>
+                        <div className="ctiooi-comps-in-two">
+                          <h1>Agriculture Club</h1>
+                          <div className="ctooi-comps-in-two-two">
+                            <Link className='ctooi-comps-two-link' to='/clubs/zeroonecodeclub'>Know More</Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="ctiooi-comps">
+                      <div className="ctiooi-comps-in">
+                        <div className="ctiooi-comps-in-one">
+                          <img src={ZeroOneLogo} alt="" />
+                        </div>
+                        <div className="ctiooi-comps-in-two">
+                          <h1>AI Club</h1>
                           <div className="ctooi-comps-in-two-two">
                             <Link className='ctooi-comps-two-link' to='/clubs/zeroonecodeclub'>Know More</Link>
                           </div>
@@ -294,6 +352,7 @@ const clubspage = () => {
             </div>
           </div>
        </div>
+        <Footer />
     </div>
   )
 }

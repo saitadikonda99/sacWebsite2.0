@@ -1,9 +1,10 @@
 import React from 'react';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Gallery.css';
 
 import Footer from '../../components/Footer/Footer';
+import NavBar from './NavBar';
 import '../../components/HomeNav/HomeNav.css';
 
 const images = [
@@ -103,25 +104,46 @@ const Gallery = () => {
     };
   }, []);
 
+  //   ---------------------------------------------
+
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+  };
+
+  useEffect(() => {
+      window.addEventListener('resize', handleResize);
+
+      return () => {
+      window.removeEventListener('resize', handleResize);
+      };
+  }, []);
+
+//   ---------------------------------------------
+
   return (
     <div className="Gallery-component">
-        <div className="HomeNavComponent">
-                  <div className="HomeNavContainer">
-                      <div className="HomeNavLogo">
-                          <div className="HomeNavLogo-in">
-                              <Link className='HomeNavLogo-in-link' to='/'><h1>Student Activity Center</h1></Link>
-                          </div>
-                      </div>
-                      <div className="HomeNavIndex">
-                          <div className="HomeNavIndex-in">
-                              <Link className='HomeNavIndex-in-link' to='/'>Back to Home</Link>
-                              <Link className='HomeNavIndex-in-link' to='/'>Explore Clubs</Link>
-                              <Link className='HomeNavIndex-in-link' to='/blogs'>Read Blogs</Link>
-                              <Link className='HomeNavIndex-in-link' to='/events'>Upcoming Events</Link>
-                          </div>
-                      </div>
-                  </div>
-              </div>
+         <div className="Event-Nav">
+            <div className='HomeNavComponent'>
+                <div className="HomeNavContainer">
+                    <div className="HomeNavLogo">
+                        <div className="HomeNavLogo-in">
+                            <Link className='HomeNavLogo-in-link' to='/'><h1>Student Activity Center</h1></Link>
+                        </div>
+                    </div>
+                    <div className="HomeNavIndex">
+                        <div className="HomeNavIndex-in">
+                            <Link className='HomeNavIndex-in-link' to='/'>Back to Home</Link>
+                            <Link className='HomeNavIndex-in-link' to='/'>Explore Clubs</Link>
+                            <Link className='HomeNavIndex-in-link' to='/blogs'>Read Blogs</Link>
+                            <Link className='HomeNavIndex-in-link' to='/events'>Events</Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                {screenWidth < 768 ?  <NavBar/> : '' }
+        </div>
             <div className="Gallery-header">
               <h1>Journey Through Time: <span>Unveiling Unforgettable Memories in Our Gallery</span> </h1>
             </div>

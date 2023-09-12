@@ -149,6 +149,7 @@ const clubspage = () => {
                         </div>
                       </div>
                     </div>
+
                     <div className="ctiooi-comps">
                       <div className="ctiooi-comps-in">
                         <div className="ctiooi-comps-in-one">
@@ -162,6 +163,7 @@ const clubspage = () => {
                         </div>
                       </div>
                     </div>
+                    
                     <div className="ctiooi-comps">
                       <div className="ctiooi-comps-in">
                         <div className="ctiooi-comps-in-one">

@@ -55,11 +55,19 @@
 
     padding: 2rem 0rem;
 }
+
 .ctiooi-comps {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 1rem;
     border-radius: 1rem;
+    height: fit-content;
+    min-width: 25%;
 }
+
+.ctiooi-comps-in-one  {
+    width: 100%;
+}
+
 .ctiooi-comps-in-one img {
     width: 100%;
 }
@@ -74,11 +82,14 @@
     overflow-x: scroll;
     column-gap: 20px;
 }
+
 .ctiooi-comps-in-two h1 {
     font-size: 1.5rem;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0.5rem;
+    min-height: 8vh;
+    height: fit-content;
 }
 
 .ctooi-comps-in-two-two {

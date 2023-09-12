@@ -5,20 +5,22 @@
     padding: 0;
     margin: 0;
 }
-
 .clubPagesContainer {
     display: flex;
     height: 100vh;
     overflow-y: scroll;
+    padding-top: 5vh;
 }
 .clubsPages-one {
     width: 30%;
     background-color: white;
     position: fixed;
+    padding-top: 1rem;
 }
 .clubsPage-one-in {
     width: 90%;
     margin: auto;
+    padding-top: 3vh;
 }
 .clubsPage-one-in-one {
     display: flex;
@@ -54,7 +56,6 @@
     padding: 2rem 0rem;
 }
 .ctiooi-comps {
-    width: 30%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 1rem;
     border-radius: 1rem;
@@ -65,11 +66,13 @@
 .ct-in-one-one-in {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     row-gap: 2rem;
     width: 95%;
     margin: auto;
     padding: 1rem 0rem;
+    overflow-x: scroll;
+    column-gap: 20px;
 }
 .ctiooi-comps-in-two h1 {
     font-size: 1.5rem;
@@ -86,4 +89,35 @@
 }
 .ctooi-comps-two-link {
     text-decoration: none;
+}
+
+.clubsPage-one-in-three {
+    margin-top: 1rem;
+}
+.clubsPage-one-in-three-in {
+    height: fit-content;
+}
+.clubsPage-oiti-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    padding-left: 1rem;
+}
+.clubsPage-oiti-header h1 {
+    font-size: 1.3rem;
+    color: white;
+}
+.clubsPage-oiti-one {
+    background-color: rgb(151, 0, 3);
+}
+.clubsPage-oiti-one-in ul {
+    margin-top: 0.5rem;
+    color: white;
+}
+.clubsPage-oiti-one-in {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    padding: 0rem 0.2rem;
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import './clubspage.css';
 import { Link as Scroll } from 'react-scroll';
 import { Link } from 'react-router-dom';
+import Marquee from "react-fast-marquee";
 
 import Footer from '../components/Footer/Footer';
 
@@ -40,6 +41,37 @@ const clubspage = () => {
                   <Scroll className='clubsPage-scroll-links' activeClass="active" to="about" spy ={true} smooth={true} offset={-10} duration={200} >Innovation & Entrepreneurship Clubs</Scroll>
                   <Scroll className='clubsPage-scroll-links' activeClass="active" to="about" spy ={true} smooth={true} offset={-10} duration={200} >Extension Activities & Social Outreach Clubs</Scroll>
                   <Scroll className='clubsPage-scroll-links' activeClass="active" to="clubsPage-two-in-three" spy ={true} smooth={true} offset={-10} duration={200} >Health & Well Being Clubs (HWB)</Scroll>
+                </div>
+              </div>
+              <div className="clubsPage-one-in-three">
+                <div className="clubsPage-one-in-three-in">
+                  <div className="clubsPage-oiti-header">
+                    <h1>Upcoming Major Events</h1>
+                  </div>
+                  <div className="clubsPage-oiti-one">
+                    <div className="clubsPage-oiti-one-in">
+                      <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, similique!</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, eaque.</li>
+                        <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, magnam.</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, voluptate.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="clubsPage-one-in-three">
+                <div className="clubsPage-one-in-three-in">
+                  <div className="clubsPage-oiti-header">
+                    <h1>Important Notifications</h1>
+                  </div>
+                  <div className="clubsPage-oiti-one">
+                    <div className="clubsPage-oiti-one-in">
+                      <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, similique!</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

@@ -14,8 +14,10 @@
 .clubsPages-one {
     width: 30%;
     background-color: white;
-    position: fixed;
+    position: sticky;
     padding-top: 1rem;
+    height: 100vh;
+    overflow-y: scroll;
 }
 .clubsPage-one-in {
     width: 90%;
@@ -48,12 +50,14 @@
 }
 .clubsPage-two {
     width: 70%;
-    margin-left: 30%;
+    /* margin-left: 30%; */
+    height: 100vh;
+    overflow-y: scroll;
+    border-left: 2px solid rgb(133, 131, 131);
 }
 
 .ct-in-one-header {
-
-    padding: 2rem 0rem;
+    padding: 1rem 0rem;
 }
 
 .ctiooi-comps {
@@ -78,7 +82,7 @@
     row-gap: 2rem;
     width: 95%;
     margin: auto;
-    padding: 1rem 0rem;
+    padding: 1rem 1rem;
     overflow-x: scroll;
     column-gap: 20px;
 }

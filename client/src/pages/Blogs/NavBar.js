@@ -38,7 +38,7 @@ function NavBar() {
               <li><Link className='HomeNavIndex-in-link' to='/'>Back to Home</Link></li>
               <li><Link className='HomeNavIndex-in-link' to='/'>Explore Clubs</Link></li>
               <li><Link className='HomeNavIndex-in-link' to='/blogs'>Read Blogs</Link></li>
-              <li><Link className='HomeNavIndex-in-link' to='/events'>Events</Link></li>
+              <li><Link className='HomeNavIndex-in-link' to='/gallery'>Gallery</Link></li>
             </ul>
            </div>
         </div>

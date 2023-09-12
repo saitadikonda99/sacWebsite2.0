@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
+import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+
 import './Page.css';
+import NavBar from './NavBar';
+import './MobileView.css';
 
 import Footer from '../../components/Footer/Footer';
 
@@ -30,9 +35,46 @@ const Page = () => {
   };
 
 
+  //   ---------------------------------------------
+
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+  };
+
+  useEffect(() => {
+      window.addEventListener('resize', handleResize);
+
+      return () => {
+      window.removeEventListener('resize', handleResize);
+      };
+  }, []);
+
+//   ---------------------------------------------
 
   return (
     <div className="LeadershipComponent">
+       <div className="Event-Nav">
+            <div className='HomeNavComponent'>
+                <div className="HomeNavContainer">
+                    <div className="HomeNavLogo">
+                        <div className="HomeNavLogo-in">
+                            <Link className='HomeNavLogo-in-link' to='/'><h1>Student Activity Center</h1></Link>
+                        </div>
+                    </div>
+                    <div className="HomeNavIndex">
+                        <div className="HomeNavIndex-in">
+                            <Link className='HomeNavIndex-in-link' to='/'>Back to Home</Link>
+                            <Link className='HomeNavIndex-in-link' to='/'>Explore Clubs</Link>
+                            <Link className='HomeNavIndex-in-link' to='/gallery'>Gallery</Link>
+                            <Link className='HomeNavIndex-in-link' to='/events'>Events</Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                {screenWidth < 768 ?  <NavBar/> : '' }
+        </div>
       <div className="LeadershipContainer">
         <div className="Leadership-one">
           <div className="Leadership-one-in">

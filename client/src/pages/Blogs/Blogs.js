@@ -1,11 +1,15 @@
 import * as React from 'react';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Blogs.css';
 import './MobileView.css'
 import'../../components/HomeNav/HomeNav.css';
+import NavBar from './NavBar';
+
+
+
 
 //images for blog cards
 
@@ -35,6 +39,8 @@ const images = [
 
 function Blogs() {
 
+
+
     useEffect(() => {
         document.title = 'Blogs | KLU SAC';
         const metaDescription = document.createElement('meta');
@@ -47,26 +53,50 @@ function Blogs() {
         };
       }, []);
 
+
+      //   ---------------------------------------------
+
+      const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+      const handleResize = () => {
+          setScreenWidth(window.innerWidth);
+      };
+
+      useEffect(() => {
+          window.addEventListener('resize', handleResize);
+
+          return () => {
+          window.removeEventListener('resize', handleResize);
+          };
+      }, []);
+
+     //   ---------------------------------------------
+
     
 
   return (
     <div className="BlogsComponent">
         <div className="BlogsContainer">
-            <div className="HomeNavContainer">
-                <div className="HomeNavLogo">
-                    <div className="HomeNavLogo-in">
-                        <Link className='HomeNavLogo-in-link' to='/'><h1>Student Activity Center</h1></Link>
+        <div className="Event-Nav">
+            <div className='HomeNavComponent'>
+                <div className="HomeNavContainer">
+                    <div className="HomeNavLogo">
+                        <div className="HomeNavLogo-in">
+                            <Link className='HomeNavLogo-in-link' to='/'><h1>Student Activity Center</h1></Link>
+                        </div>
                     </div>
-                </div>
-                <div className="HomeNavIndex">
-                    <div className="HomeNavIndex-in">
-                        <Link className='HomeNavIndex-in-link' to='/'>Back to Home</Link>
-                        <Link className='HomeNavIndex-in-link' to='/'>Explore Clubs</Link>
-                        <Link className='HomeNavIndex-in-link' to='/gallery'>Gallery</Link>
-                        <Link className='HomeNavIndex-in-link' to='/events'>Upcoming Events</Link>
+                    <div className="HomeNavIndex">
+                        <div className="HomeNavIndex-in">
+                            <Link className='HomeNavIndex-in-link' to='/'>Back to Home</Link>
+                            <Link className='HomeNavIndex-in-link' to='/'>Explore Clubs</Link>
+                            <Link className='HomeNavIndex-in-link' to='/gallery'>Gallery</Link>
+                            <Link className='HomeNavIndex-in-link' to='/events'>Events</Link>
+                        </div>
                     </div>
                 </div>
             </div>
+                {screenWidth < 768 ?  <NavBar/> : '' }
+        </div>
             <div className="BlogsContainer-in">
                 <div className="BlogsContainer-one">
                     <div className="BlogsSideBar">
@@ -75,6 +105,7 @@ function Blogs() {
                        </div>
                         <div className="SideBarTwo">
                             <NewSideBar />
+
                         </div>
                     </div>
                 </div>

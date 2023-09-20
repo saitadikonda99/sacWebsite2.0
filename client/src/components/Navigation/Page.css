@@ -31,6 +31,10 @@
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
 }
+.nav-in-two-in img {
+    width: 45%;
+    margin-top: 1.5rem;
+}
 .nav-in-two {
     display: flex;
     align-items: center;

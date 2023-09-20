@@ -33,7 +33,6 @@ import InstaLogo from '../../Assets/Logos/InstaLogo.png';
 import TwitterLogo from '../../Assets/Logos/TwitterLogo.png';
 import LinkedInLogo from '../../Assets/Logos/LinkedInLogo.png';
 import newsImage from '../../Assets/newsImage.jpeg';
-import eventImage from '../../Assets/event.png';
 import DP from '../../Assets/CouncilMembers/DP.jpg';
 
 import Technology from '../../Assets/Technology.jpg';
@@ -41,6 +40,8 @@ import Angular from '../../Assets/Angular.png';
 import One from '../../Assets/One.png';
 import Bash from '../../Assets/Bash.png';
 import reactv6 from '../../Assets/reactv6.png';
+import Meeting from '../../Assets/Meetings.jpg';
+import Hukum from '../../Assets/Hukum.jpg';
 
 const Home  = () => {
  
@@ -382,7 +383,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
             </div>
 
            <div className="explore-departments">
-            <Link className='projects-link' to='/'>Explore All Clubs</Link>
+            <Scroll className='projects-link' activeClass="active" to="Quick-links-component" spy={true} smooth={true} offset={-100} duration={800}>Explore All Clubs</Scroll>
            </div>
           </div>
         </div>
@@ -473,9 +474,9 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
           <div className="news-main">
             <div className="news-one">
                 <div className="news-one-in">
-                  <img src={newsImage} alt="" />
+                  <img src={Hukum} alt="" />
                   <div className="news-one-in-desc">
-                    <p>Technology</p>
+                    <p>Council General Body Meeting</p>
                     <p>Stanford students create and apply knowledge by thinking and doing, preparing for leadership in a rapidly changing world.</p>
                     <p>September 8th 2023</p>
                   </div>
@@ -483,7 +484,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
             </div>
             <div className="news-one">
                 <div className="news-one-in">
-                  <img src={newsImage} alt="" />
+                  <img src={Meeting} alt="" />
                   <div className="news-one-in-desc">
                     <p>Technology</p>
                     <p>Stanford students create and apply knowledge by thinking and doing, preparing for leadership in a rapidly changing world.</p>
@@ -547,7 +548,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                     <img src={Angular} alt="" />
                 </div>
                 <div className="ue-comps-in-two">
-                      <h2>Deep Dive into Angular</h2>
+                      <h2>Angular.js</h2>
                       <p>Discover the power of Angular.js: a dynamic framework for building robust, interactive web applications.</p>
 
                       <p>27th September, 2023</p>

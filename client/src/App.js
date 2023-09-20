@@ -1,29 +1,28 @@
-import React, { useState, useEffect } from 'react'; 
-import { Routes, Route } from 'react-router-dom'; 
+import React, { useState, useEffect } from "react";
+import { Routes, Route } from "react-router-dom";
 
-import './App.css'; 
+import "./App.css";
 
-//import components here 
+//import components here
 
-//import pages here 
-import Home from '../src/pages/Home/Home';
-import Leadership from '../src/pages/Leadership/Page';
-import CompletedEvents from '../src/pages/CompletedEvents/Page';
-import ClubsPage from '../../client/src/ClubPages/ClubPageApp';
-import Events from './pages/Events/Event';
-import Gallery from './pages/Gallery/Gallery';
-import Blogs from './pages/Blogs/Blogs';
-import Terms from './pages/TC/Tc';
-import Dashboard from '../src/pages/Dashboard/Page';
-import NotFound from './pages/NotFound/NotFound';
-import Privacy from './pages/Privacy/Privacy';
-
+//import pages here
+import Home from "../src/pages/Home/Home";
+import Leadership from "../src/pages/Leadership/Page";
+import CompletedEvents from "../src/pages/CompletedEvents/Page";
+import ClubsPage from "../../client/src/ClubPages/ClubPageApp";
+import Events from "./pages/Events/Event";
+import Gallery from "./pages/Gallery/Gallery";
+import Blogs from "./pages/Blogs/Blogs";
+import Terms from "./pages/TC/Tc";
+import Dashboard from "../src/pages/Dashboard/Page";
+import NotFound from "./pages/NotFound/NotFound";
+import Privacy from "./pages/Privacy/Privacy";
 
 function App() {
   const [isLoading, setLoading] = useState(true);
-  
+
   function someRequest() {
-    return new Promise(resolve => setTimeout(() => resolve(),4000));
+    return new Promise((resolve) => setTimeout(() => resolve(), 4000));
   }
 
   useEffect(() => {
@@ -39,30 +38,29 @@ function App() {
     return null;
   }
 
-  
-const routes = [
-  { path: '/', element: <Home /> },
-  { path: 'clubs/*', element: <ClubsPage /> },
-  { path: '/studentclubs', element: <ClubsPage /> },
-  { path: '/leadership', element: <Leadership /> },
-  { path: '/dashboard/*', element: <Dashboard /> },
-  { path: '/completedevents', element: <CompletedEvents /> },
-  { path: '/events', element: <Events /> },
-  { path: '/terms', element: <Terms /> },
-  { path: '/gallery', element: <Gallery /> },
-  { path: '/blogs', element: <Blogs /> },
-  { path: '/privacy', element: <Privacy /> },
-  { path: '*', element: <NotFound /> },
-];
+  const routes = [
+    { path: "/", element: <Home /> },
+    { path: "clubs/*", element: <ClubsPage /> },
+    { path: "/studentclubs", element: <ClubsPage /> },
+    { path: "/leadership", element: <Leadership /> },
+    { path: "/dashboard/*", element: <Dashboard /> },
+    { path: "/completedevents", element: <CompletedEvents /> },
+    { path: "/events", element: <Events /> },
+    { path: "/terms", element: <Terms /> },
+    { path: "/gallery", element: <Gallery /> },
+    { path: "/blogs", element: <Blogs /> },
+    { path: "/privacy", element: <Privacy /> },
+    { path: "*", element: <NotFound /> },
+  ];
 
-return (
-  <div className="App">
-    <Routes>
-      {routes.map((route, index) => (
-        <Route key={index} path={route.path} element={route.element} />
-      ))}
-    </Routes>
-  </div>
+  return (
+    <div className="App">
+      <Routes>
+        {routes.map((route, index) => (
+          <Route key={index} path={route.path} element={route.element} />
+        ))}
+      </Routes>
+    </div>
   );
 }
 

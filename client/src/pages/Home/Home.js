@@ -21,7 +21,8 @@ import DialogTitle from '@mui/material/DialogTitle';
 import DialogContent from '@mui/material/DialogContent';
 import DialogActions from '@mui/material/DialogActions';
 
-import Fade from 'react-reveal/Fade';
+
+
 
 import Footer from '../../components/Footer/Footer';
 import newVideo from '../../Assets/newVideo.mp4';  
@@ -35,6 +36,11 @@ import newsImage from '../../Assets/newsImage.jpeg';
 import eventImage from '../../Assets/event.png';
 import DP from '../../Assets/CouncilMembers/DP.jpg';
 
+import Technology from '../../Assets/Technology.jpg';
+import Angular from '../../Assets/Angular.png';
+import One from '../../Assets/One.png';
+import Bash from '../../Assets/Bash.png';
+import reactv6 from '../../Assets/reactv6.png';
 
 const Home  = () => {
  
@@ -334,21 +340,21 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
               <div className="projects-one-in">
                 <div className="projects-comps">
                   <div className="projects-comps-one">
-                    <img src={ProjectsImage} alt="" />  
+                    <img src={Technology} alt="" />  
                   </div>
                   <div className="projects-comps-two">
                     <h2>Technology Clubs</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt voluptatibus, dolorem ex distinctio magnam corrupti!</p>
+                    <p>Explore cutting-edge tech trends and hands-on projects, from coding to robotics, in our vibrant tech enthusiast community.</p>
                     <Link className='projects-comps-two-links' to='/'>Explore</Link>
                   </div>
                 </div>
                 <div className="projects-comps">
                   <div className="projects-comps-one">
-                    <img src={ProjectsImage} alt="" />  
+                    <img src={Technology} alt="" />  
                   </div>
                   <div className="projects-comps-two">
                     <h2>Liberal & Sports Clubs</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt voluptatibus, dolorem ex distinctio magnam corrupti!</p>
+                    <p>Celebrate diversity through art, dance, music, and more, fostering cultural exchange and global understanding.</p>
                     <Link className='projects-comps-two-links' to='/'>Explore</Link>
                   </div>
                 </div>
@@ -358,7 +364,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                   </div>
                   <div className="projects-comps-two">
                     <h2>Innovation Clubs</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt voluptatibus, dolorem ex distinctio magnam corrupti!</p>
+                    <p>Ignite creativity, entrepreneurship, and problem-solving skills, driving innovative solutions to real-world challenges.</p>
                     <Link className='projects-comps-two-links' to='/'>Explore</Link>
                   </div>
                 </div>
@@ -368,7 +374,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                   </div>
                   <div className="projects-comps-two">
                     <h2>Outreach Clubs</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt voluptatibus, dolorem ex distinctio magnam corrupti!</p>
+                    <p>Advocate for meaningful social change, raising awareness and engaging in volunteer activities to make a positive impact.</p>
                     <Link className='projects-comps-two-links' to='/'>Explore</Link>
                   </div>
                 </div>
@@ -522,55 +528,56 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
           </div>
         </div>
         <div className="upcoming-events-in">
-            <div className="ue-comps">
+        <div className="ue-comps">
               <div className="ue-comps-in">
                 <div className="ue-comps-in-one">
-                    <img src={eventImage} alt="" />
+                    <img src={One} alt="" />
                 </div>
                 <div className="ue-comps-in-two">
-                      <h2>Workshop</h2>
-                      <p>Clinicians and Firearms: A Curriculum on Firearm Injury Prevention in Medical Practice</p>
+                      <h2>Vim Master Class</h2>
+                      <p>Master Unix VIM: Boost your productivity with this versatile, efficient text editor for command-line enthusiasts.</p>
 
-                      <p>8th September, 2023</p>
+                      <p>25th September, 2023</p>
                 </div>
               </div>
             </div>
             <div className="ue-comps">
               <div className="ue-comps-in">
                 <div className="ue-comps-in-one">
-                    <img src={eventImage} alt="" />
+                    <img src={Angular} alt="" />
                 </div>
                 <div className="ue-comps-in-two">
-                      <h2>Workshop</h2>
-                      <p>Clinicians and Firearms: A Curriculum on Firearm Injury Prevention in Medical Practice</p>
+                      <h2>Deep Dive into Angular</h2>
+                      <p>Discover the power of Angular.js: a dynamic framework for building robust, interactive web applications.</p>
 
-                      <p>8th September, 2023</p>
+                      <p>27th September, 2023</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="ue-comps">
+              <div className="ue-comps-in">
+                <div className="ue-comps-in-one">
+                    <img src={Bash} alt="" />
+                </div>
+                <div className="ue-comps-in-two">
+                      <h2>Bash Scrpting</h2>
+                      <p>Unlock the world of Bash scripting: Learn to automate tasks and streamline your workflow with shell scripting</p>
+
+                      <p>27th September, 2023</p>
                 </div>
               </div>
             </div>
             <div className="ue-comps">
               <div className="ue-comps-in">
                 <div className="ue-comps-in-one">
-                    <img src={eventImage} alt="" />
+                    <img src={reactv6} alt="" />
                 </div>
                 <div className="ue-comps-in-two">
-                      <h2>Workshop</h2>
+                      <h2>React Router V6</h2>
                       <p>Clinicians and Firearms: A Curriculum on Firearm Injury Prevention in Medical Practice</p>
 
-                      <p>8th September, 2023</p>
-                </div>
-              </div>
-            </div>
-            <div className="ue-comps">
-              <div className="ue-comps-in">
-                <div className="ue-comps-in-one">
-                    <img src={eventImage} alt="" />
-                </div>
-                <div className="ue-comps-in-two">
-                      <h2>Workshop</h2>
-                      <p>Clinicians and Firearms: A Curriculum on Firearm Injury Prevention in Medical Practice</p>
-
-                      <p>8th September, 2023</p>
+                      <p>26th September, 2023</p>
                 </div>
               </div>
             </div>

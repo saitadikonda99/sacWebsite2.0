@@ -17,6 +17,7 @@ import Terms from "./pages/TC/Tc";
 import Dashboard from "../src/pages/Dashboard/Page";
 import NotFound from "./pages/NotFound/NotFound";
 import Privacy from "./pages/Privacy/Privacy";
+import SIL from "./pages/SIL/Page";
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -51,6 +52,7 @@ function App() {
     { path: "/blogs", element: <Blogs /> },
     { path: "/privacy", element: <Privacy /> },
     { path: "*", element: <NotFound /> },
+    { path: "/sil", element: <SIL /> },
   ];
 
   return (

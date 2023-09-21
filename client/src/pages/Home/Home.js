@@ -362,7 +362,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                 </div>
                 <div className="projects-comps">
                   <div className="projects-comps-one">
-                    <img src={ProjectsImage} alt="" />  
+                    <img src={Technology} alt="" />  
                   </div>
                   <div className="projects-comps-two">
                     <h2>Innovation Clubs</h2>
@@ -372,7 +372,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                 </div>
                 <div className="projects-comps">
                   <div className="projects-comps-one">
-                    <img src={ProjectsImage} alt="" />  
+                    <img src={Technology} alt="" />  
                   </div>
                   <div className="projects-comps-two">
                     <h2>Outreach Clubs</h2>
@@ -577,7 +577,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                 </div>
                 <div className="ue-comps-in-two">
                       <h2>React Router V6</h2>
-                      <p>Clinicians and Firearms: A Curriculum on Firearm Injury Prevention in Medical Practice</p>
+                      <p>Unlock the world of Bash scripting: Learn to automate tasks and streamline your workflow with shell scripting</p>
 
                       <p>26th September, 2023</p>
                 </div>

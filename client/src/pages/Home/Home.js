@@ -33,7 +33,8 @@ import InstaLogo from '../../Assets/Logos/InstaLogo.png';
 import TwitterLogo from '../../Assets/Logos/TwitterLogo.png';
 import LinkedInLogo from '../../Assets/Logos/LinkedInLogo.png';
 import newsImage from '../../Assets/newsImage.jpeg';
-import DP from '../../Assets/CouncilMembers/DP.jpg';
+import Director from '../../Assets/director.png'
+import Parth from '../../Assets/Parth.png'
 
 import Technology from '../../Assets/Technology.jpg';
 import Angular from '../../Assets/Angular.png';
@@ -612,13 +613,13 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
             <div className="officers-in-two">
                 <div className="officers-in-two-in">
                 <div className="profile-card">
-                        <img src={DP} alt="" />
+                        <img src={Director} alt="" />
                         <h2>P Sai Vijay</h2>
                         <p>Director, SAC</p>
                         <p>ceo@saivijay@gmail.com</p>
                     </div>
                     <div className="profile-card">
-                        <img src={DP} alt="" />
+                        <img src={Parth} alt="" />
                         <h2>Parth Deepak</h2>
                         <p>Chairman, Student Council</p>
                         <p>ECE, 4th Year</p>

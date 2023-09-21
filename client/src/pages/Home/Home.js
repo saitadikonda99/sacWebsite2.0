@@ -595,6 +595,15 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
 
 
+      {/* ---------------------------------- projects --------------------- */}
+      <div className="workingstill">
+        <div className="workingstill-in">
+          <img src={Technology} alt="" />
+        </div>
+      </div>
+
+
+
 
         <div className="joinus">
           <div className="joinus-inner">

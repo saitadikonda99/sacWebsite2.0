@@ -1090,6 +1090,27 @@
     100% {transform: translatex(-1000%)}
 }
 
+
+
+
+/* --------------------------- working still ---------------------------- */
+
+.workingstill {
+    padding: 2rem 0rem;
+}
+.workingstill-in {
+    width: 90%;
+    margin: auto;
+}
+.workingstill-in img {
+    width: 100%;
+    display: inline-block;
+}
+  
+
+
+
+
 .joinus {
     background-color: whitesmoke;
     padding: 40px 0px 70px 0px;

@@ -75,6 +75,9 @@ const Home  = () => {
     };
   }, []);
 
+  const handleclick = () => {
+    window.scrollTo(0, 0); 
+  }
 
 
   const faqData = [
@@ -451,7 +454,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
           </div>
 
          <div className="stories-viewmore">
-          <Link className='stories-viewmore-link' to='/blogs'>View More Stories</Link>
+          <Link onClick={handleclick} className='stories-viewmore-link' to='/blogs'>View More Stories</Link>
          </div>
         </div>
 
@@ -586,7 +589,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
         </div>
         <div className="explore-events">
-          <Link to='/events' className='explore-events-link'>Explore More Events</Link>
+          <Link onClick={handleclick} to='/events' className='explore-events-link'>Explore More Events</Link>
         </div>
       </div>
 
@@ -607,7 +610,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                 <div className="officers-in-one-in">
                       <h1>The Office of Student Activity Center</h1>
                         <p>The Office of SAC Operates in 3 levels, Director of SAC and Faculty Mentors, Student Council and Executive Body</p>
-                    <Link className='leadership-link' to='/leadership'>Explore Leadership</Link>
+                    <Link onClick={handleclick}  className='leadership-link' to='/leadership'>Explore Leadership</Link>
                 </div>
             </div>
             <div className="officers-in-two">

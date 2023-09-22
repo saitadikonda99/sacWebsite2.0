@@ -48,7 +48,7 @@ const eventData = [
     date: '28-09-2023',
     studentCoordinator: 'Deepak Reddy Gathpa',
     facultyCoordinator: 'Ravi Babu K',
-    reportLink: 'https://example.com/report1',
+    reportLink: 'https://example.com/report1',      
   },
   {
     eventName: 'CodeforCause Hackathon 1',
@@ -61,7 +61,7 @@ const eventData = [
 ]
 
 
-function Page() {
+function Page() {   
     const [showDiv, setDiv] = useState(0);
     const [techMonth, setTech] = useState(0);
     const [liberalMonth, setLiberal] = useState(0);

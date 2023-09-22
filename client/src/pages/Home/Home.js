@@ -34,7 +34,6 @@ import TwitterLogo from '../../Assets/Logos/TwitterLogo.png';
 import LinkedInLogo from '../../Assets/Logos/LinkedInLogo.png';
 import newsImage from '../../Assets/newsImage.jpeg';
 import Director from '../../Assets/director.png'
-import Parth from '../../Assets/Parth.png'
 
 import Technology from '../../Assets/Technology.jpg';
 import Angular from '../../Assets/Angular.png';
@@ -43,6 +42,7 @@ import Bash from '../../Assets/Bash.png';
 import reactv6 from '../../Assets/reactv6.png';
 import Meeting from '../../Assets/Meetings.jpg';
 import Hukum from '../../Assets/Hukum.jpg';
+import chairman from '../../Assets/chairman.png';
 
 const Home  = () => {
  
@@ -652,8 +652,8 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                         <p>ceo@saivijay@gmail.com</p>
                     </div>
                     <div className="profile-card">
-                        <img src={Parth} alt="" />
-                        <h2>Parth Deepak</h2>
+                        <img src={chairman} alt="" />
+                        <h2>Parth Thakkar</h2>
                         <p>Chairman, Student Council</p>
                         <p>ECE, 4th Year</p>
                     </div>

@@ -164,19 +164,8 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 .noname {
-    background-image: url(../../Assets/GroupPhoto.jpg);
+    background-image: url(../../Assets/GroupPhoto.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -206,9 +195,9 @@
 
 
 .HomeComponent .noname {
-    background-image: url('../../Assets/GroupPhoto.jpg');
+    background-image: url('../../Assets/GroupPhoto.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     display: flex;
     padding: 60px 0px 60px 0px;
 }

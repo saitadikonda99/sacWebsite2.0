@@ -29,15 +29,21 @@
 
 .Events-clubs {
     border: 1px solid grey;
-    height: 10vh;
     width: 90%;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0rem 1rem;
+    padding: 0.5rem 0.5rem;
     border-radius: 50px;
 }
+
+
+.ec-name {
+    padding: 0.7rem 1rem;
+    font-size: 1.1rem;
+}
+
 
 .Event-initial {
     border: 1px solid black;
@@ -52,14 +58,18 @@
 
 .Event-Calendar {
     border: 1px solid grey;
-    height: 10vh;
     width: 90%;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0rem 2rem;
-    border-radius: 30px;
+    padding: 0.5rem 0.5rem;
+    border-radius: 50px;
+}
+
+.mn-ev-cm {
+    padding: 0.7rem 1rem;
+    font-size: 1.1rem;
 }
 
 .Calendar-hide {
@@ -83,7 +93,7 @@
 }
 
 .Event-name-box{
-    padding: 2rem 0rem; 
+    padding: 1rem 0rem; 
     width: 90%;
     margin: auto;
     display: flex;
@@ -91,33 +101,35 @@
 }
 
 .Event-name-tech, .Event-name-liberal, .Event-name-outreach, .Event-name-startup  {
-    border: 1px solid grey;
-    padding: 1rem;
-    border-radius: 30px;
+    font-size: 3rem;
+    font-weight: 700;
+    width: 100%;
+    text-align: left;
 }
 
 .ec-name:hover {
     background-color: rgb(238, 221, 221);
     color: black; 
     cursor: pointer;
-    padding: 1rem;
     border-radius: 30px;
     font-weight: 400;
 }
 
 #Event-m-hover {
     cursor: pointer;
-    border: 1px solid rgb(151, 0, 3);
+    border: 1px solid black;
     padding: .5rem 1rem;
     border-radius: 30px;
     font-weight: 400;
+    background-color: black;
+    color: white;
 }
 
 #Event-hover {
     cursor: pointer;
-    background-color: rgb(151, 0, 3);
+    /* background-color: rgb(151, 0, 3); */
+    background-color: black;
     color: white;
-    padding: 1rem;
     border-radius: 30px;
     font-weight: 400;
 }
@@ -128,10 +140,17 @@
     margin: auto;
     border-radius: 20px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 4rem 0rem;
-    margin-top: 3rem;
+    padding: 0rem 0rem;
+
+}
+.tech-cm-mn-ev h1 {
+    margin: 2rem 0rem;
+    width: 100%;
+    text-align: left;
+    font-size: 2.5rem;
 }
 
 .liberal-cm-mn-ev {
@@ -166,6 +185,10 @@
     border-radius: 20px;
 }
 
+.Events-table {
+    width: 100%;
+}
+
 .Events-table table {
     width: 100%;
     margin: auto;
@@ -187,19 +210,10 @@
     /* background-color:rgb(151, 0, 3); */
     background-color: black;
     color: white;
-    width: 2%;
+    width: 3%;
 }
 .Events-table table tr td:nth-child(2) {
-    width: 15%;
-}
-.Events-table table tr td:nth-child(3) {
-    width: 10%;
-}
-
-.Events-table table tr td:nth-child(3) img {
-    width: 80%;
-    border-radius: 10px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width: 37%;
 }
 
 .Events-table table tr td:nth-child(4) {

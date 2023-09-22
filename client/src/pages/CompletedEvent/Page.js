@@ -106,6 +106,11 @@ function Page() {
       };
   }, []);
 
+  const monthNames = [
+    'January', 'February', 'March', 'April', 'May', 'June',
+    'July', 'August', 'September', 'October', 'November', 'December'
+];
+
 //   ---------------------------------------------
 
   return (
@@ -135,7 +140,7 @@ function Page() {
                 <div className="CompletedEventsContainer-in">
                    <div className="Events-container">
                         <div className="Events-clubs">
-                            <div className="Event-club-one ec-name" id = { showDiv === 1 ? 'Event-hover' : '' } onClick={ () => {handleDiv(1)}} >Technical Clubs</div>
+                            <div className="Event-club-one ec-name" id = { showDiv === 1 ? 'Event-hover' : '' } onClick={ () => {handleDiv(1)}} >Central Technology Clubs</div>
                             <div className="Event-club-two ec-name" id = { showDiv === 2 ? 'Event-hover' : '' } onClick={ () => {handleDiv(2)}} >Liberal & Sports Clubs</div>
                             <div className="Event-club-three ec-name" id = { showDiv === 3 ? 'Event-hover' : '' } onClick={ () => {handleDiv(3)}} >Incubation & Innovation</div>
                             <div className="Event-club-four ec-name"  id = { showDiv === 4 ? 'Event-hover' : '' }onClick={ () => {handleDiv(4)}} >Outreach & Society</div>
@@ -150,7 +155,7 @@ function Page() {
                         {/* domain names */}
 
                         <div className = { showDiv > 0 ? 'Event-name-box' : 'Event-name-hide' } >
-                           <div className = { showDiv === 1 ? 'Event-name-tech' : 'tech-hide' }>Technology Events</div>
+                           <div className = { showDiv === 1 ? 'Event-name-tech' : 'tech-hide' }>Central Technology Events Organized</div>
                            <div className = { showDiv === 2 ? 'Event-name-liberal' : 'tech-hide' }>Liberal Arts Events</div>
                            <div className = { showDiv === 3 ? 'Event-name-outreach' : 'tech-hide' }>Innovation Events</div>
                            <div className = { showDiv === 4 ? 'Event-name-startup' : 'tech-hide' }>Outreach Events</div>
@@ -229,8 +234,10 @@ function Page() {
 
 
 
-                        <div className = { techMonth === 1 ? 'Event-january-tech tech-cm-mn-ev' : 'Posters-hide' } > 
-                        <EventsTable eventData={eventData} /> 
+                        <div className={techMonth === 1 ? 'Event-january-tech tech-cm-mn-ev' : 'Posters-hide'}>
+                            {/* Write heading as 'List of events organized in month name' */}
+                            <h1>List of Activities Organized in {monthNames[techMonth - 1]}</h1>
+                            <EventsTable eventData={eventData} />
                         </div>
 
                         <div className = { techMonth === 2 ? 'Event-feb-tech tech-cm-mn-ev' : 'Posters-hide' } >
@@ -361,7 +368,6 @@ function EventsTable({ eventData }) {
           <tr>
             <th>Sno.</th>
             <th>Event Name</th>
-            <th>Poster</th>
             <th>Date</th>
             <th>Student Coordinator</th>
             <th>Faculty Coordinator</th>
@@ -373,7 +379,6 @@ function EventsTable({ eventData }) {
             <tr key={index}>
               <td>{index + 1}</td> {/* Dynamically generate the serial number */}
               <td>{event.eventName}</td>
-              <td><img src={event.poster} alt="" /></td>
               <td>{event.date}</td>
               <td>{event.studentCoordinator}</td>
               <td>{event.facultyCoordinator}</td>

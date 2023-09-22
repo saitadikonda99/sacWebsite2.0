@@ -32,16 +32,20 @@ import YtLogo from '../../Assets/Logos/YtLogo.png';
 import InstaLogo from '../../Assets/Logos/InstaLogo.png';
 import TwitterLogo from '../../Assets/Logos/TwitterLogo.png';
 import LinkedInLogo from '../../Assets/Logos/LinkedInLogo.png';
-import newsImage from '../../Assets/newsImage.jpeg';
 import Director from '../../Assets/director.png'
 
-import Technology from '../../Assets/Technology.jpg';
+import Technology from '../../Assets/Technology.png';
+import Liberal from '../../Assets/Liberal.png';
+import Innovation from '../../Assets/Innovation.png';
+import Outreach from '../../Assets/Outreach.png';
+
 import Angular from '../../Assets/Angular.png';
 import One from '../../Assets/One.png';
 import Bash from '../../Assets/Bash.png';
 import reactv6 from '../../Assets/reactv6.png';
-import Meeting from '../../Assets/Meetings.jpg';
-import Hukum from '../../Assets/Hukum.jpg';
+import NewsOne from '../../Assets/NewsOne.png';
+import NewsTwo from '../../Assets/NewsTwo.png';
+import NewsThree from '../../Assets/NewsThree.png';
 import chairman from '../../Assets/chairman.png';
 
 const Home  = () => {
@@ -82,20 +86,20 @@ const Home  = () => {
 
   const faqData = [
     {
-      question: 'What is the Student Activity Center, and what kind of activities or services does it offer?',
-      answer: 'Freshers often want to know what the Student Activity Center is all about and what they can expect to find there. This question helps them understand the center purpose and the range of activities and services available to them.',
+      question: 'What is Student Activity Center at Koneru Lakshmaiah Education Foundation?',
+      answer: 'Student Activity Center is the epicenter of innovation and personal growth. The sole existence of this is to show a student the true capabilities they posses beyond academics. SAC fosters and supports ideas with 5 major parameters Technical, Cultural & Sports, Outreach Activities & Societies, Innovation & Incubation, Health & Wellness. We at SAC have clubs who aim to progress in these domains.',
     },
     {
-      question: 'Can i join more then 1 club?',
-      answer: 'Yes, Of course but you should be able to be active when club works. Multi taskers are always welcomed.',
+      question: 'How can I be a club member?',
+      answer: 'To be a club member visit your interested club page on the website and have an information of your club team, then collect your membership registration form from your respective club head by visiting the SAC Hall and post approval you are a registered member of your club. ',
     },
     {
-      question: 'Does SAC conduct Events?',
-      answer: 'yes, we do have a lot of regular events often from various clubs also sac has now initiated SIL (Social immersive learning) where students will be graded based on their participation in these events!',
+      question: 'Can I establish a club at SAC?',
+      answer: 'Yes, we welcome you to establish a club at SAC. Any club that has a clarity of its objective, activities and workflow with a strong foundation of their club prerequisites can establish their club at SAC. Initially the club will be under a probation period and after successfully analyzing the club operations and dedication SAC will declare it as permanent and support/provide for the club. Adhering to the SAC policies and university norms goes unsaid.',
     },
     {
-      question: 'How do the clubs operate?',
-      answer: 'Based on the semester clubs have various activities that you are always welcomed to join and participate in',
+      question: 'What is the Student Council at SAC?',
+      answer: 'The Student Council at SAC is a team of highly sincere and dedicated students consisting their vast expertise in their respective domains. The Council is responsible to strategize and execute ideas/plans for the club development, student welfare, institutional growth. It is the backbone and the strongest support for the students of the University.',
     },
     {
       question: 'Are first year allowed in SAC?',
@@ -355,7 +359,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                 </div>
                 <div className="projects-comps">
                   <div className="projects-comps-one">
-                    <img src={Technology} alt="" />  
+                    <img src={Liberal} alt="" />  
                   </div>
                   <div className="projects-comps-two">
                     <h2>Liberal & Sports Clubs</h2>
@@ -365,7 +369,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                 </div>
                 <div className="projects-comps">
                   <div className="projects-comps-one">
-                    <img src={Technology} alt="" />  
+                    <img src={Innovation} alt="" />  
                   </div>
                   <div className="projects-comps-two">
                     <h2>Innovation Clubs</h2>
@@ -375,7 +379,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                 </div>
                 <div className="projects-comps">
                   <div className="projects-comps-one">
-                    <img src={Technology} alt="" />  
+                    <img src={Outreach} alt="" />  
                   </div>
                   <div className="projects-comps-two">
                     <h2>Outreach Clubs</h2>
@@ -478,7 +482,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
           <div className="news-main">
             <div className="news-one">
                 <div className="news-one-in">
-                  <img src={Hukum} alt="" />
+                  <img src={NewsOne} alt="" />
                   <div className="news-one-in-desc">
                     <p>Council General Body Meeting</p>
                     <p>Stanford students create and apply knowledge by thinking and doing, preparing for leadership in a rapidly changing world.</p>
@@ -488,7 +492,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
             </div>
             <div className="news-one">
                 <div className="news-one-in">
-                  <img src={Meeting} alt="" />
+                  <img src={NewsTwo} alt="" />
                   <div className="news-one-in-desc">
                     <p>Technology</p>
                     <p>Stanford students create and apply knowledge by thinking and doing, preparing for leadership in a rapidly changing world.</p>
@@ -498,7 +502,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
             </div>
             <div className="news-one">
                 <div className="news-one-in">
-                  <img src={newsImage} alt="" />
+                  <img src={NewsThree} alt="" />
                   <div className="news-one-in-desc">
                     <p>Technology</p>
                     <p>Stanford students create and apply knowledge by thinking and doing, preparing for leadership in a rapidly changing world.</p>
@@ -508,7 +512,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
             </div>
             <div className="news-one">
                 <div className="news-one-in">
-                  <img src={newsImage} alt="" />
+                  <img src={NewsTwo} alt="" />
                   <div className="news-one-in-desc">
                     <p>Technology</p>
                     <p>Stanford students create and apply knowledge by thinking and doing, preparing for leadership in a rapidly changing world.</p>
@@ -647,13 +651,13 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                 <div className="officers-in-two-in">
                 <div className="profile-card">
                         <img src={Director} alt="" />
-                        <h2>P Sai Vijay</h2>
+                        <h2>Mr P Sai Vijay</h2>
                         <p>Director, SAC</p>
-                        <p>ceo@saivijay@gmail.com</p>
+                        <p>director_sac@kluniversity.in</p>
                     </div>
                     <div className="profile-card">
                         <img src={chairman} alt="" />
-                        <h2>Parth Thakkar</h2>
+                        <h2>Parth Deepak Thakker</h2>
                         <p>Chairman, Student Council</p>
                         <p>ECE, 4th Year</p>
                     </div>
@@ -685,7 +689,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                           <p>Subscribe to join a community of creative developers and learn the latest in Google technology.</p>
                         </div>
                         <div className="follow-comps-three">
-                          <a href="https://www.youtube.com/channel/UC4QDq4yqUO3Xc0kQrXJnU1w">Learn More</a>
+                          <a href="https://www.youtube.com/@studentactivitycenter_klu">Learn More</a>
                         </div>
                       </div>
                     </div>
@@ -717,7 +721,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                           <p>Subscribe to join a community of creative developers and learn the latest in Google technology.</p>
                         </div>
                         <div className="follow-comps-three">
-                          <a href="https://www.youtube.com/channel/UC4QDq4yqUO3Xc0kQrXJnU1w">Learn More</a>
+                          <a href="https://www.linkedin.com/in/klu-sac/">Learn More</a>
                         </div>
                       </div>
                     </div>
@@ -729,11 +733,11 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                           </div>
                         </div>
                         <div className="follow-comps-two">
-                          <h1>Twitter</h1>
+                          <h1>X - Twitter</h1>
                           <p>Subscribe to join a community of creative developers and learn the latest in Google technology.</p>
                         </div>
                         <div className="follow-comps-three">
-                          <a href="https://www.youtube.com/channel/UC4QDq4yqUO3Xc0kQrXJnU1w">Learn More</a>
+                          <a href="https://twitter.com/klsac_vja">Learn More</a>
                         </div>
                       </div>
                     </div>

@@ -29,7 +29,7 @@ import Footer from '../../../components/Footer/Footer'
 import Navbar from './NavBar'
 import ToggleNavBar from './ToggleNavBar'
 
-var Page = () => {
+const Page = () => {
 
   useEffect(() => {
     document.title = 'SAC | ZeroOneCodeClub';

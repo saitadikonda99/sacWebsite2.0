@@ -28,19 +28,30 @@
 }
 
 .Events-clubs {
-    border: 2px solid black;
+    border: 1px solid grey;
     height: 10vh;
     width: 90%;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0rem 2rem;
-    border-radius: 20px;
+    padding: 0rem 1rem;
+    border-radius: 50px;
+}
+
+.Event-initial {
+    border: 1px solid black;
+    width: 90%; 
+    margin: auto;
+    border-radius: 30px;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Event-Calendar {
-    border: 2px solid black;
+    border: 1px solid grey;
     height: 10vh;
     width: 90%;
     margin: auto;
@@ -48,7 +59,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0rem 2rem;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .Calendar-hide {
@@ -80,11 +91,36 @@
 }
 
 .Event-name-tech, .Event-name-liberal, .Event-name-outreach, .Event-name-startup  {
-    border: 2px solid black;
+    border: 1px solid grey;
     padding: 1rem;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
+.ec-name:hover {
+    background-color: rgb(238, 221, 221);
+    color: black; 
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 30px;
+    font-weight: 400;
+}
+
+#Event-m-hover {
+    cursor: pointer;
+    border: 1px solid rgb(151, 0, 3);
+    padding: .5rem 1rem;
+    border-radius: 30px;
+    font-weight: 400;
+}
+
+#Event-hover {
+    cursor: pointer;
+    background-color: rgb(151, 0, 3);
+    color: white;
+    padding: 1rem;
+    border-radius: 30px;
+    font-weight: 400;
+}
 
 .tech-cm-mn-ev {
     height: fit-content;

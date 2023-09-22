@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;   
+    box-sizing: border-box;
+}
+
+.CompletedEventsComponent {
+    height: fit-content;
+    width: 100%;
+}
+
+.CompletedEventsContainer {
+    height: fit-content;
+    width: 100%;
+}
+
+.CompletedEventsContainer-in {
+    height: 100vh;
+    width: 100%;
+}
+
+.Events-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+}
+
+.Events-clubs {
+    border: 2px solid black;
+    height: 10vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    border-radius: 20px;
+}
+
+.Event-Calendar {
+    border: 2px solid black;
+    height: 10vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    border-radius: 20px;
+}
+
+.Calendar-hide {
+    display: none;
+}
+
+.Event-name-hide {
+    display: none;
+}
+
+.Event-hide {
+    display: none;
+}
+
+.tech-hide {
+    display: none;
+}
+
+.Posters-hide {
+    display: none;
+}
+
+.Event-name-box{
+    padding: 2rem 0rem; 
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.Event-name-tech, .Event-name-liberal, .Event-name-outreach, .Event-name-startup  {
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+
+.tech-cm-mn-ev {
+    height: fit-content;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4rem 0rem;
+    margin-top: 3rem;
+}
+
+.liberal-cm-mn-ev {
+    height: fit-content;
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.startup-cm-mn-ev {
+    height: 50vh;
+    width: 90%;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.Ino-cm-mn-ev {
+    height: 50vh;
+    width: 90%;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.cm-event-box {
+    height: 40vh;
+    width: 23%;
+    border: .1px solid grey;
+    border-radius: 20px;
+}
+
+.Events-table table {
+    width: 100%;
+    margin: auto;
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+.Events-table table tr th {
+    border: 1px solid grey;
+    padding: 0.5rem 0rem;
+    /* background-color: rgb(151, 0, 3); */
+    background-color: black;
+    color: white;
+}
+.Events-table table tr td {
+    border: 1px solid grey;
+    padding: 0.5rem 0rem;
+}
+.Events-table table tr td:nth-child(1) {
+    /* background-color:rgb(151, 0, 3); */
+    background-color: black;
+    color: white;
+    width: 2%;
+}
+.Events-table table tr td:nth-child(2) {
+    width: 15%;
+}
+.Events-table table tr td:nth-child(3) {
+    width: 10%;
+}
+
+.Events-table table tr td:nth-child(3) img {
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.Events-table table tr td:nth-child(4) {
+    width: 15%;
+}
+.Events-table table tr td:nth-child(5) {
+    width: 15%;
+}
+.Events-table table tr td:nth-child(6) {
+    width: 15%;
+}
+.Events-table table tr td:nth-child(7) {
+    width: 15%;
+}

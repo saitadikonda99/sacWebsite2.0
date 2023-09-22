@@ -17,7 +17,7 @@ import Dashboard from "../src/pages/Dashboard/Page";
 import NotFound from "./pages/NotFound/NotFound";
 import Privacy from "./pages/Privacy/Privacy";
 import SIL from "./pages/SIL/Page";
-import CompletedEvents from './pages/CompletedEvents/Page';
+import CompletedEvents from './pages/CompletedEvent/Page';
 
 function App() {
   const [isLoading, setLoading] = useState(true);

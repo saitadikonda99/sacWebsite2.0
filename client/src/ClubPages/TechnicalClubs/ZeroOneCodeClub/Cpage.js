@@ -16,6 +16,14 @@ import PosterTwo from '../../../Assets/reactv6.png';
 import PosterThree from '../../../Assets/Bash.png';
 import PosterFour from '../../../Assets/Angular.png';
 
+import zocc_glimpse_one from '../../../Assets/ClubsImages/ZeroOneCodeClub/zocc_glimpse_one.png';
+import zocc_glimpse_two from '../../../Assets/ClubsImages/ZeroOneCodeClub/zocc_glimpse_two.png';
+import zocc_glimpse_three from '../../../Assets/ClubsImages/ZeroOneCodeClub/zocc_glimpse_three.png';
+import zocc_glimpse_four from '../../../Assets/ClubsImages/ZeroOneCodeClub/zocc_glimpse_four.png';
+
+
+import Technology from '../../../Assets/Technology.jpg';
+
 // components start here
 import Footer from '../../../components/Footer/Footer'
 import Navbar from './NavBar'
@@ -110,13 +118,11 @@ var Page = () => {
 
                           <div className="hero-logo">
                             <div className="hero-logo-head">
-                              <h1>ZeroOne CLUB</h1> 
-                              <p>Build.Create.Inspire.Transform</p>
+                              <h1>ZeroOne Code Club</h1>
+                              <p>Transforming Lines of Code to Limitless Possibilities</p>
                             </div>
                           </div>
-                            {showDiv &&   <div className="scroll-div">
-                              <button>Join The Club</button>
-                          </div> }
+                            
                       </div>
                    </div>
               </div>
@@ -165,41 +171,41 @@ var Page = () => {
                             <div className="club-box-content-one">
                                   <div className="content-one-matter">
                                     <div className="one-matter-img">
-                                      <img src={clubpage} alt="" />
+                                      <img src={zocc_glimpse_one} alt="" />
                                     </div>
                                     <div className="one-matter-img-content">
-                                      <h1>Exclusive Events</h1>
-                                      <p>Get access to LIVE events that help you explore your favorite fields and grow to the next level.</p>
+                                      <h1>Exclusive Workshops</h1>
+                                      <p>Dive into the dynamic world of technology with our Code Club's exclusive events. Join us for inspiring coding workshops, thrilling hackathons, and enlightening tech talks, fostering innovation and collaboration within our vibrant university community.</p>
                                     </div>
                                   </div>
                                   <div className="content-two-matter">
                                   <div className="one-matter-img">
-                                      <img src={clubpage} alt="" />
+                                      <img src={zocc_glimpse_two} alt="" />
                                     </div>
                                     <div className="one-matter-img-content">
-                                      <h1>Find Mentors</h1>
-                                      <p>Get access to LIVE events that help you explore your favorite fields and grow to the next level.</p>
+                                      <h1>Join the Conversation: Group Discussions</h1>
+                                      <p>Discover a hub for dynamic group discussions within our Code Club. Engage with like-minded peers, exchange insights, and explore a wide array of tech-related topics, fostering a vibrant community of passionate learners and innovators.</p>
                                     </div>
                                   </div>
                             </div>
                             <div className="club-box-content-two">
                                   <div className="content-three-matter">
                                   <div className="one-matter-img">
-                                      <img src={clubpage} alt="" />
+                                      <img src={zocc_glimpse_three} alt="" />
                                     </div>
                                     <div className="one-matter-img-content">
-                                      <h1>Internships</h1>
-                                      <p>Get access to LIVE events that help you explore your favorite fields and grow to the next level.</p>
+                                      <h1>Strengthening Bonds: Team Building Activities</h1>
+                                      <p>Enhance camaraderie and collaboration through our Code Club's engaging team building activities. From coding challenges to problem-solving adventures, come together, build relationships, and foster a strong sense of unity among fellow tech enthusiasts.</p>
                                     </div>
                                   </div>
 
                                   <div className="content-four-matter">
                                   <div className="one-matter-img">
-                                      <img src={clubpage} alt="" />
+                                      <img src={zocc_glimpse_four} alt="" />
                                     </div>
                                     <div className="one-matter-img-content">
-                                      <h1>Exclusive Events</h1>
-                                      <p>Get access to LIVE events that help you explore your favorite fields and grow to the next level.</p>
+                                      <h1>Teaching Coding to School Students</h1>
+                                      <p>Participate in our Code Club's outreach, where we teach coding to school students, fostering future tech leaders, equipping them with essential skills, and igniting their creativity. Join our mission today!</p>
                                     </div>
                                   </div>
                             </div>
@@ -363,14 +369,14 @@ var Page = () => {
                                 <img src={clubpage} alt="" />
                               </div>
                               <div className="about-img-matter">
-                                <h1>Know more about us</h1>
-                                 <p>We're a bunch of young people trying to solve as many problems as possible for college students</p>
+                                <h1>Cultivating and Nurturing a Thriving Coding Culture</h1>
+                                 <p>We are dedicated to cultivating and nurturing a vibrant coding culture within our community. Discover our initiatives and contributions to the ever-evolving world of technology.section</p>
                               </div>
                             </div>
                             <div className="club-about-two">
                               <div className="about-img-matter">
-                                 <h1>Know more about us</h1>
-                                 <p>We're a bunch of young people trying to solve as many problems as possible for college students</p>
+                                 <h1>Building Industry-Ready Skills: Real-Time Projects and Experience</h1>
+                                 <p>Our focus is on equipping you with practical, industry-ready skills through hands-on, real-time projects. Gain valuable experience and confidence as you tackle real-world challenges.</p>
                               </div>
                               <div className="about-img"><img src={clubpage} alt="" /></div>
                             </div>
@@ -379,8 +385,8 @@ var Page = () => {
                                   <img src={clubpage} alt="" />
                                 </div>
                                 <div className="about-img-matter">
-                                  <h1>Know more about us</h1>
-                                  <p>We're a bunch of young people trying to solve as many problems as possible for college students</p>
+                                  <h1>Community Collaboration and Knowledge Sharing</h1>
+                                  <p>We believe in the power of collaboration and knowledge sharing. Explore how we actively engage with our community, facilitate learning, and create a space for collective growth and innovation</p>
                                 </div>
                             </div>
                           </div>

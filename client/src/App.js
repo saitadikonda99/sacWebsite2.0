@@ -8,7 +8,6 @@ import "./App.css";
 //import pages here
 import Home from "../src/pages/Home/Home";
 import Leadership from "../src/pages/Leadership/Page";
-import CompletedEvents from "../src/pages/CompletedEvents/Page";
 import ClubsPage from "../../client/src/ClubPages/ClubPageApp";
 import Events from "./pages/Events/Event";
 import Gallery from "./pages/Gallery/Gallery";
@@ -18,6 +17,7 @@ import Dashboard from "../src/pages/Dashboard/Page";
 import NotFound from "./pages/NotFound/NotFound";
 import Privacy from "./pages/Privacy/Privacy";
 import SIL from "./pages/SIL/Page";
+import CompletedEvents from './pages/CompletedEvents/Page';
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -53,6 +53,8 @@ function App() {
     { path: "/privacy", element: <Privacy /> },
     { path: "*", element: <NotFound /> },
     { path: "/sil", element: <SIL /> },
+    { path: "/completedEvents", element: <CompletedEvents /> },
+
   ];
 
   return (

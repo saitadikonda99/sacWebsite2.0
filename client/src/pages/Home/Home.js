@@ -82,24 +82,24 @@ const Home  = () => {
 
   const faqData = [
     {
-      question: 'What is Student Activity Center at Koneru Lakshmaiah Education Foundation?',
-      answer: 'Student Activity Center is a department at Koneru Lakshmaiah Education Foundation that is designed to accommodate path-breaking ideas, problem-solving postulates, and artistic assertions, creating an environment that encourages innovation and experimentation.',
+      question: 'What is the Student Activity Center, and what kind of activities or services does it offer?',
+      answer: 'Freshers often want to know what the Student Activity Center is all about and what they can expect to find there. This question helps them understand the center purpose and the range of activities and services available to them.',
     },
     {
-      question: 'What is Student Activity Center at Koneru Lakshmaiah Education Foundation?',
-      answer: 'Student Activity Center is a department at Koneru Lakshmaiah Education Foundation that is designed to accommodate path-breaking ideas, problem-solving postulates, and artistic assertions, creating an environment that encourages innovation and experimentation.',
+      question: 'Can i join more then 1 club?',
+      answer: 'Yes, Of course but you should be able to be active when club works. Multi taskers are always welcomed.',
     },
     {
-      question: 'What is Student Activity Center at Koneru Lakshmaiah Education Foundation?',
-      answer: 'Student Activity Center is a department at Koneru Lakshmaiah Education Foundation that is designed to accommodate path-breaking ideas, problem-solving postulates, and artistic assertions, creating an environment that encourages innovation and experimentation.',
+      question: 'Does SAC conduct Events?',
+      answer: 'yes, we do have a lot of regular events often from various clubs also sac has now initiated SIL (Social immersive learning) where students will be graded based on their participation in these events!',
     },
     {
-      question: 'What is Student Activity Center at Koneru Lakshmaiah Education Foundation?',
-      answer: 'Student Activity Center is a department at Koneru Lakshmaiah Education Foundation that is designed to accommodate path-breaking ideas, problem-solving postulates, and artistic assertions, creating an environment that encourages innovation and experimentation.',
+      question: 'How do the clubs operate?',
+      answer: 'Based on the semester clubs have various activities that you are always welcomed to join and participate in',
     },
     {
-      question: 'What is Student Activity Center at Koneru Lakshmaiah Education Foundation?',
-      answer: 'Student Activity Center is a department at Koneru Lakshmaiah Education Foundation that is designed to accommodate path-breaking ideas, problem-solving postulates, and artistic assertions, creating an environment that encourages innovation and experimentation.',
+      question: 'Are first year allowed in SAC?',
+      answer: 'First years freshers they are always welcomed. SAC is a place where your talents flourish and also you gain new skills with coming time.',
     },
 
   ];
@@ -543,6 +543,11 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                       <p>Master Unix VIM: Boost your productivity with this versatile, efficient text editor for command-line enthusiasts.</p>
 
                       <p>25th September, 2023</p>
+                      <Link
+                        className='registration-link-for-events'
+                        to='https://forms.google.com/'
+                        target='_blank'
+                      >Register</Link>
                 </div>
               </div>
             </div>
@@ -556,6 +561,11 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                       <p>Discover the power of Angular.js: a dynamic framework for building robust, interactive web applications.</p>
 
                       <p>27th September, 2023</p>
+                      <Link
+                        className='registration-link-for-events'
+                        to='https://forms.google.com/'
+                        target='_blank'
+                      >Register</Link>
                 </div>
               </div>
             </div>
@@ -570,6 +580,11 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                       <p>Unlock the world of Bash scripting: Learn to automate tasks and streamline your workflow with shell scripting</p>
 
                       <p>27th September, 2023</p>
+                      <Link
+                        className='registration-link-for-events'
+                        to='https://forms.google.com/'
+                        target='_blank'
+                      >Register</Link>
                 </div>
               </div>
             </div>
@@ -577,12 +592,18 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
               <div className="ue-comps-in">
                 <div className="ue-comps-in-one">
                     <img src={reactv6} alt="" />
+                    
                 </div>
                 <div className="ue-comps-in-two">
                       <h2>React Router V6</h2>
                       <p>Unlock the world of Bash scripting: Learn to automate tasks and streamline your workflow with shell scripting</p>
 
                       <p>26th September, 2023</p>
+                      <Link
+                        className='registration-link-for-events'
+                        to='https://forms.google.com/'
+                        target='_blank'
+                      >Register</Link>
                 </div>
               </div>
             </div>

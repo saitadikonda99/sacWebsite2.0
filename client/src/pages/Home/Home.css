@@ -419,11 +419,22 @@
 .ue-comps-in-two p {
     font-size: 1rem;
     margin-top: 0.5rem;
+    margin-bottom: 1rem;
 }
+.registration-link-for-events {
+    text-decoration: none;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 0.2rem;
+    padding: 0.3rem 0.7rem;
+    background-color: white;
+}
+
 .ue-comps-in-two p:nth-child(3) {
     font-size: 1.2rem;
     color: rgb(151, 0, 3);
 }
+
 .explore-events {
     padding-top: 3rem;
     display: flex;

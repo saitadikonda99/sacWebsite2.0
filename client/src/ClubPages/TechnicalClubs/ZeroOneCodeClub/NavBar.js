@@ -11,6 +11,8 @@ import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import Typography from '@mui/material/Typography';
 import favatar from '../../../Assets/favatar.png'
+import ZeroOneLogo from '../../../Assets/Logos/ZOCC.png';
+import { Link } from 'react-router-dom';
 
 
 function NavBar() {
@@ -41,13 +43,14 @@ const [open, setOpen] = React.useState(false);
       <div className="clubpage-nav-component">
         <div className="clubpage-nav-component-in">
             <div className="nav-logo">
-                <h1>ZeroOne</h1>
-                <p>THE CODE CLUB</p>
+                <img src={ZeroOneLogo} alt="" />
             </div>
             <div className="nav-details">
+              <Link to='/' className='backtosac'>SAC</Link>
               <NavItem to="club-hero-content" text="Home" />
-              <NavItem to="club-main-component" text="Know More" />
-              <p onClick={handleClickOpen} >Members</p>
+              <NavItem to="club-about-content" text="About" />
+              <Link to='/' className='backtosac'>Members</Link>
+              <Link to='/' className='backtosac'>More</Link>
             </div>
           </div>
   

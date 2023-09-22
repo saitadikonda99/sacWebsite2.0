@@ -4,16 +4,17 @@ import './Cpage.css';
 import './MobileView.css';
 
 
-
-
-
-// images start here
 import deepak from '../../../Assets/CouncilMembers/DP.jpg'
 import google from '../../../Assets/cloud-next_960.png'
 import clubpage from '../../../Assets/ClubsImages/codingMain.webp'
 import instagram from '../../../Assets/Logos/InstaLogo.png'
 import linkedin from '../../../Assets/Logos/LinkedInLogo.png'
 import twitter from '../../../Assets/Logos/TwitterLogo.png'
+
+import PosterOne from '../../../Assets/One.png';
+import PosterTwo from '../../../Assets/reactv6.png';
+import PosterThree from '../../../Assets/Bash.png';
+import PosterFour from '../../../Assets/Angular.png';
 
 // components start here
 import Footer from '../../../components/Footer/Footer'
@@ -110,7 +111,7 @@ var Page = () => {
                           <div className="hero-logo">
                             <div className="hero-logo-head">
                               <h1>ZeroOne CLUB</h1> 
-                              <p>Design.Develop.Deploy</p>
+                              <p>Build.Create.Inspire.Transform</p>
                             </div>
                           </div>
                             {showDiv &&   <div className="scroll-div">
@@ -216,7 +217,7 @@ var Page = () => {
                                 </div>
                                 <div className="mem-details-box">
                                    <div className="details-one">
-                                      <h1>Deepak</h1>
+                                      <h1>Deepak Reddy Gathpa</h1>
                                       <p>President -ZeroOne</p>
                                    </div>
                                    <div className="details-two">
@@ -396,16 +397,16 @@ var Page = () => {
                               <div className="club-activity-one">
                                 <div className="club-activity-one-one activity-cm">
                                   <div className="activity-cm-one">
-                                      <img src={google} alt="" />
+                                      <img src={PosterOne} alt="" />
                                   </div>
                                   <div className="activity-cm-two">
-                                    <h1>Google Cloud Next '23</h1>
+                                    <h1>VIM Master Class</h1>
                                     <p>Discover the latest advancements in AI, data, security, and productivity at Google Cloud's flagship in-person event, now on demand. Explore workshops, demos, training, and more.</p>
                                   </div>
                                 </div>
                                 <div className="club-activity-one-two activity-cm">
                                 <div className="activity-cm-one">
-                                      <img src={google} alt="" />
+                                      <img src={PosterTwo} alt="" />
                                   </div>
                                   <div className="activity-cm-two">
                                     <h1>Google Cloud Next '23</h1>
@@ -416,7 +417,7 @@ var Page = () => {
                               <div className="club-activity-two">
                                 <div className="club-activity-two-one activity-cm">
                                 <div className="activity-cm-one">
-                                      <img src={google} alt="" />
+                                      <img src={PosterThree} alt="" />
                                   </div>
                                   <div className="activity-cm-two">
                                     <h1>Google Cloud Next '23</h1>
@@ -425,7 +426,7 @@ var Page = () => {
                                 </div>
                                 <div className="club-activity-two-two activity-cm">
                                 <div className="activity-cm-one">
-                                      <img src={google} alt="" />
+                                      <img src={PosterFour} alt="" />
                                   </div>
                                   <div className="activity-cm-two">
                                     <h1>Google Cloud Next '23</h1>
@@ -433,26 +434,7 @@ var Page = () => {
                                   </div>
                                 </div>
                               </div>
-                              <div className="club-activity-three">
-                                <div className="club-activity-three-one activity-cm">
-                                <div className="activity-cm-one">
-                                      <img src={google} alt="" />
-                                  </div>
-                                  <div className="activity-cm-two">
-                                    <h1>Google Cloud Next '23</h1>
-                                    <p>Discover the latest advancements in AI, data, security, and productivity at Google Cloud's flagship in-person event, now on demand. Explore workshops, demos, training, and more.</p>
-                                  </div>
-                                </div>
-                                <div className="club-activity-three-two activity-cm">
-                                <div className="activity-cm-one">
-                                      <img src={google} alt="" />
-                                  </div>
-                                  <div className="activity-cm-two">
-                                    <h1>Google Cloud Next '23</h1>
-                                    <p>Discover the latest advancements in AI, data, security, and productivity at Google Cloud's flagship in-person event, now on demand. Explore workshops, demos, training, and more.</p>
-                                  </div>
-                                </div>
-                              </div>
+                           
                               </div>
                           </div>
                         </div>

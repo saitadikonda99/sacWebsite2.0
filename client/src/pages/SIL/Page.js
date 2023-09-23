@@ -9,6 +9,8 @@ import Footer from '../../components/Footer/Footer';
 
 const Page = () => {
 
+  
+
 
   const [isLeadershipTwoOneBodyVisible, setLeadershipTwoOneBodyVisible] = useState(false);
 

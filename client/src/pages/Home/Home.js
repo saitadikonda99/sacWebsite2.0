@@ -248,7 +248,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                     </CountUp>
                   </div>
                 </div>
-                lea
+
 
                 <div className="about-two-five about-two-cmn">
                   <div className="about-two-five-heading">

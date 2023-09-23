@@ -313,7 +313,7 @@ const Page = () => {
                     </div>
                     <div className="profile-card">
                         <img src={NarthanaLead} alt="" />
-                        <h2>Tanish</h2>
+                        <h2>A Dev</h2>
                         <p>Narthana Club</p>
                     </div>
                     <div className="profile-card">

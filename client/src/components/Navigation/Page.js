@@ -10,14 +10,14 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
 
-import newSacLogo from '../../Assets/Logos/newSacLogo.png';
+import sacLogo from '../../Assets/Logos/OfficialSacLogo.png';
 
 
 const Page = () => {
 
   const [isNavScrolled, setNavScrolled] = useState(false);
   const handleScroll = () => {
-    if (window.scrollY > 300) {
+    if (window.scrollY > 200) {
       setNavScrolled(true);
     } else {
       setNavScrolled(false);
@@ -49,7 +49,7 @@ const Page = () => {
             <div className="nav-in">
               <div className="nav-in-two">
                 <div className="nav-in-two-in">
-                  {!isNavScrolled && <img className='logoini' src={newSacLogo} alt="" />}
+                  {!isNavScrolled && <img className='logoini' src={sacLogo} alt="" />}
                   {isNavScrolled && <h1><Scroll className='homelink' activeClass="active" to="Home-one-in" spy ={true} smooth={true} offset={-10} duration={400} >Student Activity Center</Scroll></h1>}
                 </div>
               </div>

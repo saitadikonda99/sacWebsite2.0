@@ -76,6 +76,7 @@
 }
 .Leadership-two-one-body {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start !important;
 }
 
@@ -90,6 +91,10 @@
     text-align: center;
     padding: 20px;
     border-radius: 10px;
+    flex: 1;
+    margin: 10px; /* Add margin for spacing between cards */
+    padding: 10px; /* Add padding for spacing within cards */
+    border: 1px solid #ccc; 
 }
 
 .profile-card img {

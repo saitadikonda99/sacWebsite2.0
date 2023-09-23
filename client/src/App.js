@@ -18,6 +18,7 @@ import NotFound from "./pages/NotFound/NotFound";
 import Privacy from "./pages/Privacy/Privacy";
 import SIL from "./pages/SIL/Page";
 import CompletedEvents from './pages/CompletedEvent/Page';
+import SocialMedia from './pages/SocialMedia/page';
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -53,7 +54,8 @@ function App() {
     { path: "/privacy", element: <Privacy /> },
     { path: "*", element: <NotFound /> },
     { path: "/sil", element: <SIL /> },
-    { path: "/completedEvents", element: <CompletedEvents /> },
+    { path: "/completedevents", element: <CompletedEvents /> },
+    { path: "/socialmedia", element: <SocialMedia/> },
 
   ];
 

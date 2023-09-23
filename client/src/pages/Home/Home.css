@@ -197,7 +197,7 @@
 .HomeComponent .noname {
     background-image: url('../../Assets/GroupPhoto.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     display: flex;
     padding: 60px 0px 60px 0px;
 }

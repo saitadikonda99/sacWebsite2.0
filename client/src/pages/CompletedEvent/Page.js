@@ -9,57 +9,143 @@ import Footer from '../../components/Footer/Footer';
 
 import CfcPoster from '../../Assets/CfcPoster.jpg'
 
-const eventData = [
+const eventDataByMonth = {
+  January: [
     {
-    eventName: 'CodeforCause Hackathon 1',
-    poster: CfcPoster,
-    date: '28-09-2023',
-    studentCoordinator: 'Deepak Reddy Gathpa',
-    facultyCoordinator: 'Ravi Babu K',
-    reportLink: 'https://example.com/report1',
-  },
-  {
-    eventName: 'CodeforCause Hackathon 1',
-    poster: CfcPoster,
-    date: '28-09-2023',
-    studentCoordinator: 'Deepak Reddy Gathpa',
-    facultyCoordinator: 'Ravi Babu K',
-    reportLink: 'https://example.com/report1',
-  },
-  {
-    eventName: 'CodeforCause Hackathon 1',
-    poster: CfcPoster,
-    date: '28-09-2023',
-    studentCoordinator: 'Deepak Reddy Gathpa',
-    facultyCoordinator: 'Ravi Babu K',
-    reportLink: 'https://example.com/report1',
-  },
-  {
-    eventName: 'CodeforCause Hackathon 1',
-    poster: CfcPoster,
-    date: '28-09-2023',
-    studentCoordinator: 'Deepak Reddy Gathpa',
-    facultyCoordinator: 'Ravi Babu K',
-    reportLink: 'https://example.com/report1',
-  },
-  {
-    eventName: 'CodeforCause Hackathon 1',
-    poster: CfcPoster,
-    date: '28-09-2023',
-    studentCoordinator: 'Deepak Reddy Gathpa',
-    facultyCoordinator: 'Ravi Babu K',
-    reportLink: 'https://example.com/report1',      
-  },
-  {
-    eventName: 'CodeforCause Hackathon 1',
-    poster: CfcPoster,
-    date: '28-09-2023',
-    studentCoordinator: 'Deepak Reddy Gathpa',
-    facultyCoordinator: 'Ravi Babu K',
-    reportLink: 'https://example.com/report1',
-  },
-]
+      eventName: 'CodeforCause Hackathon 1',
+      poster: CfcPoster,
+      date: '28-09-2023',
+      studentCoordinator: 'Deepak Reddy Gathpa',
+      facultyCoordinator: 'Ravi Babu K',
+      reportLink: 'https://example.com/report1',
+    },
+    // Add more events for January if needed
+  ],
+  February: [
+    {
+      eventName: 'CodeforCause Hackathon 1',
+      poster: CfcPoster,
+      date: '28-09-2023',
+      studentCoordinator: 'Deepak Reddy Gathpa',
+      facultyCoordinator: 'Ravi Babu K',
+      reportLink: 'https://example.com/report1',
+    },
+    // Add more events for February if needed
+  ],
+  March: [
+    // Events for March
+     {
+      eventName: 'CodeforCause Hackathon 1',
+      poster: CfcPoster,
+      date: '28-09-2023',
+      studentCoordinator: 'Deepak Reddy Gathpa',
+      facultyCoordinator: 'Ravi Babu K',
+      reportLink: 'https://example.com/report1',
+    },
+  ],
+  April: [
+    // Events for April
+     {
+      eventName: 'CodeforCause Hackathon 1',
+      poster: CfcPoster,
+      date: '28-09-2023',
+      studentCoordinator: 'Deepak Reddy Gathpa',
+      facultyCoordinator: 'Ravi Babu K',
+      reportLink: 'https://example.com/report1',
+    },
+  ],
+  May: [
+    // Events for May
+     {
+      eventName: 'CodeforCause Hackathon 1',
+      poster: CfcPoster,
+      date: '28-09-2023',
+      studentCoordinator: 'Deepak Reddy Gathpa',
+      facultyCoordinator: 'Ravi Babu K',
+      reportLink: 'https://example.com/report1',
+    },
+  ],
+  June: [
+    // Events for June
+     {
+      eventName: 'CodeforCause Hackathon 1',
+      poster: CfcPoster,
+      date: '28-09-2023',
+      studentCoordinator: 'Deepak Reddy Gathpa',
+      facultyCoordinator: 'Ravi Babu K',
+      reportLink: 'https://example.com/report1',
+    },
+  ],
+  July: [
+    // Events for July
+     {
+      eventName: 'CodeforCause Hackathon 1',
+      poster: CfcPoster,
+      date: '28-09-2023',
+      studentCoordinator: 'Deepak Reddy Gathpa',
+      facultyCoordinator: 'Ravi Babu K',
+      reportLink: 'https://example.com/report1',
+    },
+  ],
+  August: [
+    // Events for August
+     {
+      eventName: 'CodeforCause Hackathon 1',
+      poster: CfcPoster,
+      date: '28-09-2023',
+      studentCoordinator: 'Deepak Reddy Gathpa',
+      facultyCoordinator: 'Ravi Babu K',
+      reportLink: 'https://example.com/report1',
+    },
+  ],
+  September: [
+    // Events for September
+     {
+      eventName: 'CodeforCause Hackathon 1',
+      poster: CfcPoster,
+      date: '28-09-2023',
+      studentCoordinator: 'Deepak Reddy Gathpa',
+      facultyCoordinator: 'Ravi Babu K',
+      reportLink: 'https://example.com/report1',
+    },
+  ],
+  October: [
+    // Events for October
+     {
+      eventName: 'CodeforCause Hackathon 1',
+      poster: CfcPoster,
+      date: '28-09-2023',
+      studentCoordinator: 'Deepak Reddy Gathpa',
+      facultyCoordinator: 'Ravi Babu K',
+      reportLink: 'https://example.com/report1',
+    },
+  ],
+  November: [
+    // Events for November
+     {
+      eventName: 'CodeforCause Hackathon 1',
+      poster: CfcPoster,
+      date: '28-09-2023',
+      studentCoordinator: 'Deepak Reddy Gathpa',
+      facultyCoordinator: 'Ravi Babu K',
+      reportLink: 'https://example.com/report1',
+    },
+  ],
+  December: [
+    // Events for December
+     {
+      eventName: 'CodeforCause Hackathon 1',
+      poster: CfcPoster,
+      date: '28-09-2023',
+      studentCoordinator: 'Deepak Reddy Gathpa',
+      facultyCoordinator: 'Ravi Babu K',
+      reportLink: 'https://example.com/report1',
+    },
+  ],
+};
 
+
+ 
 
 function Page() {   
     const [showDiv, setDiv] = useState(0);
@@ -67,6 +153,18 @@ function Page() {
     const [liberalMonth, setLiberal] = useState(0);
     const [startupMonth, setStartup] = useState(0);
     const [InoMonth, setIno] = useState(0);
+    const [zeroOneMonth, setZeroOne] = useState(0);
+    const [AeroElectricMonth, setAeroElectricMonth] = useState(0);
+    const [CyberMonth, setCyber] = useState(0);
+    const [webAppsMonth, setWebApps] = useState(0);
+    const [techHumaMonth, setTechHuma] = useState(0);
+    const [roboticsMonth, setRobotics] = useState(0);
+    const [animationMonth, setAnimation] = useState(0);
+    const [AgricultureMonth, setAgriculture] = useState(0);
+    const [automobileMonth, setAutomobile] = useState(0);
+    const [mobileESportsMonth, setMobileESports] = useState(0);
+    const [aiMonth, setAI] = useState(0);
+    
 
     const handleDiv = (Number) => {
         setDiv(Number)
@@ -74,10 +172,32 @@ function Page() {
         setLiberal(0)
         setStartup(0)
         setIno(0)
+        setZeroOne(0)
+        setAeroElectricMonth(0)
+        setCyber(0)
+        setWebApps(0)
+        setTechHuma(0)
+        setRobotics(0)
+        setAnimation(0)
+        setAgriculture(0)
+        setAutomobile(0)
+        setMobileESports(0)
+        setAI(0)
     }
 
     const handleTech = (Number) => {
         setTech(Number)
+        setZeroOne(0)
+        setAeroElectricMonth(0)
+        setCyber(0)
+        setWebApps(0)
+        setTechHuma(0)
+        setRobotics(0)
+        setAnimation(0)
+        setAgriculture(0)
+        setAutomobile(0)
+        setMobileESports(0)
+        setAI(0)
     }
     const handleLiberal = (Number) => {
         setLiberal(Number)
@@ -88,7 +208,43 @@ function Page() {
     const handleIno = (Number) => {
         setIno(Number)
     }
+    const handleZeroOne = (Number) => {
+        setZeroOne(Number)
+    }
+    const handleAeroElectric = (Number) => {
+      setZeroOne(0)
+      setAeroElectricMonth(Number)
+    }
+    const handleCyber = (Number) => {
+      setCyber(Number)
+    }
+    const handleWebApps = (Number) => {
+      setWebApps(Number)
+    }
+    const handleTechHuma = (Number) => {
+      setTechHuma(Number)
+    }
+    
+    const handleRobotics = (Number) => {
+      setRobotics(Number)
+    }
+    const handleAnimation = (Number) => {
+      setAnimation(Number) 
+    } 
+    const handleAgriculture = (Number) => {
+      setAgriculture(Number) 
+    }
+    const handleAutomobile = (Number) => {
+      setAutomobile(Number)
+    }
 
+    const handleMobileESports = (Number) => {
+      setMobileESports(Number)
+    }
+    const handleAI = (Number) => {
+      setAI(Number)
+    }
+ 
 
 //   ---------------------------------------------
 
@@ -161,119 +317,234 @@ function Page() {
                            <div className = { showDiv === 4 ? 'Event-name-startup' : 'tech-hide' }>Outreach Events</div>
                         </div>
 
+                        {/* technology club names  */}
 
-                        {/* events calenders */}
-
-                            {/* Tech */}
-                        <div className = { showDiv ===1 ? 'Event-Calendar' : 'Calendar-hide' } >
-                            <div className="Event-month-one mn-ev-cm" id = { techMonth === 1 ? 'Event-m-hover' : '' } onClick={ () => {handleTech(1)}} >January</div>
-                            <div className="Event-month-two mn-ev-cm" id = { techMonth === 2 ? 'Event-m-hover' : '' } onClick={ () => {handleTech(2)}} >February</div>
-                            <div className="Event-month-three mn-ev-cm" id = { techMonth === 3 ? 'Event-m-hover' : '' } onClick={ () => {handleTech(3)}} >March</div>
-                            <div className="Event-month-four mn-ev-cm"id = { techMonth === 4 ? 'Event-m-hover' : '' }  onClick={ () => {handleTech(4)}} >April</div>
-                            <div className="Event-month-five mn-ev-cm" id = { techMonth === 5 ? 'Event-m-hover' : '' } onClick={ () => {handleTech(5)}} >May</div>
-                            <div className="Event-month-six mn-ev-cm" id = { techMonth === 6 ? 'Event-m-hover' : '' } onClick={ () => {handleTech(6)}} >June</div>
-                            <div className="Event-month-seven mn-ev-cm" id = { techMonth === 7 ? 'Event-m-hover' : '' } onClick={ () => {handleTech(7)}} >July</div>
-                            <div className="Event-month-eight mn-ev-cm" id = { techMonth === 8 ? 'Event-m-hover' : '' } onClick={ () => {handleTech(8)}} >August</div>
-                            <div className="Event-month-nine mn-ev-cm" id = { techMonth === 9 ? 'Event-m-hover' : '' } onClick={ () => {handleTech(9)}} >September</div>
-                            <div className="Event-month-ten mn-ev-cm" id = { techMonth === 10 ? 'Event-m-hover' : '' } onClick={ () => {handleTech(10)}} >October</div>
-                            <div className="Event-month-eleven mn-ev-cm" id = { techMonth === 11 ? 'Event-m-hover' : '' } onClick={ () => {handleTech(11)}} >November</div>
-                            <div className="Event-month-twelve mn-ev-cm" id = { techMonth === 12 ? 'Event-m-hover' : '' } onClick={ () => {handleTech(12)}} >December</div>
+                        <div className = { showDiv === 1 ? 'Event-tech-clubs' : 'Event-hide' } >
+                            <div className="Event-tech-club-one ec-name" id = { techMonth === 1 ? 'Event-hover' : '' } onClick={ () => {handleTech(1)}} >ZeroOne</div>
+                            <div className="Event-tech-club-two ec-name" id = { techMonth === 2 ? 'Event-hover' : '' } onClick={ () => {handleTech(2)}} >AeroElectric</div>
+                            <div className="Event-tech-club-three ec-name" id = { techMonth === 3 ? 'Event-hover' : '' } onClick={ () => {handleTech(3)}} >Cyber</div>
+                            <div className="Event-tech-club-four ec-name" id = { techMonth === 4 ? 'Event-hover' : '' } onClick={ () => {handleTech(4)}} >WebApps</div>
+                            <div className="Event-tech-club-five ec-name" id = { techMonth === 5 ? 'Event-hover' : '' } onClick={ () => {handleTech(5)}} >TechHuma</div>
+                            <div className="Event-tech-club-six ec-name" id = { techMonth === 6 ? 'Event-hover' : '' } onClick={ () => {handleTech(6)}} >Robotics</div>
+                            <div className="Event-tech-club-seven ec-name" id = { techMonth === 7 ? 'Event-hover' : '' } onClick={ () => {handleTech(7)}} >Animation</div> 
+                            <div className="Event-tech-club-eight ec-name" id = { techMonth === 8 ? 'Event-hover' : '' } onClick={ () => {handleTech(8)}} >Automobile</div>
+                            <div className="Event-tech-club-nine ec-name" id = { techMonth === 9 ? 'Event-hover' : '' } onClick={ () => {handleTech(9)}} >Agriculture</div>
+                            <div className="Event-tech-club-ten ec-name" id = { techMonth === 10 ? 'Event-hover' : '' } onClick={ () => {handleTech(10)}} >MobileESports</div>
+                            <div className="Event-tech-club-eleven ec-name" id = { techMonth === 11 ? 'Event-hover' : '' } onClick={ () => {handleTech(11)}} >AI</div>
                         </div>
-
-                            {/* Liberal */}
-
-                        <div className = { showDiv === 2 ? 'Event-Calendar' : 'Calendar-hide' } >
-                            <div className="Event-month-one mn-ev-cm"  id = { liberalMonth === 1 ? 'Event-m-hover' : '' } onClick={ () => {handleLiberal(1)}}>January</div>
-                            <div className="Event-month-two mn-ev-cm" id = { liberalMonth === 2 ? 'Event-m-hover' : '' } onClick={ () => {handleLiberal(2)}}>February</div>
-                            <div className="Event-month-three mn-ev-cm" id = { liberalMonth === 3 ? 'Event-m-hover' : '' }  onClick={ () => {handleLiberal(3)}}>March</div>
-                            <div className="Event-month-four mn-ev-cm" id = { liberalMonth === 4 ? 'Event-m-hover' : '' } onClick={ () => {handleLiberal(4)}}>April</div>
-                            <div className="Event-month-five mn-ev-cm" id = { liberalMonth === 5 ? 'Event-m-hover' : '' } onClick={ () => {handleLiberal(5)}}>May</div>
-                            <div className="Event-month-six mn-ev-cm"  id = { liberalMonth === 6 ? 'Event-m-hover' : '' }onClick={ () => {handleLiberal(6)}}>June</div>
-                            <div className="Event-month-seven mn-ev-cm" id = { liberalMonth === 7 ? 'Event-m-hover' : '' } onClick={ () => {handleLiberal(7)}}>July</div>
-                            <div className="Event-month-eight mn-ev-cm"  id = { liberalMonth === 8 ? 'Event-m-hover' : '' }onClick={ () => {handleLiberal(8)}}>August</div>
-                            <div className="Event-month-nine mn-ev-cm" id = { liberalMonth === 9 ? 'Event-m-hover' : '' } onClick={ () => {handleLiberal(9)}}>September</div>
-                            <div className="Event-month-ten mn-ev-cm" id = { liberalMonth === 10 ? 'Event-m-hover' : '' } onClick={ () => {handleLiberal(10)}}>October</div>
-                            <div className="Event-month-eleven mn-ev-cm" id = { liberalMonth === 11 ? 'Event-m-hover' : '' } onClick={ () => {handleLiberal(11)}}>November</div>
-                            <div className="Event-month-twelve mn-ev-cm" id = { liberalMonth === 12 ? 'Event-m-hover' : '' } onClick={ () => {handleLiberal(12)}}>December</div>
-                        </div>
-
-                            {/* Startup */}
-
-                        <div className = { showDiv === 3 ? 'Event-Calendar' : 'Calendar-hide' } >
-                            <div className="Event-month-one mn-ev-cm" id = { startupMonth === 1 ? 'Event-m-hover' : '' } onClick={ () => {handleStartup(1)}}>January</div>
-                            <div className="Event-month-two mn-ev-cm"  id = { startupMonth === 2 ? 'Event-m-hover' : '' } onClick={ () => {handleStartup(2)}}>February</div>
-                            <div className="Event-month-three mn-ev-cm"  id = { startupMonth === 3 ? 'Event-m-hover' : '' } onClick={ () => {handleStartup(3)}}>March</div>
-                            <div className="Event-month-four mn-ev-cm"  id = { startupMonth === 4 ? 'Event-m-hover' : '' } onClick={ () => {handleStartup(4)}}>April</div>
-                            <div className="Event-month-five mn-ev-cm"  id = { startupMonth === 5 ? 'Event-m-hover' : '' } onClick={ () => {handleStartup(5)}}>May</div>
-                            <div className="Event-month-six mn-ev-cm"  id = { startupMonth === 6 ? 'Event-m-hover' : '' } onClick={ () => {handleStartup(6)}}>June</div>
-                            <div className="Event-month-seven mn-ev-cm"  id = { startupMonth === 7 ? 'Event-m-hover' : '' } onClick={ () => {handleStartup(7)}}>July</div>
-                            <div className="Event-month-eight mn-ev-cm"  id = { startupMonth === 8 ? 'Event-m-hover' : '' } onClick={ () => {handleStartup(8)}}>August</div>
-                            <div className="Event-month-nine mn-ev-cm"  id = { startupMonth === 9 ? 'Event-m-hover' : '' } onClick={ () => {handleStartup(9)}}>September</div>
-                            <div className="Event-month-ten mn-ev-cm"  id = { startupMonth === 10 ? 'Event-m-hover' : '' } onClick={ () => {handleStartup(10)}}>October</div>
-                            <div className="Event-month-eleven mn-ev-cm"  id = { startupMonth === 11 ? 'Event-m-hover' : '' } onClick={ () => {handleStartup(11)}}>November</div>
-                            <div className="Event-month-twelve mn-ev-cm"  id = { startupMonth === 12 ? 'Event-m-hover' : '' } onClick={ () => {handleStartup(12)}}>December</div>
-                        </div>
-
-                            {/* Outreach */}
-                        <div className = { showDiv === 4 ? 'Event-Calendar' : 'Calendar-hide' } >
-                            <div className="Event-month-one mn-ev-cm" id = { InoMonth === 1 ? 'Event-m-hover' : '' } onClick={ () => {handleIno(1)}}>January</div>
-                            <div className="Event-month-two mn-ev-cm" id = { InoMonth === 2 ? 'Event-m-hover' : '' } onClick={ () => {handleIno(2)}}>February</div>
-                            <div className="Event-month-three mn-ev-cm" id = { InoMonth === 3 ? 'Event-m-hover' : '' }  onClick={ () => {handleIno(3)}}>March</div>
-                            <div className="Event-month-four mn-ev-cm" id = { InoMonth === 4 ? 'Event-m-hover' : '' } onClick={ () => {handleIno(4)}}>April</div>
-                            <div className="Event-month-five mn-ev-cm" id = { InoMonth === 5 ? 'Event-m-hover' : '' } onClick={ () => {handleIno(5)}}>May</div>
-                            <div className="Event-month-six mn-ev-cm" id = { InoMonth === 6 ? 'Event-m-hover' : '' }  onClick={ () => {handleIno(6)}}>June</div>
-                            <div className="Event-month-seven mn-ev-cm"  id = { InoMonth === 7 ? 'Event-m-hover' : '' } onClick={ () => {handleIno(7)}}>July</div>
-                            <div className="Event-month-eight mn-ev-cm" id = { InoMonth === 8 ? 'Event-m-hover' : '' } onClick={ () => {handleIno(8)}}>August</div>
-                            <div className="Event-month-nine mn-ev-cm" id = { InoMonth === 9 ? 'Event-m-hover' : '' } onClick={ () => {handleIno(9)}}>September</div>
-                            <div className="Event-month-ten mn-ev-cm" id = { InoMonth === 10 ? 'Event-m-hover' : '' } onClick={ () => {handleIno(10)}}>October</div>
-                            <div className="Event-month-eleven mn-ev-cm" id = { InoMonth === 11 ? 'Event-m-hover' : '' } onClick={ () => {handleIno(11)}}>November</div>
-                            <div className="Event-month-twelve mn-ev-cm" id = { InoMonth === 12 ? 'Event-m-hover' : '' } onClick={ () => {handleIno(12)}}>December</div>
-                        </div>
-
-                        {/* events names poster  */}
 
 
 
-                        <div className={techMonth === 1 ? 'Event-january-tech tech-cm-mn-ev' : 'Posters-hide'}>
-                            {/* Write heading as 'List of events organized in month name' */}
-                            <h1>List of Activities Organized in {monthNames[techMonth - 1]}</h1>
-                            <EventsTable eventData={eventData} />
-                        </div>
 
-                        <div className = { techMonth === 2 ? 'Event-feb-tech tech-cm-mn-ev' : 'Posters-hide' } >
-                             
-                        </div>
+                        {/* // Tech Section */}
+                            {/* ZeroOne */}
+                            <div className={techMonth === 1 ? 'Event-Calendar' : 'Calendar-hide'}>
+                                {Array.from({ length: 12 }, (_, index) => {
+                                  const month = index + 1;
+                                  return (
+                                    <div
+                                      key={month}
+                                      className={`mn-ev-cm ${zeroOneMonth === month ? 'Event-m-hover' : ''}`}
+                                      id={zeroOneMonth === month ? 'Event-m-hovers' : ''}
+                                      onClick={() => handleZeroOne(month)}
+                                    >
+                                      {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
+                                    </div>
+                                  );
+                                })}
+                            </div>
 
-                        <div className = { techMonth === 3 ? 'Event-march-tech tech-cm-mn-ev' : 'Posters-hide' } > 
-                            
-                        </div>
-                        <div className = { techMonth === 4 ? 'Event-april-tech tech-cm-mn-ev' : 'Posters-hide' } > 
-                            
-                        </div>
-                        <div className = { techMonth === 5 ? 'Event-may-tech tech-cm-mn-ev' : 'Posters-hide' } > 
-                        
-                        </div>
-                        <div className = { techMonth === 6 ? 'Event-june-tech tech-cm-mn-ev' : 'Posters-hide' } > 
-                        
-                        </div>
-                        <div className = { techMonth === 7 ? 'Event-july-tech tech-cm-mn-ev' : 'Posters-hide' } >
-                        
-                        </div>
-                        <div className = { techMonth === 8 ? 'Event-august-tech tech-cm-mn-ev' : 'Posters-hide' } > 
-                        
-                        </div>
-                        <div className = { techMonth === 9 ? 'Event-september-tech tech-cm-mn-ev' : 'Posters-hide' } > 
-                        
-                        </div>
-                        <div className = { techMonth === 10 ? 'Event-october-tech tech-cm-mn-ev' : 'Posters-hide' } >
-                            
-                        </div>
-                        <div className = { techMonth === 11 ? 'Event-november-tech tech-cm-mn-ev' : 'Posters-hide' } >
+                            {/* AeroElectric */}
 
-                        </div>
-                        <div className = { techMonth === 12 ? 'Event-december-tech tech-cm-mn-ev' : 'Posters-hide' } >
+                            <div className={techMonth === 2 ? 'Event-Calendar' : 'Calendar-hide'}>
+                                {Array.from({ length: 12 }, (_, index) => {
+                                  const month = index + 1;
+                                  return (
+                                    <div
+                                      key={month}
+                                      className={`mn-ev-cm ${AeroElectricMonth === month ? 'Event-m-hover' : ''}`}
+                                      id={AeroElectricMonth === month ? 'Event-m-hovers' : ''}
+                                      onClick={() => handleAeroElectric(month)}
+                                    >
+                                      {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
+                                    </div>
+                                  );
+                                })}
+                            </div>
 
-                        </div>
+                            {/* Cyber */}
+
+                            <div className={techMonth === 3 ? 'Event-Calendar' : 'Calendar-hide'}>
+                                {Array.from({ length: 12 }, (_, index) => {
+                                  const month = index + 1;
+                                  return (
+                                    <div
+                                      key={month}
+                                      className={`mn-ev-cm ${CyberMonth === month ? 'Event-m-hover' : ''}`}
+                                      id={CyberMonth === month ? 'Event-m-hovers' : ''}
+                                      onClick={() => handleCyber(month)}
+                                    >
+                                      {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
+                                    </div>
+                                  );
+                                })}
+                            </div>
+
+                             {/* WebApps */}
+                                  <div className={techMonth === 4 ? 'Event-Calendar' : 'Calendar-hide'}>
+                                      {Array.from({ length: 12 }, (_, index) => {
+                                          const month = index + 1;
+                                          return (
+                                              <div
+                                                  key={month}
+                                                  className={`mn-ev-cm ${webAppsMonth === month ? 'Event-m-hover' : ''}`}
+                                                  id={webAppsMonth === month ? 'Event-m-hovers' : ''}
+                                                  onClick={() => handleWebApps(month)}
+                                              >
+                                                  {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
+                                              </div>
+                                          );
+                                      })}
+                                  </div>
+
+                                      {/* TechHuma */}
+                                      <div className={techMonth === 5 ? 'Event-Calendar' : 'Calendar-hide'}>
+                                          {Array.from({ length: 12 }, (_, index) => {
+                                              const month = index + 1;
+                                              return (
+                                                  <div
+                                                      key={month}
+                                                      className={`mn-ev-cm ${techHumaMonth === month ? 'Event-m-hover' : ''}`}
+                                                      id={techHumaMonth === month ? 'Event-m-hovers' : ''}
+                                                      onClick={() => handleTechHuma(month)}
+                                                  >
+                                                      {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
+                                                  </div>
+                                              );
+                                          })}
+                                      </div>
+
+                                    {/* Robotics */}
+                                    <div className={techMonth === 6 ? 'Event-Calendar' : 'Calendar-hide'}>
+                                        {Array.from({ length: 12 }, (_, index) => {
+                                            const month = index + 1;
+                                            return (
+                                                <div
+                                                    key={month}
+                                                    className={`mn-ev-cm ${roboticsMonth === month ? 'Event-m-hover' : ''}`}
+                                                    id={roboticsMonth === month ? 'Event-m-hovers' : ''}
+                                                    onClick={() => handleRobotics(month)}
+                                                >
+                                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
+                                                </div>
+                                            );
+                                        })}
+                                    </div>
+
+
+                                    {/* Animation */}
+                                    <div className={techMonth === 7 ? 'Event-Calendar' : 'Calendar-hide'}>
+                                        {Array.from({ length: 12 }, (_, index) => {
+                                            const month = index + 1;
+                                            return (
+                                                <div
+                                                    key={month}
+                                                    className={`mn-ev-cm ${animationMonth === month ? 'Event-m-hover' : ''}`}
+                                                    id={animationMonth === month ? 'Event-m-hovers' : ''}
+                                                    onClick={() => handleAnimation(month)}
+                                                >
+                                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
+                                                </div>
+                                            );
+                                        })}
+                                    </div>
+
+                                    {/* Automobile */}
+                                    <div className={techMonth === 8 ? 'Event-Calendar' : 'Calendar-hide'}>
+                                        {Array.from({ length: 12 }, (_, index) => {
+                                            const month = index + 1;
+                                            return (
+                                                <div
+                                                    key={month}
+                                                    className={`mn-ev-cm ${automobileMonth === month ? 'Event-m-hover' : ''}`}
+                                                    id={automobileMonth === month ? 'Event-m-hovers' : ''}
+                                                    onClick={() => handleAutomobile(month)}
+                                                >
+                                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
+                                                </div>
+                                            );
+                                        })}
+                                    </div>
+
+                                     {/* Agriculture */}
+                                     <div className={techMonth === 9 ? 'Event-Calendar' : 'Calendar-hide'}>
+                                        {Array.from({ length: 12 }, (_, index) => {
+                                            const month = index + 1;
+                                            return (
+                                                <div
+                                                    key={month}
+                                                    className={`mn-ev-cm ${AgricultureMonth === month ? 'Event-m-hover' : ''}`}
+                                                    id={AgricultureMonth === month ? 'Event-m-hovers' : ''}
+                                                    onClick={() => handleAgriculture(month)}
+                                                >
+                                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
+                                                </div>
+                                            );
+                                        })}
+                                    </div>
+
+
+                                    {/* MobileESports */}
+                                    <div className={techMonth === 10 ? 'Event-Calendar' : 'Calendar-hide'}>
+                                        {Array.from({ length: 12 }, (_, index) => {
+                                            const month = index + 1;
+                                            return (
+                                                <div
+                                                    key={month}
+                                                    className={`mn-ev-cm ${mobileESportsMonth === month ? 'Event-m-hover' : ''}`}
+                                                    id={mobileESportsMonth === month ? 'Event-m-hovers' : ''}
+                                                    onClick={() => handleMobileESports(month)}
+                                                >
+                                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
+                                                </div>
+                                            );
+                                        })}
+                                    </div>
+
+
+                                    {/* AI */}
+                                    <div className={techMonth === 11 ? 'Event-Calendar' : 'Calendar-hide'}>
+                                        {Array.from({ length: 12 }, (_, index) => {
+                                            const month = index + 1;
+                                            return (
+                                                <div
+                                                    key={month}
+                                                    className={`mn-ev-cm ${aiMonth === month ? 'Event-m-hover' : ''}`}
+                                                    id={aiMonth === month ? 'Event-m-hovers' : ''}
+                                                    onClick={() => handleAI(month)}
+                                                >
+                                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
+                                                </div>
+                                            );
+                                        })}
+                                    </div>
+
+                       
+                        {/* zeroOne calender  */}
+
+                        {/* Loop through months */}
+                                  {monthNames.map((monthName, index) => (
+                                    <div
+                                      key={index}
+                                      className={zeroOneMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
+                                    >
+                                      <EventList monthName={monthName} eventData={eventDataByMonth[monthName]} />
+                                    </div>
+                                  ))}
+
+
+
+
 
                         <div className = { liberalMonth === 1 ? 'Event-january-tech liberal-cm-mn-ev' : 'Posters-hide' } > 
                         
@@ -358,8 +629,18 @@ function Page() {
 
 export default Page
 
+// Define a reusable EventList component
+function EventList({ eventData, monthName }) {
+  return (
+    <div className={`Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev`}>
+      <h1>List of Activities Organized in {monthName}</h1>
+      <EventsTable eventData={eventData} />
+    </div>
+  );
+}
 
 
+// Define the EventsTable component (unchanged from your code)
 function EventsTable({ eventData }) {
   return (
     <div className="Events-table">

@@ -37,11 +37,7 @@ const Page = () => {
 
   const [open, setOpen] = React.useState(false);
 
-  const handleclick = () => {
-    window.scrollTo(0, 0); 
-  }
-
-
+  
 
   const handleClose = () => {
     setOpen(false);
@@ -68,15 +64,14 @@ const Page = () => {
                     {/* <li><Link className='nav-links' to='/StudentClubs'>Gallery</Link></li> */}
                     <li><Scroll className='nav-scroll-links' activeClass="active" to="officers" spy ={true} smooth={true} offset={-60} duration={200} >Leadership</Scroll></li>
                     {/* <li><Scroll className='nav-scroll-links' activeClass="active" to="faq" spy ={true} smooth={true} offset={-60} duration={200} >SIL</Scroll></li> */}
- 
-                    <li><Link className='nav-links' to='/sil' onClick={handleclick}>SIL</Link></li>
+                    <li><Link className='nav-links' to='/completedevents'>Reports</Link></li>
+                    <li><Link className='nav-links' to='/sil'>SIL</Link></li>
                     {/* <li><Scroll className='nav-scroll-links' activeClass="active" to="" spy ={true} smooth={true} offset={-50} duration={200} onClick={handleClickOpen}>Notifications</Scroll></li> */}
                   </ul>
                 </div>
               </div>
             </div>
           </div>
-
           <div>
             <Dialog
               open={open}

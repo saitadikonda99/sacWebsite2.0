@@ -5,7 +5,6 @@ import './MobileView.css';
 
 
 import deepak from '../../../Assets/CouncilMembers/DP.jpg'
-import google from '../../../Assets/cloud-next_960.png'
 import clubpage from '../../../Assets/ClubsImages/codingMain.webp'
 import instagram from '../../../Assets/Logos/InstaLogo.png'
 import linkedin from '../../../Assets/Logos/LinkedInLogo.png'
@@ -21,8 +20,6 @@ import zocc_glimpse_two from '../../../Assets/ClubsImages/ZeroOneCodeClub/zocc_g
 import zocc_glimpse_three from '../../../Assets/ClubsImages/ZeroOneCodeClub/zocc_glimpse_three.png';
 import zocc_glimpse_four from '../../../Assets/ClubsImages/ZeroOneCodeClub/zocc_glimpse_four.png';
 
-
-import Technology from '../../../Assets/Technology.jpg';
 
 // components start here
 import Footer from '../../../components/Footer/Footer'

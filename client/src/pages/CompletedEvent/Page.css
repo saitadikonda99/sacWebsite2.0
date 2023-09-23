@@ -42,6 +42,7 @@
 .ec-name {
     padding: 0.7rem 1rem;
     font-size: 1.1rem;
+    
 }
 
 
@@ -62,7 +63,7 @@
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0.5rem 0.5rem;
     border-radius: 50px;
 }
@@ -115,7 +116,17 @@
     font-weight: 400;
 }
 
-#Event-m-hover {
+.Event-m-hover {
+    cursor: pointer;
+    border: 1px solid black;
+    padding: .5rem 1rem;
+    border-radius: 30px;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+}
+
+#Event-m-hovers {
     cursor: pointer;
     border: 1px solid black;
     padding: .5rem 1rem;
@@ -227,4 +238,17 @@
 }
 .Events-table table tr td:nth-child(7) {
     width: 15%;
+}
+
+
+
+/* technical clubs start here  */
+
+.Event-tech-clubs {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
 }

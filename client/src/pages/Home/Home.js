@@ -248,7 +248,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                     </CountUp>
                   </div>
                 </div>
-                
+                lea
 
                 <div className="about-two-five about-two-cmn">
                   <div className="about-two-five-heading">
@@ -784,50 +784,50 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                             <div className="quick-link-one">
                               <div className="quick-link-one-in">
                                    <h1>Technology</h1>
-                                   <Link to='/clubs/zeroonecodeclub' className='qu-link-cm'>ZeroOne CodeClub</Link>
-                                   <Link to='/clubs/aeroelectricclub' className='qu-link-cm'>AeroElectric Club</Link>
-                                   <Link to='/clubs/cyberclub' className='qu-link-cm'>Cyber Club </Link>
-                                   <Link to='/clubs/WebAppsClub' className='qu-link-cm'>WebApps Club </Link>
-                                   <Link to='/clubs/TechHumaClub' className='qu-link-cm'>TechHuma Club </Link>
-                                   <Link to='/clubs/RoboticsClub' className='qu-link-cm'>Robotics Club </Link>
-                                   <Link to='/clubs/AnimationClub' className='qu-link-cm'>Animation Club </Link>
-                                   <Link to='/clubs/AutomobileClub' className='qu-link-cm'>Automobile Club </Link>
-                                   <Link to='/clubs/AgricultureClub' className='qu-link-cm'>Agriculture Club </Link>
-                                   <Link to='/clubs/MobileESportsClub' className='qu-link-cm'>MobileESports Club </Link>
-                                   <Link to='/clubs/AIClub' className='qu-link-cm'>AI Club</Link>
+                                   <Link   onClick={handleclick} to='/clubs/zeroonecodeclub' className='qu-link-cm'>ZeroOne CodeClub</Link>
+                                   <Link   onClick={handleclick} to='/clubs/aeroelectricclub' className='qu-link-cm'>AeroElectric Club</Link>
+                                   <Link   onClick={handleclick} to='/clubs/cyberclub' className='qu-link-cm'>Cyber Club </Link>
+                                   <Link   onClick={handleclick} to='/clubs/WebAppsClub' className='qu-link-cm'>WebApps Club </Link>
+                                   <Link   onClick={handleclick} to='/clubs/TechHumaClub' className='qu-link-cm'>TechHuma Club </Link>
+                                   <Link   onClick={handleclick} to='/clubs/RoboticsClub' className='qu-link-cm'>Robotics Club </Link>
+                                   <Link   onClick={handleclick} to='/clubs/AnimationClub' className='qu-link-cm'>Animation Club </Link>
+                                   <Link   onClick={handleclick} to='/clubs/AutomobileClub' className='qu-link-cm'>Automobile Club </Link>
+                                   <Link   onClick={handleclick} to='/clubs/AgricultureClub' className='qu-link-cm'>Agriculture Club </Link>
+                                   <Link   onClick={handleclick} to='/clubs/MobileESportsClub' className='qu-link-cm'>MobileESports Club </Link>
+                                   <Link   onClick={handleclick} to='/clubs/AIClub' className='qu-link-cm'>AI Club</Link>
                               </div>
 
                                 <div className="quick-link-two-in">
                                   <h1>Liberal Arts</h1>
-                                    <Link to='/clubs/FusionClub' className='qu-link-cm'>Fusion Club</Link>
-                                    <Link to='/clubs/SwaraClub' className='qu-link-cm'>Swara Club</Link>
-                                    <Link to='/clubs/VachasClub' className='qu-link-cm'>Vachas Club</Link>
-                                    <Link to='/clubs/KLRadioClub' className='qu-link-cm'>KLRadio Club</Link>
-                                    <Link to='/clubs/FilmMakingClub' className='qu-link-cm'>FilmMaking Club</Link>
-                                    <Link to='/clubs/StandupComedyClub' className='qu-link-cm'>StandupComedy</Link>
-                                    <Link to='/clubs/DramaticsClub' className='qu-link-cm'>Dramatics Club</Link>
+                                    <Link   onClick={handleclick} to='/clubs/FusionClub' className='qu-link-cm'>Fusion Club</Link>
+                                    <Link   onClick={handleclick} to='/clubs/SwaraClub' className='qu-link-cm'>Swara Club</Link>
+                                    <Link   onClick={handleclick} to='/clubs/VachasClub' className='qu-link-cm'>Vachas Club</Link>
+                                    <Link   onClick={handleclick} to='/clubs/KLRadioClub' className='qu-link-cm'>KLRadio Club</Link>
+                                    <Link   onClick={handleclick} to='/clubs/FilmMakingClub' className='qu-link-cm'>FilmMaking Club</Link>
+                                    <Link   onClick={handleclick} to='/clubs/StandupComedyClub' className='qu-link-cm'>StandupComedy</Link>
+                                    <Link   onClick={handleclick} to='/clubs/DramaticsClub' className='qu-link-cm'>Dramatics Club</Link>
                                 </div>
 
                                 <div className="quick-link-three-in">
                                   <h1>Innovation</h1>
-                                  <Link   className='qu-link-cm'>ACIC</Link>
-                                  <Link   className='qu-link-cm'>Ideas Hub</Link>
-                                  <Link   className='qu-link-cm'>Start in College</Link>
+                                  <Link     onClick={handleclick} className='qu-link-cm'>ACIC</Link>
+                                  <Link     onClick={handleclick} className='qu-link-cm'>Ideas Hub</Link>
+                                  <Link     onClick={handleclick} className='qu-link-cm'>Start in College</Link>
                                 </div>
                                 <div className="quick-link-four-in">
                                   <h1> Outreach</h1>
-                                  <Link to='/clubs/CEAClub' className='qu-link-cm'>CEA Club</Link>
-                                  <Link to='/clubs/TourismClub' className='qu-link-cm'>Tourism Club</Link>
-                                  <Link to='/clubs/KLTalksClub' className='qu-link-cm'>KL Talks Club</Link>
-                                  <Link to='/clubs/SafeLifeClub' className='qu-link-cm'>SafeLife Club</Link>
-                                  <Link to='/clubs/ElectoralClub' className='qu-link-cm'>Electoral Club</Link>
-                                  <Link to='/clubs/smartvillagerevolution' className='qu-link-cm'>SVR</Link>
+                                  <Link   onClick={handleclick} to='/clubs/CEAClub' className='qu-link-cm'>CEA Club</Link>
+                                  <Link   onClick={handleclick} to='/clubs/TourismClub' className='qu-link-cm'>Tourism Club</Link>
+                                  <Link   onClick={handleclick} to='/clubs/KLTalksClub' className='qu-link-cm'>KL Talks Club</Link>
+                                  <Link   onClick={handleclick} to='/clubs/SafeLifeClub' className='qu-link-cm'>SafeLife Club</Link>
+                                  <Link   onClick={handleclick} to='/clubs/ElectoralClub' className='qu-link-cm'>Electoral Club</Link>
+                                  <Link   onClick={handleclick} to='/clubs/smartvillagerevolution' className='qu-link-cm'>SVR</Link>
                                 </div>
                             </div>
                             <div className="quick-link-two">
                               <div className="quick-link-two-one">
                                 <h1>Quick Links for activities at SAC</h1>
-                                  <Link className='quick-more' to='/clubs' >DeepDive <OpenInNewIcon /> </Link>
+                                  <Link   onClick={handleclick} className='quick-more' to='/clubs' >DeepDive <OpenInNewIcon /> </Link>
                                 </div>
                             </div>
                           </div>

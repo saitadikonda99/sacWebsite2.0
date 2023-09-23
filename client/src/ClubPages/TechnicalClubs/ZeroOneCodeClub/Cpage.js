@@ -102,7 +102,7 @@ const Page = () => {
 {/* ----------------------------------Hero-------------------------------------------- */}
 
               <div className="club-hero">
-                <div className="club-hero-in">
+                <div className="zeroone-hero-in">
                     <div className="club-nav">
                       <div className="club-nav-in">
                         <div className="club-nav-in-two">

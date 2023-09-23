@@ -74,11 +74,18 @@
     row-gap: 2rem;
     padding: 0rem 0rem 2rem 0rem;
 }
+.Leadership-two-one-body {
+    display: flex;
+    justify-content: flex-start !important;
+}
 
+.Leadership-two-one-body .profile-card {
+    margin-right: 1rem;
+}
 
 .LeadershipComponent .profile-card {
     background-color: #fff;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     max-width: 19%;
     text-align: center;
     padding: 20px;

@@ -46,6 +46,7 @@ import reactv6 from '../../Assets/reactv6.png';
 import NewsOne from '../../Assets/NewsOne.png';
 import NewsTwo from '../../Assets/NewsTwo.png';
 import NewsThree from '../../Assets/NewsThree.png';
+import NewsFour from '../../Assets/NewsFour.png';
 import chairman from '../../Assets/chairman.png';
 
 const Home  = () => {
@@ -354,7 +355,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                   <div className="projects-comps-two">
                     <h2>Technology Clubs</h2>
                     <p>Explore cutting-edge tech trends and hands-on projects, from coding to robotics, in our vibrant tech enthusiast community.</p>
-                    <Link className='projects-comps-two-links' to='/'>Explore</Link>
+                    <Scroll className='projects-comps-two-links' activeClass="active" to="Quick-links-component" spy={true} smooth={true} offset={-100} duration={800}>Explore</Scroll>
                   </div>
                 </div>
                 <div className="projects-comps">
@@ -364,7 +365,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                   <div className="projects-comps-two">
                     <h2>Liberal & Sports Clubs</h2>
                     <p>Celebrate diversity through art, dance, music, and more, fostering cultural exchange and global understanding.</p>
-                    <Link className='projects-comps-two-links' to='/'>Explore</Link>
+                    <Scroll className='projects-comps-two-links' activeClass="active" to="Quick-links-component" spy={true} smooth={true} offset={-100} duration={800}>Explore</Scroll>
                   </div>
                 </div>
                 <div className="projects-comps">
@@ -374,7 +375,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                   <div className="projects-comps-two">
                     <h2>Innovation Clubs</h2>
                     <p>Ignite creativity, entrepreneurship, and problem-solving skills, driving innovative solutions to real-world challenges.</p>
-                    <Link className='projects-comps-two-links' to='/'>Explore</Link>
+                    <Scroll className='projects-comps-two-links' activeClass="active" to="Quick-links-component" spy={true} smooth={true} offset={-100} duration={800}>Explore</Scroll>
                   </div>
                 </div>
                 <div className="projects-comps">
@@ -384,7 +385,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                   <div className="projects-comps-two">
                     <h2>Outreach Clubs</h2>
                     <p>Advocate for meaningful social change, raising awareness and engaging in volunteer activities to make a positive impact.</p>
-                    <Link className='projects-comps-two-links' to='/'>Explore</Link>
+                    <Scroll className='projects-comps-two-links' activeClass="active" to="Quick-links-component" spy={true} smooth={true} offset={-100} duration={800}>Explore</Scroll>
                   </div>
                 </div>
               </div>
@@ -492,16 +493,6 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
             </div>
             <div className="news-one">
                 <div className="news-one-in">
-                  <img src={NewsTwo} alt="" />
-                  <div className="news-one-in-desc">
-                    <p>Technology</p>
-                    <p>Stanford students create and apply knowledge by thinking and doing, preparing for leadership in a rapidly changing world.</p>
-                    <p>September 8th 2023</p>
-                  </div>
-                </div>
-            </div>
-            <div className="news-one">
-                <div className="news-one-in">
                   <img src={NewsThree} alt="" />
                   <div className="news-one-in-desc">
                     <p>Technology</p>
@@ -513,6 +504,16 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
             <div className="news-one">
                 <div className="news-one-in">
                   <img src={NewsTwo} alt="" />
+                  <div className="news-one-in-desc">
+                    <p>Technology</p>
+                    <p>Stanford students create and apply knowledge by thinking and doing, preparing for leadership in a rapidly changing world.</p>
+                    <p>September 8th 2023</p>
+                  </div>
+                </div>
+            </div>
+            <div className="news-one">
+                <div className="news-one-in">
+                  <img src={NewsFour} alt="" />
                   <div className="news-one-in-desc">
                     <p>Technology</p>
                     <p>Stanford students create and apply knowledge by thinking and doing, preparing for leadership in a rapidly changing world.</p>

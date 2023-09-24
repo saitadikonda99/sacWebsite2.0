@@ -66,7 +66,6 @@ const Footer = () => {
 
               <div className="FooterThree-two">
                 <span id='socialIcons'>
-                <i class="fa fa-facebook" aria-hidden="true"></i>
                 <i class="fa fa-instagram" aria-hidden="true"></i>
                 <i class="fa fa-twitter" aria-hidden="true"></i>
                 <i class="fa fa-youtube" aria-hidden="true"></i>

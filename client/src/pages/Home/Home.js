@@ -222,10 +222,10 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                 </div>
                 <div className="about-two-two about-two-cmn">
                   <div className="about-two-two-heading">
-                    <h2>Clubs/Wings</h2>
+                    <h2>Clubs</h2>
                   </div>
                   <div className="about-two-two-counter counter">
-                    <CountUp start={0} duration={4} end={35} redraw={true}>
+                    <CountUp start={0} duration={4} end={33} redraw={true}>
                       {({ countUpRef, start }) => (
                         <VisibilitySensor onChange={start} delayedCall>
                           <span ref={countUpRef} />
@@ -266,10 +266,10 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                 </div>
                 <div className="about-two-four about-two-cmn">
                   <div className="about-two-four-heading">
-                    <h2>Startups</h2>
+                    <h2>Events</h2>
                   </div>
                   <div className="about-two-four-counter counter">
-                    <CountUp start={0} duration={4} end={117} redraw={true}>
+                    <CountUp start={0} duration={4} end={534} redraw={true}>
                       {({ countUpRef, start }) => (
                         <VisibilitySensor onChange={start} delayedCall>
                           <span ref={countUpRef} />
@@ -284,7 +284,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                     <h2>Projects</h2>
                   </div>
                   <div className="about-two-six-counter counter">
-                    <CountUp start={0} duration={4} end={300} redraw={true}>
+                    <CountUp start={0} duration={4} end={104} redraw={true}>
                       {({ countUpRef, start }) => (
                         <VisibilitySensor onChange={start} delayedCall>
                           <span ref={countUpRef} />
@@ -786,47 +786,56 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                                    <h1>Technology</h1>
                                    <Link   onClick={handleclick} to='/clubs/zeroonecodeclub' className='qu-link-cm'>ZeroOne CodeClub</Link>
                                    <Link   onClick={handleclick} to='/clubs/aeroelectricclub' className='qu-link-cm'>AeroElectric Club</Link>
-                                   <Link   onClick={handleclick} to='/clubs/cyberclub' className='qu-link-cm'>Cyber Club </Link>
+                                   <Link   onClick={handleclick} to='/clubs/cyberclub' className='qu-link-cm'>Cyber Security Club </Link>
                                    <Link   onClick={handleclick} to='/clubs/WebAppsClub' className='qu-link-cm'>WebApps Club </Link>
                                    <Link   onClick={handleclick} to='/clubs/TechHumaClub' className='qu-link-cm'>TechHuma Club </Link>
-                                   <Link   onClick={handleclick} to='/clubs/RoboticsClub' className='qu-link-cm'>Robotics Club </Link>
-                                   <Link   onClick={handleclick} to='/clubs/AnimationClub' className='qu-link-cm'>Animation Club </Link>
+                                   <Link   onClick={handleclick} to='/clubs/AnimationClub' className='qu-link-cm'>Animation and Designing Club </Link>
                                    <Link   onClick={handleclick} to='/clubs/AutomobileClub' className='qu-link-cm'>Automobile Club </Link>
                                    <Link   onClick={handleclick} to='/clubs/AgricultureClub' className='qu-link-cm'>Agriculture Club </Link>
                                    <Link   onClick={handleclick} to='/clubs/MobileESportsClub' className='qu-link-cm'>MobileESports Club </Link>
-                                   <Link   onClick={handleclick} to='/clubs/AIClub' className='qu-link-cm'>AI Club</Link>
+
                               </div>
 
                                 <div className="quick-link-two-in">
                                   <h1>Liberal Arts</h1>
-                                    <Link   onClick={handleclick} to='/clubs/FusionClub' className='qu-link-cm'>Fusion Club</Link>
-                                    <Link   onClick={handleclick} to='/clubs/SwaraClub' className='qu-link-cm'>Swara Club</Link>
-                                    <Link   onClick={handleclick} to='/clubs/VachasClub' className='qu-link-cm'>Vachas Club</Link>
-                                    <Link   onClick={handleclick} to='/clubs/KLRadioClub' className='qu-link-cm'>KLRadio Club</Link>
-                                    <Link   onClick={handleclick} to='/clubs/FilmMakingClub' className='qu-link-cm'>FilmMaking Club</Link>
-                                    <Link   onClick={handleclick} to='/clubs/StandupComedyClub' className='qu-link-cm'>StandupComedy</Link>
+                                    <Link   onClick={handleclick} to='/clubs/StandupComedyClub' className='qu-link-cm'>Standup Comedy Club</Link>
+                                    <Link   onClick={handleclick} to='/clubs/SwaraClub' className='qu-link-cm'>Music Club (Swara)</Link>
+                                    <Link   onClick={handleclick} to='/clubs/SwaraClub' className='qu-link-cm'>Photography Club</Link>
+                                    <Link   onClick={handleclick} to='/clubs/SwaraClub' className='qu-link-cm'>Film Making Club</Link>
+                                    <Link   onClick={handleclick} to='/clubs/FusionClub' className='qu-link-cm'>Dance Club (Fusion)</Link>
+                                    <Link   onClick={handleclick} to='/clubs/FusionClub' className='qu-link-cm'>Dance Club (Narthana)</Link>
+                                    <Link   onClick={handleclick} to='/clubs/VachasClub' className='qu-link-cm'>Literature Club (Vachas)</Link>
+                                    <Link   onClick={handleclick} to='/clubs/VachasClub' className='qu-link-cm'>Script Writing Club (Versatales)</Link>
                                     <Link   onClick={handleclick} to='/clubs/DramaticsClub' className='qu-link-cm'>Dramatics Club</Link>
+                                    <Link   onClick={handleclick} to='/clubs/DramaticsClub' className='qu-link-cm'>Art Club (Art Tribe)</Link>
                                 </div>
 
                                 <div className="quick-link-three-in">
                                   <h1>Innovation</h1>
-                                  <Link     onClick={handleclick} className='qu-link-cm'>ACIC</Link>
-                                  <Link     onClick={handleclick} className='qu-link-cm'>Ideas Hub</Link>
-                                  <Link     onClick={handleclick} className='qu-link-cm'>Start in College</Link>
+                                  <Link onClick={handleclick} className='qu-link-cm'>ACIC</Link>
+                                  <Link onClick={handleclick} className='qu-link-cm'>TBI</Link>
+                                  <Link onClick={handleclick} className='qu-link-cm'>CIIE</Link>
                                 </div>
                                 <div className="quick-link-four-in">
                                   <h1> Outreach</h1>
-                                  <Link   onClick={handleclick} to='/clubs/CEAClub' className='qu-link-cm'>CEA Club</Link>
-                                  <Link   onClick={handleclick} to='/clubs/TourismClub' className='qu-link-cm'>Tourism Club</Link>
-                                  <Link   onClick={handleclick} to='/clubs/KLTalksClub' className='qu-link-cm'>KL Talks Club</Link>
+                                  <Link   onClick={handleclick} to='/clubs/smartvillagerevolution' className='qu-link-cm'>Smart Village Revolution</Link>
                                   <Link   onClick={handleclick} to='/clubs/SafeLifeClub' className='qu-link-cm'>SafeLife Club</Link>
+                                  <Link   onClick={handleclick} to='/clubs/TourismClub' className='qu-link-cm'>Yuva Tourism Club</Link>
+                                  <Link   onClick={handleclick} to='/clubs/KLTalksClub' className='qu-link-cm'>KL Talks Club</Link>
+                                 
                                   <Link   onClick={handleclick} to='/clubs/ElectoralClub' className='qu-link-cm'>Electoral Club</Link>
-                                  <Link   onClick={handleclick} to='/clubs/smartvillagerevolution' className='qu-link-cm'>SVR</Link>
+                                  <Link   onClick={handleclick} to='/clubs/CEAClub' className='qu-link-cm'>CEA</Link>
+                                  <Link   onClick={handleclick} to='/clubs/CEAClub' className='qu-link-cm'>YRC</Link>
+                                  <Link   onClick={handleclick} to='/clubs/CEAClub' className='qu-link-cm'>NSS</Link>
+                                  <Link   onClick={handleclick} to='/clubs/CEAClub' className='qu-link-cm'>NCC</Link>
+                                  <Link   onClick={handleclick} to='/clubs/CEAClub' className='qu-link-cm'>Ohana</Link>
+                                  <Link   onClick={handleclick} to='/clubs/CEAClub' className='qu-link-cm'>Kutumb</Link>
+                                 
                                 </div>
                             </div>
                             <div className="quick-link-two">
                               <div className="quick-link-two-one">
-                                <h1>Quick Links for activities at SAC</h1>
+                                <h1>Quick Links for Activities at SAC</h1>
                                   <Link   onClick={handleclick} className='quick-more' to='/clubs' >DeepDive <OpenInNewIcon /> </Link>
                                 </div>
                             </div>

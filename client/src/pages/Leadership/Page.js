@@ -32,6 +32,11 @@ import YuvaTourismLead from '../../Assets/UpdatedCouncilMembers/YuvaTourismLead.
 import TechnologyCouncilConvener from '../../Assets/UpdatedCouncilMembers/TechnologyCouncil.png';
 import AnonymousImage from '../../Assets/UpdatedCouncilMembers/AnonymousImage.png';
 
+import KoneruSatyanarayana from '../../Assets/KoneruSatyanaraya.png';
+import KoneruHavish from '../../Assets/KoneruHavish.png';
+import KoneruHareen from '../../Assets/KoneruHareen.png';
+
+
 
 
 const Page = () => {
@@ -103,7 +108,7 @@ const Page = () => {
         <div className="Leadership-one">
           <div className="Leadership-one-in">
             <h1>Executive Officers</h1>
-            <p>Find photos, biographies, and speech transcripts of Microsoft executives and board of directors members</p>
+            <p>Find photos, biographies, and speech transcripts of SAC executives and board of council members</p>
           </div>
         </div>
         <div className="Leadership-two">
@@ -111,7 +116,7 @@ const Page = () => {
             <div className="Leadership-two-one">
               <div className="Leadership-two-one-header">
                 <div className="Leadership-two-one-header-in lstcmn">
-                  <h1>The Office of Student Activity Center</h1>
+                  <h1>Student Welfare and Development Committee</h1>
                   {/* Step 4: Toggle visibility on button click */}
                   <p onClick={toggleLeadershipTwoOneBody}>
                     {isLeadershipTwoOneBodyVisible ? 'Hide' : 'View'}
@@ -120,26 +125,54 @@ const Page = () => {
               </div>
               {/* Step 4: Conditionally render based on state */}
               {isLeadershipTwoOneBodyVisible && (
-                <div className="Leadership-two-one-body lstcmn-body">
+                <div className="Leadership-two-one-body lstcmn-body profile-card-container">
                    <div className="profile-card">
-                        <img src={director} alt="" />
-                        <h2>Mr P Sai Vijay</h2>
-                        <p>Director, SAC</p>
+                          <div className="profile-card-img">
+                            <img src={KoneruSatyanarayana} alt="" />
+                          </div>
+                          <div className="profile-card-one">
+                            <h2>Er.Koneru Satyanarayana</h2>
+                            <p>Hon'ble President, KLEF</p>
+                            <div className="leadership-card-knowmore">
+                              <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>
+                            </div>
+                        </div>
                     </div>
                     <div className="profile-card">
-                        <img src={chairman} alt="" />
-                        <h2>Mr P Sai Vijay</h2>
-                        <p>Director, SAC</p>
+                        <div className="profile-card-img">
+                          <img src={KoneruHavish} alt="" />
+                        </div>
+                        <div className="profile-card-one">
+                            <h2>Er.Koneru Lakshman Havish</h2>
+                            <p>Hon'ble Vice President, KLEF</p>
+                            <div className="leadership-card-knowmore">
+                              <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>
+                            </div>
+                        </div>
                     </div>
                     <div className="profile-card">
-                        <img src={ViceChairman} alt="" />
-                        <h2>Mr P Sai Vijay</h2>
-                        <p>Director, SAC</p>
+                        <div className="profile-card-img">
+                          <img src={KoneruHareen} alt="" />
+                        </div>
+                        <div className="profile-card-one">
+                            <h2>Er.Koneru Raja Hareen</h2>
+                            <p>Hon'ble Vice President, KLEF</p>
+                            <div className="leadership-card-knowmore">
+                              <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>
+                            </div>
+                        </div>
                     </div>
                     <div className="profile-card">
-                        <img src={CouncilAdvisor} alt="" />
-                        <h2>Mr P Sai Vijay</h2>
-                        <p>Director, SAC</p>
+                        <div className="profile-card-img">
+                          <img src={director} alt="" />
+                        </div>
+                        <div className="profile-card-one">
+                            <h2>Er.Sai Vijay Pisini</h2>
+                            <p>Hon'ble Director, SAC</p>
+                            <div className="leadership-card-knowmore">
+                              <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>
+                            </div>
+                        </div>
                     </div>
                     
                 </div>

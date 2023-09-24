@@ -42,8 +42,8 @@ const Page = () => {
   const handleClose = () => {
     setOpen(false);
   };
-
   return (
+    
     <div className='navbarComponent'>
         <div className={`nav ${isNavScrolled ? 'scrolled' : ''}`}>
             <div className="nav-in">

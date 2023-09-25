@@ -1,0 +1,118 @@
+.BlogsPage-header {
+    
+}
+
+.BlogsPage-header-in {
+    background-color: rgb(151, 0, 3);
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-bottom: 3px solid grey;
+}
+.BlogsPage-header-in h1 {
+    font-size: 3rem;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.Blogs-one-in-one {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 3rem;
+}
+.Blogs-one-in-two {
+    border-bottom: 2px solid grey;
+}
+.Blogs-one-in-two-in {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    row-gap: 2rem;
+    padding: 3rem 0rem;
+
+}
+
+.boiti-comps {
+    width: 30%;
+}
+
+.boiti-comps-in {
+    display: flex;
+    width: 100%;
+}
+.boiti-comps-in-one {
+    padding: 0rem 1rem;
+}
+
+.boiti-comps-in-one h1 {
+    font-size: 3rem;
+    color: grey;
+}
+
+.boiti-comps-in-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.boiti-comps-in-two h1 {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+
+
+.boiti-blog-in {
+    padding: 3rem 0rem;
+}
+.boiti-blog-in-one {
+    width: 80%;
+    margin: auto;
+
+    border: 2px solid grey;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.boiti-blog-in-one-one h1 {
+    font-size: 3rem;
+    text-align: left;
+    border-radius: 2rem;
+}
+
+.boiti-blog-in-one-one {
+    border: 2px solid grey;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+
+.boiti-blog-in-one-two {
+    padding: 2rem 0rem;
+}
+.boiti-blog-in-one-two p {
+    font-size: 1.5rem;
+    text-align: left;
+    text-align: justify;
+    width: 95%;
+    margin: auto;
+}
+
+.boiti-blog-in-one-three-in {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 2rem 1rem;
+}
+.boiti-blog-in-one-three-in img {
+    width: 70%;
+}

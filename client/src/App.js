@@ -11,7 +11,7 @@ import Leadership from "../src/pages/Leadership/Page";
 import ClubsPage from "../../client/src/ClubPages/ClubPageApp";
 import Events from "./pages/Events/Event";
 import Gallery from "./pages/Gallery/Gallery";
-import Blogs from "./pages/Blogs/Blogs";
+import Blogs from "./pages/Blogs/BlogOne";
 import Terms from "./pages/TC/Tc";
 import Dashboard from "../src/pages/Dashboard/Page";
 import NotFound from "./pages/NotFound/NotFound";

@@ -2,6 +2,12 @@
     
 }
 
+/* ---- NavBar ---- */
+
+.blogs-one-nav {
+    background-color: black !important;
+}
+
 .BlogsPage-header-in {
     background-color: rgb(151, 0, 3);
     height: 40vh;

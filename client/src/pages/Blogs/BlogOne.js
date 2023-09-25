@@ -2,12 +2,53 @@ import React from 'react';
 import './BlogsOne.css';
 import storiesImage from '../../Assets/stories.webp';
 import {Link as Scroll} from 'react-scroll';
+import {Link} from 'react-router-dom';
 import Footer from './../../components/Footer/Footer';
+import NavBar from './NavBar';
+import { useState, useEffect } from 'react';
+
 
 const BlogOne = () => {
+
+
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+  };
+
+  useEffect(() => {
+      window.addEventListener('resize', handleResize);
+
+      return () => {
+      window.removeEventListener('resize', handleResize);
+      };
+  }, []);
+
+
   return (
     <div className='BlogsPage'>
         <div className="BlogsPageContainer">
+        <div className="Event-Nav">
+                    <div className='HomeNavComponent blogs-one-nav'>
+                        <div className="HomeNavContainer">
+                            <div className="HomeNavLogo">
+                                <div className="HomeNavLogo-in">
+                                    <Link className='HomeNavLogo-in-link' to='/'><h1>Student Activity Center</h1></Link>
+                                </div>
+                            </div>
+                            <div className="HomeNavIndex">
+                                <div className="HomeNavIndex-in">
+                                    <Link className='HomeNavIndex-in-link' to='/'>Back to Home</Link>
+                                    <Link className='HomeNavIndex-in-link' to='/'>Explore Clubs</Link>
+                                    <Link className='HomeNavIndex-in-link' to='/gallery'>Gallery</Link>
+                                    <Link className='HomeNavIndex-in-link' to='/events'>Events</Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        {screenWidth < 768 ?  <NavBar/> : '' }
+                </div>
             <div className="BlogsPage-header">
                 <div className="BlogsPage-header-in">
                     <h1>Insights & Inspiration: Explore Our Blog | Unlocking New Perspectives</h1>

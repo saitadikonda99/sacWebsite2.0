@@ -17,7 +17,6 @@ import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import Button from '@mui/material/Button';
 import { styled } from '@mui/material/styles';
 import Dialog from '@mui/material/Dialog';
-import DialogTitle from '@mui/material/DialogTitle';
 import DialogContent from '@mui/material/DialogContent';
 import DialogActions from '@mui/material/DialogActions';
 
@@ -26,7 +25,6 @@ import DialogActions from '@mui/material/DialogActions';
 
 import Footer from '../../components/Footer/Footer';
 import newVideo from '../../Assets/newVideo.mp4';  
-import ProjectsImage from '../../Assets/ProjectsImage.webp';
 import storiesImage from '../../Assets/storiesImage.jpeg';
 import YtLogo from '../../Assets/Logos/YtLogo.png';
 import InstaLogo from '../../Assets/Logos/InstaLogo.png';
@@ -309,10 +307,11 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                       >
                         <DialogContent dividers>
                           <iframe
-            src="https://online.fliphtml5.com/syvtl/zqtg/"
-            frameborder="0"
-            style={{ width: '50rem', height: '50rem' }} // Adjust height as needed
-          ></iframe>
+                            src="https://online.fliphtml5.com/syvtl/zqtg/"
+                            frameborder="0"
+                            style={{ width: '50rem', height: '50rem' }} // Adjust height as needed
+                          >
+                          </iframe>
                         </DialogContent>
                         <DialogActions>
                           <Button autoFocus onClick={handleClose}>

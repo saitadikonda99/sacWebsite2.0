@@ -812,7 +812,6 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                                     <Link   onClick={handleclick} to='/clubs/VachasClub' className='qu-link-cm'>Vachas Club</Link>
                                     <Link   onClick={handleclick} to='/clubs/KLRadioClub' className='qu-link-cm'>KLRadio Club</Link>
                                     <Link   onClick={handleclick} to='/clubs/FilmMakingClub' className='qu-link-cm'>Film Technology Club</Link>
-                                    <Link   onClick={handleclick} to='/clubs/StandupComedyClub' className='qu-link-cm'>StandupComedy</Link>``
                                     <Link   onClick={handleclick} to='/clubs/DramaticsClub' className='qu-link-cm'>Dramatics Club</Link>
                                     <Link   onClick={handleclick} to='/clubs/DramaticsClub' className='qu-link-cm'>Art Club (Art Tribe)</Link>
                                 </div>

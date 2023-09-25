@@ -20,7 +20,9 @@ import zocc_glimpse_two from '../../../Assets/ClubsImages/ZeroOneCodeClub/zocc_g
 import zocc_glimpse_three from '../../../Assets/ClubsImages/ZeroOneCodeClub/zocc_glimpse_three.png';
 import zocc_glimpse_four from '../../../Assets/ClubsImages/ZeroOneCodeClub/zocc_glimpse_four.png';
 
-
+import ZeroOneGroupPic from '../../../Assets/ClubsImages/ZeroOneCodeClub/ZeroOneGroupPic.JPG';
+import ZeroOneCommunity from '../../../Assets/ClubsImages/ZeroOneCodeClub/ZeroOneCommunity.jpg';
+import Technology from '../../../Assets/Technology.png';
 // components start here
 import Footer from '../../../components/Footer/Footer'
 import Navbar from './NavBar'
@@ -363,7 +365,7 @@ const Page = () => {
                           <div className="club-about">
                             <div className="club-about-one">
                               <div className="about-img">
-                                <img src={clubpage} alt="" />
+                                <img src={ZeroOneGroupPic} alt="" />
                               </div>
                               <div className="about-img-matter">
                                 <h1>Cultivating and Nurturing a Thriving Coding Culture</h1>
@@ -375,11 +377,11 @@ const Page = () => {
                                  <h1>Building Industry-Ready Skills: Real-Time Projects and Experience</h1>
                                  <p>Our focus is on equipping you with practical, industry-ready skills through hands-on, real-time projects. Gain valuable experience and confidence as you tackle real-world challenges.</p>
                               </div>
-                              <div className="about-img"><img src={clubpage} alt="" /></div>
+                              <div className="about-img"><img src={Technology} alt="" /></div>
                             </div>
                             <div className="club-about-three">
                               <div className="about-img">
-                                  <img src={clubpage} alt="" />
+                                  <img src={ZeroOneCommunity} alt="" />
                                 </div>
                                 <div className="about-img-matter">
                                   <h1>Community Collaboration and Knowledge Sharing</h1>

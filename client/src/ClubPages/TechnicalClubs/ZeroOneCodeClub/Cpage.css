@@ -218,6 +218,8 @@
     font-size: .8rem;
     text-align: left;
     padding: 1rem 0rem;
+    min-height: 30vh;
+
 }
 .one-matter-img-content p {
     font-size: 1rem;
@@ -273,6 +275,7 @@
     display: flex;
     flex-direction: column;
     font-size: .8rem;
+    min-height: 23vh;
 }
 
 .details-one p {

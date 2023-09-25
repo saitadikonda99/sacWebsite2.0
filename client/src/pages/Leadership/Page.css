@@ -33,149 +33,82 @@
     color: grey;
     width: 70%;
 }
-
-
-
+.lstcmn h1 {
+    font-size: 2rem;
+}
+.lstcmn-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    row-gap: 1rem;
+    padding: 3rem 0rem;
+}
 
 .Leadership-two {
-    margin: 3rem 0rem;
-}
-.lstcmn {
-    width: 90%;
-    margin: auto;
-    text-align: left;
-    border-bottom: 2px solid grey;
-    margin-bottom: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.lstcmn p {
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 0.8rem;
-    font-weight: 500;
-    transition: all 0.3s ease;
-    background-color: white;
-    border: 1px solid black;
-    margin-left: 1rem;
-    padding: 0.2rem 0.4rem;
-}
-
-.LeadershipComponent .lstcmn-body {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    row-gap: 2rem;
-    padding: 0rem 0rem 2rem 0rem;
-}
-.profile-card-container {
-    display: flex;
-    justify-content: space-between;
-}
-  
-.Leadership-two-one-body {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start !important;
+    padding: 2rem 0rem;
 }
 
 .Leadership-two-one-body .profile-card {
+    width: 24%;
+    border: 1px solid grey;
+    padding: unset;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.lstcmn {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    border-bottom: 2px solid grey;
+}
+
+
+.lstcmn h1 {
     margin-right: 1rem;
 }
-
-
-.profile-card-one {
-    background-color: whitesmoke;
-    padding: 0.5rem;
-    border-radius: 0.3rem;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    border: 1px solid grey;
-}
-.LeadershipComponent .profile-card {
-    background-color: #fff;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    max-width: 25%;
-    text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    flex: 1;
-    margin: 10px; /* Add margin for spacing between cards */
-    padding: 10px; /* Add padding for spacing within cards */
-    border: 1px solid #ccc; 
-}
-
-.leadership-card-knowmore {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 1rem;
-}
-.profile-card-leadership-link {
-    text-decoration: none;
-    color: black;
-    border: 1px solid black;
-    text-align: left;
-    padding: 0.2rem;
-    border-radius: 0.3rem;
-    display: block;
-    width: 100%;
-    text-align: center;
-    background-color: rgb(151, 0, 3);
-    color: white;
-}
-
 .profile-card-img {
     width: 100%;
-    overflow: hidden;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+.profile-card-img img {
+    width: 100%;
+    border-radius: 1rem;
 }
 
-.profile-card-img img {
-    max-width: 100%;
-}
 
 .profile-card-one {
+    min-height: 22vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: 1px solid grey;
+    border-radius: 1rem;
 }
+
 .profile-card-one h2 {
-    margin-top: 10px;
-    font-size: 24px;
-    flex: 1;
+    font-size: 1.4rem;
 }
 
 .profile-card-one p {
-    font-size: 16px;
-    color: #666;
-    margin-top: 10px;
+    font-size: 1.2rem;
+    color: grey;
 }
-  
 
+.leadership-card-knowmore {
+    margin-top: 1rem;
+}
 
-
-
-
-
-
-
-.Leadership-two-two-header-in {
-    width: 90%;
-    margin: auto;
-    text-align: left;
-    border-bottom: 2px solid grey;
-    margin-bottom: 1rem;
+.profile-card-leadership-link {
+    text-decoration: none;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 0.4rem;
+    padding: 0.3rem 0.6rem;
 }
 
 
@@ -186,23 +119,69 @@
 
 
 
-.Leadership-two-three-header-in {
-    width: 90%;
-    margin: auto;
-    text-align: left;
-    border-bottom: 2px solid grey;
-    margin-bottom: 1rem;
+
+
+
+.Leadership-two-two-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: unset;
+    column-gap: 1rem;
+}
+.Leadership-two-two-body .profile-card {
+    width: 19%;
+    border: 1px solid grey;
+    padding: unset;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.Leadership-two-two-body .profile-card img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.council-members-profile-one-know-more {
+    margin-top: 1rem;
+}
+
+
+.council-members-profile-one {
+    min-height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    border-radius: 1rem;
 }
 
 
 
 
 
-.Leadership-two-four-header-in {
-    width: 90%;
-    margin: auto;
-    text-align: left;
-    border-bottom: 2px solid grey;
-    margin-bottom: 1rem;
+
+
+
+.Leadership-two-three-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: unset;
+    column-gap: 1rem;
 }
 
+.Leadership-two-three-body .profile-card{
+    width: 19%;
+    border: 1px solid grey;
+    padding: unset;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.Leadership-two-three-body .profile-card img {
+    width: 100%;
+    border-radius: 1rem;
+}

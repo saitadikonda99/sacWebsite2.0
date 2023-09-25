@@ -35,6 +35,13 @@ import AnonymousImage from '../../Assets/UpdatedCouncilMembers/AnonymousImage.pn
 import KoneruSatyanarayana from '../../Assets/KoneruSatyanaraya.png';
 import KoneruHavish from '../../Assets/KoneruHavish.png';
 import KoneruHareen from '../../Assets/KoneruHareen.png';
+import PardhaSaradhiVarma from '../../Assets/PardhaSaradhiVarma.png';
+import HanumanthaRao from '../../Assets/HanumanthaRao.png';
+import AVSPrasad from '../../Assets/AVSPrasad.png';
+import KSJagannathaRao from   '../../Assets/KSJagannathaRado.png';
+import NVenkatram from '../../Assets/NVenkatram.png';
+import KoneruKanchanaLatha from '../../Assets/KoneruKanchanaLatha.png';
+
 
 
 
@@ -140,6 +147,18 @@ const Page = () => {
                     </div>
                     <div className="profile-card">
                         <div className="profile-card-img">
+                          <img src={KoneruKanchanaLatha} alt="" />
+                        </div>
+                        <div className="profile-card-one">
+                            <h2>Koneru Kanchana Latha</h2>
+                            <p>Hon'ble Secretary</p>
+                            <div className="leadership-card-knowmore">
+                              <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="profile-card">
+                        <div className="profile-card-img">
                           <img src={KoneruHavish} alt="" />
                         </div>
                         <div className="profile-card-one">
@@ -164,11 +183,59 @@ const Page = () => {
                     </div>
                     <div className="profile-card">
                         <div className="profile-card-img">
-                          <img src={director} alt="" />
+                          <img src={KSJagannathaRao} alt="" />
                         </div>
                         <div className="profile-card-one">
-                            <h2>Er.Sai Vijay Pisini</h2>
-                            <p>Hon'ble Director, SAC</p>
+                            <h2>Dr.K.S. Jagannatha Rao</h2>
+                            <p>Hon'ble Pro Chancellor</p>
+                            <div className="leadership-card-knowmore">
+                              <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="profile-card">
+                        <div className="profile-card-img">
+                          <img src={PardhaSaradhiVarma} alt="" />
+                        </div>
+                        <div className="profile-card-one">
+                            <h2>Dr. G. Pardha Saradhi Varma</h2>
+                            <p>Hon'ble Vice Chancellor</p>
+                            <div className="leadership-card-knowmore">
+                              <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="profile-card">
+                        <div className="profile-card-img">
+                          <img src={AVSPrasad} alt="" />
+                        </div>
+                        <div className="profile-card-one">
+                            <h2>Dr.A V S Prasad</h2>
+                            <p>Pro Vice Chancellor-I</p>
+                            <div className="leadership-card-knowmore">
+                              <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="profile-card">
+                        <div className="profile-card-img">
+                          <img src={NVenkatram} alt="" />
+                        </div>
+                        <div className="profile-card-one">
+                            <h2>Dr. N. Venkatram</h2>
+                            <p>Pro Vice Chancellor-II</p>
+                            <div className="leadership-card-knowmore">
+                              <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="profile-card">
+                        <div className="profile-card-img">
+                          <img src={HanumanthaRao} alt="" />
+                        </div>
+                        <div className="profile-card-one">
+                            <h2>Dr.Ch. Hanumantha Rao</h2>
+                            <p>Dean (Student Affairs)</p>
                             <div className="leadership-card-knowmore">
                               <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>
                             </div>
@@ -180,91 +247,10 @@ const Page = () => {
             </div>
 
 
-            <div className="Leadership-two-two">
-              <div className="Leadership-two-two-header">
-                <div className="Leadership-two-two-header-in lstcmn">
-                  <h1>The Student Council</h1>
-                  {/* Step 4: Toggle visibility on button click */}
-                  <p onClick={toggleLeaderhipTwoTwoBody}>
-                    {isLeadershipTwoOneBodyVisible ? 'Hide' : 'View'}
-                  </p>
-                </div>
-              </div>
-              {/* Step 4: Conditionally render based on state */}
-              {isLeaderhipTwoTwoBodyVisible && (
-                <div className="Leadership-two-two-body lstcmn-body">
-                   <div className="profile-card">
-                        <img src={TechnologyCouncilConvener} alt="" />
-                        <h2>Deepak Reddy</h2>
-                        <p>Technology Council</p>
-                    </div>
-                    <div className="profile-card">
-                        <img src={QualityAnalysisCouncilConvener} alt="" />
-                        <h2>Laasya Koppaka</h2>
-                        <p>Quality Analysis</p>
-                    </div>
-                    <div className="profile-card">
-                        <img src={InternationalCouncilConvener} alt="" />
-                        <h2>Swabrah Zalwango</h2>
-                        <p>International Student Council</p>
-                    </div>
-                    <div className="profile-card">
-                        <img src={FinanceCouncilConvener} alt="" />
-                        <h2>John Rahul</h2>
-                        <p>Finance and Logistics Council</p>
-                    </div>
-                    <div className="profile-card">
-                        <img src={AnonymousImage} alt="" />
-                        <h2>G Nithisha Reddy</h2>
-                        <p>Liberal Arts Council</p>
-                    </div>
-                    <div className="profile-card">
-                        <img src={AnonymousImage} alt="" />
-                        <h2>P Daniel</h2>
-                        <p>Sports Council</p>
-                    </div>
-                    <div className="profile-card">
-                        <img src={OutreachCouncilConvener} alt="" />
-                        <h2>Mohammad Noor</h2>
-                        <p>Outreach & Society Council</p>
-                    </div>
-                    <div className="profile-card">
-                        <img src={AnonymousImage} alt="" />
-                        <h2>J V Kalyan</h2>
-                        <p>Incubation Counil</p>
-                    </div>
-                    <div className="profile-card">
-                        <img src={AcademicCouncilConvener} alt="" />
-                        <h2>Hema Sri N</h2>
-                        <p>Academic Council</p>
-                    </div>
-                    <div className="profile-card">
-                        <img src={AnonymousImage} alt="" />
-                        <h2>Manas Tripurana</h2>
-                        <p>HR & Grieviences</p>
-                    </div>
-                    <div className="profile-card">
-                        <img src={AnonymousImage} alt="" />
-                        <h2>M Amish Kumar</h2>
-                        <p>Marketing and Media Council</p>
-                    </div>
-                    <div className="profile-card">
-                        <img src={AnonymousImage} alt="" />
-                        <h2>Md Jawad</h2>
-                        <p>Events Council</p>
-                    </div>
-                </div>
-              )}
-            </div>
-
-
-
-            
-
             <div className="Leadership-two-three">
               <div className="Leadership-two-three-header">
                 <div className="Leadership-two-three-header-in lstcmn">
-                  <h1>Club Heads</h1>
+                  <h1>The Office of SAC</h1>
                   <p onClick={toggleLeaderhipTwoFourBody}>
                     {isLeaderhipTwoFourBodyVisible ? 'Hide' : 'View'}
                   </p>
@@ -275,109 +261,352 @@ const Page = () => {
                 <div className="Leadership-two-three-body lstcmn-body">
                   <div className="profile-card">
                         <img src={AnonymousImage} alt="" />
-                        <h2>D Amarnadh</h2>
-                        <p>AeroElectronics Club</p>
+                        <div className="council-members-profile-one">
+                          <h2>Deepak Reddy</h2>
+                          <p>Technology Council</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
                     </div>
                    <div className="profile-card">
                         <img src={TechnologyCouncilConvener} alt="" />
-                        <h2>Deepak Reddy</h2>
-                        <p>ZeroOne Code Club</p>
+                        <div className="council-members-profile-one">
+                          <h2>Deepak Reddy</h2>
+                          <p>Technology Council</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
                     </div>
                     <div className="profile-card">
                         <img src={AnonymousImage} alt="" />
-                        <h2>Md Khaja Shaik</h2>
-                        <p>Cyber Security</p>
+                        <div className="council-members-profile-one">
+                          <h2>Deepak Reddy</h2>
+                          <p>Technology Council</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
                     </div>
                     <div className="profile-card">
                         <img src={AnonymousImage} alt="" />
-                        <h2>A Dinesh</h2>
-                        <p>WebApps</p>
+                        <div className="council-members-profile-one">
+                          <h2>Deepak Reddy</h2>
+                          <p>Technology Council</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
                     </div>
                     <div className="profile-card">
                         <img src={AnonymousImage} alt="" />
-                        <h2>C Harshitha</h2>
-                        <p>Agriculture Club</p>
+                        <div className="council-members-profile-one">
+                          <h2>Deepak Reddy</h2>
+                          <p>Technology Council</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
                     </div>
                     
                     <div className="profile-card">
                         <img src={AnonymousImage} alt="" />
-                        <h2>Dhruv Kohli</h2>
-                        <p>The Design Sphere</p>
+                        <div className="council-members-profile-one">
+                          <h2>Deepak Reddy</h2>
+                          <p>Technology Council</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
                     </div>
                     <div className="profile-card">
                         <img src={AnonymousImage} alt="" />
-                        <h2>Srinivas</h2>
-                        <p>Automobile Club</p>
+                        <div className="council-members-profile-one">
+                          <h2>Deepak Reddy</h2>
+                          <p>Technology Council</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
                     </div>
                     <div className="profile-card">
                         <img src={AnonymousImage} alt="" />
-                        <h2>Tanish</h2>
-                        <p>TechHuma Club</p>
+                        <div className="council-members-profile-one">
+                          <h2>Deepak Reddy</h2>
+                          <p>Technology Council</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
                     </div>
                     <div className="profile-card">
                         <img src={DanceFusionLead} alt="" />
-                        <h2>Ajay</h2>
-                        <p>Dance Club - Fusion</p>
+                        <div className="council-members-profile-one">
+                          <h2>Deepak Reddy</h2>
+                          <p>Technology Council</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
                     </div>
                     <div className="profile-card">
                         <img src={FinanceCouncilConvener} alt="" />
-                        <h2>John Rahul</h2>
-                        <p>KL Talks</p>
+                        <div className="council-members-profile-one">
+                          <h2>Deepak Reddy</h2>
+                          <p>Technology Council</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
                     </div>
                     <div className="profile-card">
                         <img src={Elcomicos} alt="" />
-                        <h2>Muni Sai Charith</h2>
-                        <p>El-comicos Club</p>
+                        <div className="council-members-profile-one">
+                          <h2>Deepak Reddy</h2>
+                          <p>Technology Council</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
                     </div>
                     <div className="profile-card">
                         <img src={EventsCouncilConvener} alt="" />
-                        <h2>Mohammad Jawaad</h2>
-                        <p>Fashion Designing Club</p>
+                        <div className="council-members-profile-one">
+                          <h2>Deepak Reddy</h2>
+                          <p>Technology Council</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
                     </div>
                     <div className="profile-card">
                         <img src={InternationalCouncilConvener} alt="" />
-                        <h2>Swabrah Zalwango</h2>
-                        <p>Ohana</p>
+                        <div className="council-members-profile-one">
+                          <h2>Deepak Reddy</h2>
+                          <p>Technology Council</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
                     </div>
                     <div className="profile-card">
                         <img src={KutumbLead} alt="" />
-                        <h2>Niranjan Shah</h2>
-                        <p>Kutumb Society</p>
+                        <div className="council-members-profile-one">
+                          <h2>Deepak Reddy</h2>
+                          <p>Technology Council</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
                     </div>
                     <div className="profile-card">
                         <img src={NarthanaLead} alt="" />
-                        <h2>A Dev</h2>
-                        <p>Narthana Club</p>
+                        <div className="council-members-profile-one">
+                          <h2>Deepak Reddy</h2>
+                          <p>Technology Council</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
                     </div>
                     <div className="profile-card">
                         <img src={AcademicCouncilConvener} alt="" />
-                        <h2>Hema Sri N</h2>
-                        <p>Safe Life Club</p>
+                        <div className="council-members-profile-one">
+                          <h2>Deepak Reddy</h2>
+                          <p>Technology Council</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
                     </div>
                     <div className="profile-card">
                         <img src={SVRLead} alt="" />
-                        <h2>Aayaz Basha</h2>
-                        <p>Smart Village Revolution</p>
+                        <div className="council-members-profile-one">
+                          <h2>Deepak Reddy</h2>
+                          <p>Technology Council</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
                     </div>
                     <div className="profile-card">
                         <img src={VachasLead} alt="" />
-                        <h2>V Kruthika Raj</h2>
-                        <p>Vachas Club</p>
+                        <div className="council-members-profile-one">
+                          <h2>Deepak Reddy</h2>
+                          <p>Technology Council</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
                     </div>
                     <div className="profile-card">
                         <img src={versatales} alt="" />
-                        <h2>P Satyanarayana</h2>
-                        <p>Versatales</p>
+                        <div className="council-members-profile-one">
+                          <h2>Deepak Reddy</h2>
+                          <p>Technology Council</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
                     </div>
                     <div className="profile-card">
                         <img src={YuvaTourismLead} alt="" />
-                        <h2>T Mihir kumar</h2>
-                        <p>Yuva Tourism Club</p>
+                        <div className="council-members-profile-one">
+                          <h2>Deepak Reddy</h2>
+                          <p>Technology Council</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
                     </div>
 
                 </div>
               )}
             </div>
+
+
+            <div className="Leadership-two-two">
+              <div className="Leadership-two-two-header">
+                <div className="Leadership-two-two-header-in lstcmn">
+                  <h1>The Student Council</h1>
+                  <p onClick={toggleLeaderhipTwoTwoBody}>
+                    {isLeadershipTwoOneBodyVisible ? 'Hide' : 'View'}
+                  </p>
+                </div>
+              </div>
+              {/* Step 4: Conditionally render based on state */}
+              {isLeaderhipTwoTwoBodyVisible && (
+                <div className="Leadership-two-two-body lstcmn-body">
+                   <div className="profile-card">
+                        <img src={TechnologyCouncilConvener} alt="" />
+                        <div className="council-members-profile-one">
+                          <h2>Deepak Reddy</h2>
+                          <p>Technology Council</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
+                    </div>
+                    <div className="profile-card">
+                        <img src={QualityAnalysisCouncilConvener} alt="" />
+                        <div className="council-members-profile-one">
+                        <h2>Laasya Koppaka</h2>
+                        <p>Quality Analysis</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
+                        
+                    </div>
+                    <div className="profile-card">
+                        <img src={InternationalCouncilConvener} alt="" />
+                        <div className="council-members-profile-one">
+                        <h2>Laasya Koppaka</h2>
+                        <p>Quality Analysis</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
+                    </div>
+                    <div className="profile-card">
+                        <img src={FinanceCouncilConvener} alt="" />
+                        <div className="council-members-profile-one">
+                        <h2>Laasya Koppaka</h2>
+                        <p>Quality Analysis</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
+                    </div>
+                    <div className="profile-card">
+                        <img src={AnonymousImage} alt="" />
+                        <div className="council-members-profile-one">
+                        <h2>Laasya Koppaka</h2>
+                        <p>Quality Analysis</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
+                    </div>
+                    <div className="profile-card">
+                        <img src={AnonymousImage} alt="" />
+                        <div className="council-members-profile-one">
+                        <h2>Laasya Koppaka</h2>
+                        <p>Quality Analysis</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
+                    </div>
+                    <div className="profile-card">
+                        <img src={OutreachCouncilConvener} alt="" />
+                        <div className="council-members-profile-one">
+                        <h2>Laasya Koppaka</h2>
+                        <p>Quality Analysis</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
+                    </div>
+                    <div className="profile-card">
+                        <img src={AnonymousImage} alt="" />
+                        <div className="council-members-profile-one">
+                        <h2>Laasya Koppaka</h2>
+                        <p>Quality Analysis</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
+                    </div>
+                    <div className="profile-card">
+                        <img src={AcademicCouncilConvener} alt="" />
+                        <div className="council-members-profile-one">
+                        <h2>Laasya Koppaka</h2>
+                        <p>Quality Analysis</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
+                    </div>
+                    <div className="profile-card">
+                        <img src={AnonymousImage} alt="" />
+                        <div className="council-members-profile-one">
+                        <h2>Laasya Koppaka</h2>
+                        <p>Quality Analysis</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
+                    </div>
+                    <div className="profile-card">
+                        <img src={AnonymousImage} alt="" />
+                        <div className="council-members-profile-one">
+                        <h2>Laasya Koppaka</h2>
+                        <p>Quality Analysis</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
+                    </div>
+                    <div className="profile-card">
+                        <img src={AnonymousImage} alt="" />
+                        <div className="council-members-profile-one">
+                        <h2>Laasya Koppaka</h2>
+                        <p>Quality Analysis</p>
+                          <div className="council-members-profile-one-know-more">
+                            <Link className='profile-card-leadership-link' to='sac.kluniversity.in'>Know More</Link>  
+                          </div>
+                        </div>
+                    </div>
+                </div>
+              )}
+            </div>
+
+
+
+            
+
             {/* ... (other sections) */}
           </div>
         </div>

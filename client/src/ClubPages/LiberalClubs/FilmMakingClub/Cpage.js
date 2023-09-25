@@ -85,7 +85,7 @@ var Page = () => {
 {/* ----------------------------------Hero-------------------------------------------- */}
 
               <div className="club-hero">
-                <div className="club-hero-in">
+                <div className="FilmMaking-hero-in">
                     <div className="club-nav">
                       <div className="club-nav-in">
                         <div className="club-nav-in-two">
@@ -101,13 +101,11 @@ var Page = () => {
 
                           <div className="hero-logo">
                             <div className="hero-logo-head">
-                              <h1>ZeroOne CLUB</h1> 
+                              <h1>Film Technology CLUB</h1> 
                               <p>Design.Develop.Deploy</p>
                             </div>
                           </div>
-                            {showDiv &&   <div className="scroll-div">
-                              <button>Join The Club</button>
-                          </div> }
+                          FilmMaking-hero-in
                       </div>
                    </div>
               </div>

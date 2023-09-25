@@ -798,6 +798,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
                                 <div className="quick-link-two-in">
                                   <h1>Liberal Arts</h1>
+
                                     <Link   onClick={handleclick} to='/clubs/StandupComedyClub' className='qu-link-cm'>Standup Comedy Club</Link>
                                     <Link   onClick={handleclick} to='/clubs/SwaraClub' className='qu-link-cm'>Music Club (Swara)</Link>
                                     <Link   onClick={handleclick} to='/clubs/SwaraClub' className='qu-link-cm'>Photography Club</Link>
@@ -806,6 +807,12 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                                     <Link   onClick={handleclick} to='/clubs/FusionClub' className='qu-link-cm'>Dance Club (Narthana)</Link>
                                     <Link   onClick={handleclick} to='/clubs/VachasClub' className='qu-link-cm'>Literature Club (Vachas)</Link>
                                     <Link   onClick={handleclick} to='/clubs/VachasClub' className='qu-link-cm'>Script Writing Club (Versatales)</Link>
+                                    <Link   onClick={handleclick} to='/clubs/FusionClub' className='qu-link-cm'>Fusion Club</Link>
+                                    <Link   onClick={handleclick} to='/clubs/SwaraClub' className='qu-link-cm'>Swara Club</Link>
+                                    <Link   onClick={handleclick} to='/clubs/VachasClub' className='qu-link-cm'>Vachas Club</Link>
+                                    <Link   onClick={handleclick} to='/clubs/KLRadioClub' className='qu-link-cm'>KLRadio Club</Link>
+                                    <Link   onClick={handleclick} to='/clubs/FilmMakingClub' className='qu-link-cm'>Film Technology Club</Link>
+                                    <Link   onClick={handleclick} to='/clubs/StandupComedyClub' className='qu-link-cm'>StandupComedy</Link>``
                                     <Link   onClick={handleclick} to='/clubs/DramaticsClub' className='qu-link-cm'>Dramatics Club</Link>
                                     <Link   onClick={handleclick} to='/clubs/DramaticsClub' className='qu-link-cm'>Art Club (Art Tribe)</Link>
                                 </div>

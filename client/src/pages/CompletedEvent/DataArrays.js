@@ -1,11 +1,9 @@
-import CfcPoster from '../../Assets/CfcPoster.jpg'
-
+// this file contains the all data of the events belongs to particular clubs from different domains
 
 const ZeroOneData = {
     January: [
       {
         eventName: '1234',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -16,7 +14,6 @@ const ZeroOneData = {
     February: [
       {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -28,7 +25,6 @@ const ZeroOneData = {
       // Events for March
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -39,7 +35,6 @@ const ZeroOneData = {
       // Events for April
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -50,7 +45,6 @@ const ZeroOneData = {
       // Events for May
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -61,7 +55,6 @@ const ZeroOneData = {
       // Events for June
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -71,8 +64,7 @@ const ZeroOneData = {
     July: [
       // Events for July
        {
-        eventName: ' Hackathon 1',
-        poster: CfcPoster,
+        eventName: 'Tadikonda Sai Manikanta',
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -83,7 +75,6 @@ const ZeroOneData = {
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -94,7 +85,6 @@ const ZeroOneData = {
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -105,7 +95,6 @@ const ZeroOneData = {
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -116,7 +105,6 @@ const ZeroOneData = {
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -127,7 +115,6 @@ const ZeroOneData = {
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -142,7 +129,6 @@ export const AeroElectricData = {
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -153,7 +139,6 @@ export const AeroElectricData = {
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -165,7 +150,6 @@ export const AeroElectricData = {
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -176,7 +160,6 @@ export const AeroElectricData = {
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -187,7 +170,6 @@ export const AeroElectricData = {
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -198,7 +180,6 @@ export const AeroElectricData = {
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -209,7 +190,6 @@ export const AeroElectricData = {
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -220,7 +200,6 @@ export const AeroElectricData = {
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -231,7 +210,6 @@ export const AeroElectricData = {
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -242,7 +220,6 @@ export const AeroElectricData = {
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -253,7 +230,6 @@ export const AeroElectricData = {
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -264,7 +240,6 @@ export const AeroElectricData = {
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -278,7 +253,6 @@ export const AeroElectricData = {
     January: [
       {
         eventName: '1234',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -289,7 +263,6 @@ export const AeroElectricData = {
     February: [
       {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -301,7 +274,6 @@ export const AeroElectricData = {
       // Events for March
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -312,7 +284,6 @@ export const AeroElectricData = {
       // Events for April
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -323,7 +294,6 @@ export const AeroElectricData = {
       // Events for May
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -334,7 +304,6 @@ export const AeroElectricData = {
       // Events for June
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -345,7 +314,6 @@ export const AeroElectricData = {
         // Events for July
          {
           eventName: 'Tadikonda Sai Manikanta',
-          poster: CfcPoster,
           date: '28-09-2023',
           studentCoordinator: 'Deepak Reddy Gathpa',
           facultyCoordinator: 'Ravi Babu K',
@@ -356,7 +324,6 @@ export const AeroElectricData = {
         // Events for August
          {
           eventName: 'CodeforCause Hackathon 1',
-          poster: CfcPoster,
           date: '28-09-2023',
           studentCoordinator: 'Deepak Reddy Gathpa',
           facultyCoordinator: 'Ravi Babu K',
@@ -367,7 +334,6 @@ export const AeroElectricData = {
         // Events for September
          {
           eventName: 'CodeforCause Hackathon 1',
-          poster: CfcPoster,
           date: '28-09-2023',
           studentCoordinator: 'Deepak Reddy Gathpa',
           facultyCoordinator: 'Ravi Babu K',
@@ -378,7 +344,6 @@ export const AeroElectricData = {
         // Events for October
          {
           eventName: 'CodeforCause Hackathon 1',
-          poster: CfcPoster,
           date: '28-09-2023',
           studentCoordinator: 'Deepak Reddy Gathpa',
           facultyCoordinator: 'Ravi Babu K',
@@ -389,7 +354,6 @@ export const AeroElectricData = {
         // Events for November
          {
           eventName: 'CodeforCause Hackathon 1',
-          poster: CfcPoster,
           date: '28-09-2023',
           studentCoordinator: 'Deepak Reddy Gathpa',
           facultyCoordinator: 'Ravi Babu K',
@@ -400,7 +364,6 @@ export const AeroElectricData = {
         // Events for December
          {
           eventName: 'CodeforCause Hackathon 1',
-          poster: CfcPoster,
           date: '28-09-2023',
           studentCoordinator: 'Deepak Reddy Gathpa',
           facultyCoordinator: 'Ravi Babu K',
@@ -418,7 +381,6 @@ export const AeroElectricData = {
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -429,7 +391,6 @@ export const AeroElectricData = {
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -441,7 +402,6 @@ export const AeroElectricData = {
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -452,7 +412,6 @@ export const AeroElectricData = {
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -463,7 +422,6 @@ export const AeroElectricData = {
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -474,7 +432,6 @@ export const AeroElectricData = {
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -485,7 +442,6 @@ export const AeroElectricData = {
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -496,7 +452,6 @@ export const AeroElectricData = {
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -507,7 +462,6 @@ export const AeroElectricData = {
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -518,7 +472,6 @@ export const AeroElectricData = {
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -529,7 +482,6 @@ export const AeroElectricData = {
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -540,7 +492,6 @@ export const AeroElectricData = {
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -558,7 +509,6 @@ export const AeroElectricData = {
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -569,7 +519,6 @@ export const AeroElectricData = {
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -581,7 +530,6 @@ export const AeroElectricData = {
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -592,7 +540,6 @@ export const AeroElectricData = {
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -603,7 +550,6 @@ export const AeroElectricData = {
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -614,7 +560,6 @@ export const AeroElectricData = {
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -625,7 +570,6 @@ export const AeroElectricData = {
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -636,7 +580,6 @@ export const AeroElectricData = {
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -647,7 +590,6 @@ export const AeroElectricData = {
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -658,7 +600,6 @@ export const AeroElectricData = {
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -669,7 +610,6 @@ export const AeroElectricData = {
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -680,7 +620,6 @@ export const AeroElectricData = {
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -698,7 +637,6 @@ export const AeroElectricData = {
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -709,7 +647,6 @@ export const AeroElectricData = {
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -721,7 +658,6 @@ export const AeroElectricData = {
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -732,7 +668,6 @@ export const AeroElectricData = {
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -743,7 +678,6 @@ export const AeroElectricData = {
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -754,7 +688,6 @@ export const AeroElectricData = {
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -765,7 +698,6 @@ export const AeroElectricData = {
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -776,7 +708,6 @@ export const AeroElectricData = {
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -787,7 +718,6 @@ export const AeroElectricData = {
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -798,7 +728,6 @@ export const AeroElectricData = {
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -809,7 +738,6 @@ export const AeroElectricData = {
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -820,7 +748,6 @@ export const AeroElectricData = {
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -839,7 +766,6 @@ export const AeroElectricData = {
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -850,7 +776,6 @@ export const AeroElectricData = {
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -862,7 +787,6 @@ export const AeroElectricData = {
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -873,7 +797,6 @@ export const AeroElectricData = {
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -884,7 +807,6 @@ export const AeroElectricData = {
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -895,7 +817,6 @@ export const AeroElectricData = {
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -906,7 +827,6 @@ export const AeroElectricData = {
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -917,7 +837,6 @@ export const AeroElectricData = {
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -928,7 +847,6 @@ export const AeroElectricData = {
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -939,7 +857,6 @@ export const AeroElectricData = {
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -950,7 +867,6 @@ export const AeroElectricData = {
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -961,7 +877,6 @@ export const AeroElectricData = {
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -980,7 +895,6 @@ export const AeroElectricData = {
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -991,7 +905,6 @@ export const AeroElectricData = {
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1003,7 +916,6 @@ export const AeroElectricData = {
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1014,7 +926,6 @@ export const AeroElectricData = {
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1025,7 +936,6 @@ export const AeroElectricData = {
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1036,7 +946,6 @@ export const AeroElectricData = {
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1047,7 +956,6 @@ export const AeroElectricData = {
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1058,7 +966,6 @@ export const AeroElectricData = {
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1069,7 +976,6 @@ export const AeroElectricData = {
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1080,7 +986,6 @@ export const AeroElectricData = {
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1091,7 +996,6 @@ export const AeroElectricData = {
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1102,7 +1006,6 @@ export const AeroElectricData = {
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1121,7 +1024,6 @@ export const AeroElectricData = {
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1132,7 +1034,6 @@ export const AeroElectricData = {
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1144,7 +1045,6 @@ export const AeroElectricData = {
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1155,7 +1055,6 @@ export const AeroElectricData = {
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1166,7 +1065,6 @@ export const AeroElectricData = {
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1177,7 +1075,6 @@ export const AeroElectricData = {
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1188,7 +1085,6 @@ export const AeroElectricData = {
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1199,7 +1095,6 @@ export const AeroElectricData = {
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1210,7 +1105,6 @@ export const AeroElectricData = {
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1221,7 +1115,6 @@ export const AeroElectricData = {
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1232,7 +1125,6 @@ export const AeroElectricData = {
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1243,7 +1135,6 @@ export const AeroElectricData = {
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1262,7 +1153,6 @@ export const AeroElectricData = {
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1273,7 +1163,6 @@ export const AeroElectricData = {
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1285,7 +1174,6 @@ export const AeroElectricData = {
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1296,7 +1184,6 @@ export const AeroElectricData = {
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1307,7 +1194,6 @@ export const AeroElectricData = {
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1318,7 +1204,6 @@ export const AeroElectricData = {
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1329,7 +1214,6 @@ export const AeroElectricData = {
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1340,7 +1224,6 @@ export const AeroElectricData = {
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1351,7 +1234,6 @@ export const AeroElectricData = {
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1362,7 +1244,6 @@ export const AeroElectricData = {
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1373,7 +1254,6 @@ export const AeroElectricData = {
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1384,7 +1264,6 @@ export const AeroElectricData = {
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1403,7 +1282,6 @@ export const AeroElectricData = {
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1414,7 +1292,6 @@ export const AeroElectricData = {
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1426,7 +1303,6 @@ export const AeroElectricData = {
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1437,7 +1313,6 @@ export const AeroElectricData = {
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1448,7 +1323,6 @@ export const AeroElectricData = {
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1459,7 +1333,6 @@ export const AeroElectricData = {
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1470,7 +1343,6 @@ export const AeroElectricData = {
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1481,7 +1353,6 @@ export const AeroElectricData = {
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1492,7 +1363,6 @@ export const AeroElectricData = {
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1503,7 +1373,6 @@ export const AeroElectricData = {
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1514,7 +1383,6 @@ export const AeroElectricData = {
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1525,7 +1393,6 @@ export const AeroElectricData = {
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1545,7 +1412,6 @@ export const FusionData =
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1556,7 +1422,6 @@ export const FusionData =
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1568,7 +1433,6 @@ export const FusionData =
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1579,7 +1443,6 @@ export const FusionData =
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1590,7 +1453,6 @@ export const FusionData =
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1601,7 +1463,6 @@ export const FusionData =
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1612,7 +1473,6 @@ export const FusionData =
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1623,7 +1483,6 @@ export const FusionData =
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1634,7 +1493,6 @@ export const FusionData =
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1645,7 +1503,6 @@ export const FusionData =
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1656,7 +1513,6 @@ export const FusionData =
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1667,7 +1523,6 @@ export const FusionData =
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1687,7 +1542,6 @@ export const FusionData =
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1698,7 +1552,6 @@ export const FusionData =
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1710,7 +1563,6 @@ export const FusionData =
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1721,7 +1573,6 @@ export const FusionData =
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1732,7 +1583,6 @@ export const FusionData =
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1743,7 +1593,6 @@ export const FusionData =
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1754,7 +1603,6 @@ export const FusionData =
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1765,7 +1613,6 @@ export const FusionData =
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1776,7 +1623,6 @@ export const FusionData =
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1787,7 +1633,6 @@ export const FusionData =
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1798,7 +1643,6 @@ export const FusionData =
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1809,7 +1653,6 @@ export const FusionData =
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1829,7 +1672,6 @@ export const FusionData =
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1840,7 +1682,6 @@ export const FusionData =
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1852,7 +1693,6 @@ export const FusionData =
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1863,7 +1703,6 @@ export const FusionData =
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1874,7 +1713,6 @@ export const FusionData =
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1885,7 +1723,6 @@ export const FusionData =
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1896,7 +1733,6 @@ export const FusionData =
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1907,7 +1743,6 @@ export const FusionData =
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1918,7 +1753,6 @@ export const FusionData =
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1929,7 +1763,6 @@ export const FusionData =
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1940,7 +1773,6 @@ export const FusionData =
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1951,7 +1783,6 @@ export const FusionData =
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -1970,7 +1801,6 @@ export const FusionData =
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1981,7 +1811,6 @@ export const FusionData =
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -1993,7 +1822,6 @@ export const FusionData =
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2004,7 +1832,6 @@ export const FusionData =
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2015,7 +1842,6 @@ export const FusionData =
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2026,7 +1852,6 @@ export const FusionData =
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2037,7 +1862,6 @@ export const FusionData =
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2048,7 +1872,6 @@ export const FusionData =
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2059,7 +1882,6 @@ export const FusionData =
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2070,7 +1892,6 @@ export const FusionData =
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2081,7 +1902,6 @@ export const FusionData =
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2092,7 +1912,6 @@ export const FusionData =
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2111,7 +1930,6 @@ export const FusionData =
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2122,7 +1940,6 @@ export const FusionData =
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2134,7 +1951,6 @@ export const FusionData =
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2145,7 +1961,6 @@ export const FusionData =
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2156,7 +1971,6 @@ export const FusionData =
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2167,7 +1981,6 @@ export const FusionData =
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2178,7 +1991,6 @@ export const FusionData =
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2189,7 +2001,6 @@ export const FusionData =
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2200,7 +2011,6 @@ export const FusionData =
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2211,7 +2021,6 @@ export const FusionData =
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2222,7 +2031,6 @@ export const FusionData =
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2233,7 +2041,6 @@ export const FusionData =
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2252,7 +2059,6 @@ export const FusionData =
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2263,7 +2069,6 @@ export const FusionData =
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2275,7 +2080,6 @@ export const FusionData =
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2286,7 +2090,6 @@ export const FusionData =
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2297,7 +2100,6 @@ export const FusionData =
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2308,7 +2110,6 @@ export const FusionData =
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2319,7 +2120,6 @@ export const FusionData =
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2330,7 +2130,6 @@ export const FusionData =
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2341,7 +2140,6 @@ export const FusionData =
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2352,7 +2150,6 @@ export const FusionData =
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2363,7 +2160,6 @@ export const FusionData =
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2374,7 +2170,6 @@ export const FusionData =
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2393,7 +2188,6 @@ export const FusionData =
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2404,7 +2198,6 @@ export const FusionData =
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2416,7 +2209,6 @@ export const FusionData =
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2427,7 +2219,6 @@ export const FusionData =
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2438,7 +2229,6 @@ export const FusionData =
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2449,7 +2239,6 @@ export const FusionData =
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2460,7 +2249,6 @@ export const FusionData =
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2471,7 +2259,6 @@ export const FusionData =
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2482,7 +2269,6 @@ export const FusionData =
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2493,7 +2279,6 @@ export const FusionData =
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2504,7 +2289,6 @@ export const FusionData =
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2515,7 +2299,6 @@ export const FusionData =
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2532,7 +2315,6 @@ export const FusionData =
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2543,7 +2325,6 @@ export const FusionData =
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2555,7 +2336,6 @@ export const FusionData =
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2566,7 +2346,6 @@ export const FusionData =
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2577,7 +2356,6 @@ export const FusionData =
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2588,7 +2366,6 @@ export const FusionData =
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2599,7 +2376,6 @@ export const FusionData =
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2610,7 +2386,6 @@ export const FusionData =
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2621,7 +2396,6 @@ export const FusionData =
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2632,7 +2406,6 @@ export const FusionData =
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2643,7 +2416,6 @@ export const FusionData =
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2654,7 +2426,6 @@ export const FusionData =
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2670,7 +2441,6 @@ export const FusionData =
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2681,7 +2451,6 @@ export const FusionData =
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2693,7 +2462,6 @@ export const FusionData =
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2704,7 +2472,6 @@ export const FusionData =
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2715,7 +2482,6 @@ export const FusionData =
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2726,7 +2492,6 @@ export const FusionData =
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2737,7 +2502,6 @@ export const FusionData =
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2748,7 +2512,6 @@ export const FusionData =
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2759,7 +2522,6 @@ export const FusionData =
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2770,7 +2532,6 @@ export const FusionData =
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2781,7 +2542,6 @@ export const FusionData =
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2792,7 +2552,6 @@ export const FusionData =
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2811,7 +2570,6 @@ export const FusionData =
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2822,7 +2580,6 @@ export const FusionData =
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2834,7 +2591,6 @@ export const FusionData =
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2845,7 +2601,6 @@ export const FusionData =
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2856,7 +2611,6 @@ export const FusionData =
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2867,7 +2621,6 @@ export const FusionData =
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2878,7 +2631,6 @@ export const FusionData =
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2889,7 +2641,6 @@ export const FusionData =
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2900,7 +2651,6 @@ export const FusionData =
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2911,7 +2661,6 @@ export const FusionData =
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2922,7 +2671,6 @@ export const FusionData =
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2933,7 +2681,6 @@ export const FusionData =
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -2949,7 +2696,6 @@ export const FusionData =
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2960,7 +2706,6 @@ export const FusionData =
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2972,7 +2717,6 @@ export const FusionData =
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2983,7 +2727,6 @@ export const FusionData =
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -2994,7 +2737,6 @@ export const FusionData =
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3005,7 +2747,6 @@ export const FusionData =
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3016,7 +2757,6 @@ export const FusionData =
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3027,7 +2767,6 @@ export const FusionData =
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3038,7 +2777,6 @@ export const FusionData =
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3049,7 +2787,6 @@ export const FusionData =
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3060,7 +2797,6 @@ export const FusionData =
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3071,7 +2807,6 @@ export const FusionData =
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3087,7 +2822,6 @@ export const FusionData =
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3098,7 +2832,6 @@ export const FusionData =
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3110,7 +2843,6 @@ export const FusionData =
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3121,7 +2853,6 @@ export const FusionData =
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3132,7 +2863,6 @@ export const FusionData =
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3143,7 +2873,6 @@ export const FusionData =
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3154,7 +2883,6 @@ export const FusionData =
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3165,7 +2893,6 @@ export const FusionData =
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3176,7 +2903,6 @@ export const FusionData =
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3187,7 +2913,6 @@ export const FusionData =
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3198,7 +2923,6 @@ export const FusionData =
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3209,7 +2933,6 @@ export const FusionData =
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3230,7 +2953,6 @@ export const FusionData =
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3241,7 +2963,6 @@ export const FusionData =
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3253,7 +2974,6 @@ export const FusionData =
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3264,7 +2984,6 @@ export const FusionData =
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3275,7 +2994,6 @@ export const FusionData =
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3286,7 +3004,6 @@ export const FusionData =
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3297,7 +3014,6 @@ export const FusionData =
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3308,7 +3024,6 @@ export const FusionData =
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3319,7 +3034,6 @@ export const FusionData =
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3330,7 +3044,6 @@ export const FusionData =
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3341,7 +3054,6 @@ export const FusionData =
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3352,7 +3064,6 @@ export const FusionData =
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3367,7 +3078,6 @@ export const FusionData =
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3378,7 +3088,6 @@ export const FusionData =
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3390,7 +3099,6 @@ export const FusionData =
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3401,7 +3109,6 @@ export const FusionData =
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3412,7 +3119,6 @@ export const FusionData =
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3423,7 +3129,6 @@ export const FusionData =
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3434,7 +3139,6 @@ export const FusionData =
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3445,7 +3149,6 @@ export const FusionData =
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3456,7 +3159,6 @@ export const FusionData =
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3467,7 +3169,6 @@ export const FusionData =
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3478,7 +3179,6 @@ export const FusionData =
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3489,7 +3189,6 @@ export const FusionData =
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3505,7 +3204,6 @@ export const FusionData =
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3516,7 +3214,6 @@ export const FusionData =
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3528,7 +3225,6 @@ export const FusionData =
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3539,7 +3235,6 @@ export const FusionData =
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3550,7 +3245,6 @@ export const FusionData =
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3561,7 +3255,6 @@ export const FusionData =
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3572,7 +3265,6 @@ export const FusionData =
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3583,7 +3275,6 @@ export const FusionData =
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3594,7 +3285,6 @@ export const FusionData =
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3605,7 +3295,6 @@ export const FusionData =
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3616,7 +3305,6 @@ export const FusionData =
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3627,7 +3315,6 @@ export const FusionData =
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3643,7 +3330,6 @@ export const FusionData =
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3654,7 +3340,6 @@ export const FusionData =
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3666,7 +3351,6 @@ export const FusionData =
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3677,7 +3361,6 @@ export const FusionData =
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3688,7 +3371,6 @@ export const FusionData =
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3699,7 +3381,6 @@ export const FusionData =
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3710,7 +3391,6 @@ export const FusionData =
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3721,7 +3401,6 @@ export const FusionData =
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3732,7 +3411,6 @@ export const FusionData =
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3743,7 +3421,6 @@ export const FusionData =
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3754,7 +3431,6 @@ export const FusionData =
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3765,7 +3441,6 @@ export const FusionData =
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3782,7 +3457,6 @@ export const FusionData =
   January: [
     {
       eventName: '1234',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3793,7 +3467,6 @@ export const FusionData =
   February: [
     {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3805,7 +3478,6 @@ export const FusionData =
     // Events for March
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3816,7 +3488,6 @@ export const FusionData =
     // Events for April
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3827,7 +3498,6 @@ export const FusionData =
     // Events for May
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3838,7 +3508,6 @@ export const FusionData =
     // Events for June
      {
       eventName: 'CodeforCause Hackathon 1',
-      poster: CfcPoster,
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -3849,7 +3518,6 @@ export const FusionData =
       // Events for July
        {
         eventName: 'Tadikonda Sai Manikanta',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3860,7 +3528,6 @@ export const FusionData =
       // Events for August
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3871,7 +3538,6 @@ export const FusionData =
       // Events for September
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3882,7 +3548,6 @@ export const FusionData =
       // Events for October
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3893,7 +3558,6 @@ export const FusionData =
       // Events for November
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3904,15 +3568,12 @@ export const FusionData =
       // Events for December
        {
         eventName: 'CodeforCause Hackathon 1',
-        poster: CfcPoster,
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
         reportLink: 'https://example.com/report1',
       },
     ],
-
   };
-
-  export default ZeroOneData;
   
+  export default ZeroOneData;

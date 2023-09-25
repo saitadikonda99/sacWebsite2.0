@@ -364,9 +364,10 @@ function Page() {
                         {/* // Tech Section */}
                             {/* ZeroOne */}
                             <div className={techMonth === 1 ? 'Event-Calendar' : 'Calendar-hide'}>
-                            {Array.from({ length: 12 }, (_, index) => {
-                              const month = index + 1;
-                              if (month >= 7 && month <= 12) {
+                              {Array.from({ length: 12 }, (_, index) => {
+                                const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                                const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
+
                                 return (
                                   <div
                                     key={month}
@@ -374,21 +375,23 @@ function Page() {
                                     id={zeroOneMonth === month ? 'Event-m-hovers' : ''}
                                     onClick={() => handleZeroOne(month)}
                                   >
-                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
+                                    {monthName}
                                   </div>
                                 );
-                              }
-                              return null; // Exclude months from January to June from rendering
-                            })}
-                          </div>
+                              })}
+                            </div>
+
+
+
 
 
                             {/* AeroElectric */}
 
                             <div className={techMonth === 2 ? 'Event-Calendar' : 'Calendar-hide'}>
                                 {Array.from({ length: 12 }, (_, index) => {
-                                  const month = index + 1;
-                              if (month >= 7 && month <= 12) {
+                                 const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
+ 
                                   return (
                                     <div
                                       key={month}
@@ -396,11 +399,9 @@ function Page() {
                                       id={AeroElectricMonth === month ? 'Event-m-hovers' : ''}
                                       onClick={() => handleAeroElectric(month)}
                                     >
-                                      {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
+                                      {monthName}
                                     </div>
                                   );
-                                }
-                                return null;
                                 })}
                             </div>
 
@@ -408,8 +409,9 @@ function Page() {
 
                             <div className={techMonth === 3 ? 'Event-Calendar' : 'Calendar-hide'}>
                                 {Array.from({ length: 12 }, (_, index) => {
-                                  const month = index + 1;
-                              if (month >= 7 && month <= 12) {
+                                 const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
+ 
 
                                   return (
                                     <div
@@ -418,19 +420,19 @@ function Page() {
                                       id={CyberMonth === month ? 'Event-m-hovers' : ''}
                                       onClick={() => handleCyber(month)}
                                     >
-                                      {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
+                                       {monthName}
                                     </div>
                                   );
-                                }
-                                return null;
                                 })}
                             </div>
+                                 
 
                              {/* WebApps */}
                                   <div className={techMonth === 4 ? 'Event-Calendar' : 'Calendar-hide'}>
                                       {Array.from({ length: 12 }, (_, index) => {
-                                          const month = index + 1;
-                              if (month >= 7 && month <= 12) {
+                                         const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
+ 
                                           
                                           return (
                                               <div
@@ -439,19 +441,18 @@ function Page() {
                                                   id={webAppsMonth === month ? 'Event-m-hovers' : ''}
                                                   onClick={() => handleWebApps(month)}
                                               >
-                                                  {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                              </div>
-                                          );
-                                        }
-                                        return null;
-                                      })}
-                                  </div>
+                                                   {monthName}
+                                    </div>
+                                  );
+                                })}
+                            </div> 
 
                                       {/* TechHuma */}
                                       <div className={techMonth === 5 ? 'Event-Calendar' : 'Calendar-hide'}>
                                           {Array.from({ length: 12 }, (_, index) => {
-                                              const month = index + 1;
-                              if (month >= 7 && month <= 12) {
+                                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
+ 
 
                                               return (
                                                   <div
@@ -460,19 +461,19 @@ function Page() {
                                                       id={techHumaMonth === month ? 'Event-m-hovers' : ''}
                                                       onClick={() => handleTechHuma(month)}
                                                   >
-                                                      {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                                  </div>
-                                              );
-                                            }
-                                            return null;
-                                          })}
-                                      </div>
+                                                       {monthName}
+                                    </div>
+                                  );
+                                })}
+                            </div>
+                                             
 
                                     {/* Robotics */}
                                     <div className={techMonth === 6 ? 'Event-Calendar' : 'Calendar-hide'}>
                                         {Array.from({ length: 12 }, (_, index) => {
-                                            const month = index + 1;
-                              if (month >= 7 && month <= 12) {
+                                           const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
+ 
 
                                             return (
                                                 <div
@@ -481,20 +482,20 @@ function Page() {
                                                     id={roboticsMonth === month ? 'Event-m-hovers' : ''}
                                                     onClick={() => handleRobotics(month)}
                                                 >
-                                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                                </div>
-                                            );
-                                          }
-                                          return null;
-                                        })}
+                                                     {monthName}
                                     </div>
+                                  );
+                                })}
+                            </div>
+                                                
 
 
                                     {/* Animation */}
                                     <div className={techMonth === 7 ? 'Event-Calendar' : 'Calendar-hide'}>
                                         {Array.from({ length: 12 }, (_, index) => {
-                                            const month = index + 1;
-                              if (month >= 7 && month <= 12) {
+                                           const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
+ 
 
                                             return (
                                                 <div
@@ -503,19 +504,18 @@ function Page() {
                                                     id={animationMonth === month ? 'Event-m-hovers' : ''}
                                                     onClick={() => handleAnimation(month)}
                                                 >
-                                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                                </div>
-                                            );
-                                          }
-                                          return null;
-                                        })}
+                                                     {monthName}
                                     </div>
+                                  );
+                                })}
+                            </div> 
 
                                     {/* Automobile */}
                                     <div className={techMonth === 8 ? 'Event-Calendar' : 'Calendar-hide'}>
                                         {Array.from({ length: 12 }, (_, index) => {
-                                            const month = index + 1;
-                              if (month >= 7 && month <= 12) {
+                                           const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
+ 
 
                                             return (
                                                 <div
@@ -524,19 +524,18 @@ function Page() {
                                                     id={automobileMonth === month ? 'Event-m-hovers' : ''}
                                                     onClick={() => handleAutomobile(month)}
                                                 >
-                                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                                </div>
-                                            );
-                                          }
-                                          return null;
-                                        })}
+                                                     {monthName}
                                     </div>
+                                  );
+                                })}
+                            </div> 
 
                                      {/* Agriculture */}
                                      <div className={techMonth === 9 ? 'Event-Calendar' : 'Calendar-hide'}>
                                         {Array.from({ length: 12 }, (_, index) => {
-                                            const month = index + 1;
-                              if (month >= 7 && month <= 12) {
+                                           const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
+ 
 
                                             return (
                                                 <div
@@ -545,20 +544,18 @@ function Page() {
                                                     id={AgricultureMonth === month ? 'Event-m-hovers' : ''}
                                                     onClick={() => handleAgriculture(month)}
                                                 >
-                                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                                </div>
-                                            );
-                                          }
-                                          return null;
-                                        })}
+                                                     {monthName}
                                     </div>
-
+                                  );
+                                })}
+                            </div> 
 
                                     {/* MobileESports */}
                                     <div className={techMonth === 10 ? 'Event-Calendar' : 'Calendar-hide'}>
                                         {Array.from({ length: 12 }, (_, index) => {
-                                            const month = index + 1;
-                              if (month >= 7 && month <= 12) {
+                                           const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
+ 
 
                                             return (
                                                 <div
@@ -567,20 +564,19 @@ function Page() {
                                                     id={mobileESportsMonth === month ? 'Event-m-hovers' : ''}
                                                     onClick={() => handleMobileESports(month)}
                                                 >
-                                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                                </div>
-                                            );
-                                          }
-                                          return null;
-                                        })}
+                                                     {monthName}
                                     </div>
+                                  );
+                                })}
+                            </div>
 
 
                                     {/* AI */}
                                     <div className={techMonth === 11 ? 'Event-Calendar' : 'Calendar-hide'}>
                                         {Array.from({ length: 12 }, (_, index) => {
-                                            const month = index + 1;
-                              if (month >= 7 && month <= 12) {
+                                           const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
+ 
 
                                             return (
                                                 <div
@@ -589,15 +585,12 @@ function Page() {
                                                     id={aiMonth === month ? 'Event-m-hovers' : ''}
                                                     onClick={() => handleAI(month)}
                                                 >
-                                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                                </div>
-                                            );
-                                          }
-                                          return null;
-                                        })}
+                                                     {monthName}
                                     </div>
-
-                       
+                                  );
+                                })}
+                            </div>
+                                             
                         {/* zeroOne calender  */}
 
                         {/* Loop through months */}
@@ -742,8 +735,9 @@ function Page() {
                           {/* Fusion */}
                           <div className={liberalMonth === 1 ? 'Event-Calendar' : 'Calendar-hide'}>
                             {Array.from({ length: 12 }, (_, index) => {
-                              const month = index + 1;
-                              if (month >= 7 && month <= 12) {
+                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
+ 
                                 return (
                                   <div
                                     key={month}
@@ -751,19 +745,19 @@ function Page() {
                                     id={fusionMonth === month ? 'Event-m-hovers' : ''}
                                     onClick={() => handleFusion(month)}
                                   >
-                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                  </div>
-                                );
-                              }
-                              return null; // Exclude months from January to June from rendering
-                            })}
-                          </div>
+                                     {monthName}
+                                    </div>
+                                  );
+                                })}
+                            </div>
+                                 
 
                           {/* Swara */}
                           <div className={liberalMonth === 2 ? 'Event-Calendar' : 'Calendar-hide'}>
                             {Array.from({ length: 12 }, (_, index) => {
-                              const month = index + 1;
-                              if (month >= 7 && month <= 12) {
+                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
+ 
                                 return (
                                   <div
                                     key={month}
@@ -771,19 +765,19 @@ function Page() {
                                     id={swaraMonth === month ? 'Event-m-hovers' : ''}
                                     onClick={() => handleSwara(month)}
                                   >
-                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                  </div>
-                                );
-                              }
-                              return null; // Exclude months from January to June from rendering
-                            })}
-                          </div>
+                                     {monthName}
+                                    </div>
+                                  );
+                                })}
+                            </div>
+                                 
 
                           {/* Vachas */}
                           <div className={liberalMonth === 3 ? 'Event-Calendar' : 'Calendar-hide'}>
                             {Array.from({ length: 12 }, (_, index) => {
-                              const month = index + 1;
-                              if (month >= 7 && month <= 12) {
+                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
+ 
                                 return (
                                   <div
                                     key={month}
@@ -791,19 +785,19 @@ function Page() {
                                     id={vachasMonth === month ? 'Event-m-hovers' : ''}
                                     onClick={() => handleVachas(month)}
                                   >
-                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                  </div>
-                                );
-                              }
-                              return null; // Exclude months from January to June from rendering
-                            })}
-                          </div>  
+                                     {monthName}
+                                    </div>
+                                  );
+                                })}
+                            </div>
+                                  
 
                           {/* KLRadio */}
                           <div className={liberalMonth === 4 ? 'Event-Calendar' : 'Calendar-hide'}>
                             {Array.from({ length: 12 }, (_, index) => {
-                              const month = index + 1;
-                              if (month >= 7 && month <= 12) {
+                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
+ 
                                 return (
                                   <div
                                     key={month}
@@ -811,20 +805,20 @@ function Page() {
                                     id={KLRadioMonth === month ? 'Event-m-hovers' : ''}
                                     onClick={() => handleKLRadio(month)}
                                   >
-                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                  </div>
-                                );
-                              }
-                              return null; // Exclude months from January to June from rendering
-                            })}
-                          </div>
+                                     {monthName}
+                                    </div>
+                                  );
+                                })}
+                            </div>
+                                
 
                           {/* FilmMaking */}
 
                           <div className={liberalMonth === 5 ? 'Event-Calendar' : 'Calendar-hide'}>
                             {Array.from({ length: 12 }, (_, index) => {
-                              const month = index + 1;
-                              if (month >= 7 && month <= 12) {
+                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
+ 
                                 return (
                                   <div
                                     key={month}
@@ -832,20 +826,20 @@ function Page() {
                                     id={filmMakingMonth === month ? 'Event-m-hovers' : ''}
                                     onClick={() => handleFilmMaking(month)}
                                   >
-                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                  </div>
-                                );
-                              }
-                              return null; // Exclude months from January to June from rendering
-                            })}
-                          </div>
+                                     {monthName}
+                                    </div>
+                                  );
+                                })}
+                            </div>
+                                 
 
                           {/* Standupcomedy */}
 
                           <div className={liberalMonth === 6 ? 'Event-Calendar' : 'Calendar-hide'}>
                             {Array.from({ length: 12 }, (_, index) => {
-                              const month = index + 1;
-                              if (month >= 7 && month <= 12) {
+                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
+ 
                                 return (
                                   <div
                                     key={month}
@@ -853,22 +847,21 @@ function Page() {
                                     id={standupcomedyMonth === month ? 'Event-m-hovers' : ''}
                                     onClick={() => handleStandupcomedy(month)}
                                   >
-                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                  </div>
-                                );
-                              }
-                              return null; // Exclude months from January to June from rendering
-                            })}
-                          </div>
+                                     {monthName}
+                                    </div>
+                                  );
+                                })}
+                            </div>
+                                 
 
 
                           {/* Dramatics */}
 
                           <div className={liberalMonth === 7 ? 'Event-Calendar' : 'Calendar-hide'}>
                             {Array.from({ length: 12 }, (_, index) => {
-                              const month = index + 1;
+                              const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                              const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
 
-                              if (month >= 7 && month <= 12) {
                                 return (
                                   <div
                                     key={month}
@@ -876,21 +869,21 @@ function Page() {
                                     id={dramaticsMonth === month ? 'Event-m-hovers' : ''}
                                     onClick={() => handleDramatics(month)}
                                   >
-                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                  </div>
-                                );
-                              }
-                              return null; // Exclude months from January to June from rendering
-                            })}
+                                     {monthName}
+                                    </div>
+                                  );
+                                })}
+                            </div>
+                                
 
-                          </div>
+                     
                             
                           {/* Narthana */}
                           <div className={liberalMonth === 8 ? 'Event-Calendar' : 'Calendar-hide'}>
                             {Array.from({ length: 12 }, (_, index) => {
-                              const month = index + 1;
+                              const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                              const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
 
-                              if (month >= 7 && month <= 12) {
                                 return (
                                   <div
                                     key={month}
@@ -898,15 +891,13 @@ function Page() {
                                     id={narthanaMonth === month ? 'Event-m-hovers' : ''}
                                     onClick={() => handleNarthana(month)}
                                   >
-                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                  </div>
-                                );
-                              }
-                              return null; // Exclude months from January to June from rendering
-                            })}
+                                     {monthName}
+                                    </div>
+                                  );
+                                })}
+                            </div>
+                              
 
-
-                          </div>
 
                         {/* Fusion calender  */}
 
@@ -1046,9 +1037,9 @@ function Page() {
                             
                           <div className={startupMonth === 1 ? 'Event-Calendar' : 'Calendar-hide'}>
                             {Array.from({ length: 12 }, (_, index) => {
-                              const month = index + 1;
+                              const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                              const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
 
-                              if (month >= 7 && month <= 12) {
                                 return (
                                   <div
                                     key={month}
@@ -1056,24 +1047,21 @@ function Page() {
                                     id={STMonth === month ? 'Event-m-hovers' : ''}
                                     onClick={() => handleSt(month)}
                                   >
-                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                  </div>
-
-                                );
-                              }
-                              return null; // Exclude months from January to June from rendering
-                            }
-                            )}
-                          </div>
+                                     {monthName}
+                                    </div>
+                                  );
+                                })}
+                            </div>
+                                 
 
 
                           {/* Ideas */}
 
                           <div className={startupMonth === 2 ? 'Event-Calendar' : 'Calendar-hide'}>
                             {Array.from({ length: 12 }, (_, index) => {
-                              const month = index + 1;
-                              
-                              if (month >= 7 && month <= 12) {
+                              const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                              const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
+
                                 return (
                                   <div
                                     key={month}
@@ -1081,22 +1069,19 @@ function Page() {
                                     id={ideasMonth === month ? 'Event-m-hovers' : ''}
                                     onClick={() => handleIdeas(month)}
                                   >
-                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                  </div>
-
-                                );
-                              }
-                              return null; // Exclude months from January to June from rendering
-                            })}
-                          </div>
-
+                                     {monthName}
+                                    </div>
+                                  );
+                                })}
+                            </div>
+                                  
                           {/* ACIC */}
 
                           <div className={startupMonth === 3 ? 'Event-Calendar' : 'Calendar-hide'}>
                             {Array.from({ length: 12 }, (_, index) => {
-                              const month = index + 1;
+                              const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                              const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
 
-                              if (month >= 7 && month <= 12) {
                                 return (
                                   <div
                                     key={month}
@@ -1104,14 +1089,12 @@ function Page() {
                                     id={acicMonth === month ? 'Event-m-hovers' : ''}
                                     onClick={() => handleAcic(month)}
                                   >
-                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                  </div>
-
-                                );
-                              }
-                              return null; // Exclude months from January to June from rendering
-                            })}
-                          </div>
+                                     {monthName}
+                                    </div>
+                                  );
+                                })}
+                            </div>
+                                  
                             
 
                         {/* Startup calender  */}
@@ -1181,9 +1164,9 @@ function Page() {
                         <div className={outreachMonth === 1 ? 'Event-Calendar' : 'Calendar-hide'}>
                           {Array.from({ length: 12 }, (_, index) => {
 
-                            const month = index + 1;
+                      const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                      const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
 
-                            if (month >= 7 && month <= 12) {
                               return (
                                 <div
                                   key={month}
@@ -1191,24 +1174,22 @@ function Page() {
                                   id={ceaMonth === month ? 'Event-m-hovers' : ''}
                                   onClick={() => handleCea(month)}
                                 >
-                                  {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                </div>
-
-                              );
-                            }
-                            return null; // Exclude months from January to June from rendering
-                          })}
-                      </div>
+                                   {monthName}
+                                    </div>
+                                  );
+                                })}
+                            </div>
+                                
 
                           
                         {/* Tourism */} 
 
                         <div className={outreachMonth === 2 ? 'Event-Calendar' : 'Calendar-hide'}>
                           {Array.from({ length: 12 }, (_, index) => {
+                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                             const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
 
-                            const month = index + 1;
-
-                            if (month >= 7 && month <= 12) {
+                          
                               return (
                                 <div
                                   key={month}
@@ -1216,23 +1197,22 @@ function Page() {
                                   id={tourismMonth === month ? 'Event-m-hovers' : ''}
                                   onClick={() => handleTourism(month)}
                                 >
-                                  {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                </div>
+                                   {monthName}
+                                    </div>
+                                  );
+                                })}
+                            </div>
+                               
 
-                              );
-                            }
-                            return null; // Exclude months from January to June from rendering
-                          })}
-                        </div>
-                          
+
                           {/* KL Talks */}
 
                           <div className={outreachMonth === 3 ? 'Event-Calendar' : 'Calendar-hide'}>
                             {Array.from({ length: 12 }, (_, index) => {
 
-                              const month = index + 1;
+                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                              const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
 
-                              if (month >= 7 && month <= 12) {
                                 return (
                                   <div
                                     key={month}
@@ -1240,23 +1220,21 @@ function Page() {
                                     id={klTalksMonth === month ? 'Event-m-hovers' : ''}
                                     onClick={() => handleKlTalks(month)}
                                   >
-                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                  </div>
-
-                                );
-                              }
-                              return null; // Exclude months from January to June from rendering
-                            })}
-                          </div>
+                                     {monthName}
+                                    </div>
+                                  );
+                                })}
+                            </div>
+                                
 
                           {/* SafeLife */}
 
                           <div className={outreachMonth === 4 ? 'Event-Calendar' : 'Calendar-hide'}>
                             {Array.from({ length: 12 }, (_, index) => {
 
-                              const month = index + 1;
+                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                              const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
 
-                              if (month >= 7 && month <= 12) {
                                 return (
                                   <div
                                     key={month}
@@ -1264,23 +1242,20 @@ function Page() {
                                     id={safeLifeMonth === month ? 'Event-m-hovers' : ''}
                                     onClick={() => handleSafeLife(month)}
                                   >
-                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                  </div>
-
-                                );
-                              }
-                              return null; // Exclude months from January to June from rendering
-                            })}
-                          </div>
-
+                                     {monthName}
+                                    </div>
+                                  );
+                                })}
+                            </div>
+                                 
                           {/* Electoral */}
 
                           <div className={outreachMonth === 5 ? 'Event-Calendar' : 'Calendar-hide'}>
                             {Array.from({ length: 12 }, (_, index) => {
 
-                              const month = index + 1;
+                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                              const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
 
-                              if (month >= 7 && month <= 12) {
                                 return (
                                   <div
                                     key={month}
@@ -1288,22 +1263,20 @@ function Page() {
                                     id={electoralMonth === month ? 'Event-m-hovers' : ''}
                                     onClick={() => handleElectoral(month)}
                                   >
-                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                  </div>
-
-                                );
-                              }
-                              return null; // Exclude months from January to June from rendering
-                            })}
-                          </div>
+                                     {monthName}
+                                    </div>
+                                  );
+                                })}
+                            </div>
+                                   
 
                           {/* SVR */}
                           <div className={outreachMonth === 6 ? 'Event-Calendar' : 'Calendar-hide'}>
                             {Array.from({ length: 12 }, (_, index) => {
 
-                              const month = index + 1;
+                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
+                              const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
 
-                              if (month >= 7 && month <= 12) {
                                 return (
                                   <div
                                     key={month}
@@ -1311,14 +1284,12 @@ function Page() {
                                     id={svrMonth === month ? 'Event-m-hovers' : ''}
                                     onClick={() => handleSvr(month)}
                                   >
-                                    {new Date(2023, index, 1).toLocaleString('default', { month: 'long' })}
-                                  </div>
-
-                                );
-                              }
-                              return null; // Exclude months from January to June from rendering
-                            })}
-                          </div>
+                                     {monthName}
+                                    </div>
+                                  );
+                                })}
+                            </div>
+                                  
 
 
                         {/* CEA calender  */}

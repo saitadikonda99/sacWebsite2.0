@@ -1,7 +1,7 @@
 import React from 'react';
 import './BlogsOne.css';
 import storiesImage from '../../Assets/stories.webp';
-
+import {Link as Scroll} from 'react-scroll';
 import Footer from './../../components/Footer/Footer';
 
 const BlogOne = () => {
@@ -31,6 +31,9 @@ const BlogOne = () => {
                                         <p>Deepak Reddy Gathpa</p>
                                         <h1>What You’re Feeling is Platform Fatigue (Or: Why I’m Not Joining Threads)</h1>
                                         <p>Sep 23. 3 mins read</p>
+                                        
+                                        <Scroll className='boiti-link' activeClass="active" to="blog-one" spy ={true} smooth={true} offset={-10} duration={200} >Read More</Scroll>
+
                                     </div>
                                 </div>
                             </div>
@@ -44,6 +47,8 @@ const BlogOne = () => {
                                         <p>Deepak Reddy Gathpa</p>
                                         <h1>What You’re Feeling is Platform Fatigue (Or: Why I’m Not Joining Threads)</h1>
                                         <p>Sep 23. 3 mins read</p>
+
+                                        <Scroll className='boiti-link' activeClass="active" to="blog-two" spy ={true} smooth={true} offset={-10} duration={200} >Read More</Scroll>
                                     </div>
                                 </div>
                             </div>
@@ -57,6 +62,8 @@ const BlogOne = () => {
                                         <p>Deepak Reddy Gathpa</p>
                                         <h1>What You’re Feeling is Platform Fatigue (Or: Why I’m Not Joining Threads)</h1>
                                         <p>Sep 23. 3 mins read</p>
+
+                                        <Scroll className='boiti-link' activeClass="active" to="blog-three" spy ={true} smooth={true} offset={-10} duration={200} >Read More</Scroll>
                                     </div>
                                 </div>
                             </div>
@@ -70,6 +77,8 @@ const BlogOne = () => {
                                         <p>Deepak Reddy Gathpa</p>
                                         <h1>What You’re Feeling is Platform Fatigue (Or: Why I’m Not Joining Threads)</h1>
                                         <p>Sep 23. 3 mins read</p>
+
+                                        <Scroll className='boiti-link' activeClass="active" to="blog-one" spy ={true} smooth={true} offset={-10} duration={200} >Read More</Scroll>
                                     </div>
                                 </div>
                             </div>
@@ -83,6 +92,8 @@ const BlogOne = () => {
                                         <p>Deepak Reddy Gathpa</p>
                                         <h1>What You’re Feeling is Platform Fatigue (Or: Why I’m Not Joining Threads)</h1>
                                         <p>Sep 23. 3 mins read</p>
+
+                                        <Scroll className='boiti-link' activeClass="active" to="blog-one" spy ={true} smooth={true} offset={-10} duration={200} >Read More</Scroll>
                                     </div>
                                 </div>
                             </div>
@@ -96,6 +107,8 @@ const BlogOne = () => {
                                         <p>Deepak Reddy Gathpa</p>
                                         <h1>What You’re Feeling is Platform Fatigue (Or: Why I’m Not Joining Threads)</h1>
                                         <p>Sep 23. 3 mins read</p>
+
+                                        <Scroll className='boiti-link' activeClass="active" to="blog-one" spy ={true} smooth={true} offset={-10} duration={200} >Read More</Scroll>
                                     </div>
                                 </div>
                             </div>
@@ -104,7 +117,7 @@ const BlogOne = () => {
 
                     <div className="Blogs-one-in-three">
                         <div className="Blogs-one-in-three-in">
-                            <div className="boiti-blog">
+                            <div className="boiti-blog blog-one">
                                 <div className="boiti-blog-in">
                                     <div className="boiti-blog-in-one">
                                         <div className="boiti-blog-in-one-one">
@@ -181,7 +194,7 @@ const BlogOne = () => {
 
 
 
-                            <div className="boiti-blog">
+                            <div className="boiti-blog blog-three">
                                 <div className="boiti-blog-in">
                                     <div className="boiti-blog-in-one">
                                         <div className="boiti-blog-in-one-one">
@@ -258,7 +271,7 @@ const BlogOne = () => {
 
 
 
-                            <div className="boiti-blog">
+                            <div className="boiti-blog blog-two">
                                 <div className="boiti-blog-in">
                                     <div className="boiti-blog-in-one">
                                         <div className="boiti-blog-in-one-one">

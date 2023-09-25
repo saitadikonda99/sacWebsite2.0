@@ -307,11 +307,10 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                       >
                         <DialogContent dividers>
                           <iframe
-                            src="https://online.fliphtml5.com/syvtl/zqtg/"
-                            frameborder="0"
-                            style={{ width: '50rem', height: '50rem' }} // Adjust height as needed
-                          >
-                          </iframe>
+                          src="https://online.fliphtml5.com/syvtl/zqtg/"
+                          frameborder="0"
+                          style={{ width: '50rem', height: '50rem' }} // Adjust height as needed
+                        ></iframe>
                         </DialogContent>
                         <DialogActions>
                           <Button autoFocus onClick={handleClose}>
@@ -420,7 +419,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                       <div className="stories-comps-in-two-in">
                         <p>ZeroOne CodeClub</p>
                         <h2>Nurturing a Coding Culture on University</h2>
-                        <Link className='stories-links' to='/'>Read now</Link>
+                        <Link className='stories-links' to='/blogs' onClick={handleclick}>Read now</Link>
                       </div>
                     </div>
                   </div>
@@ -434,7 +433,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                       <div className="stories-comps-in-two-in">
                         <p>ZeroOne CodeClub</p>
                         <h2>Nurturing a Coding Culture on University</h2>
-                        <Link className='stories-links' to='/'>Read now</Link>
+                        <Link className='stories-links' to='/blogs' onClick={handleclick}>Read now</Link>
                       </div>
                     </div>
                   </div>
@@ -448,7 +447,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                       <div className="stories-comps-in-two-in">
                         <p>ZeroOne CodeClub</p>
                         <h2>Nurturing a Coding Culture on University</h2>
-                        <Link className='stories-links' to='/'>Read now</Link>
+                        <Link className='stories-links' to='/blogs' onClick={handleclick}>Read now</Link>
                       </div>
                     </div>
                   </div>

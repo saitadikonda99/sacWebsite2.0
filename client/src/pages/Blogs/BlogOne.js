@@ -29,7 +29,7 @@ const BlogOne = () => {
   return (
     <div className='BlogsPage'>
         <div className="BlogsPageContainer">
-        <div className="Event-Nav">
+        <div className="Event-Nav blogs-one-nav">
                     <div className='HomeNavComponent blogs-one-nav'>
                         <div className="HomeNavContainer">
                             <div className="HomeNavLogo">
@@ -156,7 +156,7 @@ const BlogOne = () => {
                         </div>
                     </div>
 
-                    <div className="Blogs-one-in-three">
+                    <div className="Blogs-one-in-three" id='blogs-scroll-one'>
                         <div className="Blogs-one-in-three-in">
                             <div className="boiti-blog blog-one">
                                 <div className="boiti-blog-in">

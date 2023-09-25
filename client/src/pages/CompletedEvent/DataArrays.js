@@ -1,14 +1,13 @@
-// this file contains the all data of the events belongs to particular clubs from different domains
-
 const ZeroOneData = {
     January: [
       {
-        eventName: '1234',
+        eventName: 'ZeroOneData',
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
         reportLink: 'https://example.com/report1',
       },
+      
       // Add more events for January if needed
     ],
     February: [
@@ -128,7 +127,7 @@ export const AeroElectricData = {
    
   January: [
     {
-      eventName: '1234',
+      eventName: 'AeroElectricData',
       date: '28-09-2023',
       studentCoordinator: 'Deepak Reddy Gathpa',
       facultyCoordinator: 'Ravi Babu K',
@@ -252,7 +251,7 @@ export const AeroElectricData = {
    
     January: [
       {
-        eventName: '1234',
+        eventName: 'saii',
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
         facultyCoordinator: 'Ravi Babu K',
@@ -3577,3 +3576,5 @@ export const FusionData =
   };
   
   export default ZeroOneData;
+
+ 

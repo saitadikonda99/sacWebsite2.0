@@ -90,6 +90,14 @@
     width: 32%;
 }
 
+.silactivities-in-header-two thead tr th:nth-child(6) {
+    background-color: black;
+    width: 32%;
+}
+
+
+
+
 .silactivities-in-header-two table tbody tr td {
     text-align: center;
 }
@@ -106,3 +114,55 @@
     border: 0.1rem solid rgb(151, 0, 3);
     padding: 0.2rem 0.5rem;
 }
+
+
+
+
+
+
+
+
+.silactivities-in table thead tr th:nth-child(1) {
+    background-color: rgb(151, 0, 3);
+    width: 3%;
+}
+
+.silactivities-in table thead tr th:nth-child(2) {
+    background-color: rgb(151, 0, 3);
+    width: 25%;
+}
+
+.silactivities-in table thead tr th:nth-child(3) {
+    background-color: rgb(151, 0, 3);
+    width: 15%;
+}
+
+.silactivities-in table thead tr th:nth-child(4) {
+    background-color: rgb(151, 0, 3);
+    width: 13%;
+}
+
+.silactivities-in table thead tr th:nth-child(5) {
+    background-color: rgb(151, 0, 3);
+    width: 14%;
+}
+
+.silactivities-in table thead tr th:nth-child(6) {
+    background-color: rgb(151, 0, 3);
+    width: 10%;
+}
+.silactivities-in table thead tr th:nth-child(7) {
+    background-color: rgb(151, 0, 3);
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+

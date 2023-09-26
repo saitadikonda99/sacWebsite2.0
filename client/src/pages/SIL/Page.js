@@ -113,6 +113,7 @@ const Page = () => {
                   <th>Date</th>
                   <th>Time</th>
                   <th>Venue</th>
+                  <th>Student Organizer</th>
                 </tr>
               </thead>
               <tbody>
@@ -124,6 +125,7 @@ const Page = () => {
                     <td>{activity.date}</td>
                     <td>{activity.time}</td>
                     <td>{activity.venue}</td>
+                    <td>{activity.organizer}</td>
                   </tr>
                 ))}
               </tbody>

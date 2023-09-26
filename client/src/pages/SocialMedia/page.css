@@ -1,8 +1,17 @@
-
-
-
-
-.sm-one {
-    display: flex;
-    column-gap: 1rem;
-}
+/* Apply styles for horizontal scrolling */
+#horizontal-scroll {
+    overflow-x: auto;       /* Enable horizontal scrollbar when content overflows */
+    white-space: nowrap;   /* Prevent line breaks within the content */
+    width: 100%;
+    border: 2px solid black;  
+             /* Optionally, make the div full-width */
+    /* Add any other necessary styling */
+  }
+  
+  /* Apply styles for vertical scrolling */
+  #page-content {
+    overflow-y: auto;       /* Enable vertical scrollbar when content overflows */
+    height: 100vh;          /* Set a height for the scrolling content area (adjust as needed) */
+    /* Add any other necessary styling */
+  }
+  

@@ -1,6 +1,14 @@
 const ZeroOneData = {
     January: [
       {
+        eventName: 'Zeroonedata',
+        date: '28-09-2023',
+        studentCoordinator: 'Deepak Reddy Gathpa',
+        facultyCoordinator: 'Ravi Babu K',
+        reportLink: 'https://example.com/report1',
+      },
+
+      {
         eventName: 'ZeroOneData',
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
@@ -12,6 +20,7 @@ const ZeroOneData = {
     ],
     February: [
       {
+
         eventName: 'CodeforCause Hackathon 1',
         date: '28-09-2023',
         studentCoordinator: 'Deepak Reddy Gathpa',
@@ -3576,5 +3585,3 @@ export const FusionData =
   };
   
   export default ZeroOneData;
-
- 

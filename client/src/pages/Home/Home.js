@@ -464,14 +464,6 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
         </div>
 
 
-        <div className="gallery">
-          <div className="gallery-in">
-            <div className="gallery-one">
-                
-            </div>
-          </div>
-        </div>
-
 
       <div className="news">
         <div className="news-header">
@@ -485,7 +477,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                 <div className="news-one-in">
                   <img src={NewsOne} alt="" />
                   <div className="news-one-in-desc">
-                    <p>Council General Body Meeting</p>
+                    <p>Senior Tales</p>
                     <p>Stanford students create and apply knowledge by thinking and doing, preparing for leadership in a rapidly changing world.</p>
                     <p>September 8th 2023</p>
                   </div>

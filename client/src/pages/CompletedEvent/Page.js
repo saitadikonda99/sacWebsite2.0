@@ -368,8 +368,9 @@ export default Page
  
 
 
-
 function EventsTables({ eventData }) {
+  let serialNumber = 0; // Initialize the serial number outside the map function
+
   return (
     <div className="Events-table">
       <table>
@@ -388,7 +389,7 @@ function EventsTables({ eventData }) {
           {Object.entries(eventData).map(([month, events]) => (
             events.map((event, index) => (
               <tr key={index}>
-                <td>{index+1}</td> {/* Calculate the serial number */}
+                <td>{serialNumber += 1}</td> {/* Increment the serial number */}
                 <td>{event.eventName}</td>
                 {index === 0 && <td rowSpan={events.length}>{month}</td>}
                 <td>{event.date}</td>

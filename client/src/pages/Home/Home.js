@@ -307,11 +307,10 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                       >
                         <DialogContent dividers>
                           <iframe
-                            src="https://online.fliphtml5.com/syvtl/zqtg/"
-                            frameborder="0"
-                            style={{ width: '50rem', height: '50rem' }} // Adjust height as needed
-                          >
-                          </iframe>
+                          src="https://online.fliphtml5.com/syvtl/zqtg/"
+                          frameborder="0"
+                          style={{ width: '50rem', height: '50rem' }} // Adjust height as needed
+                        ></iframe>
                         </DialogContent>
                         <DialogActions>
                           <Button autoFocus onClick={handleClose}>
@@ -432,6 +431,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                     </div>
                     <div className="stories-comps-in-two">
                       <div className="stories-comps-in-two-in">
+
                       <p>Mohammad Jawaad</p>
                         <h2>Enriching Journeys at SAC: From Stand-up Comedy to the Fashion Runway</h2>
                         <Link className='stories-links' to='/blogs' onClick={handleclick}>Read now</Link>
@@ -446,7 +446,8 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                     </div>
                     <div className="stories-comps-in-two">
                       <div className="stories-comps-in-two-in">
-                      <p>Mohammad Jawaad</p>
+
+                        <p>Mohammad Jawaad</p>
                         <h2>A Journey: Battling Addiction and Depression with Martial Arts and MMA</h2>
                         <Link className='stories-links' to='/blogs' onClick={handleclick}>Read now</Link>
                       </div>

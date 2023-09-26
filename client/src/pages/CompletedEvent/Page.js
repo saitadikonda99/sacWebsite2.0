@@ -24,7 +24,6 @@ import { MobileESportsData } from './DataArrays'
 import { AIData } from './DataArrays'
 
 
-
 // ---------------------- Liberal Arts ----------------------
 import { FusionData } from './DataArrays'
 import { SwaraData } from './DataArrays'
@@ -40,6 +39,8 @@ import { NarthanaData } from './DataArrays'
 import { STData } from './DataArrays'
 import { IdeasData} from './DataArrays'
 import { ACICData } from './DataArrays'
+import { combinedDataIncu } from './DataArrays'
+
 
 // ---------------------- Outreach & Society ----------------------
 
@@ -57,35 +58,6 @@ function Page() {
     const [liberalMonth, setLiberal] = useState(0);
     const [startupMonth, setStartup] = useState(0);
     const [outreachMonth, setoutreachMonth] = useState(0);
-    const [zeroOneMonth, setZeroOne] = useState(0);
-    const [AeroElectricMonth, setAeroElectricMonth] = useState(0);
-    const [CyberMonth, setCyber] = useState(0);
-    const [webAppsMonth, setWebApps] = useState(0);
-    const [techHumaMonth, setTechHuma] = useState(0);
-    const [roboticsMonth, setRobotics] = useState(0);   
-    const [animationMonth, setAnimation] = useState(0);
-    const [AgricultureMonth, setAgriculture] = useState(0);
-    const [automobileMonth, setAutomobile] = useState(0);
-    const [mobileESportsMonth, setMobileESports] = useState(0);
-    const [aiMonth, setAI] = useState(0);
-    const [fusionMonth, setFusion] = useState(0);
-    const [swaraMonth, setSwara] = useState(0);
-    const [vachasMonth, setVachas] = useState(0);
-    const [KLRadioMonth, setKLRadio] = useState(0);
-    const [filmMakingMonth, setFilmMaking] = useState(0);
-    const [standupcomedyMonth, setStandupcomedy] = useState(0);
-    const [dramaticsMonth, setDramatics] = useState(0);
-    const [narthanaMonth, setNarthana] = useState(0);
-    const [acicMonth, setAcic] = useState(0);
-    const [ideasMonth, setIdeas] = useState(0);
-    const [STMonth, setST] = useState(0);
-    const [ceaMonth, setCea] = useState(0);
-    const [tourismMonth, setTourism] = useState(0);
-    const [klTalksMonth, setKlTalks] = useState(0);
-    const [safeLifeMonth, setSafeLife] = useState(0);
-    const [electoralMonth, setElectoral] = useState(0);
-    const [svrMonth, setSvr] = useState(0);
-
     
     
 
@@ -95,181 +67,25 @@ function Page() {
         setLiberal(0)
         setStartup(0)
         setoutreachMonth(0)
-        setZeroOne(0)
-        setAeroElectricMonth(0)
-        setCyber(0)
-        setWebApps(0)
-        setTechHuma(0)
-        setRobotics(0)
-        setAnimation(0)
-        setAgriculture(0)
-        setAutomobile(0)
-        setMobileESports(0)
-        setAI(0)
-        setFusion(0)
-        setSwara(0)
-        setVachas(0)
-        setKLRadio(0)
-        setFilmMaking(0)
-        setStandupcomedy(0)
-        setDramatics(0)
-        setNarthana(0)
-        setAcic(0)
-        setIdeas(0)
-        setST(0)
-        setCea(0)
-        setTourism(0)
-        setKlTalks(0)
-        setSafeLife(0)
-        setElectoral(0)
-        setSvr(0)
     }
 
     const handleTech = (Number) => {
         setTech(Number)
-        setZeroOne(0)
-        setAeroElectricMonth(0)
-        setCyber(0)
-        setWebApps(0)
-        setTechHuma(0)
-        setRobotics(0)
-        setAnimation(0)
-        setAgriculture(0)
-        setAutomobile(0)
-        setMobileESports(0)
-        setAI(0)
     }
 
 
     const handleLiberal = (Number) => {
         setLiberal(Number)
-        setFusion(0)
-        setSwara(0)
-        setVachas(0)
-        setKLRadio(0)
-        setFilmMaking(0)
-        setStandupcomedy(0)
-        setDramatics(0)
-        setNarthana(0)
     }
 
     const handleStartup = (Number) => {
         setStartup(Number)
-        setAcic(0)
-        setIdeas(0)
-        setST(0)
     }
 
     const handleOutreach = (Number) => {
       setoutreachMonth(Number)
-        setCea(0)
-        setTourism(0)
-        setKlTalks(0)
-        setSafeLife(0)
-        setElectoral(0)
-        setSvr(0)
     }
 
-
-    // ---- Tech ----
-    const handleZeroOne = (Number) => {
-        setZeroOne(Number)
-    }
-    const handleAeroElectric = (Number) => {
-      setZeroOne(0)
-      setAeroElectricMonth(Number)
-    }
-    const handleCyber = (Number) => {
-      setCyber(Number)
-    }
-    const handleWebApps = (Number) => {
-      setWebApps(Number)
-    }
-    const handleTechHuma = (Number) => {
-      setTechHuma(Number)
-    }
-    
-    const handleRobotics = (Number) => {
-      setRobotics(Number)
-    }
-    const handleAnimation = (Number) => {
-      setAnimation(Number) 
-    } 
-    const handleAgriculture = (Number) => {
-      setAgriculture(Number) 
-    }
-    const handleAutomobile = (Number) => {
-      setAutomobile(Number)
-    }
-
-    const handleMobileESports = (Number) => {
-      setMobileESports(Number)
-    }
-    const handleAI = (Number) => {
-      setAI(Number)
-    }
-
-
-    // Liberal Arts
-
-    const handleFusion = (Number) => {
-      setFusion(Number)
-    }
-    const handleSwara = (Number) => {
-      setSwara(Number)
-    }
-    const handleVachas = (Number) => {
-      setVachas(Number)
-    }
-    const handleKLRadio = (Number) => {
-      setKLRadio(Number)
-    }
-    const handleFilmMaking = (Number) => {
-      setFilmMaking(Number)
-    }
-    const handleStandupcomedy = (Number) => {
-      setStandupcomedy(Number)
-    }
-    const handleDramatics = (Number) => {
-      setDramatics(Number)
-    }
-    const handleNarthana = (Number) => {
-      setNarthana(Number)
-    }
-
-// Incubation & Innovation
-
-    const handleAcic = (Number) => {
-      setAcic(Number)
-    }
-    const handleIdeas = (Number) => {
-      setIdeas(Number)
-    }
-    const handleSt = (Number) => {
-      setST(Number)
-    }
-// Outreach & Society
-
-    const handleCea = (Number) => {
-      setCea(Number)
-    }
-    const handleTourism = (Number) => {
-      setTourism(Number)
-    }
-    const handleKlTalks = (Number) => {
-      setKlTalks(Number)
-    }
-    const handleSafeLife = (Number) => {
-      setSafeLife(Number)
-    }
-    const handleElectoral = (Number) => {
-      setElectoral(Number)
-    }
-    const handleSvr = (Number) => {
-      setSvr(Number)
-    }
-
- 
 
 //   ---------------------------------------------
 
@@ -358,363 +174,57 @@ function Page() {
                             <div className="Event-tech-club-eleven ec-name" id = { techMonth === 11 ? 'Event-hover' : '' } onClick={ () => {handleTech(11)}} >AI</div>
                         </div>
 
+                        <div className = { showDiv === 1 && techMonth === 0 ? 'Event-tech-clubs-in' : 'Event-hide' } >
+                           
+                        </div>
+
+                        <div className = { techMonth === 1 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={ZeroOneData} />
+                        </div>
+
+                         <div className = { techMonth === 2 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={AeroElectricData} />
+                        </div>
+
+                          <div className = { techMonth === 3 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={CyberData} />
+                        </div>
+
+                          <div className = { techMonth === 4 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={WebAppsData} />
+                        </div>
+
+                          <div className = { techMonth === 5 ? 'Event-tech-clubs-ec' : 'Event-hide' } > 
+                          <EventsTables eventData={TechHumaData} />
+                        </div>
+
+                          <div className = { techMonth === 6 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={RoboticsData} />
+                        </div>
+
+                          <div className = { techMonth === 7 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={AnimationData} />
+                        </div>
 
 
+                          <div className = { techMonth === 8 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={AutomobileData} />
+                        </div>
 
-                        {/* // Tech Section */}
-                            {/* ZeroOne */}
-                            <div className={techMonth === 1 ? 'Event-Calendar' : 'Calendar-hide'}>
-                              {Array.from({ length: 12 }, (_, index) => {
-                                const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                                const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
+                          <div className = { techMonth === 9 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={AgricultureData} />
+                        </div>
 
-                                return (
-                                  <div
-                                    key={month}
-                                    className={`mn-ev-cm ${zeroOneMonth === month ? 'Event-m-hover' : ''}`}
-                                    id={zeroOneMonth === month ? 'Event-m-hovers' : ''}
-                                    onClick={() => handleZeroOne(month)}
-                                  >
-                                    {monthName}
-                                  </div>
-                                );
-                              })}
-                            </div>
+                          <div className = { techMonth === 10 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={MobileESportsData} />
 
+                        </div>
 
+                          <div className = { techMonth === 11 ? 'Event-tech-clubs-ec' : 'Event-hide' } >  
+                          <EventsTables eventData={AIData} />
+                        </div>
 
-
-
-                            {/* AeroElectric */}
-
-                            <div className={techMonth === 2 ? 'Event-Calendar' : 'Calendar-hide'}>
-                                {Array.from({ length: 12 }, (_, index) => {
-                                 const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
- 
-                                  return (
-                                    <div
-                                      key={month}
-                                      className={`mn-ev-cm ${AeroElectricMonth === month ? 'Event-m-hover' : ''}`}
-                                      id={AeroElectricMonth === month ? 'Event-m-hovers' : ''}
-                                      onClick={() => handleAeroElectric(month)}
-                                    >
-                                      {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div>
-
-                            {/* Cyber */}
-
-                            <div className={techMonth === 3 ? 'Event-Calendar' : 'Calendar-hide'}>
-                                {Array.from({ length: 12 }, (_, index) => {
-                                 const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
- 
-
-                                  return (
-                                    <div
-                                      key={month}
-                                      className={`mn-ev-cm ${CyberMonth === month ? 'Event-m-hover' : ''}`}
-                                      id={CyberMonth === month ? 'Event-m-hovers' : ''}
-                                      onClick={() => handleCyber(month)}
-                                    >
-                                       {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div>
-                                 
-
-                             {/* WebApps */}
-                                  <div className={techMonth === 4 ? 'Event-Calendar' : 'Calendar-hide'}>
-                                      {Array.from({ length: 12 }, (_, index) => {
-                                         const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
- 
-                                          
-                                          return (
-                                              <div
-                                                  key={month}
-                                                  className={`mn-ev-cm ${webAppsMonth === month ? 'Event-m-hover' : ''}`}
-                                                  id={webAppsMonth === month ? 'Event-m-hovers' : ''}
-                                                  onClick={() => handleWebApps(month)}
-                                              >
-                                                   {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div> 
-
-                                      {/* TechHuma */}
-                                      <div className={techMonth === 5 ? 'Event-Calendar' : 'Calendar-hide'}>
-                                          {Array.from({ length: 12 }, (_, index) => {
-                                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
- 
-
-                                              return (
-                                                  <div
-                                                      key={month}
-                                                      className={`mn-ev-cm ${techHumaMonth === month ? 'Event-m-hover' : ''}`}
-                                                      id={techHumaMonth === month ? 'Event-m-hovers' : ''}
-                                                      onClick={() => handleTechHuma(month)}
-                                                  >
-                                                       {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div>
-                                             
-
-                                    {/* Robotics */}
-                                    <div className={techMonth === 6 ? 'Event-Calendar' : 'Calendar-hide'}>
-                                        {Array.from({ length: 12 }, (_, index) => {
-                                           const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
- 
-
-                                            return (
-                                                <div
-                                                    key={month}
-                                                    className={`mn-ev-cm ${roboticsMonth === month ? 'Event-m-hover' : ''}`}
-                                                    id={roboticsMonth === month ? 'Event-m-hovers' : ''}
-                                                    onClick={() => handleRobotics(month)}
-                                                >
-                                                     {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div>
-                                                
-
-
-                                    {/* Animation */}
-                                    <div className={techMonth === 7 ? 'Event-Calendar' : 'Calendar-hide'}>
-                                        {Array.from({ length: 12 }, (_, index) => {
-                                           const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
- 
-
-                                            return (
-                                                <div
-                                                    key={month}
-                                                    className={`mn-ev-cm ${animationMonth === month ? 'Event-m-hover' : ''}`}
-                                                    id={animationMonth === month ? 'Event-m-hovers' : ''}
-                                                    onClick={() => handleAnimation(month)}
-                                                >
-                                                     {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div> 
-
-                                    {/* Automobile */}
-                                    <div className={techMonth === 8 ? 'Event-Calendar' : 'Calendar-hide'}>
-                                        {Array.from({ length: 12 }, (_, index) => {
-                                           const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
- 
-
-                                            return (
-                                                <div
-                                                    key={month}
-                                                    className={`mn-ev-cm ${automobileMonth === month ? 'Event-m-hover' : ''}`}
-                                                    id={automobileMonth === month ? 'Event-m-hovers' : ''}
-                                                    onClick={() => handleAutomobile(month)}
-                                                >
-                                                     {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div> 
-
-                                     {/* Agriculture */}
-                                     <div className={techMonth === 9 ? 'Event-Calendar' : 'Calendar-hide'}>
-                                        {Array.from({ length: 12 }, (_, index) => {
-                                           const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
- 
-
-                                            return (
-                                                <div
-                                                    key={month}
-                                                    className={`mn-ev-cm ${AgricultureMonth === month ? 'Event-m-hover' : ''}`}
-                                                    id={AgricultureMonth === month ? 'Event-m-hovers' : ''}
-                                                    onClick={() => handleAgriculture(month)}
-                                                >
-                                                     {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div> 
-
-                                    {/* MobileESports */}
-                                    <div className={techMonth === 10 ? 'Event-Calendar' : 'Calendar-hide'}>
-                                        {Array.from({ length: 12 }, (_, index) => {
-                                           const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
- 
-
-                                            return (
-                                                <div
-                                                    key={month}
-                                                    className={`mn-ev-cm ${mobileESportsMonth === month ? 'Event-m-hover' : ''}`}
-                                                    id={mobileESportsMonth === month ? 'Event-m-hovers' : ''}
-                                                    onClick={() => handleMobileESports(month)}
-                                                >
-                                                     {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div>
-
-
-                                    {/* AI */}
-                                    <div className={techMonth === 11 ? 'Event-Calendar' : 'Calendar-hide'}>
-                                        {Array.from({ length: 12 }, (_, index) => {
-                                           const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
- 
-
-                                            return (
-                                                <div
-                                                    key={month}
-                                                    className={`mn-ev-cm ${aiMonth === month ? 'Event-m-hover' : ''}`}
-                                                    id={aiMonth === month ? 'Event-m-hovers' : ''}
-                                                    onClick={() => handleAI(month)}
-                                                >
-                                                     {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div>
-                                             
-                        {/* zeroOne calender  */}
-
-                        {/* Loop through months */}
-                                  {monthNames.map((monthName, index) => (
-                                    <div
-                                      key={index}
-                                      className={zeroOneMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                                    >
-                                      <EventList monthName={monthName} eventData={ZeroOneData[monthName]} />
-                                    </div>
-                                  ))}
-
-                       {/* AeroElectric Calendar */}
-                                  {monthNames.map((monthName, index) => (
-                                    <div
-                                      key={index}
-                                      className={AeroElectricMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                                    >
-                                      <EventList monthName={monthName} eventData={AeroElectricData[monthName]} />
-                                    </div>
-                                  ))}
-
-                        {/* Cyber Calendar */}
-                                    
-                                  {monthNames.map((monthName, index) => (
-                                    <div
-                                      key={index}
-                                      className={CyberMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                                    >
-                                      <EventList monthName={monthName} eventData={CyberData[monthName]} />
-                                    </div>
-                                  ))}
-                        {/* WebApps Calendar */}
-                                    
-                                  {monthNames.map((monthName, index) => (
-                                    <div
-                                      key={index}
-                                      className={webAppsMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                                    >
-                                      <EventList monthName={monthName} eventData={WebAppsData[monthName]} />
-                                    </div>
-                                  ))}
-                        {/* TechHuma Calendar */}
-
-                                    
-                                  {monthNames.map((monthName, index) => (
-                                    <div
-
-                                      key={index}
-                                      className={techHumaMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                                    >
-                                      <EventList monthName={monthName} eventData={TechHumaData[monthName]} />
-                                    </div>
-                                  ))}
-                        {/* Robotics Calendar */}
-                                    
-                                  {monthNames.map((monthName, index) => (
-                                    <div
-                                      key={index}
-                                      className={roboticsMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                                    >
-                                      <EventList monthName={monthName} eventData={RoboticsData[monthName]} />
-                                    </div>
-                                  ))}
-                        {/* Animation Calendar */}
-                                
-                                  {monthNames.map((monthName, index) => (
-                                    <div
-                                      key={index}
-                                      className={animationMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                                    >
-                                      <EventList monthName={monthName} eventData={AnimationData[monthName]} />
-                                    </div>
-                                  ))}
-                        {/* Automobile Calendar */}
-
-                                  {monthNames.map((monthName, index) => (
-                                    <div
-                                      key={index}   
-                                      className={automobileMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                                    > 
-                                      <EventList monthName={monthName} eventData={AutomobileData[monthName]} />  
-                                    </div>
-                                  ))}
-                        {/* Agriculture Calendar */}
-                                    
-                                  {monthNames.map((monthName, index) => (
-                                    <div
-                                      key={index}
-                                      className={AgricultureMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                                    >
-                                      <EventList monthName={monthName} eventData={AgricultureData[monthName]} />
-                                    </div>
-                                  ))}
-                        {/* MobileESports Calendar */}
-                                    
-                                  {monthNames.map((monthName, index) => (
-                                    <div
-                                      key={index} 
-                                      className={mobileESportsMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                                    >
-                                      <EventList monthName={monthName} eventData={MobileESportsData[monthName]} />
-                                    </div>
-                                  ))}
-                        {/* AI Calendar */}
-                                    
-                                  {monthNames.map((monthName, index) => (
-                                    <div
-                                      key={index} 
-                                      className={aiMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                                    >
-                                      <EventList monthName={monthName} eventData={AIData[monthName]} />
-                                    </div>
-                                  ))}
-                    
-
-
-
-                                  
-                                    
-
-
-
-                        
+                                   
 
 {/* -------------------------------------------------- liberal arts club names  -------------------------------------------------- */}
 
@@ -730,293 +240,41 @@ function Page() {
                             <div className="Event-tech-club-eight ec-name" id = { liberalMonth === 8 ? 'Event-hover' : '' } onClick={ () => {handleLiberal(8)}} >Narthana</div>
                         </div>
 
-                         {/* // Liberal Section */}
+                        <div className = {  showDiv === 2 && liberalMonth === 0 ? 'Event-tech-clubs-in' : 'Event-hide' } >
+                           
+                        </div>
 
-                          {/* Fusion */}
-                          <div className={liberalMonth === 1 ? 'Event-Calendar' : 'Calendar-hide'}>
-                            {Array.from({ length: 12 }, (_, index) => {
-                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
- 
-                                return (
-                                  <div
-                                    key={month}
-                                    className={`mn-ev-cm ${fusionMonth === month ? 'Event-m-hover' : ''}`}
-                                    id={fusionMonth === month ? 'Event-m-hovers' : ''}
-                                    onClick={() => handleFusion(month)}
-                                  >
-                                     {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div>
-                                 
+                        <div className = { liberalMonth === 1 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={FusionData} />
+                        </div>
 
-                          {/* Swara */}
-                          <div className={liberalMonth === 2 ? 'Event-Calendar' : 'Calendar-hide'}>
-                            {Array.from({ length: 12 }, (_, index) => {
-                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
- 
-                                return (
-                                  <div
-                                    key={month}
-                                    className={`mn-ev-cm ${swaraMonth === month ? 'Event-m-hover' : ''}`}
-                                    id={swaraMonth === month ? 'Event-m-hovers' : ''}
-                                    onClick={() => handleSwara(month)}
-                                  >
-                                     {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div>
-                                 
+                        <div className = { liberalMonth === 2 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={SwaraData} />
+                        </div>
 
-                          {/* Vachas */}
-                          <div className={liberalMonth === 3 ? 'Event-Calendar' : 'Calendar-hide'}>
-                            {Array.from({ length: 12 }, (_, index) => {
-                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
- 
-                                return (
-                                  <div
-                                    key={month}
-                                    className={`mn-ev-cm ${vachasMonth === month ? 'Event-m-hover' : ''}`}
-                                    id={vachasMonth === month ? 'Event-m-hovers' : ''}
-                                    onClick={() => handleVachas(month)}
-                                  >
-                                     {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div>
-                                  
+                        <div className = { liberalMonth === 3 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={VachasData} />
+                        </div>
 
-                          {/* KLRadio */}
-                          <div className={liberalMonth === 4 ? 'Event-Calendar' : 'Calendar-hide'}>
-                            {Array.from({ length: 12 }, (_, index) => {
-                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
- 
-                                return (
-                                  <div
-                                    key={month}
-                                    className={`mn-ev-cm ${KLRadioMonth === month ? 'Event-m-hover' : ''}`}
-                                    id={KLRadioMonth === month ? 'Event-m-hovers' : ''}
-                                    onClick={() => handleKLRadio(month)}
-                                  >
-                                     {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div>
-                                
+                        <div className = { liberalMonth === 4 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={KLRadioData} />
+                        </div>
 
-                          {/* FilmMaking */}
+                        <div className = { liberalMonth === 5 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={FilmMakingData} />
+                        </div>
 
-                          <div className={liberalMonth === 5 ? 'Event-Calendar' : 'Calendar-hide'}>
-                            {Array.from({ length: 12 }, (_, index) => {
-                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
- 
-                                return (
-                                  <div
-                                    key={month}
-                                    className={`mn-ev-cm ${filmMakingMonth === month ? 'Event-m-hover' : ''}`}
-                                    id={filmMakingMonth === month ? 'Event-m-hovers' : ''}
-                                    onClick={() => handleFilmMaking(month)}
-                                  >
-                                     {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div>
-                                 
+                        <div className = { liberalMonth === 6 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={StandupcomedyData} />
+                        </div>
 
-                          {/* Standupcomedy */}
+                        <div className = { liberalMonth === 7 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={DramaticsData} />
+                        </div>
 
-                          <div className={liberalMonth === 6 ? 'Event-Calendar' : 'Calendar-hide'}>
-                            {Array.from({ length: 12 }, (_, index) => {
-                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                                 const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
- 
-                                return (
-                                  <div
-                                    key={month}
-                                    className={`mn-ev-cm ${standupcomedyMonth === month ? 'Event-m-hover' : ''}`}
-                                    id={standupcomedyMonth === month ? 'Event-m-hovers' : ''}
-                                    onClick={() => handleStandupcomedy(month)}
-                                  >
-                                     {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div>
-                                 
-
-
-                          {/* Dramatics */}
-
-                          <div className={liberalMonth === 7 ? 'Event-Calendar' : 'Calendar-hide'}>
-                            {Array.from({ length: 12 }, (_, index) => {
-                              const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                              const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
-
-                                return (
-                                  <div
-                                    key={month}
-                                    className={`mn-ev-cm ${dramaticsMonth === month ? 'Event-m-hover' : ''}`}
-                                    id={dramaticsMonth === month ? 'Event-m-hovers' : ''}
-                                    onClick={() => handleDramatics(month)}
-                                  >
-                                     {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div>
-                                
-
-                     
-                            
-                          {/* Narthana */}
-                          <div className={liberalMonth === 8 ? 'Event-Calendar' : 'Calendar-hide'}>
-                            {Array.from({ length: 12 }, (_, index) => {
-                              const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                              const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
-
-                                return (
-                                  <div
-                                    key={month}
-                                    className={`mn-ev-cm ${narthanaMonth === month ? 'Event-m-hover' : ''}`}
-                                    id={narthanaMonth === month ? 'Event-m-hovers' : ''}
-                                    onClick={() => handleNarthana(month)}
-                                  >
-                                     {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div>
-                              
-
-
-                        {/* Fusion calender  */}
-
-                        {/* Loop through months */}
-                        
-                        {monthNames.map((monthName, index) => (
-                          <div
-                            key={index}
-                            className={fusionMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                          >
-                            <EventList monthName={monthName} eventData={
-                              FusionData[monthName]} />
-                          </div>
-                        ))}
-
-                        {/* Swara calender  */}
-
-                        {/* Loop through months */}
-
-                        {monthNames.map((monthName, index) => (
-                          <div
-                            key={index}
-                            className={swaraMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                          >
-                            <EventList monthName={monthName} eventData={
-                              SwaraData[monthName]} />
-                          </div>
-                        ))}
-
-                        {/* Vachas calender  */}
-
-                        {/* Loop through months */}  
-                              
-                        {monthNames.map((monthName, index) => (
-                          <div
-                            key={index}
-                            className={vachasMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                          >
-                            <EventList monthName={monthName} eventData={
-                              VachasData[monthName]} />
-                          </div>
-                        ))}
-
-                        {/* KLRadio calender  */}
-
-                        {/* Loop through months */}
-
-                        {monthNames.map((monthName, index) => (
-                          <div
-                            key={index}
-                            className={KLRadioMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                          >
-                            <EventList monthName={monthName} eventData={
-                              KLRadioData[monthName]} />
-                          </div>
-                        ))}
-
-                        {/* FilmMaking calender  */}
-
-                        {/* Loop through months */}
-
-                        {monthNames.map((monthName, index) => (
-                          <div
-                            key={index}
-                            className={filmMakingMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                          >
-                            <EventList monthName={monthName} eventData={
-                              FilmMakingData[monthName]} />
-                          </div>
-                        ))}
-
-                        {/* Standupcomedy calender  */}
-
-                        {/* Loop through months */}
-
-                        {monthNames.map((monthName, index) => (
-
-                          <div
-                            key={index}
-                            className={standupcomedyMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                          >
-                            <EventList monthName={monthName} eventData={
-                              StandupcomedyData[monthName]} />
-                          </div>
-                        ))}
-                          
-                          {/* Dramatics calender  */}
-  
-                          {/* Loop through months */}
-
-                          {monthNames.map((monthName, index) => (
-                            <div
-                              key={index}
-                              className={dramaticsMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                            >
-                              <EventList monthName={monthName} eventData={
-                                DramaticsData[monthName]} />
-                            </div>
-                          ))}
-
-                          {/* Narthana calender  */}
-
-                          {/* Loop through months */}
-
-                          {monthNames.map((monthName, index) => (
-                            <div
-                              key={index}
-                              className={narthanaMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                            >
-                              <EventList monthName={monthName} eventData={
-                                NarthanaData[monthName]} />
-                            </div>
-                          ))}
-
-
-                                
-
-
-
+                        <div className = { liberalMonth === 8 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={NarthanaData} />
+                        </div>
 
 
 
@@ -1030,118 +288,21 @@ function Page() {
                             <div className="Event-tech-club-three ec-name" id = { startupMonth === 3 ? 'Event-hover' : '' } onClick={ () => {handleStartup(3)}} >ACIC</div>
                         </div>
 
-                                
-                        {/* // Innovation Section */}
+                        <div className = { showDiv === 3  && startupMonth === 0 ? 'Event-tech-clubs-in' : 'Event-hide' } >
+                           
+                        </div>
 
-                          {/* Startup */} 
-                            
-                          <div className={startupMonth === 1 ? 'Event-Calendar' : 'Calendar-hide'}>
-                            {Array.from({ length: 12 }, (_, index) => {
-                              const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                              const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
+                        <div className = { startupMonth === 1 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={STData} />
+                        </div>
 
-                                return (
-                                  <div
-                                    key={month}
-                                    className={`mn-ev-cm ${STMonth === month ? 'Event-m-hover' : ''}`}
-                                    id={STMonth === month ? 'Event-m-hovers' : ''}
-                                    onClick={() => handleSt(month)}
-                                  >
-                                     {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div>
-                                 
+                        <div className = { startupMonth === 2 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={IdeasData} />
+                        </div>
 
-
-                          {/* Ideas */}
-
-                          <div className={startupMonth === 2 ? 'Event-Calendar' : 'Calendar-hide'}>
-                            {Array.from({ length: 12 }, (_, index) => {
-                              const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                              const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
-
-                                return (
-                                  <div
-                                    key={month}
-                                    className={`mn-ev-cm ${ideasMonth === month ? 'Event-m-hover' : ''}`}
-                                    id={ideasMonth === month ? 'Event-m-hovers' : ''}
-                                    onClick={() => handleIdeas(month)}
-                                  >
-                                     {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div>
-                                  
-                          {/* ACIC */}
-
-                          <div className={startupMonth === 3 ? 'Event-Calendar' : 'Calendar-hide'}>
-                            {Array.from({ length: 12 }, (_, index) => {
-                              const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                              const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
-
-                                return (
-                                  <div
-                                    key={month}
-                                    className={`mn-ev-cm ${acicMonth === month ? 'Event-m-hover' : ''}`}
-                                    id={acicMonth === month ? 'Event-m-hovers' : ''}
-                                    onClick={() => handleAcic(month)}
-                                  >
-                                     {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div>
-                                  
-                            
-
-                        {/* Startup calender  */}
-                        {/* Loop through months */}
-
-                        {monthNames.map((monthName, index) => (
-                          <div
-                            key={index}
-                            className={STMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                          >
-                            <EventList monthName={monthName} eventData={
-                              STData[monthName]} />
-                          </div>
-                        ))}
-
-                        {/* Ideas calender  */}
-                        {/* Loop through months */}
-
-                        {monthNames.map((monthName, index) => (
-                          <div
-                            key={index}
-                            className={ideasMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                          >
-                            <EventList monthName={monthName} eventData={
-                              IdeasData[monthName]} />
-                          </div>
-                        ))}
-
-                        {/* ACIC calender  */}
-                        {/* Loop through months */}
-
-                        {monthNames.map((monthName, index) => (
-                          <div
-                            key={index}
-                            className={acicMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                          >
-                            <EventList monthName={monthName} eventData={
-                              ACICData[monthName]} />
-                          </div>
-                        ))}
-
-
-
-
-
-
-
+                        <div className = { startupMonth === 3 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={ACICData} />
+                        </div>  
 
 
 
@@ -1157,209 +318,37 @@ function Page() {
                             <div className="Event-tech-club-six ec-name" id = { outreachMonth === 6 ? 'Event-hover' : '' } onClick={ () => {handleOutreach(6)}} >SVR</div>  
                         </div>
 
+                        <div className = { showDiv === 4 && outreachMonth === 0 ? 'Event-tech-clubs-in' : 'Event-hide' } >
+                           
+                        </div>
+                       
+                        <div className = { outreachMonth === 1 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={CEAData} />
+                        </div>
 
-                        {/* // Outreach Section */}
-                        {/* CEA */}
+                        <div className = { outreachMonth === 2 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={TourismData} />
+                        </div>
 
-                        <div className={outreachMonth === 1 ? 'Event-Calendar' : 'Calendar-hide'}>
-                          {Array.from({ length: 12 }, (_, index) => {
+                        <div className = { outreachMonth === 3 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={KLTalksData} />
+                        </div>
 
-                      const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                      const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
+                        <div className = { outreachMonth === 4 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={SafeLifeData} />
+                        </div>
 
-                              return (
-                                <div
-                                  key={month}
-                                  className={`mn-ev-cm ${ceaMonth === month ? 'Event-m-hover' : ''}`}
-                                  id={ceaMonth === month ? 'Event-m-hovers' : ''}
-                                  onClick={() => handleCea(month)}
-                                >
-                                   {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div>
-                                
+                        <div className = { outreachMonth === 5 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={ElectoralData} />
+                        </div>
 
-                          
-                        {/* Tourism */} 
-
-                        <div className={outreachMonth === 2 ? 'Event-Calendar' : 'Calendar-hide'}>
-                          {Array.from({ length: 12 }, (_, index) => {
-                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                             const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
-
-                          
-                              return (
-                                <div
-                                  key={month}
-                                  className={`mn-ev-cm ${tourismMonth === month ? 'Event-m-hover' : ''}`}
-                                  id={tourismMonth === month ? 'Event-m-hovers' : ''}
-                                  onClick={() => handleTourism(month)}
-                                >
-                                   {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div>
-                               
+                        <div className = { outreachMonth === 6 ? 'Event-tech-clubs-ec' : 'Event-hide' } >
+                          <EventsTables eventData={SVRData} />
+                        </div>
 
 
-                          {/* KL Talks */}
 
-                          <div className={outreachMonth === 3 ? 'Event-Calendar' : 'Calendar-hide'}>
-                            {Array.from({ length: 12 }, (_, index) => {
-
-                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                              const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
-
-                                return (
-                                  <div
-                                    key={month}
-                                    className={`mn-ev-cm ${klTalksMonth === month ? 'Event-m-hover' : ''}`}
-                                    id={klTalksMonth === month ? 'Event-m-hovers' : ''}
-                                    onClick={() => handleKlTalks(month)}
-                                  >
-                                     {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div>
-                                
-
-                          {/* SafeLife */}
-
-                          <div className={outreachMonth === 4 ? 'Event-Calendar' : 'Calendar-hide'}>
-                            {Array.from({ length: 12 }, (_, index) => {
-
-                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                              const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
-
-                                return (
-                                  <div
-                                    key={month}
-                                    className={`mn-ev-cm ${safeLifeMonth === month ? 'Event-m-hover' : ''}`}
-                                    id={safeLifeMonth === month ? 'Event-m-hovers' : ''}
-                                    onClick={() => handleSafeLife(month)}
-                                  >
-                                     {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div>
-                                 
-                          {/* Electoral */}
-
-                          <div className={outreachMonth === 5 ? 'Event-Calendar' : 'Calendar-hide'}>
-                            {Array.from({ length: 12 }, (_, index) => {
-
-                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                              const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
-
-                                return (
-                                  <div
-                                    key={month}
-                                    className={`mn-ev-cm ${electoralMonth === month ? 'Event-m-hover' : ''}`}
-                                    id={electoralMonth === month ? 'Event-m-hovers' : ''}
-                                    onClick={() => handleElectoral(month)}
-                                  >
-                                     {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div>
-                                   
-
-                          {/* SVR */}
-                          <div className={outreachMonth === 6 ? 'Event-Calendar' : 'Calendar-hide'}>
-                            {Array.from({ length: 12 }, (_, index) => {
-
-                             const month = (index + 6) % 12 + 1; // Start from July (month 7)
-                              const monthName = new Date(2023, month - 1, 1).toLocaleString('default', { month: 'long' });
-
-                                return (
-                                  <div
-                                    key={month}
-                                    className={`mn-ev-cm ${svrMonth === month ? 'Event-m-hover' : ''}`}
-                                    id={svrMonth === month ? 'Event-m-hovers' : ''}
-                                    onClick={() => handleSvr(month)}
-                                  >
-                                     {monthName}
-                                    </div>
-                                  );
-                                })}
-                            </div>
-                                  
-
-
-                        {/* CEA calender  */}
-                        {/* Loop through months */}
-                        {monthNames.map((monthName, index) => (
-                          <div
-                            key={index}
-                            className={ceaMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                          >
-                            <EventList monthName={monthName} eventData={
-                              CEAData[monthName]} />
-                          </div>
-                        ))}
-
-                        {/* Tourism calender  */}
-                        {/* Loop through months */}
-                        {monthNames.map((monthName, index) => (
-                          <div
-                            key={index}
-                            className={tourismMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                          >
-                            <EventList monthName={monthName} eventData={
-                              TourismData[monthName]} />
-                          </div>
-                        ))}
-
-                        {/* KL Talks calender  */}
-                        {/* Loop through months */}
-                        {monthNames.map((monthName, index) => (
-                          <div
-                            key={index}
-                            className={klTalksMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                          >
-                            <EventList monthName={monthName} eventData={KLTalksData[monthName]} />
-                          </div>
-                        ))}
-
-                        {/* SafeLife calender  */}
-                        {/* Loop through months */}
-                        {monthNames.map((monthName, index) => (
-                          <div
-                            key={index}
-                            className={safeLifeMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                          >
-                          <EventList monthName={monthName} eventData={SafeLifeData[monthName]} />
-                          </div>
-                        ))}
-
-                        {/* Electoral calender  */}
-                        {/* Loop through months */}
-                        {monthNames.map((monthName, index) => (
-                          <div
-                            key={index}
-                            className={electoralMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                          >
-                          <EventList monthName={monthName} eventData={ElectoralData[monthName]} />
-                          </div>
-                        ))}
-
-                        {/* SVR calender  */}
-                        {/* Loop through months */}
-                        {monthNames.map((monthName, index) => (
-                          <div
-                            key={index}
-                            className={svrMonth === index + 1 ? `Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev` : 'Posters-hide'}
-                          >
-                          <EventList monthName={monthName} eventData={SVRData[monthName]} />
-                          </div>
-                        ))}
-
+                        
 
                         {/* --------------- END ---------------  */}
 
@@ -1376,19 +365,11 @@ function Page() {
 
 export default Page
 
-// Define a reusable EventList component
-function EventList({ eventData, monthName }) {
-  return (
-    <div className={`Event-${monthName.toLowerCase()}-tech tech-cm-mn-ev`}>
-      <h1>List of Activities Organized in {monthName}</h1>
-      <EventsTable eventData={eventData} />
-    </div>
-  );
-}
+ 
 
 
-// Define the EventsTable component (unchanged from your code)
-function EventsTable({ eventData }) {
+
+function EventsTables({ eventData }) {
   return (
     <div className="Events-table">
       <table>
@@ -1396,6 +377,7 @@ function EventsTable({ eventData }) {
           <tr>
             <th>Sno.</th>
             <th>Event Name</th>
+            <th>Month</th>
             <th>Date</th>
             <th>Student Coordinator</th>
             <th>Faculty Coordinator</th>
@@ -1403,19 +385,21 @@ function EventsTable({ eventData }) {
           </tr>
         </thead>
         <tbody>
-          {eventData.map((event, index) => (
-            <tr key={index}>
-              <td>{index + 1}</td> {/* Dynamically generate the serial number */}
-              <td>{event.eventName}</td>
-              <td>{event.date}</td>
-              <td>{event.studentCoordinator}</td>
-              <td>{event.facultyCoordinator}</td>
-              <td><a href={event.reportLink}>Click Here</a></td>
-            </tr>
+          {Object.entries(eventData).map(([month, events]) => (
+            events.map((event, index) => (
+              <tr key={index}>
+                <td>{index+1}</td> {/* Calculate the serial number */}
+                <td>{event.eventName}</td>
+                {index === 0 && <td rowSpan={events.length}>{month}</td>}
+                <td>{event.date}</td>
+                <td>{event.studentCoordinator}</td>
+                <td>{event.facultyCoordinator}</td>
+                <td><a href={event.reportLink}>Click Here</a></td>
+              </tr>
+            ))
           ))}
         </tbody>
       </table>
     </div>
   );
 }
-

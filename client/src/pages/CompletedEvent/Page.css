@@ -221,14 +221,16 @@
     /* background-color:rgb(151, 0, 3); */
     background-color: black;
     color: white;
-    width: 3%;
+    width: 5%;
 }
 .Events-table table tr td:nth-child(2) {
-    width: 37%;
+    width: 30%;
 }
-
+.Events-table table tr td:nth-child(3) {
+    width: 12%;
+}
 .Events-table table tr td:nth-child(4) {
-    width: 15%;
+    width: 10%;
 }
 .Events-table table tr td:nth-child(5) {
     width: 15%;
@@ -237,7 +239,7 @@
     width: 15%;
 }
 .Events-table table tr td:nth-child(7) {
-    width: 15%;
+    width: 13%;
 }
 
 
@@ -251,4 +253,20 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1rem;
+}
+
+.Event-tech-clubs-ec {
+    width: 90%;
+    margin: auto;
+}
+.event-data-month {
+    padding: 2rem;
+}
+
+.Event-tech-clubs-in {
+    width: 90%;
+    margin: auto;
+    border: 2px solid black;
+    height: 50vh;
+    border-radius: 2rem;
 }

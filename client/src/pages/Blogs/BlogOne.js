@@ -69,9 +69,9 @@ const BlogOne = () => {
                                         <h1>01</h1>
                                     </div>
                                     <div className="boiti-comps-in-two">
-                                        <p>Deepak Reddy Gathpa</p>
-                                        <h1>What You’re Feeling is Platform Fatigue (Or: Why I’m Not Joining Threads)</h1>
-                                        <p>Sep 23. 3 mins read</p>
+                                        <p>Mohammad Jawaad</p>
+                                        <h1>Exploring the Vibrant World of KL University: A First-Year Student's Journey at KL SAC</h1>
+                                        <p>Sep 26. 10 mins read</p>
                                         
                                         <Scroll className='boiti-link' activeClass="active" to="blog-one" spy ={true} smooth={true} offset={-10} duration={200} >Read More</Scroll>
 
@@ -85,9 +85,9 @@ const BlogOne = () => {
                                         <h1>02</h1>
                                     </div>
                                     <div className="boiti-comps-in-two">
-                                        <p>Deepak Reddy Gathpa</p>
-                                        <h1>What You’re Feeling is Platform Fatigue (Or: Why I’m Not Joining Threads)</h1>
-                                        <p>Sep 23. 3 mins read</p>
+                                        <p>Mohammad Jawaad</p>
+                                        <h1>Enriching Journeys at SAC: From Stand-up Comedy to the Fashion Runway</h1>
+                                        <p>Sep 26. 12 mins read</p>
 
                                         <Scroll className='boiti-link' activeClass="active" to="blog-two" spy ={true} smooth={true} offset={-10} duration={200} >Read More</Scroll>
                                     </div>
@@ -100,59 +100,16 @@ const BlogOne = () => {
                                         <h1>03</h1>
                                     </div>
                                     <div className="boiti-comps-in-two">
-                                        <p>Deepak Reddy Gathpa</p>
-                                        <h1>What You’re Feeling is Platform Fatigue (Or: Why I’m Not Joining Threads)</h1>
-                                        <p>Sep 23. 3 mins read</p>
+                                        <p>Mohammad Jawaad</p>
+                                        <h1>A Journey: Battling Addiction and Depression with Martial Arts and MMA</h1>
+                                        <p>Sep 23. 8 mins read</p>
 
                                         <Scroll className='boiti-link' activeClass="active" to="blog-three" spy ={true} smooth={true} offset={-10} duration={200} >Read More</Scroll>
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="boiti-comps">
-                                <div className="boiti-comps-in">
-                                    <div className="boiti-comps-in-one">
-                                        <h1>04</h1>
-                                    </div>
-                                    <div className="boiti-comps-in-two">
-                                        <p>Deepak Reddy Gathpa</p>
-                                        <h1>What You’re Feeling is Platform Fatigue (Or: Why I’m Not Joining Threads)</h1>
-                                        <p>Sep 23. 3 mins read</p>
-
-                                        <Scroll className='boiti-link' activeClass="active" to="blog-one" spy ={true} smooth={true} offset={-10} duration={200} >Read More</Scroll>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="boiti-comps">
-                                <div className="boiti-comps-in">
-                                    <div className="boiti-comps-in-one">
-                                        <h1>05</h1>
-                                    </div>
-                                    <div className="boiti-comps-in-two">
-                                        <p>Deepak Reddy Gathpa</p>
-                                        <h1>What You’re Feeling is Platform Fatigue (Or: Why I’m Not Joining Threads)</h1>
-                                        <p>Sep 23. 3 mins read</p>
-
-                                        <Scroll className='boiti-link' activeClass="active" to="blog-one" spy ={true} smooth={true} offset={-10} duration={200} >Read More</Scroll>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="boiti-comps">
-                                <div className="boiti-comps-in">
-                                    <div className="boiti-comps-in-one">
-                                        <h1>06</h1>
-                                    </div>
-                                    <div className="boiti-comps-in-two">
-                                        <p>Deepak Reddy Gathpa</p>
-                                        <h1>What You’re Feeling is Platform Fatigue (Or: Why I’m Not Joining Threads)</h1>
-                                        <p>Sep 23. 3 mins read</p>
-
-                                        <Scroll className='boiti-link' activeClass="active" to="blog-one" spy ={true} smooth={true} offset={-10} duration={200} >Read More</Scroll>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
 

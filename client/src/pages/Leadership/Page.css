@@ -39,7 +39,7 @@
 .lstcmn-body {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    column-gap: 1rem;
     width: 90%;
     margin: auto;
     row-gap: 1rem;
@@ -148,7 +148,7 @@
 
 
 .council-members-profile-one {
-    min-height: 18vh;
+    min-height: 22vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -161,7 +161,9 @@
 
 
 
-
+.Leadership-two-three {
+    display: none;
+}
 
 
 .Leadership-two-three-body {

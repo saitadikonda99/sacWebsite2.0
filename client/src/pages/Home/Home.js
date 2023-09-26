@@ -418,9 +418,9 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                     </div>
                     <div className="stories-comps-in-two">
                       <div className="stories-comps-in-two-in">
-                        <p>ZeroOne CodeClub</p>
-                        <h2>Nurturing a Coding Culture on University</h2>
-                        <Link className='stories-links' to='/'>Read now</Link>
+                        <p>Mohammad Jawaad</p>
+                        <h2>Exploring the Vibrant World of KL University: A First-Year Student's Journey at KL SAC</h2>
+                        <Link className='stories-links' to='/blogs' onClick={handleclick}>Read now</Link>
                       </div>
                     </div>
                   </div>
@@ -432,9 +432,9 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                     </div>
                     <div className="stories-comps-in-two">
                       <div className="stories-comps-in-two-in">
-                        <p>ZeroOne CodeClub</p>
-                        <h2>Nurturing a Coding Culture on University</h2>
-                        <Link className='stories-links' to='/'>Read now</Link>
+                      <p>Mohammad Jawaad</p>
+                        <h2>Enriching Journeys at SAC: From Stand-up Comedy to the Fashion Runway</h2>
+                        <Link className='stories-links' to='/blogs' onClick={handleclick}>Read now</Link>
                       </div>
                     </div>
                   </div>
@@ -446,9 +446,9 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                     </div>
                     <div className="stories-comps-in-two">
                       <div className="stories-comps-in-two-in">
-                        <p>ZeroOne CodeClub</p>
-                        <h2>Nurturing a Coding Culture on University</h2>
-                        <Link className='stories-links' to='/'>Read now</Link>
+                      <p>Mohammad Jawaad</p>
+                        <h2>A Journey: Battling Addiction and Depression with Martial Arts and MMA</h2>
+                        <Link className='stories-links' to='/blogs' onClick={handleclick}>Read now</Link>
                       </div>
                     </div>
                   </div>
@@ -614,7 +614,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
         </div>
         <div className="explore-events">
-          <Link onClick={handleclick} to='/events' className='explore-events-link'>Explore More Events</Link>
+          <Link onClick={handleclick} to='/sil' className='explore-events-link'>Explore More Events</Link>
         </div>
       </div>
 

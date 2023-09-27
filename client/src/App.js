@@ -20,6 +20,7 @@ import SIL from "./pages/SIL/Page";
 import CompletedEvents from './pages/CompletedEvent/Page';
 import SocialMedia from './pages/SocialMedia/page';
 import Feedback from "./pages/Feedback/Page";
+import ViewFeedback from "./pages/Admin/Page";
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -57,8 +58,8 @@ function App() {
     { path: "/sil", element: <SIL /> },
     { path: "/completedevents", element: <CompletedEvents /> },
     { path: "/socialmedia", element: <SocialMedia/> },
-    { path: "/Feedback", element: <Feedback/>}
-
+    { path: "/Feedback", element: <Feedback/>},
+    { path: "/viewFeedback", element: <ViewFeedback/>}
   ];
 
   return (

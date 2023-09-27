@@ -12,6 +12,7 @@ const db = mysql.createConnection({
   database: "Sac",
 });
 
+
 db.connect((err) => {
   if (err) {
     throw err;
@@ -33,7 +34,6 @@ CREATE TABLE IF NOT EXISTS sac_feedback (
     Staff_Interaction INT,
     Overall_Satisfaction VARCHAR(255)
 )
-
 `;
 
 const cors = require("cors");
@@ -96,6 +96,7 @@ app.post("/api/submitFeedback", (req, res) => {
     }
   );
 });
+
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);

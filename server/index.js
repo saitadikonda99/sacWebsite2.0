@@ -14,6 +14,8 @@ const db = mysql.createConnection({
 });
 
 
+
+
 db.connect((err) => {
   if (err) {
     throw err;
@@ -35,7 +37,6 @@ CREATE TABLE IF NOT EXISTS sac_feedback (
     Staff_Interaction INT,
     Overall_Satisfaction VARCHAR(255)
 )
-
 `;
 
 const cors = require('cors');
@@ -97,6 +98,23 @@ app.post('/api/submitFeedback', (req, res) => {
       }
     }
   );
+});
+
+app.get('/api/feedbackdata', (req, res) => {
+  const { password } = req.query;
+  if (password === '123') {
+    const fetchDataQuery = 'SELECT * FROM sac_feedback';
+    db.query(fetchDataQuery, (err, result) => {
+      if (err) {
+        console.error('Error fetching data:', err);
+        res.status(500).json({ error: 'Error fetching data' });
+      } else {
+        res.status(200).json(result);
+      }
+    });
+  } else {
+    res.status(403).json({ error: 'Unauthorized' });
+  }
 });
 
 

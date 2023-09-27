@@ -1,0 +1,73 @@
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+.input-container input[type="password"] {
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+.input-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF; /* Adjust the color as needed */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-container button:hover {
+background-color: #0056b3; /* Adjust the color on hover */
+}
+
+/* Style for the table */
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin: auto;
+  }
+  
+  table th,
+  table td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+  }
+  
+  /* Style for the ID column */
+  table th,
+  table td.id {
+    background-color: black;
+    color: #fff;
+  }
+  
+  table th,
+  table td {
+    font-size: 14px;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for the table cell with numeric data */
+  table td.numeric {
+    text-align: right;
+  }
+  
+  /* Style for the "Data Display" header */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  

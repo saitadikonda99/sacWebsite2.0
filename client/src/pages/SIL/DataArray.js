@@ -1,4 +1,4 @@
-export const activities = [
+export const activities_week_02 = [
   {
     sno: '01',
     name: 'Sessions on Addams Software for learning different mechanisms',
@@ -182,6 +182,230 @@ export const activities = [
 ];
 
 
+export const activities_week_03 = [
+  {
+    sno: '1',
+    clubname: 'ZeroOne Code Club',
+    name: 'VIM Master Class',
+    date: '3/10/2023',
+    time: '5.40 PM - 7:10 PM',
+    venue: 'M00',
+    organizer: '2200030805 - Sai Manikanta T',
+    category: 'Technology Events through central level clubs (TEC)'
+  },
+  {
+    sno: '2',
+    clubname: 'ZeroOne Code Club',
+    name: 'C++ for Beginners',
+    date: '3/10/2023',
+    time: '5.40 PM - 7:10 PM',
+    venue: 'NA',
+    organizer: '2200032426 - Harshith Pallav',
+    category: 'Technology Events through central level clubs (TEC)'
+  },
+  {
+    sno: '3',
+    clubname: 'WebApps Club',
+    name: 'Figma Master Class',
+    date: '3/10/2023',
+    time: '5.30 PM - 7.30 PM',
+    venue: 'NA',
+    organizer: '2300031488 - Shaik Arshad',
+    category: 'Technology Events through central level clubs (TEC)'
+  },
+  {
+    sno: '4',
+    clubname: 'Aero Electric Club',
+    name: 'Exploring Electronic Vehicle Technology',
+    date: '3/10/2023',
+    time: '5.30 PM - 7.30 PM',
+    venue: 'NA',
+    organizer: '2200069013 - Murali',
+    category: 'Technology Events through central level clubs (TEC)'
+  },
+  {
+    sno: '5',
+    clubname: 'Cyber Security and Ethical Hacking Club',
+    name: 'Hacking SQL Databases',
+    date: '3/10/2023',
+    time: '5.30 PM - 7.30 PM',
+    venue: 'NA',
+    organizer: '2300032949 - J Lohith Kumar',
+    category: 'Technology Events through central level clubs (TEC)'
+  },
+  {
+    sno: '6',
+    clubname: 'Narthana Dance Club',
+    name: 'Tremendous Tuesday',
+    date: '3/10/2023',
+    time: '5.30 PM - 7.30 PM',
+    venue: 'New Seminar Hall',
+    organizer: '2000030020 - Dev Adapa',
+    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level'
+  },
+  {
+    sno: '7',
+    clubname: 'VERSATALES CLUB',
+    name: 'InkMasters Showdown',
+    date: '3/10/2023',
+    time: '5.30 PM - 7.30 PM',
+    venue: 'NA',
+    organizer: '2200033103 - Vamsi Krishna',
+    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level'
+  },
+  {
+    sno: '8',
+    clubname: 'ZeroOne Code Club',
+    name: 'Code an Instagram Clone',
+    date: '4/10/2023',
+    time: '5.40 PM - 7:10 PM',
+    venue: 'NA',
+    organizer: '2100031817 - Deepak Reddy Gathpa',
+    category: 'Technology Events through central level clubs (TEC)'
+  },
+  {
+    sno: '9',
+    clubname: 'WebApps Club',
+    name: 'Web Development Master Clas',
+    date: '4/10/2023',
+    time: '5.30 PM - 7.30 PM',
+    venue: 'NA',
+    organizer: '2200031469 - Dinesh SriSanth Adari',
+    category: 'Technology Events through central level clubs (TEC)'
+  },
+  {
+    sno: '10',
+    clubname: 'Fitoor-e-kala(Fashion designing and modelling club)',
+    name: 'Body Language and Inter-communicational Skills',
+    date: '4/10/2023',
+    time: '5.40 PM - 7.00 PM',
+    venue: 'SAC Hall',
+    organizer: '2200033275 - Mohammed Jawaad, 2200033131 - Rishika Reddy',
+    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level'
+  },
+  {
+    sno: '14',
+    clubname: 'ZeroOne Code Club',
+    name: 'Contributing to Open Source Via Git and GitHub',
+    date: '5/10/2023',
+    time: '5.40 PM - 7:10 PM',
+    venue: 'NA',
+    organizer: '2200031219 - M Pavan karthik',
+    category: 'Technology Events through central level clubs (TEC)'
+  },
+  {
+    sno: '15',
+    clubname: 'WebApps Club',
+    name: 'Kotlin Course',
+    date: '5/10/2023',
+    time: '5.30 PM - 7.30 PM',
+    venue: 'NA',
+    organizer: '2200031469 - Dinesh SriSanth Adari',
+    category: 'Technology Events through central level clubs (TEC)'
+  },
+  {
+    sno: '16',
+    clubname: 'Aero Electric Club',
+    name: 'Basics of Drones',
+    date: '5/10/2023',
+    time: '5.30 PM - 7.30 PM',
+    venue: 'NA',
+    organizer: '2200069013 - Murali',
+    category: 'Technology Events through central level clubs (TEC)'
+  },
+  {
+    sno: '17',
+    clubname: 'ZeroOne Code Club',
+    name: 'AI tools for productivity',
+    date: '5/10/2023',
+    time: '5.30 PM - 7.30 PM',
+    venue: 'NA',
+    organizer: '2200030323 - M Hema Sundhar',
+    category: 'Technology Events through central level clubs (TEC)'
+  },
+  {
+    sno: '18',
+    clubname: 'K L Talks',
+    name: 'Storytelling Slam',
+    date: '5/10/2023',
+    time: '5.30 PM - 7.30 PM',
+    venue: 'Jasmine Hall',
+    organizer: '2100030379 - N John Rahul',
+    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level'
+  },
+  {
+    sno: '19',
+    clubname: 'Vachas',
+    name: 'Open Mic',
+    date: '5/10/2023',
+    time: '5.30 PM - 7.30 PM',
+    venue: 'Jasmine Hall',
+    organizer: '2200031617 - A Satya Barghav',
+    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level'
+  },
+  {
+    sno: '20',
+    clubname: 'KLSAC Mobile Gaming Club',
+    name: 'Mobile Gaming Practice Session',
+    date: '5/10/2023',
+    time: '5.30 PM - 7:00 PM',
+    venue: 'SAC Hall',
+    organizer: '2200080018 - Nakka Arya Satya Ananth',
+    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level'
+  },
+  {
+    sno: '23',
+    clubname: 'ZeroOne Code Club',
+    name: 'Microsoft Power Automate Task Automation',
+    date: '6/10/2023',
+    time: '5.40 PM - 7:10 PM',
+    venue: 'NA',
+    organizer: '210031219 - Pavan Karthik M',
+    category: 'Technology Events through central level clubs (TEC)'
+  },
+  {
+    sno: '24',
+    clubname: 'ZeroOne Code Club',
+    name: 'File Management in Linux through Command Line',
+    date: '6/10/2023',
+    time: '5.40 PM - 7:10 PM',
+    venue: 'NA',
+    organizer: '2200031219 - M Pavan karthik',
+    category: 'Technology Events through central level clubs (TEC)'
+  },
+  {
+    sno: '25',
+    clubname: 'Automobiles Club',
+    name: 'Introduction to ANSYS',
+    date: '6/10/2023',
+    time: '5.30 PM - 7.30 PM',
+    venue: 'M114',
+    organizer: '2100070002 - R Srinivas',
+    category: 'Technology Events through central level clubs (TEC)'
+  },
+  {
+    sno: '26',
+    clubname: 'Agriculture Club',
+    name: 'Hydroponics Episode 02',
+    date: '6/10/2023',
+    time: '5.30 PM - 7.30 PM',
+    venue: 'NA',
+    organizer: '2300040191 - C Harshitha',
+    category: 'Technology Events through central level clubs (TEC)'
+  },
+  {
+    sno: '27',
+    clubname: 'Fusion Dance Club',
+    name: 'F2 (Freaking Friday)',
+    date: '6/10/2023',
+    time: '4.30 PM - 7:00 PM',
+    venue: 'New Seminar Hall',
+    organizer: '2200040008 - G.Amulya',
+    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level'
+  }
+];
+
+
  export const projects = [ 
     {
         sno: '01',
@@ -244,3 +468,6 @@ export const activities = [
 
 
     
+
+
+

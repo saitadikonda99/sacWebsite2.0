@@ -1,23 +1,26 @@
-const express = require("express");
-const mysql = require("mysql");
-const bodyParser = require("body-parser");
+const express = require('express');
+const mysql = require('mysql');
+const bodyParser = require('body-parser');
 
 const app = express();
 const port = 3001;
 
+
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "deepak@123",
-  database: "Sac",
+  host: 'localhost',
+  user: 'root',
+  password: 'sai@1234',
+  database: 'Sac',
 });
+
+
 
 
 db.connect((err) => {
   if (err) {
     throw err;
-  }
-  console.log("Connected to MySQL database");
+  } 
+  console.log('Connected to MySQL database');
 });
 
 app.use(bodyParser.json());
@@ -36,21 +39,21 @@ CREATE TABLE IF NOT EXISTS sac_feedback (
 )
 `;
 
-const cors = require("cors");
+const cors = require('cors');
 
 app.use(cors());
 
 db.query(createTableQuery, (err, result) => {
   if (err) {
-    console.error("Error creating table:", err);
+    console.error('Error creating table:', err);
   } else {
-    console.log("Table created or already exists");
+    console.log('Table created or already exists');
   }
 });
 
-app.post("/api/submitFeedback", (req, res) => {
+app.post('/api/submitFeedback', (req, res) => {
   const {
-    universityId,
+    universityId, 
     name,
     email,
     MajorArea,
@@ -76,7 +79,7 @@ app.post("/api/submitFeedback", (req, res) => {
   db.query(
     insertQuery,
     [
-      universityId,
+      universityId,  
       name,
       email,
       MajorArea,
@@ -87,14 +90,32 @@ app.post("/api/submitFeedback", (req, res) => {
     ],
     (err, result) => {
       if (err) {
-        console.error("Error inserting data:", err);
-        res.status(500).json({ error: "Error inserting data" });
+        console.error('Error inserting data:', err);
+        res.status(500).json({ error: 'Error inserting data' });
       } else {
-        console.log("Data inserted successfully");
-        res.status(200).json({ message: "Data inserted successfully" });
+        console.log('Data inserted successfully');
+        res.status(200).json({ message: 'Data inserted successfully' });
       }
     }
   );
+});
+
+app.get('/api/feedbackdata', (req, res) => {
+  const { password } = req.query;
+  if (password === '123') {
+    const fetchDataQuery = 'SELECT * FROM sac_feedback';
+    db.query(fetchDataQuery, (err, result) => {
+      if (err) {
+        console.error('Error fetching data:', err);
+        res.status(500).json({ error: 'Error fetching data' });
+      } else {
+        res.status(200).json(result);
+        
+      }
+    });
+  } else {
+    res.status(403).json({ error: 'Unauthorized' });
+  }
 });
 
 

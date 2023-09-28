@@ -153,14 +153,13 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
 // ------------------------------------------------------
 
-
   return (
     <div className='HomeComponent'>
         {screenWidth > 768 ? <NavBar isScrolled={isNavScrolled} /> : <ToggleNav/> }
         <div className="HomeContainer">
           <div className="Home-one">
             <div className="Home-one-in">
-              <video autoPlay={true} loop={true} muted={true} style={{width: "100%"}} src={newVideo}></video>
+              <video preload='auto' autoPlay={true} loop={true} muted={true} style={{width: "100%"}} src={newVideo}></video>
               <div className="centered-text">
               <h1>Student Activity Center</h1>
               <p className="animate-text">Empowering Tomorrow's Leaders Today</p>

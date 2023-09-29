@@ -14,8 +14,6 @@ const db = mysql.createConnection({
 });
 
 
-
-
 db.connect((err) => {
   if (err) {
     throw err;
@@ -110,7 +108,7 @@ app.get('/api/feedbackdata', (req, res) => {
         res.status(500).json({ error: 'Error fetching data' });
       } else {
         res.status(200).json(result);
-        
+
       }
     });
   } else {

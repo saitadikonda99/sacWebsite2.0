@@ -21,6 +21,7 @@ import CompletedEvents from './pages/CompletedEvent/Page';
 import SocialMedia from './pages/SocialMedia/page';
 import Feedback from "./pages/Feedback/Page";
 import ViewFeedback from "./pages/Admin/Page";
+import SHS from './pages/SHS/page';
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -59,7 +60,9 @@ function App() {
     { path: "/completedevents", element: <CompletedEvents /> },
     { path: "/socialmedia", element: <SocialMedia/> },
     { path: "/Feedback", element: <Feedback/>},
-    { path: "/viewFeedback", element: <ViewFeedback/>}
+    { path: "/viewFeedback", element: <ViewFeedback/>},
+    { path: "/swachhatahiseva", element: <SHS/>}
+    
   ];
 
   return (

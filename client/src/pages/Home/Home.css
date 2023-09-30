@@ -161,6 +161,39 @@
   }
 
   
+.Home-two {
+    width: 100%;
+    padding: 2rem 0rem;
+}
+.Home-two-in {
+    width: 95%;
+    margin: auto;
+}
+.Home-two-in img {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.Home-two-in h1 {
+    font-size: 3rem;
+}
+.Home-two-in h1 span:nth-child(1) {
+    color: orange;
+}
+.Home-two-in h1 span:nth-child(3) {
+    color: green;
+}
+.hti-link {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(151, 0, 3);
+    border: 1px solid black;
+    padding: 0.3rem 0.7rem;
+    border-radius: 1rem;
+}
+
+
+
 
 
 

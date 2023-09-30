@@ -72,6 +72,10 @@
     }
 
 
+    .Home-two {
+        display: none;
+    }
+
     /* -----------------  projects ----------------- */
     .projects {
         padding: 4rem 0rem 0rem 0rem;

@@ -46,6 +46,8 @@ import NewsTwo from '../../Assets/NewsTwo.png';
 import NewsThree from '../../Assets/NewsThree.png';
 import NewsFour from '../../Assets/NewsFour.png';
 import chairman from '../../Assets/chairman.png';
+import SHS from '../../Assets/SHS.jpeg';
+
 
 const Home  = () => {
  
@@ -187,7 +189,9 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
         <div className="Home-two">
           <div className="Home-two-in">
-
+            <h1>KLSAC for <span>Garbage</span><span>Free</span><span>India</span></h1>
+            <img src={SHS} alt="" />
+            <Link className='hti-link' to='/swachhatahiseva'>View KLSAC's Activities</Link>
           </div>
         </div>
 
@@ -245,6 +249,8 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                     </CountUp>
                   </div>
                 </div>
+
+
 
 
                 <div className="about-two-five about-two-cmn">

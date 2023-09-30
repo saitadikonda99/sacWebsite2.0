@@ -1,0 +1,14 @@
+.shs-one img {
+    margin-top: 5rem;
+    width: 100%;
+}
+.shs-two-in-header {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    padding: 1rem 0rem;
+}
+
+.shs-two {
+    padding: 3rem 0rem;
+}

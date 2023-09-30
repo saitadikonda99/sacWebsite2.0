@@ -30,7 +30,7 @@ const DataDisplay = () => {
         <div className="input-container">
           <input
             type="password"
-            placeholder="Enter Password"
+            placeholder="Enter Admin Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />

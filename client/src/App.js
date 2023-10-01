@@ -22,6 +22,9 @@ import SocialMedia from './pages/SocialMedia/page';
 import Feedback from "./pages/Feedback/Page";
 import ViewFeedback from "./pages/Admin/Page";
 import SHS from './pages/SHS/page';
+import RegistrationTable from "./pages/SilRegistrations/RegistrationTable";
+import RegistrationData from "./pages/SilRegistrations/RegistrationData";
+import DepartmentWise from "./pages/SilRegistrations/DepartmentWise";
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -61,7 +64,10 @@ function App() {
     { path: "/socialmedia", element: <SocialMedia/> },
     { path: "/Feedback", element: <Feedback/>},
     { path: "/viewFeedback", element: <ViewFeedback/>},
-    { path: "/swachhatahiseva", element: <SHS/>}
+    { path: "/swachhatahiseva", element: <SHS/>},
+    { path: "/registration", element: <RegistrationTable/>},
+    { path: "/registrationdata", element: <RegistrationData/>},
+    { path: "/departmentwise", element: <DepartmentWise/>}
     
   ];
 

@@ -5,7 +5,6 @@ import './MobileView.css';
 
 
 import deepak from '../../../Assets/CouncilMembers/DP.jpg'
-import clubpage from '../../../Assets/ClubsImages/codingMain.webp'
 import instagram from '../../../Assets/Logos/InstaLogo.png'
 import linkedin from '../../../Assets/Logos/LinkedInLogo.png'
 import twitter from '../../../Assets/Logos/TwitterLogo.png'
@@ -23,7 +22,9 @@ import zocc_glimpse_four from '../../../Assets/ClubsImages/ZeroOneCodeClub/zocc_
 import ZeroOneGroupPic from '../../../Assets/ClubsImages/ZeroOneCodeClub/ZeroOneGroupPic.JPG';
 import ZeroOneCommunity from '../../../Assets/ClubsImages/ZeroOneCodeClub/ZeroOneCommunity.jpg';
 import Technology from '../../../Assets/Technology.png';
-// components start here
+
+
+
 import Footer from '../../../components/Footer/Footer'
 import Navbar from './NavBar'
 import ToggleNavBar from './ToggleNavBar'
@@ -50,7 +51,6 @@ const Page = () => {
     setActivity(Number)
   }
 
-  // ----------------------------------------------------------------------
 
   const [showDiv, setShowDiv] = useState(false);
 
@@ -160,7 +160,6 @@ const Page = () => {
                       <div className="club-main-content-in">
 
 
-{/* ----------------------------------------Glimpse-------------------------------------------- */}
 
                         <div className = { activity === 1 ? 'club-main-content-box' : 'main-content-hide' } >
                           

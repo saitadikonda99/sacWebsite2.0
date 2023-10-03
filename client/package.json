@@ -49,6 +49,7 @@
     "react-visibility-sensor": "^5.1.1",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.10",
+    "swiper": "^10.3.1",
     "web-vitals": "^2.1.4",
     "webpack": "^5.77.0",
     "webpack-dev-server": "^4.13.2"

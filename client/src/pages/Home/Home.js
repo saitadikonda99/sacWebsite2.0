@@ -21,6 +21,12 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogActions from '@mui/material/DialogActions';
 
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+
 
 
 import Footer from '../../components/Footer/Footer';
@@ -47,6 +53,10 @@ import NewsThree from '../../Assets/NewsThree.png';
 import NewsFour from '../../Assets/NewsFour.png';
 import chairman from '../../Assets/chairman.png';
 import SHS from '../../Assets/SHS.jpeg';
+import SHSTwo from '../../Assets/SwachhataHiSeva/SHSImages/SHSTwo.png';
+import SHSThree from '../../Assets/SwachhataHiSeva/SHSImages/SHSThree.png';
+import SHSFour from '../../Assets/SwachhataHiSeva/SHSImages/SHSFour.png';
+import SHSFive from '../../Assets/SwachhataHiSeva/SHSImages/SHSFive.png';
 
 
 const Home  = () => {
@@ -153,6 +163,8 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
   }, []);
 
 
+  
+
 // ------------------------------------------------------
 
   return (
@@ -190,10 +202,46 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
         <div className="Home-two">
           <div className="Home-two-in">
             <h1>KLSAC for <span>Garbage</span><span>Free</span><span>India</span></h1>
-            <img src={SHS} alt="" />
-            <Link className='hti-link' to='/swachhatahiseva'>View KLSAC's Activities</Link>
+            <Link className='hti-link' to='/swachhatahiseva'>Explore</Link>
           </div>
         </div>
+
+        <Swiper
+        spaceBetween={0}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={false}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <div className="shs-swiper-module">
+            <img src={SHSTwo} alt="" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="shs-swiper-module">
+            <img src={SHSThree} alt="" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="shs-swiper-module">
+            <img src={SHSFour} alt="" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="shs-swiper-module">
+            <img src={SHSFive} alt="" />
+          </div>
+        </SwiperSlide>
+
+      </Swiper>
 
         
         

@@ -8,13 +8,11 @@ import './MobileView.css';
 
 import Footer from '../../components/Footer/Footer';
 
-import DP from '../../Assets/CouncilMembers/DP.jpg';
 import director from '../../Assets/director.png';
 import chairman from '../../Assets/chairman.png';
 import AcademicCouncilConvener from '../../Assets/UpdatedCouncilMembers/AcademicCouncilConvener.png';
 import CouncilAdvisor from '../../Assets/UpdatedCouncilMembers/CouncilAdvisor.png';
 import DanceFusionLead from '../../Assets/UpdatedCouncilMembers/DanceFusionLead.png';
-import ELCLead from '../../Assets/UpdatedCouncilMembers/ELCLead.png';
 import Elcomicos from '../../Assets/UpdatedCouncilMembers/ElcomicsLead.png';
 import EventsCouncilConvener from '../../Assets/UpdatedCouncilMembers/EventsCouncilConvener.png';
 import FinanceCouncilConvener from '../../Assets/UpdatedCouncilMembers/FinanceCouncilConvener.png';
@@ -24,7 +22,6 @@ import NarthanaLead from '../../Assets/UpdatedCouncilMembers/NarthanaLead.png';
 import OutreachCouncilConvener from  '../../Assets/UpdatedCouncilMembers/OutreachCouncilConvener.png';
 import QualityAnalysisCouncilConvener from '../../Assets/UpdatedCouncilMembers/QualityAnalysisCouncilConvener.png';
 import SVRLead from '../../Assets/UpdatedCouncilMembers/SVRLead.png';
-import TheDesignSphereLead from '../../Assets/UpdatedCouncilMembers/TheDesignSphereLead.png';
 import VachasLead from '../../Assets/UpdatedCouncilMembers/VachasLead.png';
 import versatales from '../../Assets/UpdatedCouncilMembers/versatalesLead.png';
 import ViceChairman from '../../Assets/UpdatedCouncilMembers/ViceChairman.png';

@@ -176,6 +176,7 @@
 }
 .Home-two-in h1 {
     font-size: 3rem;
+    margin-bottom: 1rem;
 }
 .Home-two-in h1 span:nth-child(1) {
     color: orange;
@@ -193,6 +194,13 @@
 }
 
 
+.shs-swiper-module {
+    width: 100%;
+}
+.shs-swiper-module img {
+    width: 90%;
+    margin: auto;
+}
 
 
 

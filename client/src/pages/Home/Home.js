@@ -202,7 +202,8 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
         <div className="Home-two">
           <div className="Home-two-in">
             <h1>KLSAC for <span>Garbage</span><span>Free</span><span>India</span></h1>
-            <Link className='hti-link' to='/swachhatahiseva'>Explore</Link>
+            <img src={SHS} alt="" />
+            <Link className='hti-link' to='/swachhatahiseva'>View KLSAC's Activities</Link>
           </div>
         </div>
 

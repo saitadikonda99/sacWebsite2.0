@@ -5,7 +5,7 @@ import './Page.css';
 import NavBar from './NavBar';
 
 import Footer from '../../components/Footer/Footer';
-import { activities_week_02, activities_week_03 } from './DataArray';
+import { activities_week_02, activities_week_03, activities_week_04 } from './DataArray';
 import { projects } from './DataArray';
 
 const Page = () => {
@@ -13,6 +13,9 @@ const Page = () => {
   const [isWeek03TableVisible, setWeek03TableVisible] = useState(false);
   const [isWeek02ButtonVisible, setWeek02ButtonVisible] = useState(true);
   const [isWeek03ButtonVisible, setWeek03ButtonVisible] = useState(true);
+  const [isWeek04ButtonVisible, setWeek04ButtonVisible] = useState(true);
+  const [isWeek04TableVisible, setWeek04TableVisible] = useState(false);
+
 
   const toggleWeek02Table = () => {
     setWeek02TableVisible(!isWeek02TableVisible);
@@ -22,6 +25,11 @@ const Page = () => {
   const toggleWeek03Table = () => {
     setWeek03TableVisible(!isWeek03TableVisible);
     setWeek03ButtonVisible(!isWeek03ButtonVisible);
+  };
+
+   const toggleWeek04Table = () => {
+    setWeek04TableVisible(!isWeek04TableVisible);
+    setWeek04ButtonVisible(!isWeek04ButtonVisible);
   };
 
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -70,6 +78,43 @@ const Page = () => {
         </div>
 
         <div className="silactivites">
+          <div className="silactivities-in">
+  <div className="silactivities-in-header">
+    <h1>Week 04 List of Activities & Events</h1>
+    <button className='openAndCloseBtn' onClick={toggleWeek04Table}>
+      {isWeek04ButtonVisible ? 'Open Table' : 'Close Table'}
+    </button>
+  </div>
+  {isWeek04TableVisible && (
+    <table>
+      <thead>
+        <tr>
+          <th>Sno</th>
+          <th>Activity Name</th>
+          <th>Organizing Club</th>
+          <th>Date</th>
+          <th>Time</th>
+          <th>Venue</th>
+          <th>Student Organizer</th>
+        </tr>
+      </thead>
+      <tbody>
+        {activities_week_04.map((activity, index) => (
+          <tr key={index}>
+            <td>{activity.sno}</td>
+            <td>{activity.name}</td>
+            <td>{activity.clubname}</td>
+            <td>{activity.date}</td>
+            <td>{activity.time}</td>
+            <td>{activity.venue}</td>
+            <td>{activity.organizer}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  )}
+</div>
+
         <div className="silactivities-in">
   <div className="silactivities-in-header">
     <h1>Week 03 List of Activities & Events</h1>
@@ -105,7 +150,7 @@ const Page = () => {
       </tbody>
     </table>
   )}
-</div>
+        </div>
 
 <div className="silactivities-in">
   <div className="silactivities-in-header">

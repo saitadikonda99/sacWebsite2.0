@@ -405,6 +405,90 @@ export const activities_week_03 = [
   }
 ];
 
+export const activities_week_04 = [
+  {
+    sno: '1',
+    clubname: 'ZeroOne Code Club',
+    name: 'Strings in Java',
+    date: '10/10/2023',
+    time: '5.40 PM - 7.10 PM',
+    venue: 'R302 A',
+    organizer: '2200030500 - Anantha Sri P',
+    category: 'Technology Events through central level clubs (TEC) 8279 - Mr Sathuluri Saga 8019184283'
+  },
+  {
+    sno: '2',
+    clubname: 'ZeroOne Code Club',
+    name: 'Python Flask',
+    date: '10/10/2023',
+    time: '5.40 PM - 7.10 PM',
+    venue: 'R301 B',
+    organizer: '2200030500 - Navya V',
+    category: 'Technology Events through central level clubs (TEC) 8279 - Mr Sathuluri Saga 8019184283'
+  },
+  {
+    sno: '3',
+    clubname: 'ZeroOne Code Club',
+    name: 'Git and GitHub - Collaborating on a Project',
+    date: '10/10/2023',
+    time: '5.40 PM - 7.10 PM',
+    venue: 'R301 A',
+    organizer: '2200030805 - T Sai Manikanta',
+    category: 'Technology Events through central level clubs (TEC) 8279 - Mr Sathuluri Saga 8019184283'
+  },
+  {
+    sno: '4',
+    clubname: 'ZeroOne Code Club',
+    name: 'Microsoft Power Automate - II',
+    date: '10/10/2023',
+    time: '5.40 PM - 7.10 PM',
+    venue: 'R302 B',
+    organizer: '2200031219 - M Pavan Karthik',
+    category: 'Technology Events through central level clubs (TEC) 8279 - Mr Sathuluri Saga 8019184283'
+  },
+  {
+    sno: '5',
+    clubname: 'ZeroOne Code Club',
+    name: 'Microsoft SharePoint',
+    date: '10/10/2023',
+    time: '5.40 PM - 7.10 PM',
+    venue: 'R 306 A',
+    organizer: '2200031197 - M Pujitha',
+    category: 'Technology Events through central level clubs (TEC) 8279 - Mr Sathuluri Saga 8019184283'
+  },
+  {
+    sno: '6',
+    clubname: 'WebApps',
+    name: 'Figma Mastery Class',
+    date: '10/10/2023',
+    time: '5.30 PM - 7.10 PM',
+    venue: 'R 307 A',
+    organizer: '2200031488 - Shaik Arshad',
+    category: 'Technology Events through central level clubs (TEC) 5387 - Mr P Sai Vijay 8019184283'
+  },
+  {
+    sno: '7',
+    clubname: 'Stand-Up Comedy Club',
+    name: 'Stand-Up Show - Telugu',
+    date: '10/10/2023',
+    time: '5.45 PM - 7.10 PM',
+    venue: 'Jasmine Hall',
+    organizer: '2200031470 - K Muni Sai Charith',
+    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level 7889 - Mr Abhay Chaudary 8019184283'
+  },
+  {
+    sno: '8',
+    clubname: 'NARTHANA DANCE CLUB',
+    name: 'Tremendous Tuesday',
+    date: '10/10/2023',
+    time: 'NA',
+    venue: 'New Seminar Hall',
+    organizer: '2200560159 - G.V.Dhoni',
+    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level 3230 - Mr U Kanaka Prasad 8019184283'
+  }
+];
+
+
 
  export const projects = [ 
     {
@@ -465,6 +549,7 @@ export const activities_week_03 = [
     },
     
     ];
+  
 
 
     

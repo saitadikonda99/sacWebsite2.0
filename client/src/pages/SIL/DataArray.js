@@ -6,7 +6,8 @@ export const activities_week_02 = [
     date: '25th September',
     time: '5.30 PM - 7.30 PM',
     venue: 'SAC Hall',
-    organizer: '2200070019 - Jagadesh'
+    organizer: '2200070019 - Jagadesh',
+    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
   },
   {
     sno: '02',
@@ -15,7 +16,8 @@ export const activities_week_02 = [
     date: '25th September',
     time: '5:30 PM - 7:30 PM',
     venue: 'M002A',
-    organizer: '2200030622 - S Ganesh'
+    organizer: '2200030622 - S Ganesh',
+    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
   },
   {
     sno: '03',
@@ -24,7 +26,8 @@ export const activities_week_02 = [
     date: '25th September',
     time: '5:40 PM - 7:10 PM',
     venue: 'SAC Hall',
-    organizer: '2200032949 - Lohit Kumar'
+    organizer: '2200032949 - Lohit Kumar',
+    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
   },
   {
     sno: '04',
@@ -33,7 +36,8 @@ export const activities_week_02 = [
     date: '26th September',
     time: '5.30 PM - 7.30 PM',
     venue: 'SAC Hall',
-    organizer: '2200030622 - S Ganesh'
+    organizer: '2200030622 - S Ganesh',
+    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
   },
   {
     sno: '05',
@@ -42,7 +46,8 @@ export const activities_week_02 = [
     date: '26th September',
     time: '5:00 PM - 7:00 PM',
     venue: 'New Seminar Hall',
-    organizer: '2000030020 - Adapa Devi Sai Chakradhar'
+    organizer: '2000030020 - Adapa Devi Sai Chakradhar',
+    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
   },
   {
     sno: '06',
@@ -51,7 +56,8 @@ export const activities_week_02 = [
     date: '26th September',
     time: '6:00 PM - 7:00 PM',
     venue: 'Jasmine Hall',
-    organizer: '2200033034 - S Hari Priya Devi'
+    organizer: '2200033034 - S Hari Priya Devi',
+    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
   },
   {
     sno: '07',
@@ -60,7 +66,8 @@ export const activities_week_02 = [
     date: '27th September',
     time: '5.30 PM - 7.30 PM',
     venue: 'M002A',
-    organizer: '2200030622 - S Ganesh'
+    organizer: '2200030622 - S Ganesh',
+    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
   },
   {
     sno: '08',
@@ -69,7 +76,8 @@ export const activities_week_02 = [
     date: '27th September',
     time: '5:00 PM - 7:00 PM',
     venue: 'Jasmine Hall',
-    organizer: 'To be updated'
+    organizer: 'To be updated',
+    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
   },
   {
     sno: '09',
@@ -78,7 +86,8 @@ export const activities_week_02 = [
     date: '27th September',
     time: '5:00 PM - 7:00 PM',
     venue: 'New Seminar Hall',
-    organizer: '2200030985 - K.Yuva Vardhan'
+    organizer: '2200030985 - K.Yuva Vardhan',
+    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
   },
   {
     sno: '10',
@@ -87,7 +96,8 @@ export const activities_week_02 = [
     date: '27th September',
     time: '5:40 PM - 7:00 PM',
     venue: 'SAC Hall',
-    organizer: '2200033275 - Mohammed Jawaad, 2200033131 - Rishika Reddy'
+    organizer: '2200033275 - Mohammed Jawaad, 2200033131 - Rishika Reddy',
+    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
   },
   {
     sno: '11',
@@ -96,7 +106,8 @@ export const activities_week_02 = [
     date: '27th September',
     time: '5:40 PM - 7:00 PM',
     venue: 'SAC Hall',
-    organizer: '2000030917 - Sai Vara Prasad'
+    organizer: '2000030917 - Sai Vara Prasad',
+    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
   },
   {
     sno: '12',
@@ -105,7 +116,8 @@ export const activities_week_02 = [
     date: '27th September',
     time: '9:00 AM - 5:00 PM',
     venue: 'Morusumilli Thanda',
-    organizer: '2200010050 - Aayaaz basha'
+    organizer: '2200010050 - Aayaaz basha',
+    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
   },
   {
     sno: '13',
@@ -114,7 +126,8 @@ export const activities_week_02 = [
     date: '28th September',
     time: '3:30 PM - 7:30 PM',
     venue: 'Rose Hall',
-    organizer: '2200033074 - P. Satyanarayana Chowdary'
+    organizer: '2200033074 - P. Satyanarayana Chowdary',
+    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
   },
   {
     sno: '14',
@@ -123,7 +136,8 @@ export const activities_week_02 = [
     date: '29th September',
     time: '5:30 PM - 7:10 PM',
     venue: 'SAC Hall',
-    organizer: '2100080187 - Niranjan Sah'
+    organizer: '2100080187 - Niranjan Sah',
+    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
   },
   {
     sno: '15',
@@ -132,7 +146,8 @@ export const activities_week_02 = [
     date: '29th September',
     time: '5:40 PM - 7:20 PM',
     venue: 'M002A',
-    organizer: '2200031219 - Pavan Karthik M'
+    organizer: '2200031219 - Pavan Karthik M',
+    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
   },
   {
     sno: '16',
@@ -141,7 +156,8 @@ export const activities_week_02 = [
     date: '29th September',
     time: '5:40 PM - 7:20 PM',
     venue: 'Rose Hall',
-    organizer: '2200090049 - K Deepak Reddy'
+    organizer: '2200090049 - K Deepak Reddy',
+    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
   },
   {
     sno: '17',
@@ -150,7 +166,8 @@ export const activities_week_02 = [
     date: '29th September',
     time: '6:00 PM - 7:00 PM',
     venue: 'Jasmine Hall',
-    organizer: '2200033158 - Shreyas raj'
+    organizer: '2200033158 - Shreyas raj',
+    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
   },
   {
     sno: '18',
@@ -159,7 +176,8 @@ export const activities_week_02 = [
     date: '30th September',
     time: '3:00 PM - 6:00 PM',
     venue: 'Guntur',
-    organizer: '21000550035 - Marion Nassamula'
+    organizer: '21000550035 - Marion Nassamula',
+    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
   },
   {
     sno: '19',
@@ -168,7 +186,8 @@ export const activities_week_02 = [
     date: '30th September',
     time: '5.30 PM - 6.30 PM',
     venue: 'SAC Hall',
-    organizer: '2200010128 - K Tejokrishna Chowdary'
+    organizer: '2200010128 - K Tejokrishna Chowdary',
+    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
   },
   {
     sno: '20',
@@ -177,7 +196,8 @@ export const activities_week_02 = [
     date: '30th September',
     time: '5.30 PM - 7.30 PM',
     venue: 'M002A',
-    organizer: '2200031219 - Pavan Karthik M'
+    organizer: '2200031219 - Pavan Karthik M',
+    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
   }
 ];
 

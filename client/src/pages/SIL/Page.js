@@ -167,9 +167,8 @@ const Page = () => {
           <th>Activity Name</th>
           <th>Organizing Club</th>
           <th>Date</th>
-          <th>Time</th>
-          <th>Venue</th>
           <th>Student Organizer</th>
+          <th>Report</th>
         </tr>
       </thead>
       <tbody>
@@ -179,12 +178,12 @@ const Page = () => {
             <td>{activity.name}</td>
             <td>{activity.clubname}</td>
             <td>{activity.date}</td>
-            <td>{activity.time}</td>
-            <td>{activity.venue}</td>
             <td>{activity.organizer}</td>
+            <td><a target='_black' href={activity.report}>Click Here</a></td>
           </tr>
         ))}
       </tbody>
+
     </table>
   )}
 </div>

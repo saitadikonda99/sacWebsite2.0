@@ -6,7 +6,7 @@ import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 import ScrollToTop from "react-scroll-to-top";
 import { Link as Scroll } from 'react-scroll';
-
+import 'add-to-calendar-button';
 
 import NavBar from '../../components/Navigation/Page';
 import ToggleNav from '../../components/Navigation/ToggleNav';
@@ -57,6 +57,13 @@ import SHSTwo from '../../Assets/SwachhataHiSeva/SHSImages/SHSTwo.png';
 import SHSThree from '../../Assets/SwachhataHiSeva/SHSImages/SHSThree.png';
 import SHSFour from '../../Assets/SwachhataHiSeva/SHSImages/SHSFour.png';
 import SHSFive from '../../Assets/SwachhataHiSeva/SHSImages/SHSFive.png';
+
+// upcoming events
+import EventOne from '../../Assets/UpcomingEvents/UpcomingEvent1.png';
+import EventTwo from '../../Assets/UpcomingEvents/UpcomingEvent2.png';
+import EventThree from '../../Assets/UpcomingEvents/UpcomingEvent3.png';
+import EventFour from '../../Assets/UpcomingEvents/UpcomingEvent4.png';
+
 
 
 const Home  = () => {
@@ -587,36 +594,43 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
         <div className="ue-comps">
               <div className="ue-comps-in">
                 <div className="ue-comps-in-one">
-                    <img src={One} alt="" />
+                    <img src={EventOne} alt="" />
                 </div>
                 <div className="ue-comps-in-two">
-                      <h2>Vim Master Class</h2>
-                      <p>Master Unix VIM: Boost your productivity with this versatile, efficient text editor for command-line enthusiasts.</p>
+                <div className="ue-comps-in-two-in">
+                  <h2>Strings in Java</h2>
+                  <p>10th October, 2023</p>
+                </div>
+                  <div className="ue-comps-in-two-in-in">
+                  <add-to-calendar-button
+                        name="Strings in Java"
+                        startDate="2022-10-10"
+                        options="['Google']"
+                      >
+                    </add-to-calendar-button>
+                  </div>
 
-                      <p>25th September, 2023</p>
-                      <Link
-                        className='registration-link-for-events'
-                        to='https://forms.google.com/'
-                        target='_blank'
-                      >Register</Link>
                 </div>
               </div>
             </div>
             <div className="ue-comps">
               <div className="ue-comps-in">
                 <div className="ue-comps-in-one">
-                    <img src={Angular} alt="" />
+                    <img src={EventTwo} alt="" />
                 </div>
                 <div className="ue-comps-in-two">
-                      <h2>Angular.js</h2>
-                      <p>Discover the power of Angular.js: a dynamic framework for building robust, interactive web applications.</p>
-
-                      <p>27th September, 2023</p>
-                      <Link
-                        className='registration-link-for-events'
-                        to='https://forms.google.com/'
-                        target='_blank'
-                      >Register</Link>
+                <div className="ue-comps-in-two-in">
+                  <h2>Python Flask</h2>
+                  <p>10th October, 2023</p>
+                </div>
+                  <div className="ue-comps-in-two-in-in">
+                  <add-to-calendar-button
+                        name="Python Flask"
+                        startDate="2022-10-10"
+                        options="['Google']"
+                      >
+                    </add-to-calendar-button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -624,37 +638,46 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
             <div className="ue-comps">
               <div className="ue-comps-in">
                 <div className="ue-comps-in-one">
-                    <img src={Bash} alt="" />
+                    <img src={EventThree} alt="" />
                 </div>
                 <div className="ue-comps-in-two">
-                      <h2>Bash Scrpting</h2>
-                      <p>Unlock the world of Bash scripting: Learn to automate tasks and streamline your workflow with shell scripting</p>
 
-                      <p>27th September, 2023</p>
-                      <Link
-                        className='registration-link-for-events'
-                        to='https://forms.google.com/'
-                        target='_blank'
-                      >Register</Link>
+                <div className="ue-comps-in-two-in">
+                  <h2>Version Control</h2>
+                  <p>10th October, 2023</p>
+                </div>
+                  <div className="ue-comps-in-two-in-in">
+                  <add-to-calendar-button
+                        name="Version Control"
+                        startDate="2022-10-10"
+                        options="['Google']"
+                      >
+                    </add-to-calendar-button>
+                  </div>
+ 
                 </div>
               </div>
             </div>
             <div className="ue-comps">
               <div className="ue-comps-in">
                 <div className="ue-comps-in-one">
-                    <img src={reactv6} alt="" />
+                    <img src={EventFour} alt="" />
                     
                 </div>
                 <div className="ue-comps-in-two">
-                      <h2>React Router V6</h2>
-                      <p>Unlock the world of Bash scripting: Learn to automate tasks and streamline your workflow with shell scripting</p>
+                  <div className="ue-comps-in-two-in">
+                    <h2>Power Automate</h2>
+                    <p>10th October, 2023</p>
+                  </div>
+                  <div className="ue-comps-in-two-in-in">
+                    <add-to-calendar-button
+                        name="Power Automate"
+                        startDate="2022-10-10"
+                        options="['Google']"
+                      >
+                    </add-to-calendar-button>
+                  </div>
 
-                      <p>26th September, 2023</p>
-                      <Link
-                        className='registration-link-for-events'
-                        to='https://forms.google.com/'
-                        target='_blank'
-                      >Register</Link>
                 </div>
               </div>
             </div>

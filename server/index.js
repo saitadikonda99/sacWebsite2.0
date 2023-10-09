@@ -10,7 +10,6 @@ app.use(cors());
 
 async function main() {
   const db = await mysql.createConnection({
-    host: 'localhost',
     user: 'root',
     password: 'sai@1234',
     database: 'siltable',

@@ -212,16 +212,19 @@
     /* background-color: rgb(151, 0, 3); */
     background-color: black;
     color: white;
+    text-align: center;
 }
 .Events-table table tr td {
     border: 1px solid grey;
     padding: 0.5rem 0rem;
+    text-align: center;
 }
 .Events-table table tr td:nth-child(1) {
     /* background-color:rgb(151, 0, 3); */
     background-color: black;
     color: white;
     width: 5%;
+    text-align: center;
 }
 .Events-table table tr td:nth-child(2) {
     width: 30%;

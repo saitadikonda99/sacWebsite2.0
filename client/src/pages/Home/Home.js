@@ -43,16 +43,11 @@ import Liberal from '../../Assets/Liberal.png';
 import Innovation from '../../Assets/Innovation.png';
 import Outreach from '../../Assets/Outreach.png';
 
-import Angular from '../../Assets/Angular.png';
-import One from '../../Assets/One.png';
-import Bash from '../../Assets/Bash.png';
-import reactv6 from '../../Assets/reactv6.png';
 import NewsOne from '../../Assets/NewsOne.png';
 import NewsTwo from '../../Assets/NewsTwo.png';
 import NewsThree from '../../Assets/NewsThree.png';
 import NewsFour from '../../Assets/NewsFour.png';
 import chairman from '../../Assets/chairman.png';
-import SHS from '../../Assets/SHS.jpeg';
 import SHSTwo from '../../Assets/SwachhataHiSeva/SHSImages/SHSTwo.png';
 import SHSThree from '../../Assets/SwachhataHiSeva/SHSImages/SHSThree.png';
 import SHSFour from '../../Assets/SwachhataHiSeva/SHSImages/SHSFour.png';
@@ -209,7 +204,6 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
         <div className="Home-two">
           <div className="Home-two-in">
             <h1>KLSAC for <span>Garbage</span><span>Free</span><span>India</span></h1>
-            <img src={SHS} alt="" />
             <Link className='hti-link' to='/swachhatahiseva'>View KLSAC's Activities</Link>
           </div>
         </div>
@@ -367,7 +361,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                         maxWidth="lg"
                       >
                         <DialogContent dividers>
-                          <iframe
+                          <iframe title='sachandbook'
                           src="https://online.fliphtml5.com/syvtl/zqtg/"
                           frameborder="0"
                           style={{ width: '50rem', height: '50rem' }} // Adjust height as needed
@@ -417,6 +411,8 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                     <Scroll className='projects-comps-two-links' activeClass="active" to="Quick-links-component" spy={true} smooth={true} offset={-100} duration={800}>Explore</Scroll>
                   </div>
                 </div>
+
+
                 <div className="projects-comps">
                   <div className="projects-comps-one">
                     <img src={Liberal} alt="" />  
@@ -427,6 +423,8 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                     <Scroll className='projects-comps-two-links' activeClass="active" to="Quick-links-component" spy={true} smooth={true} offset={-100} duration={800}>Explore</Scroll>
                   </div>
                 </div>
+
+
                 <div className="projects-comps">
                   <div className="projects-comps-one">
                     <img src={Innovation} alt="" />  
@@ -437,6 +435,8 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                     <Scroll className='projects-comps-two-links' activeClass="active" to="Quick-links-component" spy={true} smooth={true} offset={-100} duration={800}>Explore</Scroll>
                   </div>
                 </div>
+
+
                 <div className="projects-comps">
                   <div className="projects-comps-one">
                     <img src={Outreach} alt="" />  
@@ -447,6 +447,8 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                     <Scroll className='projects-comps-two-links' activeClass="active" to="Quick-links-component" spy={true} smooth={true} offset={-100} duration={800}>Explore</Scroll>
                   </div>
                 </div>
+
+                
               </div>
             </div>
 

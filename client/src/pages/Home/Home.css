@@ -163,7 +163,8 @@
   
 .Home-two {
     width: 100%;
-    padding: 2rem 0rem;
+    padding: 3rem 0rem 3rem 0rem;
+
 }
 .Home-two-in {
     width: 95%;
@@ -420,6 +421,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .ue-comps-in {
@@ -431,6 +433,12 @@
     position: relative;
 }
 
+.ue-comps-in-one {
+    padding: 0.2rem;
+    background-color: white;
+   
+}
+
 .ue-comps-in-one img {
     width: 100%;
     display: block;
@@ -438,7 +446,6 @@
 }
 .ue-comps-in-two {
     text-align: left;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .ue-comps-in-two-in {
     padding: 2rem 2rem 0rem 2rem;
@@ -861,7 +868,6 @@
 }
 
 
-/* ---------------------------------  news ------------------------------- */
 .news {
     padding: 3rem 0rem 5rem 0rem;
 }

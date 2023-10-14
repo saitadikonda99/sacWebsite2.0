@@ -933,8 +933,6 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
           </div>
          <Footer/>
     </div>
-
-
   )
 }
 

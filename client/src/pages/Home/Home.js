@@ -43,7 +43,7 @@ import Liberal from '../../Assets/Liberal.png';
 import Innovation from '../../Assets/Innovation.png';
 import Outreach from '../../Assets/Outreach.png';
 
-import NewsOne from '../../Assets/NewsOne.png';
+import NewsOne from '../../Assets/NewsImages/NewsImageOne.png';
 import NewsTwo from '../../Assets/NewsTwo.png';
 import NewsThree from '../../Assets/NewsThree.png';
 import NewsFour from '../../Assets/NewsFour.png';
@@ -540,9 +540,9 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                 <div className="news-one-in">
                   <img src={NewsOne} alt="" />
                   <div className="news-one-in-desc">
-                    <p>Senior Tales</p>
-                    <p>Stanford students create and apply knowledge by thinking and doing, preparing for leadership in a rapidly changing world.</p>
-                    <p>September 8th 2023</p>
+                    <p>Code for Cause Hackathon</p>
+                    <p>A hackathon that empowers your code to change the world. Join us in using technology for social good and make an impact through your coding expertise!</p>
+                    <p>18th and 19th October 2023</p>
                   </div>
                 </div>
             </div>
@@ -550,8 +550,8 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                 <div className="news-one-in">
                   <img src={NewsThree} alt="" />
                   <div className="news-one-in-desc">
-                    <p>Technology</p>
-                    <p>Stanford students create and apply knowledge by thinking and doing, preparing for leadership in a rapidly changing world.</p>
+                    <p>Student Council Meeting</p>
+                    <p>A diverse blend of students, spanning different academic disciplines, convenes to enhance the student community and evaluate ongoing progress.</p>
                     <p>September 8th 2023</p>
                   </div>
                 </div>
@@ -560,9 +560,9 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                 <div className="news-one-in">
                   <img src={NewsTwo} alt="" />
                   <div className="news-one-in-desc">
-                    <p>Technology</p>
-                    <p>Stanford students create and apply knowledge by thinking and doing, preparing for leadership in a rapidly changing world.</p>
-                    <p>September 8th 2023</p>
+                    <p>SAC Photography Club's Debut</p>
+                    <p>Photography Club has made its mark with 'Hukum,' a cover of 'Jailer.' The YouTube sensation has garnered a staggering 15k views!</p>
+                    <p>13th September 2023</p>
                   </div>
                 </div>
             </div>
@@ -570,9 +570,9 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                 <div className="news-one-in">
                   <img src={NewsFour} alt="" />
                   <div className="news-one-in-desc">
-                    <p>Technology</p>
-                    <p>Stanford students create and apply knowledge by thinking and doing, preparing for leadership in a rapidly changing world.</p>
-                    <p>September 8th 2023</p>
+                    <p>SAC Premier League Showdown:</p>
+                    <p>Today's match features the epic clash between the CSE Wizards and the CSE Honours Cyber Blasters in the SAC Premier League. Get ready for the excitement!</p>
+                    <p>23rd September 2023</p>
                   </div>
                 </div>
             </div>

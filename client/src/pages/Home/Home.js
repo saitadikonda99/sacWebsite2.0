@@ -501,6 +501,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                       </div>
                     </div>
                   </div>
+                  
                 </div>
                 <div className="stories-comps">
                   <div className="stories-comps-in">

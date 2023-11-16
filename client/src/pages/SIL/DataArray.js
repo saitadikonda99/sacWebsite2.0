@@ -7,7 +7,7 @@ export const activities_week_02 = [
     time: '5.30 PM - 7.30 PM',
     venue: 'SAC Hall',
     organizer: '2200070019 - Jagadesh',
-    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
+    report: 'NA'
   },
   {
     sno: '02',
@@ -17,7 +17,7 @@ export const activities_week_02 = [
     time: '5:30 PM - 7:30 PM',
     venue: 'M002A',
     organizer: '2200030622 - S Ganesh',
-    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
+    report: 'NA'
   },
   {
     sno: '03',
@@ -27,7 +27,7 @@ export const activities_week_02 = [
     time: '5:40 PM - 7:10 PM',
     venue: 'SAC Hall',
     organizer: '2200032949 - Lohit Kumar',
-    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
+    report: 'NA'
   },
   {
     sno: '04',
@@ -37,7 +37,7 @@ export const activities_week_02 = [
     time: '5.30 PM - 7.30 PM',
     venue: 'SAC Hall',
     organizer: '2200030622 - S Ganesh',
-    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
+    report: 'NA'
   },
   {
     sno: '05',
@@ -47,7 +47,7 @@ export const activities_week_02 = [
     time: '5:00 PM - 7:00 PM',
     venue: 'New Seminar Hall',
     organizer: '2000030020 - Adapa Devi Sai Chakradhar',
-    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
+    report: 'NA'
   },
   {
     sno: '06',
@@ -57,7 +57,7 @@ export const activities_week_02 = [
     time: '6:00 PM - 7:00 PM',
     venue: 'Jasmine Hall',
     organizer: '2200033034 - S Hari Priya Devi',
-    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
+    report: 'NA'
   },
   {
     sno: '07',
@@ -67,7 +67,7 @@ export const activities_week_02 = [
     time: '5.30 PM - 7.30 PM',
     venue: 'M002A',
     organizer: '2200030622 - S Ganesh',
-    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
+    report: 'NA'
   },
   {
     sno: '08',
@@ -77,7 +77,7 @@ export const activities_week_02 = [
     time: '5:00 PM - 7:00 PM',
     venue: 'Jasmine Hall',
     organizer: 'To be updated',
-    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
+    report: 'NA'
   },
   {
     sno: '09',
@@ -87,7 +87,7 @@ export const activities_week_02 = [
     time: '5:00 PM - 7:00 PM',
     venue: 'New Seminar Hall',
     organizer: '2200030985 - K.Yuva Vardhan',
-    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
+    report: 'NA'
   },
   {
     sno: '10',
@@ -97,7 +97,7 @@ export const activities_week_02 = [
     time: '5:40 PM - 7:00 PM',
     venue: 'SAC Hall',
     organizer: '2200033275 - Mohammed Jawaad, 2200033131 - Rishika Reddy',
-    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
+    report: 'NA'
   },
   {
     sno: '11',
@@ -107,7 +107,7 @@ export const activities_week_02 = [
     time: '5:40 PM - 7:00 PM',
     venue: 'SAC Hall',
     organizer: '2000030917 - Sai Vara Prasad',
-    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
+    report: 'NA'
   },
   {
     sno: '12',
@@ -117,7 +117,7 @@ export const activities_week_02 = [
     time: '9:00 AM - 5:00 PM',
     venue: 'Morusumilli Thanda',
     organizer: '2200010050 - Aayaaz basha',
-    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
+    report: 'NA'
   },
   {
     sno: '13',
@@ -127,7 +127,7 @@ export const activities_week_02 = [
     time: '3:30 PM - 7:30 PM',
     venue: 'Rose Hall',
     organizer: '2200033074 - P. Satyanarayana Chowdary',
-    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
+    report: 'NA'
   },
   {
     sno: '14',
@@ -137,7 +137,7 @@ export const activities_week_02 = [
     time: '5:30 PM - 7:10 PM',
     venue: 'SAC Hall',
     organizer: '2100080187 - Niranjan Sah',
-    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
+    report: 'NA'
   },
   {
     sno: '15',
@@ -147,7 +147,7 @@ export const activities_week_02 = [
     time: '5:40 PM - 7:20 PM',
     venue: 'M002A',
     organizer: '2200031219 - Pavan Karthik M',
-    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
+    report: 'https://www.canva.com/design/DAFv1VLgS2g/mT7PmU5OiXHPE_UD3Yve0A/view'
   },
   {
     sno: '16',
@@ -157,7 +157,7 @@ export const activities_week_02 = [
     time: '5:40 PM - 7:20 PM',
     venue: 'Rose Hall',
     organizer: '2200090049 - K Deepak Reddy',
-    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
+    report: 'NA'
   },
   {
     sno: '17',
@@ -167,7 +167,7 @@ export const activities_week_02 = [
     time: '6:00 PM - 7:00 PM',
     venue: 'Jasmine Hall',
     organizer: '2200033158 - Shreyas raj',
-    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
+    report: 'NA'
   },
   {
     sno: '18',
@@ -177,7 +177,7 @@ export const activities_week_02 = [
     time: '3:00 PM - 6:00 PM',
     venue: 'Guntur',
     organizer: '21000550035 - Marion Nassamula',
-    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
+    report: 'NA'
   },
   {
     sno: '19',
@@ -187,7 +187,7 @@ export const activities_week_02 = [
     time: '5.30 PM - 6.30 PM',
     venue: 'SAC Hall',
     organizer: '2200010128 - K Tejokrishna Chowdary',
-    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
+    report: 'NA'
   },
   {
     sno: '20',
@@ -197,7 +197,7 @@ export const activities_week_02 = [
     time: '5.30 PM - 7.30 PM',
     venue: 'M002A',
     organizer: '2200031219 - Pavan Karthik M',
-    report: 'https://kluniversityin-my.sharepoint.com/:b:/g/personal/2100031817_kluniversity_in/EboeD_z2INJCjRd8dSRZ1gMBeIqInXVMEI6SPCXZJfbW7A?e=lMZstq'
+    report: 'https://kluniversityin-my.sharepoint.com/personal/2200031219_kluniversity_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F2200031219%5Fkluniversity%5Fin%2FDocuments%2FBashScripting%2Epdf&parent=%2Fpersonal%2F2200031219%5Fkluniversity%5Fin%2FDocuments&ga=1'
   }
 ];
 
@@ -211,7 +211,8 @@ export const activities_week_03 = [
     time: '5.40 PM - 7:10 PM',
     venue: 'M00',
     organizer: '2200030805 - Sai Manikanta T',
-    category: 'Technology Events through central level clubs (TEC)'
+    category: 'Technology Events through central level clubs (TEC)',
+    report: 'https://kluniversityin-my.sharepoint.com/personal/2200031219_kluniversity_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F2200031219%5Fkluniversity%5Fin%2FDocuments%2FVim%20master%20class%20final%20Report%2Epdf&parent=%2Fpersonal%2F2200031219%5Fkluniversity%5Fin%2FDocuments&ga=1'
   },
   {
     sno: '2',
@@ -221,7 +222,8 @@ export const activities_week_03 = [
     time: '5.40 PM - 7:10 PM',
     venue: 'NA',
     organizer: '2200032426 - Harshith Pallav',
-    category: 'Technology Events through central level clubs (TEC)'
+    category: 'Technology Events through central level clubs (TEC)',
+    report: 'https://kluniversityin-my.sharepoint.com/personal/2200031219_kluniversity_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F2200031219%5Fkluniversity%5Fin%2FDocuments%2FReport%20of%20C%2B%2B%20for%20beginners%28SIL%29%2Epdf&parent=%2Fpersonal%2F2200031219%5Fkluniversity%5Fin%2FDocuments&ga=1'
   },
   {
     sno: '3',
@@ -231,7 +233,8 @@ export const activities_week_03 = [
     time: '5.30 PM - 7.30 PM',
     venue: 'NA',
     organizer: '2300031488 - Shaik Arshad',
-    category: 'Technology Events through central level clubs (TEC)'
+    category: 'Technology Events through central level clubs (TEC)',
+    report: 'NA'
   },
   {
     sno: '4',
@@ -241,7 +244,8 @@ export const activities_week_03 = [
     time: '5.30 PM - 7.30 PM',
     venue: 'NA',
     organizer: '2200069013 - Murali',
-    category: 'Technology Events through central level clubs (TEC)'
+    category: 'Technology Events through central level clubs (TEC)',
+    report: 'NA'
   },
   {
     sno: '5',
@@ -251,7 +255,8 @@ export const activities_week_03 = [
     time: '5.30 PM - 7.30 PM',
     venue: 'NA',
     organizer: '2300032949 - J Lohith Kumar',
-    category: 'Technology Events through central level clubs (TEC)'
+    category: 'Technology Events through central level clubs (TEC)',
+    report: 'NA'
   },
   {
     sno: '6',
@@ -261,7 +266,8 @@ export const activities_week_03 = [
     time: '5.30 PM - 7.30 PM',
     venue: 'New Seminar Hall',
     organizer: '2000030020 - Dev Adapa',
-    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level'
+    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level',
+    report: 'NA'
   },
   {
     sno: '7',
@@ -271,7 +277,8 @@ export const activities_week_03 = [
     time: '5.30 PM - 7.30 PM',
     venue: 'NA',
     organizer: '2200033103 - Vamsi Krishna',
-    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level'
+    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level',
+    report: 'NA'
   },
   {
     sno: '8',
@@ -281,7 +288,8 @@ export const activities_week_03 = [
     time: '5.40 PM - 7:10 PM',
     venue: 'NA',
     organizer: '2100031817 - Deepak Reddy Gathpa',
-    category: 'Technology Events through central level clubs (TEC)'
+    category: 'Technology Events through central level clubs (TEC)',
+    report: 'https://kluniversityin-my.sharepoint.com/personal/2200031219_kluniversity_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F2200031219%5Fkluniversity%5Fin%2FDocuments%2FInstagram%20Clone%2Epdf&parent=%2Fpersonal%2F2200031219%5Fkluniversity%5Fin%2FDocuments&ga=1'
   },
   {
     sno: '9',
@@ -291,7 +299,8 @@ export const activities_week_03 = [
     time: '5.30 PM - 7.30 PM',
     venue: 'NA',
     organizer: '2200031469 - Dinesh SriSanth Adari',
-    category: 'Technology Events through central level clubs (TEC)'
+    category: 'Technology Events through central level clubs (TEC)',
+    report: 'NA'
   },
   {
     sno: '10',
@@ -301,7 +310,8 @@ export const activities_week_03 = [
     time: '5.40 PM - 7.00 PM',
     venue: 'SAC Hall',
     organizer: '2200033275 - Mohammed Jawaad, 2200033131 - Rishika Reddy',
-    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level'
+    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level',
+    report: 'NA'
   },
   {
     sno: '14',
@@ -311,7 +321,8 @@ export const activities_week_03 = [
     time: '5.40 PM - 7:10 PM',
     venue: 'NA',
     organizer: '2200031219 - M Pavan karthik',
-    category: 'Technology Events through central level clubs (TEC)'
+    category: 'Technology Events through central level clubs (TEC)',
+    report: 'NA'
   },
   {
     sno: '15',
@@ -321,7 +332,8 @@ export const activities_week_03 = [
     time: '5.30 PM - 7.30 PM',
     venue: 'NA',
     organizer: '2200031469 - Dinesh SriSanth Adari',
-    category: 'Technology Events through central level clubs (TEC)'
+    category: 'Technology Events through central level clubs (TEC)',
+    report: 'NA'
   },
   {
     sno: '16',
@@ -331,7 +343,8 @@ export const activities_week_03 = [
     time: '5.30 PM - 7.30 PM',
     venue: 'NA',
     organizer: '2200069013 - Murali',
-    category: 'Technology Events through central level clubs (TEC)'
+    category: 'Technology Events through central level clubs (TEC)',
+    report: 'NA'
   },
   {
     sno: '17',
@@ -341,7 +354,8 @@ export const activities_week_03 = [
     time: '5.30 PM - 7.30 PM',
     venue: 'NA',
     organizer: '2200030323 - M Hema Sundhar',
-    category: 'Technology Events through central level clubs (TEC)'
+    category: 'Technology Events through central level clubs (TEC)',
+    report: 'NA'
   },
   {
     sno: '18',
@@ -351,7 +365,8 @@ export const activities_week_03 = [
     time: '5.30 PM - 7.30 PM',
     venue: 'Jasmine Hall',
     organizer: '2100030379 - N John Rahul',
-    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level'
+    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level',
+    report: 'NA'
   },
   {
     sno: '19',
@@ -361,7 +376,8 @@ export const activities_week_03 = [
     time: '5.30 PM - 7.30 PM',
     venue: 'Jasmine Hall',
     organizer: '2200031617 - A Satya Barghav',
-    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level'
+    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level',
+    report: 'NA'
   },
   {
     sno: '20',
@@ -371,7 +387,8 @@ export const activities_week_03 = [
     time: '5.30 PM - 7:00 PM',
     venue: 'SAC Hall',
     organizer: '2200080018 - Nakka Arya Satya Ananth',
-    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level'
+    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level',
+    report: 'NA'
   },
   {
     sno: '23',
@@ -381,7 +398,8 @@ export const activities_week_03 = [
     time: '5.40 PM - 7:10 PM',
     venue: 'NA',
     organizer: '210031219 - Pavan Karthik M',
-    category: 'Technology Events through central level clubs (TEC)'
+    category: 'Technology Events through central level clubs (TEC)',
+    report: 'https://kluniversityin-my.sharepoint.com/personal/2200031219_kluniversity_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F2200031219%5Fkluniversity%5Fin%2FDocuments%2FMPA%2Epdf&parent=%2Fpersonal%2F2200031219%5Fkluniversity%5Fin%2FDocuments&ga=1'
   },
   {
     sno: '24',
@@ -391,7 +409,8 @@ export const activities_week_03 = [
     time: '5.40 PM - 7:10 PM',
     venue: 'NA',
     organizer: '2200031219 - M Pavan karthik',
-    category: 'Technology Events through central level clubs (TEC)'
+    category: 'Technology Events through central level clubs (TEC)',
+    report: 'NA'
   },
   {
     sno: '25',
@@ -401,7 +420,8 @@ export const activities_week_03 = [
     time: '5.30 PM - 7.30 PM',
     venue: 'M114',
     organizer: '2100070002 - R Srinivas',
-    category: 'Technology Events through central level clubs (TEC)'
+    category: 'Technology Events through central level clubs (TEC)',
+    report: 'NA'
   },
   {
     sno: '26',
@@ -411,7 +431,8 @@ export const activities_week_03 = [
     time: '5.30 PM - 7.30 PM',
     venue: 'NA',
     organizer: '2300040191 - C Harshitha',
-    category: 'Technology Events through central level clubs (TEC)'
+    category: 'Technology Events through central level clubs (TEC)',
+    report: 'NA'
   },
   {
     sno: '27',
@@ -421,7 +442,8 @@ export const activities_week_03 = [
     time: '4.30 PM - 7:00 PM',
     venue: 'New Seminar Hall',
     organizer: '2200040008 - G.Amulya',
-    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level'
+    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level',
+    report: 'NA'
   }
 ];
 
@@ -434,7 +456,8 @@ export const activities_week_04 = [
     time: '5.40 PM - 7.10 PM',
     venue: 'R302 A',
     organizer: '2200030500 - Anantha Sri P',
-    category: 'Technology Events through central level clubs (TEC) 8279 - Mr Sathuluri Saga 8019184283'
+    category: 'Technology Events through central level clubs (TEC) 8279 - Mr Sathuluri Saga 8019184283',
+    report: 'https://www.canva.com/design/DAFzI4kE9kw/owVKx0_dIvabAbI8DzreAQ/edit'
   },
   {
     sno: '2',
@@ -444,7 +467,8 @@ export const activities_week_04 = [
     time: '5.40 PM - 7.10 PM',
     venue: 'R301 B',
     organizer: '2200030500 - Navya V',
-    category: 'Technology Events through central level clubs (TEC) 8279 - Mr Sathuluri Saga 8019184283'
+    category: 'Technology Events through central level clubs (TEC) 8279 - Mr Sathuluri Saga 8019184283',
+    report: 'https://kluniversityin-my.sharepoint.com/personal/2200031219_kluniversity_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F2200031219%5Fkluniversity%5Fin%2FDocuments%2FPython%20Flask%2Epdf&parent=%2Fpersonal%2F2200031219%5Fkluniversity%5Fin%2FDocuments&ga=1'
   },
   {
     sno: '3',
@@ -454,7 +478,8 @@ export const activities_week_04 = [
     time: '5.40 PM - 7.10 PM',
     venue: 'R301 A',
     organizer: '2200030805 - T Sai Manikanta',
-    category: 'Technology Events through central level clubs (TEC) 8279 - Mr Sathuluri Saga 8019184283'
+    category: 'Technology Events through central level clubs (TEC) 8279 - Mr Sathuluri Saga 8019184283',
+    report: 'https://kluniversityin-my.sharepoint.com/personal/2200031219_kluniversity_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F2200031219%5Fkluniversity%5Fin%2FDocuments%2FGit%20and%20Gitthub%20Collab%2Epdf&parent=%2Fpersonal%2F2200031219%5Fkluniversity%5Fin%2FDocuments&ga=1'
   },
   {
     sno: '4',
@@ -464,7 +489,8 @@ export const activities_week_04 = [
     time: '5.40 PM - 7.10 PM',
     venue: 'R302 B',
     organizer: '2200031219 - M Pavan Karthik',
-    category: 'Technology Events through central level clubs (TEC) 8279 - Mr Sathuluri Saga 8019184283'
+    category: 'Technology Events through central level clubs (TEC) 8279 - Mr Sathuluri Saga 8019184283',
+    report: 'https://www.canva.com/design/DAFzIgC2GZg/QCIUQYXfIeTtGHP3cxHvaQ/edit'
   },
   {
     sno: '5',
@@ -474,7 +500,8 @@ export const activities_week_04 = [
     time: '5.40 PM - 7.10 PM',
     venue: 'R 306 A',
     organizer: '2200031197 - M Pujitha',
-    category: 'Technology Events through central level clubs (TEC) 8279 - Mr Sathuluri Saga 8019184283'
+    category: 'Technology Events through central level clubs (TEC) 8279 - Mr Sathuluri Saga 8019184283',
+    report: 'https://www.canva.com/design/DAFzIjviLfs/VfdAoBkexxQxmINvvIQKeg/edit'
   },
   {
     sno: '6',
@@ -484,7 +511,8 @@ export const activities_week_04 = [
     time: '5.30 PM - 7.10 PM',
     venue: 'R 307 A',
     organizer: '2200031488 - Shaik Arshad',
-    category: 'Technology Events through central level clubs (TEC) 5387 - Mr P Sai Vijay 8019184283'
+    category: 'Technology Events through central level clubs (TEC) 5387 - Mr P Sai Vijay 8019184283',
+    report: 'NA'
   },
   {
     sno: '7',
@@ -494,17 +522,19 @@ export const activities_week_04 = [
     time: '5.45 PM - 7.10 PM',
     venue: 'Jasmine Hall',
     organizer: '2200031470 - K Muni Sai Charith',
-    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level 7889 - Mr Abhay Chaudary 8019184283'
+    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level 7889 - Mr Abhay Chaudary 8019184283',
+    report: 'NA'
   },
   {
     sno: '8',
     clubname: 'NARTHANA DANCE CLUB',
     name: 'Tremendous Tuesday',
     date: '10/10/2023',
-    time: 'NA',
+    time: '5.30 PM - 7:30 PM',
     venue: 'New Seminar Hall',
     organizer: '2200560159 - G.V.Dhoni',
-    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level 3230 - Mr U Kanaka Prasad 8019184283'
+    category: 'LCH - Liberal arts, creative arts and hobby clubs activities at both department level and central level 3230 - Mr U Kanaka Prasad 8019184283',
+    report: 'NA'
   }
 ];
 

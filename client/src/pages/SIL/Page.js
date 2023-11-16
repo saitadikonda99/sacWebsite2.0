@@ -86,32 +86,43 @@ const Page = () => {
     </button>
   </div>
   {isWeek04TableVisible && (
-    <table>
-      <thead>
-        <tr>
-          <th>Sno</th>
-          <th>Activity Name</th>
-          <th>Organizing Club</th>
-          <th>Date</th>
-          <th>Time</th>
-          <th>Venue</th>
-          <th>Student Organizer</th>
-        </tr>
-      </thead>
-      <tbody>
-        {activities_week_04.map((activity, index) => (
-          <tr key={index}>
-            <td>{activity.sno}</td>
-            <td>{activity.name}</td>
-            <td>{activity.clubname}</td>
-            <td>{activity.date}</td>
-            <td>{activity.time}</td>
-            <td>{activity.venue}</td>
-            <td>{activity.organizer}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
+   <table>
+   <thead>
+     <tr>
+       <th>Sno</th>
+       <th>Activity Name</th>
+       <th>Organizing Club</th>
+       <th>Date</th>
+       <th>Time</th>
+       {/* <th>Venue</th> */}
+       <th>Student Organizer</th>
+        <th>Report</th>
+     </tr>
+   </thead>
+   <tbody>
+  {activities_week_04.map((activity, index) => (
+    <tr key={index}>
+      <td>{activity.sno}</td>
+      <td>{activity.name}</td>
+      <td>{activity.clubname}</td>
+      <td>{activity.date}</td>
+      <td>{activity.time}</td>
+      {/* <td>{activity.venue}</td> */}
+      <td>{activity.organizer}</td>
+      <td>
+      <a
+          className={activity.report === 'NA' ? 'report-not-available' : 'report-available'}
+          href={activity.report === 'NA' ? '#' : activity.report}
+        >
+          {activity.report === 'NA' ? 'No Report' : 'Click Here'}
+        </a>
+      </td>
+    </tr>
+  ))}
+</tbody>
+
+
+ </table>
   )}
 </div>
 
@@ -124,31 +135,42 @@ const Page = () => {
   </div>
   {isWeek03TableVisible && (
     <table>
-      <thead>
-        <tr>
-          <th>Sno</th>
-          <th>Activity Name</th>
-          <th>Organizing Club</th>
-          <th>Date</th>
-          <th>Time</th>
-          <th>Venue</th>
-          <th>Student Organizer</th>
-        </tr>
-      </thead>
-      <tbody>
-        {activities_week_03.map((activity, index) => (
-          <tr key={index}>
-            <td>{activity.sno}</td>
-            <td>{activity.name}</td>
-            <td>{activity.clubname}</td>
-            <td>{activity.date}</td>
-            <td>{activity.time}</td>
-            <td>{activity.venue}</td>
-            <td>{activity.organizer}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
+    <thead>
+      <tr>
+        <th>Sno</th>
+        <th>Activity Name</th>
+        <th>Organizing Club</th>
+        <th>Date</th>
+        <th>Time</th>
+        {/* <th>Venue</th> */}
+        <th>Student Organizer</th>
+         <th>Report</th>
+      </tr>
+    </thead>
+    <tbody>
+  {activities_week_03.map((activity, index) => (
+    <tr key={index}>
+      <td>{activity.sno}</td>
+      <td>{activity.name}</td>
+      <td>{activity.clubname}</td>
+      <td>{activity.date}</td>
+      <td>{activity.time}</td>
+      {/* <td>{activity.venue}</td> */}
+      <td>{activity.organizer}</td>
+      <td>
+      <a
+          className={activity.report === 'NA' ? 'report-not-available' : 'report-available'}
+          href={activity.report === 'NA' ? '#' : activity.report}
+        >
+          {activity.report === 'NA' ? 'No Report' : 'Click Here'}
+        </a>
+      </td>
+    </tr>
+  ))}
+</tbody>
+
+ 
+  </table>
   )}
         </div>
 
@@ -160,31 +182,45 @@ const Page = () => {
     </button>
   </div>
   {isWeek02TableVisible && (
-    <table>
-      <thead>
-        <tr>
-          <th>Sno</th>
-          <th>Activity Name</th>
-          <th>Organizing Club</th>
-          <th>Date</th>
-          <th>Student Organizer</th>
-          <th>Report</th>
-        </tr>
-      </thead>
-      <tbody>
-        {activities_week_02.map((activity, index) => (
-          <tr key={index}>
-            <td>{activity.sno}</td>
-            <td>{activity.name}</td>
-            <td>{activity.clubname}</td>
-            <td>{activity.date}</td>
-            <td>{activity.organizer}</td>
-            <td><a target='_black' href={activity.report}>Click Here</a></td>
-          </tr>
-        ))}
-      </tbody>
+   <table>
+   <thead>
+     <tr>
+       <th>Sno</th>
+       <th>Activity Name</th>
+       <th>Organizing Club</th>
+       <th>Date</th>
+       <th>Time</th>
+       {/* <th>Venue</th> */}
+       <th>Student Organizer</th>
+        <th>Report</th>
+     </tr>
+   </thead>
+   <tbody>
+  {activities_week_02.map((activity, index) => (
+    <tr key={index}>
+      <td>{activity.sno}</td>
+      <td>{activity.name}</td>
+      <td>{activity.clubname}</td>
+      <td>{activity.date}</td>
+      <td>{activity.time}</td>
+      {/* <td>{activity.venue}</td> */}
+      <td>{activity.organizer}</td>
+      <td>
+      <a
+          className={activity.report === 'NA' ? 'report-not-available' : 'report-available'}
+          href={activity.report === 'NA' ? '#' : activity.report}
+        >
+          {activity.report === 'NA' ? 'No Report' : 'Click Here'}
+        </a>
+      </td>
+    </tr>
+  ))}
+</tbody>
 
-    </table>
+
+
+
+ </table>
   )}
 </div>
         </div>

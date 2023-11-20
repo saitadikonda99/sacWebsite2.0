@@ -539,6 +539,322 @@ export const activities_week_04 = [
 ];
 
 
+export const julyReports = [
+  {
+    "sno": "01",
+    "name": "Introduction to Automobiles Session 1",
+    "clubname": "AutoMobile Club",
+    "date": "24-07-23",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "02",
+    "name": "Introduction to Automobiles Session 2",
+    "clubname": "AutoMobile Club",
+    "date": "24-07-23",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "03",
+    "name": "Wireworks: A Hands-On Soldering and Wiring Experience",
+    "clubname": "Automation Club",
+    "date": "NA",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "04",
+    "name": "Workshop on chemical usage in fields",
+    "clubname": "Agriculture Club",
+    "date": "22-07-23",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "05",
+    "name": "Password Attack - Session 01",
+    "clubname": "Cyber Security Club",
+    "date": "07-07-23",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "06",
+    "name": "July Skill Challenge 01",
+    "clubname": "Coding School",
+    "date": "24-07-23",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "07",
+    "name": "Introduction To Web Development",
+    "clubname": "Web Apps Club",
+    "date": "18-07-23",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "08",
+    "name": "Workshop for Farmers Training program on chemical usage in fields",
+    "clubname": "SVR",
+    "date": "22-07-23",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "09",
+    "name": "Sanitation and Hygienic Awareness to Village peoples",
+    "clubname": "CEA",
+    "date": "NA",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "10",
+    "name": "Kargil Vijay Diwas competitions in Z.P. High School",
+    "clubname": "Dance Club",
+    "date": "NA",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "11",
+    "name": "Student Orientation Program",
+    "clubname": "Dramatics Club",
+    "date": "NA",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "12",
+    "name": "Sri CSR Birthday (Workshop on Mono Acting)",
+    "clubname": "Embroidery Club",
+    "date": "NA",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  }
+]
+
+export const augustReports = [
+  {
+    "sno": "1",
+    "name": "Program on Crop Rotation, inter cropping and mixed cropping",
+    "clubname": "Agriculture Club",
+    "date": "01-09-23",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "2",
+    "name": "Workshop on different types of mechanisms and their applications",
+    "clubname": "Automobile Club",
+    "date": "21-08-23",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "3",
+    "name": "Flight Rush: 3-Days Workshop on Drones Making",
+    "clubname": "Automation Club",
+    "date": "28-08-23 to 30-08-23",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "4",
+    "name": "Man-in-the-Middle Attack| Session 01",
+    "clubname": "Cyber Security Club",
+    "date": "NA",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "5",
+    "name": "Password Attack | Session 02",
+    "clubname": "Cyber Security Club",
+    "date": "NA",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "6",
+    "name": "Bash Programming Session 01",
+    "clubname": "Coding School",
+    "date": "10-08-23",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "7",
+    "name": "Bash Programming Session 02",
+    "clubname": "Coding School",
+    "date": "10-08-23",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "8",
+    "name": "Programming in C 02",
+    "clubname": "Coding School",
+    "date": "10-08-23",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "9",
+    "name": "UI/UX Design And 3d Design",
+    "clubname": "Web Apps Club",
+    "date": "17-08-23",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "10",
+    "name": "Awareness program for farmers on Crop Rotation, inter cropping and mixed cropping",
+    "clubname": "SVR",
+    "date": "07-09-23",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "12",
+    "name": "Identification and awareness – Hypertension Follow-up (Pregnant/ Lactation, Immunization & CKD)",
+    "clubname": "SVR",
+    "date": "NA",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "13",
+    "name": "Promoting To Peoples How to Use of Latrine in Rural Areas.",
+    "clubname": "SVR",
+    "date": "NA",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "14",
+    "name": "Gabby Talks Quiz for Students",
+    "clubname": "CEA",
+    "date": "NA",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "15",
+    "name": "New volunteers’ registrations in KLEF",
+    "clubname": "CEA",
+    "date": "NA",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "16",
+    "name": "Nrithya National Level Dance Competition (All Styles).",
+    "clubname": "Dance Club",
+    "date": "NA",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "17",
+    "name": "Sri Belleri Raghava Birthday (Spot Acting Competition)",
+    "clubname": "CEA",
+    "date": "NA",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "18",
+    "name": "Workshop on Kantha Work",
+    "clubname": "Embroidery Club",
+    "date": "NA",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "19",
+    "name": "Open Mic ",
+    "clubname": "Standup Comedy Club",
+    "date": "NA",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  },
+  {
+    "sno": "20",
+    "name": "Chathurvedhabhinaya -3Dimensions",
+    "clubname": "Film Making Club",
+    "date": "NA",
+    "time": "NA",
+    "venue": "NA",
+    "organizer": "NA",
+    "report": "NA"
+  }
+]
+
 
  export const projects = [ 
     {

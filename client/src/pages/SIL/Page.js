@@ -5,7 +5,7 @@ import './Page.css';
 import NavBar from './NavBar';
 
 import Footer from '../../components/Footer/Footer';
-import { activities_week_02, activities_week_03, activities_week_04 } from './DataArray';
+import { activities_week_02, activities_week_03, activities_week_04, julyReports, augustReports } from './DataArray';
 import { projects } from './DataArray';
 
 const Page = () => {
@@ -15,7 +15,22 @@ const Page = () => {
   const [isWeek03ButtonVisible, setWeek03ButtonVisible] = useState(true);
   const [isWeek04ButtonVisible, setWeek04ButtonVisible] = useState(true);
   const [isWeek04TableVisible, setWeek04TableVisible] = useState(false);
+  const [isJulyReportsableVisible, setJulyReportsableVisible] = useState(false);
+  const [isJulyReporButtonVisible, setJulyReporButtonVisible] = useState(true);
+  const [isAugustReportsableVisible, setAugustReportsableVisible] = useState(false);
+  const [isAugustReporButtonVisible, setAugustReporButtonVisible] = useState(true);
 
+
+
+  const toggleJulyReportsable = () => {
+    setJulyReportsableVisible(!isJulyReportsableVisible);
+    setJulyReporButtonVisible(!isJulyReporButtonVisible);
+  };
+
+  const toggleAugustReportsable = () => {
+    setAugustReportsableVisible(!isAugustReportsableVisible);
+    setAugustReporButtonVisible(!isAugustReporButtonVisible);
+  };
 
   const toggleWeek02Table = () => {
     setWeek02TableVisible(!isWeek02TableVisible);
@@ -78,6 +93,103 @@ const Page = () => {
         </div>
 
         <div className="silactivites">
+          
+        <div className="silactivities-in">
+  <div className="silactivities-in-header">
+    <h1>List of Activities & Events in July</h1>
+    <button className='openAndCloseBtn' onClick={toggleJulyReportsable}>
+      {isJulyReporButtonVisible ? 'Open Table' : 'Close Table'}
+    </button>
+  </div>
+  {isJulyReportsableVisible && (
+   <table>
+   <thead>
+     <tr>
+       <th>Sno</th>
+       <th>Activity Name</th>
+       <th>Organizing Club</th>
+       <th>Date</th>
+       <th>Time</th>
+       {/* <th>Venue</th> */}
+       <th>Student Organizer</th>
+        <th>Report</th>
+     </tr>
+   </thead>
+   <tbody>
+  {julyReports.map((activity, index) => (
+    <tr key={index}>
+      <td>{activity.sno}</td>
+      <td>{activity.name}</td>
+      <td>{activity.clubname}</td>
+      <td>{activity.date}</td>
+      <td>{activity.time}</td>
+      {/* <td>{activity.venue}</td> */}
+      <td>{activity.organizer}</td>
+      <td>
+      <a
+          className={activity.report === 'NA' ? 'report-not-available' : 'report-available'}
+          href={activity.report === 'NA' ? '#' : activity.report}
+        >
+          {activity.report === 'NA' ? 'No Report' : 'Click Here'}
+        </a>
+      </td>
+    </tr>
+  ))}
+</tbody>
+
+
+ </table>
+  )}
+</div>
+
+<div className="silactivities-in">
+  <div className="silactivities-in-header">
+    <h1>List of Activities & Events in August</h1>
+    <button className='openAndCloseBtn' onClick={toggleAugustReportsable}>
+      {isAugustReporButtonVisible ? 'Open Table' : 'Close Table'}
+    </button>
+  </div>
+  {isAugustReportsableVisible && (
+   <table>
+   <thead>
+     <tr>
+       <th>Sno</th>
+       <th>Activity Name</th>
+       <th>Organizing Club</th>
+       <th>Date</th>
+       <th>Time</th>
+       {/* <th>Venue</th> */}
+       <th>Student Organizer</th>
+        <th>Report</th>
+     </tr>
+   </thead>
+   <tbody>
+  {augustReports.map((activity, index) => (
+    <tr key={index}>
+      <td>{activity.sno}</td>
+      <td>{activity.name}</td>
+      <td>{activity.clubname}</td>
+      <td>{activity.date}</td>
+      <td>{activity.time}</td>
+      {/* <td>{activity.venue}</td> */}
+      <td>{activity.organizer}</td>
+      <td>
+      <a
+          className={activity.report === 'NA' ? 'report-not-available' : 'report-available'}
+          href={activity.report === 'NA' ? '#' : activity.report}
+        >
+          {activity.report === 'NA' ? 'No Report' : 'Click Here'}
+        </a>
+      </td>
+    </tr>
+  ))}
+</tbody>
+
+
+ </table>
+  )}
+</div>
+
           <div className="silactivities-in">
   <div className="silactivities-in-header">
     <h1>Week 04 List of Activities & Events</h1>
@@ -125,6 +237,9 @@ const Page = () => {
  </table>
   )}
 </div>
+
+
+
 
         <div className="silactivities-in">
   <div className="silactivities-in-header">

@@ -15,22 +15,17 @@
     align-items: center;
   }
   
-  .club-hero-in {
-     background-image: url('../../../Assets/ClubsImages/codingMain.webp');
-     background-size: cover;
-     background-position: center;
-     height: 100%;
-     width: 100%;
-  }
-
-  
+ 
 .club-hero-content {
     height: fit-content;
      width: 100%;
+     height: 90vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
 }
 
 .hero-logo {
-    height: 55vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -215,13 +210,20 @@
 
 .one-matter-img img{
     width: 100%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .one-matter-img-content {
     font-size: .8rem;
     text-align: left;
-}
+    padding: 1rem 0rem;
+    min-height: 30vh;
 
+}
+.one-matter-img-content p {
+    font-size: 1rem;
+}
 
 /* ------------------------------------- Team --------------------------------------------- */
 
@@ -273,6 +275,7 @@
     display: flex;
     flex-direction: column;
     font-size: .8rem;
+    min-height: 23vh;
 }
 
 .details-one p {
@@ -404,3 +407,179 @@
     height: fit-content;
     width: 100%;
 }
+
+
+
+
+/* club background images */
+
+
+.zeroone-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+
+ .AeroElectric-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+ .Cyber-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+ .Webapps-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+ .TechHuma-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+ .Robotics-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+ .Animation-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+ .Automobile-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+ .Agriculture-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+ .MobileESports-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+ .AI-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+ .Fusion-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+ .Swara-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+ .Vachas-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+ .KLRadio-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+ .FilmMaking-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+ .StandUp-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+ .Dramatics-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+ .CEA-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+ .Tourism-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+ .KLTalks-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+ .SafeLife-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+ .Electoral-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }
+ .SVR-hero-in {
+    background-image: url('../../../Assets/Technology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+ }

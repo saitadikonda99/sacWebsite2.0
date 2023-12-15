@@ -4,23 +4,32 @@ import './Cpage.css';
 import './MobileView.css';
 
 
-
-
-
-// images start here
 import deepak from '../../../Assets/CouncilMembers/DP.jpg'
-import google from '../../../Assets/cloud-next_960.png'
-import clubpage from '../../../Assets/ClubsImages/codingMain.webp'
 import instagram from '../../../Assets/Logos/InstaLogo.png'
 import linkedin from '../../../Assets/Logos/LinkedInLogo.png'
 import twitter from '../../../Assets/Logos/TwitterLogo.png'
 
-// components start here
-import Footer from '../../../components/Footer/Footer'
+import PosterOne from '../../../Assets/One.png';
+import PosterTwo from '../../../Assets/reactv6.png';
+import PosterThree from '../../../Assets/Bash.png';
+import PosterFour from '../../../Assets/Angular.png';
+
+import zocc_glimpse_one from '../../../Assets/ClubsImages/ZeroOneCodeClub/zocc_glimpse_one.png';
+import zocc_glimpse_two from '../../../Assets/ClubsImages/ZeroOneCodeClub/zocc_glimpse_two.png';
+import zocc_glimpse_three from '../../../Assets/ClubsImages/ZeroOneCodeClub/zocc_glimpse_three.png';
+import zocc_glimpse_four from '../../../Assets/ClubsImages/ZeroOneCodeClub/zocc_glimpse_four.png';
+
+import ZeroOneGroupPic from '../../../Assets/ClubsImages/ZeroOneCodeClub/ZeroOneGroupPic.JPG';
+import ZeroOneCommunity from '../../../Assets/ClubsImages/ZeroOneCodeClub/ZeroOneCommunity.jpg';
+import Technology from '../../../Assets/Technology.png';
+
+
+
+import Footer from '../../../components/home/Footer/Footer'
 import Navbar from './NavBar'
 import ToggleNavBar from './ToggleNavBar'
 
-var Page = () => {
+const Page = () => {
 
   useEffect(() => {
     document.title = 'SAC | ZeroOneCodeClub';
@@ -42,7 +51,6 @@ var Page = () => {
     setActivity(Number)
   }
 
-  // ----------------------------------------------------------------------
 
   const [showDiv, setShowDiv] = useState(false);
 
@@ -93,7 +101,7 @@ var Page = () => {
 {/* ----------------------------------Hero-------------------------------------------- */}
 
               <div className="club-hero">
-                <div className="club-hero-in">
+                <div className="zeroone-hero-in">
                     <div className="club-nav">
                       <div className="club-nav-in">
                         <div className="club-nav-in-two">
@@ -109,13 +117,11 @@ var Page = () => {
 
                           <div className="hero-logo">
                             <div className="hero-logo-head">
-                              <h1>ZeroOne CLUB</h1> 
-                              <p>Design.Develop.Deploy</p>
+                              <h1>ZeroOne Code Club</h1>
+                              <p>Transforming Lines of Code to Limitless Possibilities</p>
                             </div>
                           </div>
-                            {showDiv &&   <div className="scroll-div">
-                              <button>Join The Club</button>
-                          </div> }
+                            
                       </div>
                    </div>
               </div>
@@ -154,7 +160,6 @@ var Page = () => {
                       <div className="club-main-content-in">
 
 
-{/* ----------------------------------------Glimpse-------------------------------------------- */}
 
                         <div className = { activity === 1 ? 'club-main-content-box' : 'main-content-hide' } >
                           
@@ -164,41 +169,41 @@ var Page = () => {
                             <div className="club-box-content-one">
                                   <div className="content-one-matter">
                                     <div className="one-matter-img">
-                                      <img src={clubpage} alt="" />
+                                      <img src={zocc_glimpse_one} alt="" />
                                     </div>
                                     <div className="one-matter-img-content">
-                                      <h1>Exclusive Events</h1>
-                                      <p>Get access to LIVE events that help you explore your favorite fields and grow to the next level.</p>
+                                      <h1>Exclusive Workshops</h1>
+                                      <p>Dive into the dynamic world of technology with our Code Club's exclusive events. Join us for inspiring coding workshops, thrilling hackathons, and enlightening tech talks, fostering innovation and collaboration within our vibrant university community.</p>
                                     </div>
                                   </div>
                                   <div className="content-two-matter">
                                   <div className="one-matter-img">
-                                      <img src={clubpage} alt="" />
+                                      <img src={zocc_glimpse_two} alt="" />
                                     </div>
                                     <div className="one-matter-img-content">
-                                      <h1>Find Mentors</h1>
-                                      <p>Get access to LIVE events that help you explore your favorite fields and grow to the next level.</p>
+                                      <h1>Join the Conversation: Group Discussions</h1>
+                                      <p>Discover a hub for dynamic group discussions within our Code Club. Engage with like-minded peers, exchange insights, and explore a wide array of tech-related topics, fostering a vibrant community of passionate learners and innovators.</p>
                                     </div>
                                   </div>
                             </div>
                             <div className="club-box-content-two">
                                   <div className="content-three-matter">
                                   <div className="one-matter-img">
-                                      <img src={clubpage} alt="" />
+                                      <img src={zocc_glimpse_three} alt="" />
                                     </div>
                                     <div className="one-matter-img-content">
-                                      <h1>Internships</h1>
-                                      <p>Get access to LIVE events that help you explore your favorite fields and grow to the next level.</p>
+                                      <h1>Strengthening Bonds: Team Building Activities</h1>
+                                      <p>Enhance camaraderie and collaboration through our Code Club's engaging team building activities. From coding challenges to problem-solving adventures, come together, build relationships, and foster a strong sense of unity among fellow tech enthusiasts.</p>
                                     </div>
                                   </div>
 
                                   <div className="content-four-matter">
                                   <div className="one-matter-img">
-                                      <img src={clubpage} alt="" />
+                                      <img src={zocc_glimpse_four} alt="" />
                                     </div>
                                     <div className="one-matter-img-content">
-                                      <h1>Exclusive Events</h1>
-                                      <p>Get access to LIVE events that help you explore your favorite fields and grow to the next level.</p>
+                                      <h1>Teaching Coding to School Students</h1>
+                                      <p>Participate in our Code Club's outreach, where we teach coding to school students, fostering future tech leaders, equipping them with essential skills, and igniting their creativity. Join our mission today!</p>
                                     </div>
                                   </div>
                             </div>
@@ -216,7 +221,7 @@ var Page = () => {
                                 </div>
                                 <div className="mem-details-box">
                                    <div className="details-one">
-                                      <h1>Deepak</h1>
+                                      <h1>Deepak Reddy Gathpa</h1>
                                       <p>President -ZeroOne</p>
                                    </div>
                                    <div className="details-two">
@@ -359,27 +364,27 @@ var Page = () => {
                           <div className="club-about">
                             <div className="club-about-one">
                               <div className="about-img">
-                                <img src={clubpage} alt="" />
+                                <img src={ZeroOneGroupPic} alt="" />
                               </div>
                               <div className="about-img-matter">
-                                <h1>Know more about us</h1>
-                                 <p>We're a bunch of young people trying to solve as many problems as possible for college students</p>
+                                <h1>Cultivating and Nurturing a Thriving Coding Culture</h1>
+                                 <p>We are dedicated to cultivating and nurturing a vibrant coding culture within our community. Discover our initiatives and contributions to the ever-evolving world of technology.section</p>
                               </div>
                             </div>
                             <div className="club-about-two">
                               <div className="about-img-matter">
-                                 <h1>Know more about us</h1>
-                                 <p>We're a bunch of young people trying to solve as many problems as possible for college students</p>
+                                 <h1>Building Industry-Ready Skills: Real-Time Projects and Experience</h1>
+                                 <p>Our focus is on equipping you with practical, industry-ready skills through hands-on, real-time projects. Gain valuable experience and confidence as you tackle real-world challenges.</p>
                               </div>
-                              <div className="about-img"><img src={clubpage} alt="" /></div>
+                              <div className="about-img"><img src={Technology} alt="" /></div>
                             </div>
                             <div className="club-about-three">
                               <div className="about-img">
-                                  <img src={clubpage} alt="" />
+                                  <img src={ZeroOneCommunity} alt="" />
                                 </div>
                                 <div className="about-img-matter">
-                                  <h1>Know more about us</h1>
-                                  <p>We're a bunch of young people trying to solve as many problems as possible for college students</p>
+                                  <h1>Community Collaboration and Knowledge Sharing</h1>
+                                  <p>We believe in the power of collaboration and knowledge sharing. Explore how we actively engage with our community, facilitate learning, and create a space for collective growth and innovation</p>
                                 </div>
                             </div>
                           </div>
@@ -396,16 +401,16 @@ var Page = () => {
                               <div className="club-activity-one">
                                 <div className="club-activity-one-one activity-cm">
                                   <div className="activity-cm-one">
-                                      <img src={google} alt="" />
+                                      <img src={PosterOne} alt="" />
                                   </div>
                                   <div className="activity-cm-two">
-                                    <h1>Google Cloud Next '23</h1>
+                                    <h1>VIM Master Class</h1>
                                     <p>Discover the latest advancements in AI, data, security, and productivity at Google Cloud's flagship in-person event, now on demand. Explore workshops, demos, training, and more.</p>
                                   </div>
                                 </div>
                                 <div className="club-activity-one-two activity-cm">
                                 <div className="activity-cm-one">
-                                      <img src={google} alt="" />
+                                      <img src={PosterTwo} alt="" />
                                   </div>
                                   <div className="activity-cm-two">
                                     <h1>Google Cloud Next '23</h1>
@@ -416,7 +421,7 @@ var Page = () => {
                               <div className="club-activity-two">
                                 <div className="club-activity-two-one activity-cm">
                                 <div className="activity-cm-one">
-                                      <img src={google} alt="" />
+                                      <img src={PosterThree} alt="" />
                                   </div>
                                   <div className="activity-cm-two">
                                     <h1>Google Cloud Next '23</h1>
@@ -425,7 +430,7 @@ var Page = () => {
                                 </div>
                                 <div className="club-activity-two-two activity-cm">
                                 <div className="activity-cm-one">
-                                      <img src={google} alt="" />
+                                      <img src={PosterFour} alt="" />
                                   </div>
                                   <div className="activity-cm-two">
                                     <h1>Google Cloud Next '23</h1>
@@ -433,26 +438,7 @@ var Page = () => {
                                   </div>
                                 </div>
                               </div>
-                              <div className="club-activity-three">
-                                <div className="club-activity-three-one activity-cm">
-                                <div className="activity-cm-one">
-                                      <img src={google} alt="" />
-                                  </div>
-                                  <div className="activity-cm-two">
-                                    <h1>Google Cloud Next '23</h1>
-                                    <p>Discover the latest advancements in AI, data, security, and productivity at Google Cloud's flagship in-person event, now on demand. Explore workshops, demos, training, and more.</p>
-                                  </div>
-                                </div>
-                                <div className="club-activity-three-two activity-cm">
-                                <div className="activity-cm-one">
-                                      <img src={google} alt="" />
-                                  </div>
-                                  <div className="activity-cm-two">
-                                    <h1>Google Cloud Next '23</h1>
-                                    <p>Discover the latest advancements in AI, data, security, and productivity at Google Cloud's flagship in-person event, now on demand. Explore workshops, demos, training, and more.</p>
-                                  </div>
-                                </div>
-                              </div>
+                           
                               </div>
                           </div>
                         </div>

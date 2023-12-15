@@ -12,7 +12,7 @@ import linkedin from '../../../Assets/Logos/LinkedInLogo.png'
 import twitter from '../../../Assets/Logos/TwitterLogo.png'
 
 // components start here
-import Footer from '../../../components/Footer/Footer'
+import Footer from '../../../components/home/Footer/Footer'
 import Navbar from '../../TechnicalClubs/ZeroOneCodeClub/NavBar'
 import ToggleNavBar from '../../TechnicalClubs/ZeroOneCodeClub/ToggleNavBar'
 import '../../../ClubPages/TechnicalClubs/ZeroOneCodeClub/Cpage.css';

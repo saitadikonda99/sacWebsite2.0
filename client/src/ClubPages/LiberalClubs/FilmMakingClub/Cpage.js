@@ -11,7 +11,7 @@ import linkedin from '../../../Assets/Logos/LinkedInLogo.png'
 import twitter from '../../../Assets/Logos/TwitterLogo.png'
 
 // components start here
-import Footer from '../../../components/Footer/Footer'
+import Footer from '../../../components/home/Footer/Footer'
 import Navbar from '../../TechnicalClubs/ZeroOneCodeClub/NavBar'
 import ToggleNavBar from '../../TechnicalClubs/ZeroOneCodeClub/ToggleNavBar'
 import '../../../ClubPages/TechnicalClubs/ZeroOneCodeClub/Cpage.css';
@@ -85,7 +85,7 @@ var Page = () => {
 {/* ----------------------------------Hero-------------------------------------------- */}
 
               <div className="club-hero">
-                <div className="club-hero-in">
+                <div className="FilmMaking-hero-in">
                     <div className="club-nav">
                       <div className="club-nav-in">
                         <div className="club-nav-in-two">
@@ -101,13 +101,11 @@ var Page = () => {
 
                           <div className="hero-logo">
                             <div className="hero-logo-head">
-                              <h1>ZeroOne CLUB</h1> 
+                              <h1>Film Technology CLUB</h1> 
                               <p>Design.Develop.Deploy</p>
                             </div>
                           </div>
-                            {showDiv &&   <div className="scroll-div">
-                              <button>Join The Club</button>
-                          </div> }
+                          FilmMaking-hero-in
                       </div>
                    </div>
               </div>

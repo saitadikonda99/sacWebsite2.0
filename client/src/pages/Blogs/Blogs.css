@@ -5,6 +5,12 @@
 }
 
 .BlogsContainer {
+    padding-top: 3rem;
+}
+
+ 
+
+.BlogsContainer {
     width: 100%;
     height: fit-content;
 }

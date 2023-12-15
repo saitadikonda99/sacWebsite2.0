@@ -3,9 +3,9 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Gallery.css';
 
-import Footer from '../../components/Footer/Footer';
+import Footer from '../../components/home/Footer/Footer';
 import NavBar from './NavBar';
-import '../../components/HomeNav/HomeNav.css';
+import '../../components/home/HomeNav/HomeNav.css';
 
 const images = [
   {

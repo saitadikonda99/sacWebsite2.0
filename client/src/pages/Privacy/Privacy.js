@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
 import './Privacy.css'
 
-import Footer from '../../components/Footer/Footer'
-import '../../components/HomeNav/HomeNav.css';
+import Footer from '../../components/home/Footer/Footer'
+import '../../components/home/HomeNav/HomeNav.css';
 
 
 function Privacy() {

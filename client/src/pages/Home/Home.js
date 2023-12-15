@@ -8,8 +8,8 @@ import ScrollToTop from "react-scroll-to-top";
 import { Link as Scroll } from 'react-scroll';
 import 'add-to-calendar-button';
 
-import NavBar from '../../components/Navigation/Page';
-import ToggleNav from '../../components/Navigation/ToggleNav';
+import NavBar from '../../components/home/Navigation/Page';
+import ToggleNav from '../../components/home/Navigation/ToggleNav';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
 // dialogue box start here 
@@ -29,7 +29,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 
 
-import Footer from '../../components/Footer/Footer';
+import Footer from '../../components/home/Footer/Footer';
 import newVideo from '../../Assets/newVideo.mp4';  
 import storiesImage from '../../Assets/storiesImage.jpeg';
 import YtLogo from '../../Assets/Logos/YtLogo.png';

@@ -12,10 +12,8 @@ import NavBar from './NavBar';
 
 
 //images for blog cards
-
-import Button from '@mui/material/Button';
 import blogimg from '../../Assets/BlogCard.png'
-import Footer from '../../components/Footer/Footer';
+import Footer from '../../components/home/Footer/Footer';
 
 const images = [
     {

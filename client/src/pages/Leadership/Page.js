@@ -6,7 +6,7 @@ import './Page.css';
 import NavBar from './NavBar';
 import './MobileView.css';
 
-import Footer from '../../components/Footer/Footer';
+import Footer from '../../components/home/Footer/Footer';
 
 import director from '../../Assets/director.png';
 import chairman from '../../Assets/chairman.png';

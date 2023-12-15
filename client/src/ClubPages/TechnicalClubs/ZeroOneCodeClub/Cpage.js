@@ -25,7 +25,7 @@ import Technology from '../../../Assets/Technology.png';
 
 
 
-import Footer from '../../../components/Footer/Footer'
+import Footer from '../../../components/home/Footer/Footer'
 import Navbar from './NavBar'
 import ToggleNavBar from './ToggleNavBar'
 

@@ -4,7 +4,7 @@ import { Link as Scroll } from 'react-scroll';
 import { Link } from 'react-router-dom';
 import Marquee from "react-fast-marquee";
 
-import Footer from '../components/Footer/Footer';
+import Footer from '../components/home/Footer/Footer';
 
 import ZeroOneLogo from '../Assets/ZeroOneLogo.png';
 

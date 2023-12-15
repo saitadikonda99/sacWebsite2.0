@@ -3,7 +3,7 @@ import './page.css';
 import SHS_two from '../../Assets/SHS_two.png';
 import { Link } from 'react-router-dom';
 
-import Footer from '../../components/Footer/Footer';
+import Footer from '../../components/home/Footer/Footer';
 
 
 const page = () => {

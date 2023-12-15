@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import './Page.css' 
 import NavBar from './NavBar';
-import Footer from '../../components/Footer/Footer';
+import Footer from '../../components/home/Footer/Footer';
 
 
 

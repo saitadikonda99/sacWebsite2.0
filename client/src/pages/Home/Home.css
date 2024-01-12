@@ -759,10 +759,16 @@
     text-decoration: none;
 }
 
-.qu-link-cm:hover {
+.club-name {
+    color: rgb(56, 54, 54);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+/* .qu-link-cm:hover {
     text-decoration: underline;
     color: black;
-}
+} */
 
 
 /* ------------------------------------ stories ------------------------------- */

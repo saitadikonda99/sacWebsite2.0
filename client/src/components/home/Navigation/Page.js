@@ -68,8 +68,8 @@ const Page = () => {
                     {/* <li><Link className='nav-links' to='/StudentClubs'>Gallery</Link></li> */}
                     <li><Scroll className='nav-scroll-links' activeClass="active" to="officers" spy ={true} smooth={true} offset={-60} duration={200} >Leadership</Scroll></li>
                     {/* <li><Scroll className='nav-scroll-links' activeClass="active" to="faq" spy ={true} smooth={true} offset={-60} duration={200} >SIL</Scroll></li> */}
-                    <li><Link onClick={handleclick} className='nav-links' to='https://sacactivities.kluniversity.in'>SIL</Link></li>
-                    <li><Link onClick={handleclick} className='nav-links' to='https://sac-svr.vercel.app'>SVR</Link></li>
+                    <li><Link onClick={handleclick} className='nav-links' to='https://sacactivities.kluniversity.in' target="_blank">SIL</Link></li>
+                    <li><Link onClick={handleclick} className='nav-links' to='https://sac-svr.vercel.app' target="_blank">SVR</Link></li>
 
                   </ul>
                 </div>

@@ -601,8 +601,8 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                 </div>
                 <div className="ue-comps-in-two">
                 <div className="ue-comps-in-two-in">
-                  <h2>Strings in Java</h2>
-                  <p>10th October, 2023</p>
+                  <h2>Jira Fundamentals</h2>
+                  <p>10th January 2024</p>
                 </div>
                   <div className="ue-comps-in-two-in-in">
                   <add-to-calendar-button
@@ -623,8 +623,8 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                 </div>
                 <div className="ue-comps-in-two">
                 <div className="ue-comps-in-two-in">
-                  <h2>Python Flask</h2>
-                  <p>10th October, 2023</p>
+                  <h2>PHP CRUD Operations</h2>
+                  <p>9th January 2024</p>
                 </div>
                   <div className="ue-comps-in-two-in-in">
                   <add-to-calendar-button
@@ -646,8 +646,8 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                 <div className="ue-comps-in-two">
 
                 <div className="ue-comps-in-two-in">
-                  <h2>Version Control</h2>
-                  <p>10th October, 2023</p>
+                  <h2>NGINX for beginners</h2>
+                  <p>11th January 2024</p>
                 </div>
                   <div className="ue-comps-in-two-in-in">
                   <add-to-calendar-button
@@ -669,8 +669,8 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                 </div>
                 <div className="ue-comps-in-two">
                   <div className="ue-comps-in-two-in">
-                    <h2>Power Automate</h2>
-                    <p>10th October, 2023</p>
+                    <h2>JavaScript Session 01</h2>
+                    <p>13th January 2024</p>
                   </div>
                   <div className="ue-comps-in-two-in-in">
                     <add-to-calendar-button
@@ -952,7 +952,7 @@ const [screenWidth, setScreenWidth] = useState(window.innerWidth);
                                 <p className='club-name' >NCC</p>
                                 <p className='club-name' >Ohana</p>
                                 <p className='club-name' >Kutumb</p>
-                                
+
                                 
                                  
                                 </div>
